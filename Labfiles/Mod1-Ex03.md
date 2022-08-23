@@ -11,14 +11,14 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
    **Note:** You may need to add the migration tool yourself by following the link below the **Migration Tools** section, selecting **Migration and modernization**, then selecting **Add tool(s)**.
    
-    ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](../Hands-on%20lab/images/migrationtools.png "Azure Migrate: Server Migration - Discover")
+    ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](images/migrationtools.png "Azure Migrate: Server Migration - Discover")
 
 2. In the **Discover** panel, provide the following details:
    - Under **Are your machines virtualized**, select **Yes, with Hyper-V**.
    - Under **Target region** the region is automatically selected as same the Resource Group's region.
    - Check the **confirmation** checkbox and select **Create resources** to begin the deployment of the Azure Site Recovery resource used by Migration and modernization for Hyper-V migrations.
 
-   ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](images/Exercise3/discover-new.png "Discover machines - source hypervisor and target region")
+   ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](images/discover-new.png "Discover machines - source hypervisor and target region")
 
    Once deployment is complete, the 'Discover machines' panel should be updated with additional instructions.
   
