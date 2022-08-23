@@ -1,11 +1,3 @@
-- [Exercise 3: Migrate the application and web tiers using Azure Migrate: Server Migration]
-    - [Task 1: Register the Hyper-V Host with Azure Migrate: Server Migration]
-    - [Task 2: Enable Replication from Hyper-V to Azure Migrate]
-    - [Task 3: Configure static internal IP addresses for each VM]
-    - [Task 4: Server migration]
-    - [Task 5: Configure the database connection]
-    - [Task 6: Configure the public IP address and test the SmartHotel application]
-
 
 ## Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration 
 
