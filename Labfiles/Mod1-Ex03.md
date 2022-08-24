@@ -227,7 +227,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 3. Connect to the machine with the username **Administrator** and the password <inject key="SmartHotelHost Admin Password"></inject>. When prompted, **Allow** clipboard access.
 
-   ![Screenshot showing the Azure Bastion connection blade.](images/Exercise3/web2-connect.png "Connect using Bastion")
+   ![Screenshot showing the Azure Bastion connection blade.](Images/web2-connect.png "Connect using Bastion")
 
 4. In the **smarthotelweb2** remote desktop session, open File Explorer and navigate to the **C:\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file and open with Notepad.
 
@@ -235,7 +235,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
    You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and  from the overview, select **Show database connection strings**.
 
-   ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](images/Exercise3/show-connection-strings.png "Show database connection strings")
+   ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/show-connection-strings.png "Show database connection strings")
 
     Copy the **ADO.NET** connection string, and paste into the web.config file on **smarthotelweb2**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
 
@@ -243,7 +243,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
     Set the password in the connection string to **<inject key="SmartHotelHost Admin Password" />**.
 
-    ![Screenshot showing the user ID and Password in the web.config database connection string.](images/Exercise3/web2-connection-string.png "web.config")
+    ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/web2-connection-string.png "web.config")
 
 6. **Save** the `web.config` file and exit your Bastion remote desktop session.
 
