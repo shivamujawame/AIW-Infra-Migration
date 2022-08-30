@@ -309,17 +309,19 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
    > **Note:** You do not need to configure the workspace ID and key when installing the Dependency Agent, since it uses the same settings as the Microsoft Monitoring Agent, which must be installed beforehand.
 
-23. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
+23. Close the virtual machine connection window for the smarthotelweb1 VM. Connect to the smarthotelweb2 VM and repeat the installation process (steps 10-22) for both agents (the administrator password is the same as for smarthotelweb1). Close the virtual machine connection window for the smarthotelweb2 VM, once the installation of agents is done.
+
+24. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
    ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/dependency-viz-installed.png "Dependency agent installed")
    
    >**Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
-24. Select **View dependencies**.
+25. Select **View dependencies**.
 
    ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/view-dependencies.png "View dependencies")
    
-25. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
+26. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
     
