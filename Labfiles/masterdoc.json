@@ -6,6 +6,18 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/Module-01.md",
         "Order": 1
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise1.md",
+        "Order": 1
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise2.md",
+        "Order": 1
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise3.md",
+        "Order": 1
       }
     ]
   }
