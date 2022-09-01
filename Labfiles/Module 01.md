@@ -14,7 +14,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
  
-    ![Screenshot of the All services overview blade.](Images/Allservices.png "Allservices Overview blade")
+    ![Screenshot of the All services overview blade.](Images/Allservices.png "All services Overview blade")
 
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
@@ -45,9 +45,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 9. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 
-   > You can also open the **Hyper-v manager** by clicking on the icon that is present in the taskbar. 
+   > You can also open the **Hyper-V manager** by clicking on the icon that is present in the taskbar. 
 
-     ![Screenshot of Hyper-V Manager, with the 'Hyperv Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
+     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyper-V Manager")
 
 10. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the AzureMigrateAppliance VM and four VMs that comprise the on-premises SmartHotel application.
 
@@ -77,7 +77,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the first step 'Set up prerequisites' in progress. The internet connectivity, and time sync steps have been completed.](Images/prereq.png "Set up prerequisites")
 
-17. **Wait** while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter user name **Administrator** and password **<inject key="SmartHotelHost Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
+17. **Wait** while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter username **Administrator** and password **<inject key="SmartHotelHost Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
 
    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/refresh.png "New update installed - Refresh")
 
@@ -93,7 +93,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
    
    > Now, follow the below instructions to complete the login process.
     
-   1. At first, you will be presented with a **Continue with Azure login** pop-up . On the **Continue with Azure login** pop-up dialog, click on **Copy code & Login**.
+   1. At first, you will be presented with a **Continue with Azure login** pop-up. On the **Continue with Azure login** pop-up dialog, click on **Copy code & Login**.
    
    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/azmigrate-05.png "Azure Migrate login code")
   
@@ -115,9 +115,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' button.](Images/add-creds1.png)
 
 
-22. Specify the following details on the **Add credentails** blade for the Hyper-V host/cluster that the appliance will use to discover VMs and select **Save**.
+22. Specify the following details on the **Add credentials** blade for the Hyper-V host/cluster that the appliance will use to discover VMs and select **Save**.
  
-      1. Friendly name : Enter **hostlogin** 
+      1. Friendly name: Enter **hostlogin** 
       2. Username: <inject key="SmartHotelHost Admin Username" />
       3. Password: <inject key="SmartHotelHost Admin Password" />
 
@@ -133,7 +133,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
      
       1. Select **Add single item**
       1. IP Address / FQDN:  Enter **SmartHost<inject key="DeploymentID" enableCopy="false" />** .
-      1. Friendly name: Select **hostlogin** from the dropdwon and 
+      1. Friendly name: Select **hostlogin** from the dropdown and 
       1. select **Save**.
 
       ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' panel.](Images/discoverysource-2.png "Discovery source - SmartHotelHost")
@@ -145,19 +145,19 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the successful validation of the configured discovery source.](Images/discoverysourcevalidation1.png "Discovery source - validation successful")
 
     > **Note:** When adding discovery sources:
-    > -  For successfully validated hosts/clusters, you can view more details by selecting their IP address/FQDN.
-    > -  If validation fails for a host, review the error by selecting the Validation failed in the Status column of the table. Fix the issue and validate again.
-    > -  To remove hosts or clusters, select **Delete**.
-    > -  You can't remove a specific host from a cluster. You can only remove the entire cluster.
-    > -  You can add a cluster, even if there are issues with specific hosts in the cluster.
+    > - For successfully validated hosts/clusters, you can view more details by selecting their IP address/FQDN.
+    > - If validation fails for a host, review the error by selecting the Validation failed in the Status column of the table. Fix the issue and validate again.
+    > - To remove hosts or clusters, select **Delete**.
+    > - You can't remove a specific host from a cluster. You can only remove the entire cluster.
+    > - You can add a cluster, even if there are issues with specific hosts in the cluster.
 
 26. In **Step 3: provide server credentials to perform software inventory and agentless dependency analysis**, **Disable the slider (1)** and select **Start discovery (2)** to kick off VM discovery from the successfully validated hosts/clusters.
 
-     > **Note:** The discovery process can take upto 10 minutes. 
+     > **Note:** The discovery process can take up to 10 minutes. 
    
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Start discovery' button.](Images/Discovery1.png)
 
-27. Wait for the Azure Migrate status to show **Discovery has been successfully initiated**. This will take several minutes. After the discovery has been successfully initiated, you can check the discovery status against each host/cluster in the table..
+27. Wait for the Azure Migrate status to show **Discovery has been successfully initiated**. This will take several minutes. After the discovery has been successfully initiated, you can check the discovery status against each host/cluster in the table.
 
 26. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal.  Select **Servers, databases and web apps (1)**, then select **Refresh (2)**.  Under **Azure Migrate: Servers, databases and web apps** you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 5 discovered servers are shown. This may take several minutes.
 
@@ -201,7 +201,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
    ![](Images/create%20assessment1.png)
 
-6. On the **Servers, databases and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
+6. On the **Servers, databases, and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
 
     ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/E1T4S6.png "Azure Migrate - Assessments (count)")
     
@@ -211,7 +211,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 ### Task 2: Configure dependency visualization
 
-When migrating a workload to Azure, it is important to understand all workload dependencies. A broken dependency could mean that the application doesn't run properly in Azure, perhaps in hard-to-detect ways. Some dependencies, such as those between application tiers, are obvious. Other dependencies, such as DNS lookups, Kerberos ticket validation or certificate revocation checks, are not.
+When migrating a workload to Azure, it is important to understand all workload dependencies. A broken dependency could mean that the application does not run properly in Azure, perhaps in hard-to-detect ways. Some dependencies, such as those between application tiers, are obvious. Other dependencies, such as DNS lookups, Kerberos ticket validation or certificate revocation checks, are not.
 
 In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace, and then to deploy agents on the to-be-migrated VMs.
 
@@ -242,7 +242,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
    ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/omsworkspace.png "OMS Workspace settings")
 
-7. Select **Agents management** under **Settings** from the left hand side menu. Make a note of the **Workspace ID** and **Primary Key** (for example by using Notepad).
+7. Select **Agents management** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID** and **Primary Key** (for example by using Notepad).
 
    ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/workspace-id-key.png "OMS Workspace ID and primary key")
 
@@ -332,7 +332,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 In this task you will create a new Azure Storage Account that will be used by Migration and for storage of your virtual machine data during migration.
 
-> **Note:** This lab focuses on the technical tools required for workload migration. In a real-world scenario, more consideration should go into the long-term plan prior to migrating assets. The landing zone required to host VMs should also include considerations for network traffic, access control, resource organization, and governance. For example, the CAF Migration Blueprint and CAF Foundation Blueprint can be used to deploy a pre-defined landing zone, and demonstrate the potential of an Infrastructure as Code (IaC) approach to infrastructure resource management. For more information, see [Azure Landing Zones](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/) and [Cloud Adoption Framework Azure Migration landing zone Blueprint sample](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/).
+> **Note:** This lab focuses on the technical tools required for workload migration. In a real-world scenario, more consideration should go into the long-term plan prior to migrating assets. The landing zone required to host VMs should also include considerations for network traffic, access control, resource organization, and governance. For example, the CAF Migration Blueprint and CAF Foundation Blueprint can be used to deploy a pre-defined landing zone and demonstrate the potential of an Infrastructure as Code (IaC) approach to infrastructure resource management. For more information, see [Azure Landing Zones](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/) and [Cloud Adoption Framework Azure Migration landing zone Blueprint sample](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/).
 
 1. In the Azure portal's left navigation, select **+ Create a resource**, then search for and select **Storage account**, followed by **Create**.
 
@@ -350,7 +350,7 @@ In this task you will create a new Azure Storage Account that will be used by Mi
     
    - Performance: **Standard**
   
-   - Redundancy: **Locally-redundant storage (LRS)**
+   - Redundancy: **Locally redundant storage (LRS)**
 
     ![Screenshot of the Azure portal showing the create storage account blade.](Images/EX3-sg-01.png "Storage account settings")
 
@@ -429,7 +429,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
     ![Screenshot of the 'Discover machines' panel from Azure Migrate, showing the 'Registration finalized' message.](Images/discover-7.png "Registration finalized")
 
-13. The **Migration and modernization** panel should now show 5 discovered servers..
+13. The **Migration and modernization** panel should now show 5 discovered servers.
 
     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/discoveredservers5.png "Discovered servers")
 
@@ -501,11 +501,11 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/replicate-9.png "Replication status")
 
-   > **Note**: Please make sure to run the **validation steps** for this task before moving to next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure**  as the status of the Virtual Machine will be changed from **Protected** to **Planned  failover** when you migrate the servers in Task6.
+   > **Note**: Please make sure to run the **validation steps** for this task before moving to next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned  failover** when you migrate the servers in Task6.
 
 #### Task summary 
 
-In this task you enabled replication from the Hyper-V host to Azure Migrate, and configured the replicated VM size in Azure.
+In this task you enabled replication from the Hyper-V host to Azure Migrate and configured the replicated VM size in Azure.
 
 ### Task 4: Configure Networking
 
@@ -589,7 +589,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 > **Note**: You do not need to update any configuration files on **smarthotelweb1** or the **UbuntuWAF** VMs, since the migration has preserved the private IP addresses of all virtual machines they connect with.
 
-1. From the Azure portal menu which is present at the top left, click on **All services**. Select **compute** from the left hand menu and select **Virtual machines**.
+1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
 
 2. Click on **smarthotelweb2** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
 
@@ -603,11 +603,11 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 5. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
 
-   You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and  from the overview, select **Show database connection strings**.
+   You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and from the overview, select **Show database connection strings**.
 
    ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/show-connection-strings.png "Show database connection strings")
 
-    Copy the **ADO.NET** connection string, and paste into the web.config file on **smarthotelweb2**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
+    Copy the **ADO.NET** connection string and paste into the web.config file on **smarthotelweb2**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
 
     > **Note:** You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste into the VM.
 
@@ -661,7 +661,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
 
     ![](Images/deny-firewalls-sqlserver1.png)
    
-1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations** way in the Settings section, and note the IP address associated with the public IP address **appGwPublicFrontendIp**.
+1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations** way in the Settings section and note the IP address associated with the public IP address **appGwPublicFrontendIp**.
 
     ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/waf-public-ip-address.png "Public IP address of AppGW")
 
@@ -691,7 +691,7 @@ Design and implementation of Azure networking is one of the most critical steps 
 
 #### Azure Networking Best Practises:
 
-- Assign an address space that isn't larger than a CIDR range of /16 for each virtual network. Virtual networks allow for the use of 65,536 IP addresses. Assigning a smaller prefix than /16, such as a /15, which has 131,072 addresses, will result in the excess IP addresses becoming unusable elsewhere. It's important not to waste IP addresses, even if they're in the private ranges defined by RFC 1918.
+- Assign an address space that is not larger than a CIDR range of /16 for each virtual network. Virtual networks allow for the use of 65,536 IP addresses. Assigning a smaller prefix than /16, such as a /15, which has 131,072 addresses, will result in the excess IP addresses becoming unusable elsewhere. It is important not to waste IP addresses, even if they're in the private ranges defined by RFC 1918.
 
 - The hub is an Azure virtual network that acts as a central point of connectivity. The spokes are virtual networks that connect to the hub virtual network by using peering. Shared services are deployed in the hub, while individual workloads are deployed as spokes.
 
@@ -703,7 +703,7 @@ Design and implementation of Azure networking is one of the most critical steps 
 
 - DNS forwarding allows VMs to see both your on-premises resources (via the domain controller) and Azure-provided host names (using the forwarder). You can access the recursive resolvers in Azure by using the virtual IP address 168.63.129.16.
 
-- DNS forwarding also enables DNS resolution between virtual networks, and allows on-premises machines to resolve host names provided by Azure.
+- DNS forwarding also enables DNS resolution between virtual networks and allows on-premises machines to resolve host names provided by Azure.
 
 - A VPN gateway is a specific type of virtual network gateway. It sends encrypted traffic between an Azure virtual network and an on-premises location over the public internet.
 
@@ -723,7 +723,7 @@ Design and implementation of Azure networking is one of the most critical steps 
 
 ### Task 9:  Migrating VMware VMs to Azure (Read only)
 
-Azure Migrate is a free tool from Microsoft that allows VMware administrators to replicate their VMs from on-prem to Azure. It’s an extremely powerful tool that even allows for pre-migration tests to run.
+Azure Migrate is a free tool from Microsoft that allows VMware administrators to replicate their VMs from on-prem to Azure. It is an extremely powerful tool that even allows for pre-migration tests to run.
 
 Azure Migrate has two migrations options:
 
