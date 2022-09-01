@@ -1,8 +1,8 @@
-# Module 1: Migrating Windows & SQL Server workloads
+# HOL 1: Migrating Windows & SQL Server workloads
 
 Duration: 60 minutes
 
-In this Module, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
+In this HOL, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
 
 ### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
