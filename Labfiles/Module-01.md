@@ -123,7 +123,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
       2. Username: <inject key="SmartHotelHost Admin Username" />
       3. Password: <inject key="SmartHotelHost Admin Password" />
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/azmigrate-07.png "Credentials")
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/upd-add-creds.png "Credentials")
 
      > **Note**: The Azure Migrate appliance may not have picked up your local keyboard mapping. Select the 'eyeball' in the password box to check the password was entered correctly.
 
@@ -163,6 +163,6 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 26. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal.  Select **Servers, databases and web apps (1)**, then select **Refresh (2)**.  Under **Azure Migrate: Servers, databases and web apps** you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 5 discovered servers are shown. This may take several minutes.
 
-    ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/azuremigrate-4.png "Discovered servers") 
+    ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/upd-azuremigrate-4.png "Discovered servers") 
 
     > Note:- **Wait for the discovery process to complete before proceeding to the next Task**.
