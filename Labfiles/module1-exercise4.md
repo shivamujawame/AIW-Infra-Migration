@@ -14,21 +14,21 @@
 
 2. On the page for the VM, on the upper menu, select **Capture**.
    
-   ![](Images/capture.png)
+   ![](Images/upd-capture.png)
 
 4. To create the image in a gallery, select **Yes, share it to a gallery as an image version**.
 
-   ![](Images/yes.png)
+   ![](Images/upd-yes.png)
 
 5. Create a new gallery by selecting **Create new**.
 
-   ![](Images/target.png)
+   ![](Images/upd-e4-t1-s7.png)
 
 6. In Operating system state select **Specialized**.
 
 7. Select an image definition and **create new** and provide a name and information for a new Image definition.
 
-   ![](Images/imagedefination.png)
+   ![](Images/upd-4-t1-s9.png)
 
 8. Enter an **image version** number. If this is the first version of this image, type **1.0.0**.
 
