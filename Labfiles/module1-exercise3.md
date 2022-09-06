@@ -303,7 +303,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
 
 1. Select **Backend pools** under the Settings section, and select the **WebBackend** pool
 
-    ![Screenshot showing the backend pool selection for the Application Gateway](Images/waf-backend-pool.png "Select WebBackend")
+    ![Screenshot showing the backend pool selection for the Application Gateway](Images/upd-waf-backend-pool.png "Select WebBackend")
 
 1. Set the Target type to **Virtual machine** and the Target to the NIC of **smarthotelweb1**; select **Save** to update the backend pool
 
@@ -337,7 +337,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
    
 1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations** way in the Settings section and note the IP address associated with the public IP address **appGwPublicFrontendIp**.
 
-    ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/waf-public-ip-address.png "Public IP address of AppGW")
+    ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/upd-waf-public-ip-address.png "Public IP address of AppGW")
 
 1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
 
@@ -349,7 +349,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
 
 1. Select **Web application firewall** under the Settings section and change the Tier to **WAF V2**.  Also, change the Firewall status to **Enabled**, the Firewall mode to **Prevention**, and set the Max request body size (KB) to **32**.  Select **Save** to commit the changes.
 
-    ![Screenshot changing Application Gateway to WAF V2 tier and enabling the WAF in prevention mode](Images/waf-enable-waf-v2.png "Enable WAF v2")
+    ![Screenshot changing Application Gateway to WAF V2 tier and enabling the WAF in prevention mode](Images/upd-waf-enable-waf-v2.png "Enable WAF v2")
 
 1. Once the application gateway changes have been saved, go back to your web browser with the public IP address of the application gateway you used earlier and refresh the browser to have a page processed by the WAF.
 
