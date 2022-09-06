@@ -100,7 +100,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 13. On the **Microsoft Software License Terms** blade, select **I Agree** 
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma2.png "MMA installation")
+    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma2.png "MMA installation")
 
 14. On the **Destination Folder** blade, leave everything as default and select **Next**. 
 
