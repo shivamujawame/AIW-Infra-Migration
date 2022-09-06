@@ -124,7 +124,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 19. Select **Finish** to finish the installation process of **Microsoft Monitoring Agent for Windows**.
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma6.png "MMA installation")
+    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma6.png "MMA installation")
 
 20. Paste the link to the Dependency Agent Windows installer into the browser address bar. **Run** the installer.
 
