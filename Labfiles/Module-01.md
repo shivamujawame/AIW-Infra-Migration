@@ -73,7 +73,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 15. On opening of the appliance configuration wizard, if a pop-up with the license terms appears, accept the terms by selecting **I agree**.
 
-    ![Screenshot of the Azure Migrate appliance terms of use.](Images/terms.png "Terms of use")
+    ![Screenshot of the Azure Migrate appliance terms of use.](Images/upd-terms.png "Terms of use")
 
 16 Under **Set up prerequisites**, the following two steps to verify Internet connectivity and time synchronization should pass automatically.
 
@@ -81,7 +81,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 17. **Wait** while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter username **Administrator** and password **<inject key="SmartHotelHost Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
 
-   ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/refresh.png "New update installed - Refresh")
+   ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/upd-refresh.png "New update installed - Refresh")
 
 18. At the next phase of the wizard, **Check latest updates and register appliance**, paste the **Azure Migrate project key (1)** that you copied from the Azure portal earlier and select **Verify (2)** to verify the Azure Migrate project key. 
    
