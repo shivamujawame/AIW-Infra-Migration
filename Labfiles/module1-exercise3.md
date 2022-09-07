@@ -1,51 +1,6 @@
 ## HOL1: Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
-### Task 1: Create a Storage Account
-
-In this task you will create a new Azure Storage Account that will be used by Migration and for storage of your virtual machine data during migration.
-
-> **Note:** This lab focuses on the technical tools required for workload migration. In a real-world scenario, more consideration should go into the long-term plan prior to migrating assets. The landing zone required to host VMs should also include considerations for network traffic, access control, resource organization, and governance. For example, the CAF Migration Blueprint and CAF Foundation Blueprint can be used to deploy a pre-defined landing zone and demonstrate the potential of an Infrastructure as Code (IaC) approach to infrastructure resource management. For more information, see [Azure Landing Zones](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/) and [Cloud Adoption Framework Azure Migration landing zone Blueprint sample](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/).
-
-1. In the Azure portal's left navigation, select **+ Create a resource**, then search for and select **Storage account**, followed by **Create**.
-
-    ![Screenshot of the Azure portal showing the create storage account navigation.](Images/upd-create-storage-1.png "Storage account - Create")
-
-2. In the **Create storage account** blade, on the **Basics** tab, use the following values:
-
-   - Subscription: **Select your Azure subscription**.
-  
-   - Resource group: **AzureMigrateRG**
-  
-   - Storage account name: **migrationstorage<inject key="DeploymentID" enableCopy="false" />**
-
-   - Location: Select **<inject key="Region" enableCopy="false" />** from the dropdown.
-    
-   - Performance: **Standard**
-  
-   - Redundancy: **Locally redundant storage (LRS)**
-
-    ![Screenshot of the Azure portal showing the create storage account blade.](Images/upd-EX3-sg-01.png "Storage account settings")
-
-3. Select **Review + create**, then select **Create**.
-
-4. Once the storage account is deployed, click on **Go to resource** to open it.
-
-5. Select **Data protection** under **Data management** from the left-hand side menu of storage account.
-
-   ![Screenshot of the Azure portal showing the create storage account blade.](Images/storageaccount-01.png?raw=true "Storage account settings")
-
-6. Now, uncheck the box next to **Enable soft delete for blobs** and **Enable soft delete for containers** to disable the soft delete on blobs and container as the soft delete enabled storage account is **not supported** for enabling replication on Virtual Machines. Click on **Save**.
-
-   > (You will enable replication on Virtual Machines in Task4 of this Exercise)
-
-   ![Screenshot of the Azure portal showing the create storage account blade.](Images/storageaccount-02.png?raw=true "Storage account settings")
-
-
-#### Task summary 
-
-In this task you created a new Azure Storage Account that will be used by Migration and modernization.
-
-### Task 2: Register the Hyper-V Host with Migration and modernization
+### Task 1: Register the Hyper-V Host with Migration and modernization
 
 In this task, you will register your Hyper-V host(LabVM) with the Migration and modernization service. This service uses Azure Site Recovery as the underlying migration engine. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
@@ -111,7 +66,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 In this task you registered your Hyper-V host with the Azure Migrate Server Migration service.
 
-### Task 3: Enable Replication from Hyper-V to Azure Migrate
+### Task 2: Enable Replication from Hyper-V to Azure Migrate
 
 In this task, you will configure and enable the replication of your on-premises virtual machines from Hyper-V to the Azure Migrate Server Migration service.
 
@@ -140,11 +95,10 @@ In this task, you will configure and enable the replication of your on-premises 
    ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/upd-replicate-4.png "Replicate - Virtual machines")
 
 6. On the **Target settings** tab, select the below information,
-   - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
-   - **Replication storage account**: Select the **migrationstorage<inject key="DeploymentID" enableCopy="false" /> (2)** storage account.
-   - **Virtual Network**: Select **SmartHotelVNet (3)**. 
-   - **Subnet**: Select **SmartHotel (4)**. 
-   - Select **Next (5)**.
+   - Select your subscription and the existing **SmartHotelHostRG** resource group. 
+   - **Virtual Network**: Select **SmartHotelVNet**. 
+   - **Subnet**: Select **SmartHotel**. 
+   - Leave other values as default and Select **Next (5)**.
  
  
    ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/target%20settings.png "Replicate - Target settings")
@@ -181,7 +135,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 In this task you enabled replication from the Hyper-V host to Azure Migrate and configured the replicated VM size in Azure.
 
-### Task 4: Configure Networking
+### Task 3: Configure Networking
 
 In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
@@ -218,7 +172,7 @@ In this task you modified the settings for each replicated VM to use a static pr
 > **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machines in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VMs during migration (for example, by editing web.config files).
 
 
-### Task 5: Server migration
+### Task 4: Server migration
 
 In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
 
@@ -255,7 +209,7 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 In this task you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machines. This migrated your on-premises VMs to Azure.
 
 
-### Task 6: Configure the database connection
+### Task 5: Configure the database connection
 
 The application tier machine **smarthotelweb2** is configured to connect to the application database running on the **smarthotelsql** machine.
 
@@ -295,7 +249,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 In this task, you updated the **smarthotelweb2** configuration to connect to the Azure SQL Database.
 
-### Task 7: Configure the public IP address and test the SmartHotel application
+### Task 6: Configure the public IP address and test the SmartHotel application
 
 In this task, you will associate an Application Gateway with Web Application Firewall (WAF) to replace the Ubuntu VM with the Azure managed service.
 
@@ -327,9 +281,10 @@ In this task, you will associate an Application Gateway with Web Application Fir
     - **Subscription**: Select your subscription from the dropdown.
     - **Virtual Network**: Select **SmartHotelVNet**. 
     - **Subnet**: Select **SmartHotel**.
-    - Click on **Enable** and then **Ok**.
+    - **Check** the **Ignore Missing Microsoft.sql Service Endpoin**t box.
+    - Click **Ok**.
 
-    ![](Images/website3.png)
+    ![](Images/upd-e3-t7-s7.png)
    
 1. Navigate back to the **Public access** tab of **Networking** section. Set **Public network access** to **Disabled** and **Save** your changes.
 
@@ -347,18 +302,11 @@ In this task, you will associate an Application Gateway with Web Application Fir
       1. The Check-in and Check-out might differ for you when compared to the above screenshot.
       2. At this point the base Application Gateway service is providing access to the backend application. This validates that the application is working and can be further protected by the WAF in following steps.
 
-1. Select **Web application firewall** under the Settings section and change the Tier to **WAF V2**.  Also, change the Firewall status to **Enabled**, the Firewall mode to **Prevention**, and set the Max request body size (KB) to **32**.  Select **Save** to commit the changes.
-
-    ![Screenshot changing Application Gateway to WAF V2 tier and enabling the WAF in prevention mode](Images/upd-waf-enable-waf-v2.png "Enable WAF v2")
-
-1. Once the application gateway changes have been saved, go back to your web browser with the public IP address of the application gateway you used earlier and refresh the browser to have a page processed by the WAF.
-
-
 #### Task summary 
 
 In this task, you assigned a public IP address to the UbuntuWAF VM and verified that the SmartHotel application is now working in Azure.
 
-### Task 8: Pointers around Azure Networking and Azure Network Security (Read only)
+### Task 7: Pointers around Azure Networking and Azure Network Security (Read only)
 
 Design and implementation of Azure networking is one of the most critical steps in migrating your infrastructure as a service (IaaS) and platform as a service (PaaS) implementations in Azure.
 
@@ -395,7 +343,7 @@ Design and implementation of Azure networking is one of the most critical steps 
 - Once the NSGs are created and configured, we can run a test failover to verify scripted NSG associations and post-failover VM connectivity.
 
 
-### Task 9:  Migrating VMware VMs to Azure (Read only)
+### Task 8:  Migrating VMware VMs to Azure (Read only)
 
 Azure Migrate is a free tool from Microsoft that allows VMware administrators to replicate their VMs from on-prem to Azure. It is an extremely powerful tool that even allows for pre-migration tests to run.
 
