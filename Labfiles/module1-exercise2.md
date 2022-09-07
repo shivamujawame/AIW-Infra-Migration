@@ -8,7 +8,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
    ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/upd-start-assess-v2.png "Start assessment")
 
-2. On the Assess servers blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
+2. On the Basics blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
 
    ![Screenshot of the Azure Migrate 'Assess servers' blade, showing the assessment name.](Images/upd-assessment1.png "Assess servers - assessment name")
 
@@ -19,11 +19,11 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 4. Select **Next** to move to the **Select servers to assess** tab and enter the following information:
      
      1. Assessment name: Enter **SmartHotelAssessment** 
-     1. Select or create a group: Choose **Create New** and enter the 
-     1. Group name: Enter **SmartHotel VMs**.
-     1. Add machines to the Group:  Select **SmarthotelAppl** from dropdown.
+     1. Select or create a group: Choose **Create New**  
+     1. Enter the Group name: **SmartHotel VMs**.
+     1. Add machines to the Group:  Select **SmarthotelAppl(Hyper-V)** from dropdown.
      1. Select the **smarthotelweb1**, **smarthotelweb2** and **UbuntuWAF** VMs and
-     1.  Click on **Next**.
+     1. Click on **Next:Review+Create assessment**.
 
    ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/upd-createassessment.png "Assessment VM group")
 
@@ -33,7 +33,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
    ![](Images/upd-createassessment1.png)
 
-6. On the **Servers, databases, and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
+6. In Azure Migrate, on the **Servers, databases, and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
 
     ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/upd-E1T4S6.png "Azure Migrate - Assessments (count)")
     
@@ -47,7 +47,7 @@ When migrating a workload to Azure, it is important to understand all workload d
 
 In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace, and then to deploy agents on the to-be-migrated VMs.
 
-1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**,
+1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
 
     ![](Images/upd-E1T5S1.png)   
 
@@ -98,7 +98,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma1.png "MMA installation")
 
-13. On the **Microsoft Software License Terms** blade, select **I Agree** 
+13. On the **Microsoft Software License Terms** blade, select **I Agree**.
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma2.png "MMA installation")
 
@@ -110,7 +110,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma4.png "MMA installation") 
 
-16. On the **Azure Log Analytics** blade, enter the Workspace ID and Workspace Key that you copied earlier, and select **Azure Commercial** from the Azure Cloud drop-down then select **Next**.
+16. On the **Azure Log Analytics** blade, enter the **Workspace ID** and **Workspace Key** that you copied earlier, and select **Azure Commercial** from the Azure Cloud drop-down then select **Next**.
 
     ![Screenshot of the Microsoft Monitoring Agent install wizard, showing the Log Analytics (OMS) workspace ID and key.](Images/upd-mma-wizard.png "MMA agent installer - workspace configuration")
 
@@ -126,7 +126,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma6.png "MMA installation")
 
-20. Paste the link to the Dependency Agent Windows installer into the browser address bar. **Run** the installer.
+20. Paste the link to the **Dependency Agent Windows installer** into the browser address bar. **Run** the installer.
 
     ![Screenshot showing the Internet Explorer prompt to run the installer for the Dependency Agent.](Images/upd-da-win-run.png "Run Dependency Agent installer")
 
