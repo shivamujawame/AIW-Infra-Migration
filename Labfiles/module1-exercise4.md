@@ -88,9 +88,9 @@ In this task, you will Enable Automanage on existing machines.
    
    b. Check the checkbox of each virtual machine you want to onboard.
    
-   c. Click the Select button.
+   c. Click the **Review+Create** button.
    
-   ![](Images/existing-vm-select-machine.png)
+   ![](Images/upd-existing-vm-select-machine.png)
 
-6. Click the Enable button.
+6. Click **Create**.
 
