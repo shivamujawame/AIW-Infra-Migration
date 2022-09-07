@@ -18,15 +18,15 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
-    ![Screenshot of the Azure migrate overview blade.](Images/Azmigrate.png "Azmigrate Overview blade")
+    ![Screenshot of the Azure migrate overview blade.](Images/upd-Azmigrate.png "Azmigrate Overview blade")
 
-4. Under **Azure Migrate: Discovery and assessment**, select **Discover** to open the **Discover** blade.
+4. Under **Migration goals**, select **Servers, databases and web apps** and then under **Azure Migrate: Discovery and assessment**, select **Discover** to open the **Discover** blade.
  
-    ![](Images/azuremigrate-3.png)
+    ![](Images/upd-azuremigrate-3.png)
  
 5. Under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
 
-    ![](Images/SP-Ex1t2s2.png)
+    ![](Images/upd-SP-Ex1t2s2.png)
 
 6.  In **1: Generate Azure Migrate project key**, provide below name for the **Azure Migrate appliance** that you will set up for discovery of Hyper-V VMs. Select **Generate key** to start the creation of the required Azure resources.
 
@@ -37,17 +37,17 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 7.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** to your clipboard.
 
-    ![Screenshot of the Azure Migrate 'Discover machines' blade showing the Azure Migrate project key.](Images/key.png "Azure Migrate project key")
+    ![Screenshot of the Azure Migrate 'Discover machines' blade showing the Azure Migrate project key.](Images/upd-key.png "Azure Migrate project key")
 
 8.  Read through the instructions on how to download, deploy and configure the Azure Migrate appliance then close the 'Discover machines' blade by clicking on cross button **X** (do **not** download the .VHD file or .ZIP file, the .VHD has already been downloaded for you). 
  
-    ![Screenshot of the closing the blade.](Images/discover-projectkey.png "Closing the Azure migrate appliance blade")
+    ![Screenshot of the closing the blade.](Images/upd-discover-projectkey.png "Closing the Azure migrate appliance blade")
 
 9. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 
    > You can also open the **Hyper-V manager** by clicking on the icon that is present in the taskbar. 
 
-     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyper-V Manager")
+     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/upd-hyper-v-manager.png "Hyper-V Manager")
 
 10. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the AzureMigrateAppliance VM and four VMs that comprise the on-premises SmartHotel application.
 
@@ -61,7 +61,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
     ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/Hyperv3.png "Connect to AzureMigrateAppliance")
 
-13. Log into the VM with the **Administrator password**: **<inject key="SmartHotelHost Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
+13. Under Connect to AzureMigrateAppliance, click **Connect** and then log into the VM with the **Administrator password**: **<inject key="SmartHotelHost Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
+ 
+    ![Screenshot of the Connect to AzureMigrateAppliance.](Images/upd-E1S13.png)
 
 14. Launch the **Azure Migrate appliance configuration Manager wizard** using the shortcut available on the desktop (wait for a minute or two, the browser will open showing the Azure Migrate appliance configuration wizard)
 
@@ -71,15 +73,15 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 15. On opening of the appliance configuration wizard, if a pop-up with the license terms appears, accept the terms by selecting **I agree**.
 
-    ![Screenshot of the Azure Migrate appliance terms of use.](Images/terms.png "Terms of use")
+    ![Screenshot of the Azure Migrate appliance terms of use.](Images/upd-terms.png "Terms of use")
 
 16 Under **Set up prerequisites**, the following two steps to verify Internet connectivity and time synchronization should pass automatically.
 
-   ![Screenshot of the Azure Migrate appliance configuration wizard, showing the first step 'Set up prerequisites' in progress. The internet connectivity, and time sync steps have been completed.](Images/prereq.png "Set up prerequisites")
+   ![Screenshot of the Azure Migrate appliance configuration wizard, showing the first step 'Set up prerequisites' in progress. The internet connectivity, and time sync steps have been completed.](Images/upd-prereq.png "Set up prerequisites")
 
 17. **Wait** while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter username **Administrator** and password **<inject key="SmartHotelHost Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
 
-   ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/refresh.png "New update installed - Refresh")
+   ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/upd-refresh.png "New update installed - Refresh")
 
 18. At the next phase of the wizard, **Check latest updates and register appliance**, paste the **Azure Migrate project key (1)** that you copied from the Azure portal earlier and select **Verify (2)** to verify the Azure Migrate project key. 
    
@@ -121,7 +123,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
       2. Username: <inject key="SmartHotelHost Admin Username" />
       3. Password: <inject key="SmartHotelHost Admin Password" />
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/azmigrate-07.png "Credentials")
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/upd-add-creds.png "Credentials")
 
      > **Note**: The Azure Migrate appliance may not have picked up your local keyboard mapping. Select the 'eyeball' in the password box to check the password was entered correctly.
 
@@ -161,6 +163,6 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 26. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal.  Select **Servers, databases and web apps (1)**, then select **Refresh (2)**.  Under **Azure Migrate: Servers, databases and web apps** you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 5 discovered servers are shown. This may take several minutes.
 
-    ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/azuremigrate-4.png "Discovered servers") 
+    ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/upd-azuremigrate-4.png "Discovered servers") 
 
     > Note:- **Wait for the discovery process to complete before proceeding to the next Task**.
