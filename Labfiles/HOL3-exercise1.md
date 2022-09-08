@@ -96,7 +96,7 @@
      - Use the code and follow the instruction to finish the login.
    
    > **Note:** You need to login in and be authenticated to use the `Azure Connected Machine Agent`.
-        After copy the __code__ and go to the link, [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin). 
+        After copy the __code__ and go to the link in the VM's browser, [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin). 
     
    ![Screenshot of the powershellscript.](Images/packageinstalld.png)
      
