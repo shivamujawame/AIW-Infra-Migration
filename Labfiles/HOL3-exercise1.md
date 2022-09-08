@@ -97,9 +97,12 @@
    
    > **Note:** You need to login in and be authenticated to use the `Azure Connected Machine Agent`.
         After copy the __code__ and go to the link, [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin). 
-    ![Screenshot of the powershellscript.](Images/packageinstalld.png)
+    
+   ![Screenshot of the powershellscript.](Images/packageinstalld.png)
      
-21.      
+21. Close the AzureMigrateAppliance VM, and go back to Azure portal and verify that a server ias now added to Azure Arc.
+    
+    ![Screenshot of the server added.](Images/serveradded.png)
      
     
      
