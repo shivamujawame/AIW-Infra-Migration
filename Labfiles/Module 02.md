@@ -445,13 +445,13 @@ In this task, you will configure and enable the replication of your on-premises 
 
    ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/replicate-2.png "Replicate - Source settings")
 
-3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment**. Select the **SmartHotel VMs** VM group and the **SmartHotelAssessment** migration assessment.
+3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment**. Select the **Linux VMs** VM group and the **SmartHotelAssessment** migration assessment.
 
-   ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/replicate-3.png "Replicate - Virtual machines")
+   ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/Replication1.png "Replicate - Virtual machines")
 
-4. The **Virtual machines** tab should now show the virtual machines included in the assessment. Select the **UbuntuWAF**, **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
+4. The **Virtual machines** tab should now show the virtual machines included in the assessment. Select the **UbuntuVM** virtual machine, then select **Next**.
 
-   ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/replicate-4.png "Replicate - Virtual machines")
+   ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/Replication2.png "Replicate - Virtual machines")
 
 5. On the **Target settings** tab, select the below information,
    - Select your subscription and the existing **SmartHotelRG (1)** resource group. 
@@ -467,12 +467,11 @@ In this task, you will configure and enable the replication of your on-premises 
 
 6. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
-   - Select the **Windows** operating system for the **smarthotelweb1**, **smarthotelweb2** virtual machines.
-   - Select the **Linux** operating system for the **UbuntuWAF** virtual machine. 
+   - Select the **Linux** operating system for the **UbuntuVM** virtual machine. 
    - Select **Next**. 
 
 
-   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/replicate-6.png "Replicate - Compute")
+   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/Replication3.png "Replicate - Compute")
     
 
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
@@ -481,15 +480,14 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/overviewnew.png "Overview link")
     
-9. Confirm that the 3 machines are replicating.
+9. Confirm that the 1 machines are replicating.
 
-   ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/replicate-8.png "Replication summary")
+   ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/Replication4.png "Replication summary")
 
 10. Select **Replicating Machines** under **Manage** on the left.  Select **Refresh** occasionally and wait until all three machines have a **Protected** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/replicate-9.png "Replication status")
 
-   > **Note**: Please make sure to run the **validation steps** for this task before moving to next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure**  as the status of the Virtual Machine will be changed from **Protected** to **Planned  failover** when you migrate the servers in Task6.
 
 #### Task summary 
 
@@ -499,7 +497,7 @@ In this task you enabled replication from the Hyper-V host to Azure Migrate, and
 
 In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
-1. Still using the **Migration and modernization - Replicating machines** blade, select the **smarthotelweb1** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
+1. Still using the **Migration and modernization - Replicating machines** blade, select the **UbuntuVM** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/config-0.png "Replicating machines")
 
@@ -513,17 +511,12 @@ In this task you will modify the settings for each replicated VM to use a static
 
    ![Screenshot showing the link to edit the network interface settings for a replicated VM.](Images/nic.png "Network Interface settings link")
 
-5. Change the **Private IP address** to **192.168.0.4**.
+5. Change the **Private IP address** to **192.168.0.8**.
 
    ![Screenshot showing a private IP address being configured for a replicated VM in ASR.](Images/private-ip.png "Network interface - static private IP address")
 
-6. Select **OK** to close the network interface settings blade, then **Save** the **smarthotelweb1** settings.
+6. Select **OK** to close the network interface settings blade, then **Save** the **UbuntuVM** settings to configure the private IP address for the VMs.
 
-7. Repeat these steps to configure the private IP address for the other VMs.
- 
-   - For **smarthotelweb2** use private IP address **192.168.0.5**
-  
-   - For **UbuntuWAF** use private IP address **192.168.0.8**
 
 #### Task summary 
 
