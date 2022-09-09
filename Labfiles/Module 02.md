@@ -198,7 +198,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 5. Click on **Create assessment** to create the assessment. 
 
-   ![](Images/create%20assessment1.png)
+   ![](Images/Assessment4.png)
 
 6. On the **Servers, databases and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
 
@@ -220,11 +220,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 2. Select the **Linux VMs** group to see the group details. 
 
-   ![](Images/select-group.png)   
+   ![](Images/Groups1.png)   
 
-3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **smarthotelweb1** VM.
+3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **UbuntuVM** VM.
 
-   ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/requires-agent-installation-v2.png "SmartHotel VMs server group")
+   ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/Groups2.png "SmartHotel VMs server group")
 
 4. On the **Dependencies** blade, select **Configure Log Analytics workspace**.
 
@@ -245,27 +245,23 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
    ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/workspace-id-key.png "OMS Workspace ID and primary key")
 
-8. Return to the Azure Migrate **Dependencies** blade. Copy each of the 4 agent download URLs and paste them alongside the Workspace ID and key you noted in the previous step. 
-   
-   ![Screenshot of the Azure Migrate 'Dependencies' blade with the 4 agent download links highlighted.](Images/agent-links.png "Agent download links")
+8. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **UbuntuVM** VM. To do so, you will first connect to the UbuntuWAF remotely using an SSH session.
 
-9. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **UbuntuVM** VM. To do so, you will first connect to the UbuntuWAF remotely using an SSH session.
-
-10. Open a command prompt using the desktop shortcut.  
+9. Open a command prompt using the desktop shortcut.  
 
     > **Note**: The SmartHotelHost runs Windows Server 2019 with the Windows Subsystem for Linux enabled. This allows the command prompt to be used as an SSH client. More info of supported Linux on Azure can be found here: https://Azure.com/Linux. 
 
-11. Enter the following command to connect to the **UbuntuWAF** VM running in Hyper-V on the SmartHotelHost:
+10. Enter the following command to connect to the **UbuntuWAF** VM running in Hyper-V on the SmartHotelHost:
 
     ```bash
     ssh demouser@192.168.0.7
     ```
 
-12. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotelHost Admin Password" />**.
+11. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotelHost Admin Password" />**.
 
-    ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](images/Exercise1/ssh.png "SSH session with UbuntuWAF")
+    ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/ssh.png "SSH session with UbuntuWAF")
 
-13. Enter the following command, followed by the password **<inject key="SmartHotelHost Admin Password" />** when prompted:
+12. Enter the following command, followed by the password **<inject key="SmartHotelHost Admin Password" />** when prompted:
   
     ```
     sudo -s
@@ -273,7 +269,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     > This gives the terminal session elevated privileges.
 
-14. Enter the following command, substituting \<Workspace ID\> and \<Workspace Key\> with the values copied previously. Answer **Yes** when prompted to restart services during package upgrades without asking.  
+13. Enter the following command, substituting \<Workspace ID\> and \<Workspace Key\> with the values copied previously. Answer **Yes** when prompted to restart services during package upgrades without asking.  
 
     ```
     wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w <Workspace ID> -s <Workspace Key>
@@ -297,38 +293,38 @@ In this task, you will configure the Azure Migrate dependency visualization feat
      sudo rm /var/cache/apt/archives/lock
      ```
 
-15. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
+14. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
 
     ```s
     /opt/microsoft/omsagent/bin/service_control restart <Workspace ID>
     ```
 
-16. Enter the following command. This downloads a script that will install the Dependency Agent.
+15. Enter the following command. This downloads a script that will install the Dependency Agent.
 
     ```s
     wget --content-disposition https://aka.ms/dependencyagentlinux -O InstallDependencyAgent-Linux64.bin
     ```
 
-17. Install the dependency agent by running the script download in the previous step.
+16. Install the dependency agent by running the script download in the previous step.
 
     ```s
     sh InstallDependencyAgent-Linux64.bin -s
     ```
 
-    ![Screenshot showing that the Dependency Agent install on Linux was successful.](images/Exercise1/da-linux-done.png "Dependency Agent installation was successful")
+    ![Screenshot showing that the Dependency Agent install on Linux was successful.](Images/da-linux-done.png "Dependency Agent installation was successful")
     
 
-18. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
+17. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
    ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/dependency-viz-installed.png "Dependency agent installed")
    
    >**Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
-19. Select **View dependencies**.
+18. Select **View dependencies**.
 
    ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/view-dependencies.png "View dependencies")
    
-20. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
+19. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
  
