@@ -79,7 +79,7 @@
     
     ![Screenshot of the powershellscript.](Images/packageinstalld.png)
      
- 1. Close the AzureMigrateAppliance VM, and go back to Azure portal and verify that a server ias now added to Azure Arc.
+ 1. Close the AzureMigrateAppliance VM, and go back to Azure portal and verify that a server is now added to Azure Arc successfully.
     
     ![Screenshot of the server added.](Images/serveradded.png)
      
