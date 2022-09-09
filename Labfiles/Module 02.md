@@ -1,6 +1,5 @@
-# Module 2: Migrate and modernize Linux & OSS DB workloads to Azure
+# HOL 2: Migrate and modernize Linux & OSS DB workloads to Azure
 
-Duration: 60 minutes
 
 In this Module, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
 
@@ -31,7 +30,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 6.  In **1: Generate Azure Migrate project key**, provide below name for the **Azure Migrate appliance** that you will set up for discovery of Hyper-V VMs. Select **Generate key** to start the creation of the required Azure resources.
 
      ```
-     SmartHotelAppl
+     SmartHotelApp2
      ```
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the 'Generate Azure Migrate project key' section.](Images/azmigrate-03.png "Generate Azure Migrate project key")
 
