@@ -173,7 +173,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 1. Select **Assess** under **Azure Migrate: Discovery and assessment** and click on **Azure VM** to start a new migration assessment.
 
-   ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/start-assess-v2.png "Start assessment")
+   ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/Assessment1.png "Start assessment")
 
 2. On the Assess servers blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
 
@@ -192,7 +192,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Select the **UbuntuVM** VMs and
      1.  Click on **Next**.
 
-   ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/create%20assessment.png "Assessment VM group")
+   ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/Assessment2.png "Assessment VM group")
 
     **Note:** There is no need to include the **smarthotelSQL1** or **AzureMigrateAppliance** VMs in the assessment, since they will not be migrated to Azure. (The SQL Server will be migrated to the SQL Database service and the Azure Migrate Appliance is only used for migration assessment.)
 
@@ -206,7 +206,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
     
 7. Select **Assessments** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the actual assessment.
 
-   ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/assessment-list-v2.png "Azure Migrate - Assessments (list)")
+   ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/Assessment3.png "Azure Migrate - Assessments (list)")
 
 ### Task 2: Configure dependency visualization
 
