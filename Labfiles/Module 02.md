@@ -535,7 +535,7 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 
    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/Migration1.png "Replication summary")
 
-2. On the **Migrate** blade, select **yes** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines then select **Migrate** to start the migration process.
+2. On the **Migrate** blade, select **yes** for **Shutdown machines before migration to minimum data loss** and select the **UbuntuVM** virtual machine then select **Migrate** to start the migration process.
 
    ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/Migration2.png "Migrate - VM selection")
 
@@ -551,11 +551,11 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 
 5. **Wait** until all three **Planned failover** jobs show a **Status** of **Successful**. You should not need to refresh your browser. This could take up to 15 minutes.
 
-   ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/migrate-5.png "Migration status")
+   ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/Migration5.png "Migration status")
 
-6. Navigate to the **SmartHotelRG** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
+6. Navigate to the **SmartHotelRG** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machine being migrated.
 
-   ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/migrate-6.png "Migrated resources")
+   ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/Migration6.png "Migrated resources")
 
 #### Task summary 
 
