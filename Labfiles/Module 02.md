@@ -275,24 +275,6 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w <Workspace ID> -s <Workspace Key>
     ```
 
-    > **Note**: If you receive any error stating the dpkg database status is locked while running the above command, run the below command to update the packages and to remove the locks then perform **Step 28** again.
-     
-     ```
-     apt-get update
-     ```
-     
-     ```
-     sudo rm /var/lib/dpkg/lock
-     ```
-     
-     ```
-     sudo rm /var/lib/dpkg/lock-frontend
-     ```
-     
-     ```
-     sudo rm /var/cache/apt/archives/lock
-     ```
-
 14. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
 
     ```s
@@ -316,7 +298,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 17. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
-   ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/dependency-viz-installed.png "Dependency agent installed")
+   ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/Linux-depencyagent.png "Dependency agent installed")
    
    >**Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
