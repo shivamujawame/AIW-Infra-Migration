@@ -417,7 +417,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
     ![Screenshot of the 'Discover machines' panel from Azure Migrate, showing the 'Registration finalized' message.](Images/discover-7.png "Registration finalized")
 
-13. The **Migration and modernization** panel should now show 5 discovered servers..
+13. The **Migration and modernization** panel should now show 6 discovered servers..
 
     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/discoveredservers5.png "Discovered servers")
 
@@ -486,7 +486,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 10. Select **Replicating Machines** under **Manage** on the left.  Select **Refresh** occasionally and wait until all three machines have a **Protected** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/replicate-9.png "Replication status")
+    ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/Replication5.png "Replication status")
 
 
 #### Task summary 
@@ -499,11 +499,11 @@ In this task you will modify the settings for each replicated VM to use a static
 
 1. Still using the **Migration and modernization - Replicating machines** blade, select the **UbuntuVM** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
-   ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/config-0.png "Replicating machines")
+   ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/Replication6.png "Replicating machines")
 
 2. Select **Compute and Network** under **General** on the left, then select **Edit**.
 
-   ![Screenshot of the smarthotelweb1 blade with the 'Compute and Network' and 'Edit' links highlighted.](Images/config-1.png "Edit Compute and Network settings")
+   ![Screenshot of the smarthotelweb1 blade with the 'Compute and Network' and 'Edit' links highlighted.](Images/Replication7.png "Edit Compute and Network settings")
 
 3. Confirm that the VM is configured to use the **F2s_v2** VM size.
 
@@ -533,21 +533,21 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 
 1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate**.
 
-   ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/migrate-1.png "Replication summary")
+   ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/Migration1.png "Replication summary")
 
 2. On the **Migrate** blade, select **yes** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines then select **Migrate** to start the migration process.
 
-   ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/e3%20t6%20ss2.png?raw=true "Migrate - VM selection")
+   ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/Migration2.png "Migrate - VM selection")
 
    > **Note**: You can optionally choose whether the on-premises virtual machines should be automatically shut down before migration to minimize data loss. Either setting will work for this lab.
 
 3. The migration process will start.
 
-   ![Screenshot showing 3 VM migration notifications.](Images/migrate-3.png "Migration started notifications")
+   ![Screenshot showing 3 VM migration notifications.](Images/Migration3.png "Migration started notifications")
 
 4. To monitor progress, select **Jobs** under **Manage** on the left and review the status of the three **Planned failover** jobs.
 
-   ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/migrate-4.png "Migration jobs")
+   ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/Migration4.png "Migration jobs")
 
 5. **Wait** until all three **Planned failover** jobs show a **Status** of **Successful**. You should not need to refresh your browser. This could take up to 15 minutes.
 
