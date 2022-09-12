@@ -669,9 +669,80 @@ In this task, you assigned a public IP address to the UbuntuWAF VM and verified 
 
 #### Task 1: Getting started with Azure Active Directory for Linux 
 
+Microsoft Azure offers Active Directory Domain Services (Domain as a service) to help you provide domain join, group policy, LDAP and Kerberos/NTLM authentication services without the complexity of managing your own domain controller.
 
+1. Search for domain services in the Azure portal and select **Azure AD Domain Services**.
+   
+   ![](Images/)
 
+2. Click on **create** and fill in the following details:
+
+ * Resource group: **SmartHotelRG**
+ * DNS domain name: **LOB-migration.in**
+ * Region: Leave the default value
+ * SKU: **Standard**
+
+  ![](Images/)
+
+3. Click on **Next**, on the Networking pane leave all the values to default and click **Next**.
+
+   ![](Images/)
+
+4. On the **Administration** tab leave all the values to default and click **Next**.
+
+   ![](Images/)
+
+5. Make sure you have selceted **All** in the **Synchronization** tab and select **Next**.
+
+   ![](Images/)
+
+6. Leave all other values to default and click on **Review + create**.
+
+ - **Note**: the process of creating the ADDS takes some time, wait patiently until the process completes.
+
+   ![](Images/)
+
+7. The following message should appear after the ADDS provisioning has completed.
+
+8. Configure the hosts file to make sure the hostname is correctly configured for the management domain.
+
+  ```
+  sudo vi /etc/hosts
+  ```
+9. On the hosts file, add the server name and the domain as shown below:
+
+  ```
+  172.0.0.1 UbntuVM.LOB-migration.in UbuntuVM
+  ```
+10. Install the required packages by running the command in the following screenshot.
+
+ - **Note**: When you are asked to provide the “Configuring Kerberos Authentication”, enter your domain (custom) in capitals.
+
+   ```
+   sudo apt-get update
+   sudo apt-get install krb5-user samba sssd sssd-tools libnss-sss libpam-sss ntp ntpdate realmd adcli
+   ```
+11. Configure Network Time Protocol (NTP). In your experience with local domains, you know that time is a critical factor when it comes to authentication. To sync the time with the domain, add the domain NTP hostname to the  **/etc/ntp.conf** file and add `server LOB-migration.in`
+
+   ```
+   sudo vi /etc/ntp.conf
+   ```
+12. To ensure that the VM is synchronized with the managed domain, the following steps are necessary:
+
+   ```
+   sudo systemctl stop ntp
+   sudo ntpdate LOB-migration.in
+   sudo systemctl start ntp
+   ```
+13. Join VM to the managed domain. Start by discovering the managed domain name in ALL UPPERCASE.
+
+   ```
+   sudo realm discover LOB-MIGRATION.IN
+   ```
+ 
 #### Task 2: Leveraging SSH to connect and authenticate Linux Servers on Azure 
+
+
 
 #### Task 3: Using VM Scale Sets to drive business resiliency
 
