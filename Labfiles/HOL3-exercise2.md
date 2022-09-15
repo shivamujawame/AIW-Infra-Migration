@@ -23,7 +23,7 @@
    
    - Storage account name: **storage<inject key="DeploymentID" enableCopy="false" /> (3)**
   
-   - Region: **Same as your resource group (4)*
+   - Region: **Same as your resource group (4)**
    
    - Leave other values as default and Click **Review (5)**    
     
