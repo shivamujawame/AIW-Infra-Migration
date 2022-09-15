@@ -29,7 +29,7 @@
     
    - Resource group: **azure-arc (1)**
   
-   - Region: **Central US (2)**
+   - Region: **Same as your resource group (2)**
    
    - Operating system: **Windows (3)**
    
