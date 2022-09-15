@@ -110,9 +110,66 @@
 
 1. Return to your Recovery service vault overview page in the Azure Portal, and select **Site Recovery Infrastructure** under **Manage** on the left side of the panel.
 
-   ![Screenshot of the Site Recovery Infrastructure.](Images/Site Recovery Infrastructure.png)
+  ![Screenshot of the Site Recovery Infrastructure.](Images/prepare-infra-7.png)
 
+1. Under Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
 
+  ![Screenshot of the hyper-v-host.](Images/prepare-infra-7.png "hyper-v-host")
    
+1. Go back to your **Recovery service vault Overview page** and click **+Enable site recovery**.  
+
+  ![Screenshot of the Enable Site Recovery.](Images/siterecovery.png "Enable Site Recovery") 
+  
+1. Under Site Recovery page, select **Prepare Infrastructure** under **Hyper-V machines to Azure**.
+    
+   ![Screenshot of the prepare infrastructure.](Images/prepare-infra-1.png "prepare infrastructure")  
+
+1. Under **Deployment planning** tab, for Deployment planning completed?: select **I will do it later** from the drop down arrow list.
+  
+   ![Screenshot of the Deployment planning tab.](Images/prepare-infra-2.png "Deployment planning tab")  
+    
+1. Under **Source settings** tab, fill the following details:   
    
+   - Are you using system Centre VMM to manage Hyper-V hosts?: **No (1)**
+   
+   - In Hyper-V site, select the **Hyper-v-site-<inject key="DeploymentID" enableCopy="false" /> (2)** that you created in earlier steps.
+
+   - Click **Next (3)**.
+
+   ![Screenshot of the Hyper-v site.](Images/ss2.png "Hyper-v site")  
+   
+1. Under **Target settings** tab, click **Next**.  
+
+1. Under **Replication policy** tab, click **Create new policy and associate**.
+
+   ![Screenshot of the create replication policy.](Images/replicatepolicy.png "create replication policy")  
+   
+1. Under **Create and associate policy** page, enter name: **Replicationpolicy-<inject key="DeploymentID" enableCopy="false" /> (1)** and leave other values as default and click **Ok (2)**.
+   
+   ![Screenshot of the create replication policy.](Images/replicatepolicy-2.png "create replication policy") 
+    
+1. Wait for the replication policy to be **created and associated successfully (1)** and then click **Next (2)**.    
+
+   ![Screenshot of the create replication policy.](Images/replicatepolicy-3.png "create replication policy") 
+    
+1. Under **Review** tab, click **Prepare**.    
+
+1. Go to your **Recovery service vault Overview page**, click **Replicated Items (1)** under **Protected Items** and then click **+Replicate (2)** and select **Hyper-V machines to Azure (3)**.
+
+   ![Screenshot of the add replicate items.](Images/replicate-items.png "add replicate items") 
+   
+1. Under **Source environment** tab, select the Hyper-V site that you created earlier and then click **Next**.
  
+   ![Screenshot of the Source environment.](Images/src-env.png "Source environment") 
+   
+1. Under **Target environment** tab, fill the following details:
+   
+   - Virtual network: **SmartHotelVNet (1)**
+
+   - Subnet: **SmartHotel (2)**
+   
+   - Leave other values as default and click **Next (3)**.
+
+   ![Screenshot of the target environment.](Images/target-env.png "target environment") 
+    
+1.   
