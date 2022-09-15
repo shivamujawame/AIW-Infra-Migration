@@ -4,7 +4,7 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/Module-01.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise1.md",
         "Order": 1
       },
        {
@@ -18,6 +18,22 @@
        {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise4.md",
         "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module2-exercise1.md",
+        "Order": 5
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module2-exercise2.md",
+        "Order": 6
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module2-exercise3.md",
+        "Order": 7
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module2-exercise4.md",
+        "Order": 8
       }
     ]
   }
