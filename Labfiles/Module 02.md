@@ -780,67 +780,8 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
   az ssh vm -n UbuntuVM -g SmartHotelRG
   ```
   
-#### Task 3: Using VM Scale Sets to drive business resiliency
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
-    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
-    * Azure Password: <inject key="AzureAdUserPassword"></inject>
-
-2. In the Azure portal's navigation pane, select **Resource groups**.
-
-3. From the Resource groups blade, select the **SmartHotelHostRG** resource group.
-
-4. Select **UbuntuVM** VM to create image.
-
-2. On the page for the VM, on the upper menu, select **Capture**.
-   
-   ![](Images/capture1.png)
-
-4. To create the image in a gallery, select **Yes, share it to a gallery as an image version** under **Instance details**.
-
-   ![](Images/upd-yes.png)
-
-5. In **Gallery details**, create a new gallery by selecting **Create new** and enter **Ubuntumigration<inject key="DeploymentID" enableCopy="false" />** and click **Ok**.
-
-   ![](Images/capture2.png)
-
-6. In Operating system state select **Specialized**.
-
-7. Select an image definition and click **create new** and create a VM Image dfintion by providing the following details and then click **Ok**: 
-  
-   - Image VM definition name: **UbuntuMigration<inject key="DeploymentID" enableCopy="false" />**
-
-   - Publisher: **Microsoft**
-    
-   - Offer: **Linux**
-  
-   - SKU: **migration**
-
-   ![](Images/capture3.png)
-
-8. Enter an **image version** number. If this is the first version of this image, type **1.0.0**
-
-9. Select **Review + create**.
-
-10. After validation passes, select **Create** to create the image.
-
-11. On the page for the image gallery, on the upper menu, select **+VMSS**.
-
-   ![](Images/upd-vmss1.png)
-
-12. Under the Basics tab, enter the **Virtual Machine name scale set** name: **migrationscaleset<inject key="DeploymentID" enableCopy="false" />**
-
-   ![](Images/upd-vmname.png)
-
-13. Select any **size**.
-
-14. Select the License type as **Window server**.
-
-   ![](Images/upd-License.png)
-
-15. Select **Review + create**.
-
-#### Task 4: Azure auto manage
+#### Task 3: Azure auto manage
 
 In this task, you will Enable Automanage on existing machines.
 
