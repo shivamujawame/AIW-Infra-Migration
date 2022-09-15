@@ -64,6 +64,55 @@
 
     ![Screenshot of the Enable Site Recovery.](Images/siterecovery.png "Enable Site Recovery")   
     
-1. Under Site Recovery    
+1. Under Site Recovery page, select **Prepare Infrastructure** under **Hyper-V machines to Azure**.
     
+    ![Screenshot of the prepare infrastructure.](Images/prepare-infra-1.png "prepare infrastructure")  
+
+1. Under **Deployment planning** tab, for Deployment planning completed?: select **I will do it later** from the drop down arrow list.
+  
+    ![Screenshot of the Deployment planning tab.](Images/prepare-infra-2.png "Deployment planning tab")  
     
+1. Under **Source settings** tab, fill the following details:   
+   
+   - Are you using system Centre VMM to manage Hyper-V hosts?: **No (1)**
+   
+   - In Hyper-V site, click **Add Hyper-V site (2)** and then under Create Hyper-V site, enter **Hyper-v-site-<inject key="DeploymentID" enableCopy="false" /> (3)** as name and click **Ok (4)**.
+
+    ![Screenshot of the Source setting tab.](Images/prepare-infra-3.png "Source setting tab")  
+ 
+1. After successfully adding the Hyper–V site, click **Add Hyper-V servers**. 
+
+   ![Screenshot of the Add Hyper-V server.](Images/prepare-infra-4.png "Add Hyper-V server")  
+   
+1. Under Add Server page, Click on the **Download** the installer for the Microsoft Azure Site Recovery provider.  
+    
+   ![Screenshot of the download installer.](Images/prepare-infra-5.png "download installer")
+ 
+1. Under Add Server page, select the **blue Download button (1)** and download the registration key file and then close the **Add server** panel using **X (2)** button.
+
+    ![Screenshot of the download key.](Images/prepare-infra-6.png "download key")
+    
+1. Open the **AzureSiteRecoveryProvider.exe** installer you downloaded a moment ago. On the **Microsoft Update** tab, select **Off** and select **Next**. Accept the default installation location and select **Install**.
+
+   ![Screenshot of the ASR provider installer.](Images/asr-provider-installer.png "Azure Site Recovery Provider Setup") 
+   
+1. When the installation has completed select **Register**. Browse to the location of the key file you downloaded. When the key is loaded select **Next**.
+
+   ![Screenshot of the ASR provider registration settings.](Images/upd-asr-registration.png "Key file registration")
+   
+1. Select **Connect directly to Azure Site Recovery without a proxy server** and select **Next**. The registration of the Hyper-V host with Azure Site Recovery will begin.
+
+   ![Screenshot of the ASR provider registration settings.](Images/upd-e3-t2-s8.png)
+   
+1. Wait for registration to complete (this may take several minutes). Then select **Finish**.
+
+   ![Screenshot of the ASR provider showing successful registration.](Images/upd-asr-registered.png "Registration complete")
+
+1. Return to your Recovery service vault overview page in the Azure Portal, and select **Site Recovery Infrastructure** under **Manage** on the left side of the panel.
+
+   ![Screenshot of the Site Recovery Infrastructure.](Images/Site Recovery Infrastructure.png)
+
+
+   
+   
+ 
