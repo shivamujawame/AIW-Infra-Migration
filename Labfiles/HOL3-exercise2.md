@@ -172,4 +172,17 @@
 
    ![Screenshot of the target environment.](Images/target-env.png "target environment") 
     
-1.   
+1. Under **Virtual machine selection** tab, **check for smarthotelweb1 (1)** and click **Next (2)**.
+
+   ![Screenshot of the vm selection.](Images/vm-selection.png "vm selection")
+
+1. Under **Replication settings** tab, select **Windows** as 0S type for smarthotelweb1.
+
+   ![Screenshot of the Replication settings.](Images/replicate-settings.png "Replication settings")
+   
+1. Under **Review** tab, click **Enable Replication**.
+
+1. The process of replication might take 15-20 minutes to get completed. Once the Replication is successfully completed, the status of the replicated VM will now become **Protected**.
+
+   ![Screenshot of the status-protected.](Images/status-protected.png "status-protected")
+   
