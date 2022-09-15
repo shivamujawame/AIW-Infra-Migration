@@ -2,77 +2,42 @@
 
 #### Task 1: Getting started with Azure Active Directory for Linux 
 
-Microsoft Azure offers Active Directory Domain Services (Domain as a service) to help you provide domain join, group policy, LDAP and Kerberos/NTLM authentication services without the complexity of managing your own domain controller.
+In this task, you will be enabling the AAD authentication using a VM extension and enbaling Managed identity. 
 
-1. Search for domain services in the Azure portal and select **Azure AD Domain Services**.
+1. In the Azure portal `https://portal.azure.com`, Navigate to your newly migrated LinuxVM and select it.
+    
+    ![](Images/linucvm.png)
+    
+2. Now from the left side menu, select the **Identity**.
+
+    ![](Images/identityt.png)
+
+3. Under Identity,Under System assigned tab, Click on the **On** button under Status tag and clik on **Save** button to turn on the identity. It will take sometime to complete the process and there have some Service principal is getting created behind the process.
+
+      ![](Images/turinon.png)
+      ![](Images/identidone.png)
+      
+4. Now, Navigate to **Extension + application** from the left side menu.
    
-   ![](Images/)
+    ![](Images/extension.png)
 
-2. Click on **create** and fill in the following details:
+5. In the Extension page, Click on **add** button to add an extension that will help you to connect to your machine using your AAD account.
 
- * Resource group: **SmartHotelRG**
- * DNS domain name: **LOB-migration.in**
- * Region: Leave the default value
- * SKU: **Standard**
+    ![](Images/addexn.png)
 
-  ![](Images/)
+6. Once you are on **Install an extension** page, search for **Azr=ure AD based SSH Login** extension and select it and click on **Next** button.
 
-3. Click on **Next**, on the Networking pane leave all the values to default and click **Next**.
+    ![](Images/aaadextensfd.png)
 
-   ![](Images/)
+7. You will be redirected to the **Configure Azure AD based SSH Login extension** page, now click on **Review + create** and then **create** button. It should start the installation of the extension into your LinuxVM.
 
-4. On the **Administration** tab leave all the values to default and click **Next**.
+    ![](Images/creasd.png)
+    ![](Images/isntallas.png)
 
-   ![](Images/)
+8. Once you have the extension installed, please move to the next task.
 
-5. Make sure you have selceted **All** in the **Synchronization** tab and select **Next**.
+    ![](Images/completed.png)
 
-   ![](Images/)
-
-6. Leave all other values to default and click on **Review + create**.
-
- - **Note**: the process of creating the ADDS takes some time, wait patiently until the process completes.
-
-   ![](Images/)
-
-7. The following message should appear after the ADDS provisioning has completed.
-
-8. Configure the hosts file to make sure the hostname is correctly configured for the management domain.
-
-  ```
-  sudo vi /etc/hosts
-  ```
-9. On the hosts file, add the server name and the domain as shown below:
-
-  ```
-  172.0.0.1 UbntuVM.LOB-migration.in UbuntuVM
-  ```
-10. Install the required packages by running the command in the following screenshot.
-
- - **Note**: When you are asked to provide the “Configuring Kerberos Authentication”, enter your domain (custom) in capitals.
-
-   ```
-   sudo apt-get update
-   sudo apt-get install krb5-user samba sssd sssd-tools libnss-sss libpam-sss ntp ntpdate realmd adcli
-   ```
-11. Configure Network Time Protocol (NTP). In your experience with local domains, you know that time is a critical factor when it comes to authentication. To sync the time with the domain, add the domain NTP hostname to the  **/etc/ntp.conf** file and add `server LOB-migration.in`
-
-   ```
-   sudo vi /etc/ntp.conf
-   ```
-12. To ensure that the VM is synchronized with the managed domain, the following steps are necessary:
-
-   ```
-   sudo systemctl stop ntp
-   sudo ntpdate LOB-migration.in
-   sudo systemctl start ntp
-   ```
-13. Join VM to the managed domain. Start by discovering the managed domain name in ALL UPPERCASE.
-
-   ```
-   sudo realm discover LOB-MIGRATION.IN
-   ```
- 
 #### Task 2: Leveraging SSH to connect and authenticate Linux Servers on Azure 
 
 To improve the security of Linux virtual machines in Azure, you can integrate with Azure Active Directory (Azure AD) authentication. You can now use Azure AD as a core authentication platform and a certificate authority to SSH into a Linux VM by using Azure AD and OpenSSH certificate-based authentication. This functionality allows organizations to manage access to VMs with Azure role-based access control (RBAC) and Conditional Access policies.
