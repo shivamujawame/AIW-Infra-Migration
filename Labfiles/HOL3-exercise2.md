@@ -42,4 +42,28 @@
    
     ![Screenshot of the search Recovery service vaults.](Images/search-asr.png "Recovery service vaults")
     
-1.   
+1. Under Recovery service vaults, click **+Create**.  
+
+    ![Screenshot of the create Recovery service vaults.](Images/create-asr1.png "create Recovery service vaults")
+    
+1. Under **Basics tab** of create a recovery service vault, fill the following details and ckick **Create**: 
+
+   - Subscription: **Select your subscription (1)**
+    
+   - Resource group: **SmartHotelRG (2)**
+   
+   - Vault name: **asrvault-<inject key="DeploymentID" enableCopy="false" /> (3)**
+  
+   - Region: **Same as your resource group (4)**
+   
+   - Leave other values as default and Click **Review+Create (5)**  
+  
+    ![Screenshot of the create Recovery service vaults basics tab.](Images/create-asr2.png "create Recovery service vaults basics")
+    
+1. On the **Overview page** of recovery service vault that you created, select **+Enable Site Recovery**.
+
+    ![Screenshot of the Enable Site Recovery.](Images/siterecovery.png "Enable Site Recovery")   
+    
+1. Under Site Recovery    
+    
+    
