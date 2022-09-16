@@ -18,7 +18,9 @@
 
     ![Screenshot of the Test Failover.](Images/failover-2.png "Test Failover") 
    
-1. On the **Test failover page**, select the Azure virtual network: **SmartHotelVNet** and click **Ok**.
+1. On the **Test failover page**, select the Azure virtual network: **SmartHotelVNet (1)** and click **Ok (2)**.
+
+    ![Screenshot of the Test Failover page.](Images/failover-3.png "Test Failover page") 
 
 1. Wait for 10-15 minutes, for the job status of the test failover to get completed successfully.
 
