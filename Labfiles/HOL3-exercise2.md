@@ -40,7 +40,7 @@
 
 1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
    
-    ![Screenshot of the search Recovery service vaults.](Images/search-asr.png "Recovery service vaults")
+    ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
     
 1. Under Recovery service vaults, click **+Create**.  
 
