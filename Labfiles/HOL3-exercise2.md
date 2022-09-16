@@ -9,11 +9,11 @@
 
 1. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
  
-     ![Screenshot of the All services overview blade.](Images/Allservices.png)
+    ![Screenshot of the All services overview blade.](Images/Allservices.png)
     
 1. Click on **+Create a resource** and then search for **storage account** and click **Create**.   
     
-     ![Screenshot of the search storage account.](Images/upd-create-storage-1.png "search storage account")
+    ![Screenshot of the search storage account.](Images/upd-create-storage-1.png "search storage account")
     
 1. Under **Create a storage account** tab, fill the following details and click **Create**:
      
@@ -27,24 +27,24 @@
    
    - Leave other values as default and Click **Review (5)**    
     
-     ![Screenshot of the storage account.](Images/storage.png "create storage account")
+    ![Screenshot of the storage account.](Images/storage.png "create storage account")
      
 1.  Go to the storage account that you created and select **Data Protection (1)** under **Data Management**.
 
 1.  Make sure to uncheck **Enable soft delete for blobs (2)** and **Enable soft delete for containers (3)** and then click **Save (4)**.  
 
-     ![Screenshot of the data protection.](Images/dataprotection.png "data protection")
+    ![Screenshot of the data protection.](Images/dataprotection.png "data protection")
 
 
 ### Task 2: Configure ASR to on-premise infrastructure
 
 1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
    
-     ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
+    ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
     
 1. Under Recovery service vaults, click **+Create**.  
 
-     ![Screenshot of the create Recovery service vaults.](Images/create-asr1.png "create Recovery service vaults")
+    ![Screenshot of the create Recovery service vaults.](Images/create-asr1.png "create Recovery service vaults")
     
 1. Under **Basics tab** of Create recovery service vault, fill the following details and click **Create**: 
 
@@ -58,19 +58,19 @@
    
    - Leave other values as default and Click **Review+Create (5)**  
   
-     ![Screenshot of the create Recovery service vaults basics tab.](Images/create-asr2.png "create Recovery service vaults basics")
+    ![Screenshot of the create Recovery service vaults basics tab.](Images/create-asr2.png "create Recovery service vaults basics")
     
 1. On the **Overview page** of recovery service vault that you created, select **+Enable Site Recovery**.
 
-     ![Screenshot of the Enable Site Recovery.](Images/siterecovery.png "Enable Site Recovery")   
+    ![Screenshot of the Enable Site Recovery.](Images/siterecovery.png "Enable Site Recovery")   
     
 1. Under Site Recovery page, select **Prepare Infrastructure** under **Hyper-V machines to Azure**.
     
-     ![Screenshot of the prepare infrastructure.](Images/prepare-infra-1.png "prepare infrastructure")  
+    ![Screenshot of the prepare infrastructure.](Images/prepare-infra-1.png "prepare infrastructure")  
 
 1. Under **Deployment planning** tab, for Deployment planning completed?: select **I will do it later** from the drop down arrow list.
   
-     ![Screenshot of the Deployment planning tab.](Images/prepare-infra-2.png "Deployment planning tab")  
+    ![Screenshot of the Deployment planning tab.](Images/prepare-infra-2.png "Deployment planning tab")  
     
 1. Under **Source settings** tab, fill the following details:   
    
@@ -78,7 +78,7 @@
    
    - In Hyper-V site, click **Add Hyper-V site (2)** and then under Create Hyper-V site, enter **Hyper-v-site-<inject key="DeploymentID" enableCopy="false" /> (3)** as name and click **Ok (4)**.
 
-     ![Screenshot of the Source setting tab.](Images/prepare-infra-3.png "Source setting tab")  
+    ![Screenshot of the Source setting tab.](Images/prepare-infra-3.png "Source setting tab")  
  
 1. After successfully adding the Hyper–V site, click **Add Hyper-V server**. 
 
@@ -136,7 +136,7 @@
 
    - Click **Next (3)**.
 
-     ![Screenshot of the Source settings tab.](Images/ss2.png "Source settings tab")
+    ![Screenshot of the Source settings tab.](Images/ss2.png "Source settings tab")
    
 22. Under **Target settings** tab, fill the following details and click **Next**.  
 
@@ -178,7 +178,7 @@
    
    - Leave other values as default and click **Next (3)**.
 
-     ![Screenshot of the target environment.](Images/target-env.png "target environment")   
+    ![Screenshot of the target environment.](Images/target-env.png "target environment")   
     
 30. Under **Virtual machine selection** tab, **check for smarthotelweb1 (1)** and click **Next (2)**.
 
