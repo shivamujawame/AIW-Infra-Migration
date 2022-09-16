@@ -136,17 +136,17 @@
 
    - Click **Next (3)**.
 
-    ![Screenshot of the Source settings tab.](Images/ss2.png "Source settings tab")
+   ![Screenshot of the Source settings tab.](Images/ss2.png "Source settings tab")
    
 22. Under **Target settings** tab, fill the following details and click **Next**.  
 
-    - Virtual network: **SmartHotelVNet (1)**
+   - Virtual network: **SmartHotelVNet (1)**
     
-    - Subnet: SmartHotel: **SmartHotel (2)**
+   - Subnet: SmartHotel: **SmartHotel (2)**
 
-    - Click **Next**.
-
-    ![Screenshot of the Target settings tab.](Images/target-env.png "Target settings tab")
+   - Click **Next**.
+    
+     ![Screenshot of the Target settings tab.](Images/target-env.png "Target settings tab")
    
 23. Under **Replication policy** tab, click **Create new policy and associate**.
 
