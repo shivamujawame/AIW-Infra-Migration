@@ -176,9 +176,9 @@
 
    - Subnet: **SmartHotel (2)**
    
-   - Leave other values as default and click **Next (3)**.
-
-    ![Screenshot of the target environment.](Images/target-env.png "target environment")   
+   - Leave other values as default and click **Next (3)**
+   
+   ![Screenshot of the target environment.](Images/target-env.png "Source environment")    
     
 30. Under **Virtual machine selection** tab, **check for smarthotelweb1 (1)** and click **Next (2)**.
 
