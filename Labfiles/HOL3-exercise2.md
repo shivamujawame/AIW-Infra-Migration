@@ -46,7 +46,7 @@
 
     ![Screenshot of the create Recovery service vaults.](Images/create-asr1.png "create Recovery service vaults")
     
-1. Under **Basics tab** of create a recovery service vault, fill the following details and ckick **Create**: 
+1. Under **Basics tab** of Create recovery service vault, fill the following details and click **Create**: 
 
    - Subscription: **Select your subscription (1)**
     
@@ -80,15 +80,15 @@
 
     ![Screenshot of the Source setting tab.](Images/prepare-infra-3.png "Source setting tab")  
  
-1. After successfully adding the Hyper–V site, click **Add Hyper-V servers**. 
+1. After successfully adding the Hyper–V site, click **Add Hyper-V server**. 
 
    ![Screenshot of the Add Hyper-V server.](Images/prepare-infra-4.png "Add Hyper-V server")  
    
-1. Under Add Server page, Click on the **Download** the installer for the Microsoft Azure Site Recovery provider.  
+1. Under **Add Server page**, Click on the **Download** the installer for the Microsoft Azure Site Recovery provider.  
     
    ![Screenshot of the download installer.](Images/prepare-infra-5.png "download installer")
  
-1. Under Add Server page, select the **blue Download button (1)** and download the registration key file and then close the **Add server** panel using **X (2)** button.
+1. Under **Add Server page**, select the **blue Download button (1)** and download the registration key file and then close the **Add server** panel using **X (2)** button.
 
     ![Screenshot of the download key.](Images/prepare-infra-6.png "download key")
     
@@ -120,7 +120,7 @@
 
   ![Screenshot of the Enable Site Recovery.](Images/siterecovery.png "Enable Site Recovery") 
   
-1. Under Site Recovery page, select **Prepare Infrastructure** under **Hyper-V machines to Azure**.
+1. Under **Site Recovery** page, select **Prepare Infrastructure** under **Hyper-V machines to Azure**.
     
    ![Screenshot of the prepare infrastructure.](Images/prepare-infra-1.png "prepare infrastructure")  
 
