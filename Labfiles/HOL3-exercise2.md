@@ -176,7 +176,7 @@
 
     ![Screenshot of the vm selection.](Images/vm-selection.png "vm selection")
 
-31. Under **Replication settings** tab, select **Windows** as 0S-disk type for smarthotelweb1.
+31. Under **Replication settings** tab, select **Windows** as OS-disk type for smarthotelweb1.
 
     ![Screenshot of the Replication settings.](Images/replicate-settings.png "Replication settings")
    
