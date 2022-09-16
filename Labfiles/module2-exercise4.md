@@ -70,7 +70,11 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
   Az login
   ```
   
- - **Note:** Copy the login URL and enter the unique code in the browser.
+  - **Note:** Copy the login URL and enter the unique code in the browser.
+  
+ 
+ ![](Images/azlogin.png)
+ 
   
 6. Run the following commands to connect to the VM by using the name and resource group of the VM:
 
