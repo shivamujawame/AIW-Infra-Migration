@@ -186,5 +186,5 @@
 
 > **Note:** You might have to refresh a couple of times.
 
-   ![Screenshot of the status-protected.](Images/status-protected.png "status-protected")
+   ![Screenshot of the status-protected.](Images/replicate-status.png "status-protected")
    
