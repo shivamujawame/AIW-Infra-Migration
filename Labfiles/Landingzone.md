@@ -31,7 +31,16 @@
 
 You can deploy the template by selecting the 'Deploy to Azure' button below. You will need to create a new resource group. The suggested resource group base name (prefix) to use is **SmartHotel**. You will also need to select a location close to you to deploy the template to. Then choose **Review + create** followed by **Create**. 
 
-  <a href="https://experienceazure.blob.core.windows.net/templates/mcw-line-of-business-application-migration/lob-lz-deploy.json" target="_blank">![Button to deploy the SmartHotelHost template to Azure.](images/BeforeTheHOL/deploy-to-azure.png "Deploy the SmartHotelHost template to Azure")</a>
+  <a href="https://experienceazure.blob.core.windows.net/templates/mcw-line-of-business-application-migration/lob-lz-deploy.json" target="_blank">![Button to deploy the SmartHotelHost template to Azure.](Images/deploy-to-azure.png "Deploy the SmartHotelHost template to Azure")</a>
 
    
-   > **Note:** The template will take around 6-7 minutes to deploy. Once template deployment is complete, several additional scripts are executed to bootstrap the lab environment. **Allow at least 1 hour from the start of template deployment for the scripts to run.**
+   > **Note:** The template will take around 40 minutes to deploy. 
+
+### Task 2: Verify the landing zone environment
+
+1. Navigate to the **SmartHotelRG** resource group.
+ 
+2. Note the Virtual Network, Bastion resource, Application Gateway, and SQL Server are available.
+
+    ![Listing of expected resources from the landing zone deployment.](Images/landingzone.png "Landing zone screenshot") 
+    
