@@ -114,7 +114,7 @@
 
 17. Under Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
 
-    ![Screenshot of the hyper-v-host.](Images/prepare-infra-7.png "hyper-v-host")
+    ![Screenshot of the hyper-v-host.](Images/hyperv-host.png "hyper-v-host")
    
 18. Go back to your **Recovery service vault Overview page** and click **+Enable site recovery**.  
 
@@ -138,15 +138,7 @@
 
    ![Screenshot of the Source settings tab.](Images/ss2.png "Source settings tab")
    
-22. Under **Target settings** tab, fill the following details and click **Next**.  
-
-   - Virtual network: **SmartHotelVNet (1)**
-    
-   - Subnet: SmartHotel: **SmartHotel (2)**
-
-   - Click **Next**.
-    
-     ![Screenshot of the Target settings tab.](Images/target-env.png "Target settings tab")
+22. Under **Target settings** tab, click **Next**.  
    
 23. Under **Replication policy** tab, click **Create new policy and associate**.
 
