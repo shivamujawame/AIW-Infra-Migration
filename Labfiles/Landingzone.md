@@ -51,7 +51,8 @@
 
     ![Browser screenshot showing the SmartHotel application.](Images/smarthotel.png "SmartHotel applicaion")
 
-    > **Note:** If the SmartHotel application is not shown, wait 10 minutes and try again. It takes **at least 1 hour** from the start of template deployment. You can also check the CPU, network and disk activity levels for the SmartHotelHost VM in the Azure portal, to see if the provisioning is still active.
+    
+    > **Note:** If the SmartHotel application is not shown, wait 10 minutes and try again. It takes **at least 40 minutes** from the start of template deployment. You can also check the CPU, network and disk activity levels for the SmartHotelHost VM in the Azure portal, to see if the provisioning is still active.
     
 
 ### Task 3: Verify the landing zone environment
