@@ -32,13 +32,13 @@ After setting up replication to Azure for on-premises machines, when your on-pre
 
    ![Screenshot of the failover done.](Images/Failover-done.png "failover done")  
    
-> **Note:** If you want to switch to different recovery point to use for the failover, use **Change recovery point**.   
+   > **Note:** If you want to switch to different recovery point to use for the failover, use **Change recovery point**.   
   
-   ![Screenshot of the recovery points.](Images/rec-points.png "recovery points") 
+   ![Screenshot of the recovery points.](Images/upd-commit-1.png "recovery points") 
    
 1. On the **replicated smarthotelweb1** page, click on **Commit** to commit the failover (The Commit action deletes all the recovery points available with the service). 
 
-   ![Screenshot of the commit.](Images/commit-1.png "commit")
+   ![Screenshot of the commit.](Images/commit.png "commit")
    
 1. On the **Commit** page, click **Ok**.   
 
@@ -48,8 +48,8 @@ After setting up replication to Azure for on-premises machines, when your on-pre
 
 1. Under **Virtual Machines** page, select the **smarthotelweb1** which is automatically created from replicated data after a Failover.
 
-   ![Screenshot of the vm-created.](Images/vm-created.png "vm-created") 
+    ![Screenshot of the vm-created.](Images/vm-created.png "vm-created") 
    
 1. On the **smarthotelweb1** page, verify that the status of the VM is in **Running state**. 
 
-   ![Screenshot of the vm-created status.](Images/vm-created2.png "vm-created status")  
+    ![Screenshot of the vm-created status.](Images/vm-created2.png "vm-created status")  
