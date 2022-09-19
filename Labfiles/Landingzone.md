@@ -29,11 +29,11 @@
 
 ### Task 1: Deploy the landing zone
 
-1. You can deploy the template by selecting the 'Deploy to Azure' button below. You will need to create a new resource group. The suggested resource group base name (prefix) to use is **SmartHotel**. You will also need to select a location close to you to deploy the template to. Then choose **Review + create** followed by **Create**. 
+1. You can deploy the template by selecting the **Deploy to Azure** button below. You will need to create a new resource group. The suggested resource group base name (prefix) to use is **SmartHotel**. You will also need to select a location close to you to deploy the template to. Then choose **Review + create** followed by **Create**. 
 
   <a href="https://experienceazure.blob.core.windows.net/templates/mcw-line-of-business-application-migration/lob-lz-deploy.json" target="_blank">![Button to deploy the SmartHotelHost template to Azure.](Images/deploy-to-azure.png "Deploy the SmartHotelHost template to Azure")</a>
   
-2.  Deploy the below template by selecting the 'Deploy to Azure' button. You will need to create a new resource group. The suggested resource group base name (prefix) to use is **SmartHotelHost**. You will also need to select a location close to you to deploy the template to. Then choose **Review + create** followed by **Create**. 
+2.  Deploy the below template by selecting the **Deploy to Azure** button. Create a resource group with the base name (prefix) to use is **SmartHotelHost**. You will also need to select a location close to you to deploy the template to. Then choose **Review + create** followed by **Create**. 
 
   <a href="https://experienceazure.blob.core.windows.net/templates/mcw-line-of-business-application-migration/deploy-01-snapshot.json" target="_blank">![Button to deploy the SmartHotelHost template to Azure.](Images/deploy-to-azure.png "Deploy the SmartHotelHost template to Azure")</a>
 
