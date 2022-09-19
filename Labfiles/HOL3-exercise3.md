@@ -1,5 +1,8 @@
 ### HOL3: Exercise 3: Setup test failover
 
+In this exercise, you will deploy a Test Failover to the replicated Virtual Machine which allows you to test the sanity of the virtualized workload without interrupting your production workload or ongoing replication.
+
+
 1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
