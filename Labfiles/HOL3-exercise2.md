@@ -184,5 +184,7 @@
 
 33. The process of replication might take 15-20 minutes to get completed. Once the Replication is successfully completed, the status of the replicated VM will now become **Protected**.
 
-    ![Screenshot of the status-protected.](Images/status-protected.png "status-protected")
+> **Note:** You might have to refresh a couple of times.
+
+   ![Screenshot of the status-protected.](Images/status-protected.png "status-protected")
    
