@@ -47,7 +47,23 @@
 1.   
 
 
+### Task 1:Enable Azure Monitor
 
+1. In the **search resources, services and docs bar**, type **Azure Monitor** and select it from suggestions, as shown below:
+
+    ![Screenshot of the search Azure Monitor.](Images/e5-t3-s1.png "Azure Monitor")
+    
+1. On the **Create Azure Monitor for VMs Solution** page, select the following details:
+
+  - Resource group: **SmartHotelRG (1)**
+
+  - Azure Log Analytics workspace: **SmartHotelLA (2)**
+   
+  - Click **Review+Create (3)**.
+
+    ![Screenshot of the create Azure Monitor.](Images/e5-t3-s2.png "Azure Monitor")
+    
+  
 
     
     
