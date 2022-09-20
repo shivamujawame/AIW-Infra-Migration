@@ -20,6 +20,14 @@
     
  > **Note:** It might take upto 24 hours for all the changes to get reflected in your subscription successfully.
 
+1. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade (2)** tab select **SmartHotelLA (3)** workspace and click on **Upgrade (4)**.
+
+    ![Screenshot of the setup workspace](Images/e5-t2-s4.png "setup workspace")
+
+1. On the **Install Agents** tab, click **Continue without Installing Agents**.
+
+    ![Screenshot of the setup workspace](Images/e5-t2-s5.png "setup workspace")
+
 
 
 ### Task 2: Enable Microsoft Sentinel
