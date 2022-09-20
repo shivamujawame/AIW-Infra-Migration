@@ -63,7 +63,9 @@
 
     ![Screenshot of the create Azure Monitor.](Images/e5-t3-s2.png "Azure Monitor")
     
-  
+1. Click **Create**. 
+
+1.
 
     
     
