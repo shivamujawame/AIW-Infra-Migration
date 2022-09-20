@@ -18,4 +18,28 @@
 
     ![Screenshot of the search Microsoft Defender plans](Images/ex5-s3.png "Microsoft Defender plans")
     
+ > **Note:** It might take upto 24 hours for all the changes to get reflected in your subscription successfully.
+
+
+
+### Task 2: Enable Microsoft Sentinel
+
+1. In the **search resources, services and docs bar**, type **Microsoft Sentinel** and select it from suggestions, as shown below:
+
+    ![Screenshot of the search Microsoft Sentinel.](Images/e5-t2-s1.png "Microsoft Sentinel")
+    
+1. On the **Microsoft Sentinel** page, click on **+Create**.    
+
+    ![Screenshot of the create Microsoft Sentinel.](Images/e5-t2-s2.png "Microsoft Sentinel")
+    
+1. On the **Add Microsoft Sentinel to a Workspace** page, select the **SmartHotelLA** workspace and click **Add**.    
+
+    ![Screenshot of the add Microsoft Sentinel.](Images/e5-t2-s3.png "add Microsoft Sentinel")
+    
+1.   
+
+
+
+
+    
     
