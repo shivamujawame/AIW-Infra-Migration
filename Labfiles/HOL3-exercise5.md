@@ -60,6 +60,9 @@
 
     ![Screenshot of the Data Connectors.](Images/e5-t2-s5.png "Data Connectors")
 
+1. From the left pane, select **Analytics** present under _Configuration_. You can create custom analytics rules to help discover threats and anomalous behaviors in your environment. (Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.) 
+
+
 
 ### Task 1:Enable Azure Monitor
 
