@@ -52,7 +52,13 @@
 
     ![Screenshot of the add Microsoft Sentinel.](Images/e5-t2-s3.png "add Microsoft Sentinel")
     
-   
+1. On the **News and guides** window, go to **Get started (1)** tab and Click **Connect (2)** under _Collect data_.   
+
+    ![Screenshot of the get started.](Images/e5-t2-s4.png "get started")
+    
+1. You will now be directed to the **Data Connectors** page. Microsoft Sentinel comes with many connectors for Microsoft solutions that are available out of the box and provide real-time integration. For non-Microsoft solutions, Microsoft Sentinel provides built-in interfaces to the larger security and application ecosystems.
+
+    ![Screenshot of the Data Connectors.](Images/e5-t2-s5.png "Data Connectors")
 
 
 ### Task 1:Enable Azure Monitor
