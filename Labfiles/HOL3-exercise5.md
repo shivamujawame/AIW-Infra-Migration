@@ -61,6 +61,19 @@
 
     ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
     
+1.  From the left pane, select **Log Analytics Workspaces (1)** present under Insights (It provides comprehensive monitoring of your workspaces through a unified view of your workspace usage, performance, health, agent, queries, and change log.)  
+
+1. You will see your subscription and all the workspaces in it, listed here. Click on **SmartHotelLA** workspace.
+
+1. On the **Overview tab** you can see:
+
+- The monthly ingestion volume of the workspace
+- How many machines sent heartbeats, meaning - machines that are connected to this workspace (in the selected time range)
+- Machines that haven't sent heartbeats in the last hour (in the selected time range)
+- The data retention period set
+- The daily cap set, and how much data was already ingested on the recent day
+- Ingestion anomalies - a list of identified spikes and dips in ingestion to these tables
+    
 1. From the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
 
    ![Screenshot of the vm insights.](Images/upd-e5-t3-s2.png "vm insights")
@@ -74,6 +87,5 @@
 1. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
 
 1. From the left pane, select **Applications (1)** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
-
-1.     
+  
     
