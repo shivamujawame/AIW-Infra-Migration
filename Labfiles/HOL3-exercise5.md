@@ -28,6 +28,14 @@
 
     ![Screenshot of the setup workspace](Images/e5-t1-s5.png "setup workspace")
 
+1. The **Microsoft Defender for Cloud Overview page** offers a consolidated perspective For security experts. This section combines various independent cloud security components, such as **Secure Score, Regulatory Compliance, and Workloads Protection**, and provides detailed insights on the security posture on a distinct dashboard.
+
+1. On the **Recommendations page** under General, pay attention to the first part of the page. It includes the current Secure Score, progress on the Recommendations status(both completed security controls and recommendations), and Resource health (by severity).
+
+1. On the **Security alerts page** under General, you can see the alerts that describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. (The Remediation steps contain the remediation logic where you can remediate the selected resource/s. To simplify remediation and improve your environment's security and increase your secure score, many recommendations include a Fix option. Fix helps you quickly remediate a recommendation on multiple resources.)
+
+
+
 
 
 ### Task 2: Enable Microsoft Sentinel
@@ -44,28 +52,28 @@
 
     ![Screenshot of the add Microsoft Sentinel.](Images/e5-t2-s3.png "add Microsoft Sentinel")
     
-1.   
+   
 
 
 ### Task 1:Enable Azure Monitor
 
 1. In the **search resources, services and docs bar**, type **Azure Monitor** and select it from suggestions, as shown below:
 
-    ![Screenshot of the search Azure Monitor.](Images/e5-t3-s1.png "Azure Monitor")
+    ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
     
-1. On the **Create Azure Monitor for VMs Solution** page, select the following details:
+1. From the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
 
-  - Resource group: **SmartHotelRG (1)**
-
-  - Azure Log Analytics workspace: **SmartHotelLA (2)**
+   ![Screenshot of the vm insights.](Images/upd-e5-t3-s2.png "vm insights")
    
-  - Click **Review+Create (3)**.
+1. You will see your subscription and all the resource groups in it, listed here. Expand **smarthotelrg** resource group and enable VM insights for the VM. Click on **Enable**.
 
-    ![Screenshot of the create Azure Monitor.](Images/e5-t3-s2.png "Azure Monitor")
-    
-1. Click **Create**. 
+1. On the **Get more visibility into the health and performance of your virtual machines** window, click on **Enable**. This will initiate the deployment of VM insights.   
 
-1.
+1. On the **Monitoring configuration** page, click **Configure**.
 
-    
+1. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
+
+1. From the left pane, select **Applications (1)** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
+
+1.     
     
