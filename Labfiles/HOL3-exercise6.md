@@ -25,6 +25,9 @@ Security is one of the essential parts of your cloud governance plan. You want t
 By enforcing these policies, you can ensure that your organization complies with your company’s standards and service level agreements.
 
 Governance provides mechanisms and processes to maintain control over your applications and resources in Azure. It involves planning your initiatives and setting strategic priorities. 
+
+  ![Screenshot of the govern.](Images/operational-transformation-govern-large.png "govern")
+  
 Azure governance is a combination of different Azure services and capabilities, allowing for the management of all your Azure resources at scale and following control guidelines. Azure governance works across multiple subscriptions and across resource groups, and is based on a combination of Azure identity, Role-Based Access Control (RBAC), Azure policies, and management groups.
 
 **Services in Azure Governance:**
