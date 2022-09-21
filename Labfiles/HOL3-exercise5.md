@@ -89,9 +89,15 @@
    
 1. You will see your subscription and all the resource groups in it, listed here. Expand **smarthotelrg** resource group and enable VM insights for the VM. Click on **Enable**.
 
+   ![Screenshot of the vm insights.](Images/e5-t3-s3.png "vm insights")
+   
 1. On the **Get more visibility into the health and performance of your virtual machines** window, click on **Enable**. This will initiate the deployment of VM insights.   
 
+   ![Screenshot of the vm insights.](Images/e5-t3-s4.png "vm insights")
+
 1. On the **Monitoring configuration** page, click **Configure**.
+
+   ![Screenshot of the vm insights.](Images/e5-t3-s5.png "vm insights")
 
 1. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
 
