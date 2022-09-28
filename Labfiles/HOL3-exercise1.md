@@ -80,9 +80,11 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     **Note:** Now you have connected your AzureArcVM to Azure successfully.
     
-   ![Screenshot of the powershellscript.](Images/upd-packageinstalld.png)
+    ![Screenshot of the powershellscript.](Images/upd-package.png)
      
  1. Close the AzureArcVM, and navigate to Azure portal and go back to the **Azure Arc** page, select **Servers (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
+
+    **Note:** The name of the newly server added could be different.
     
     ![Screenshot of the server added.](Images/upd-serveradded.png)
      
