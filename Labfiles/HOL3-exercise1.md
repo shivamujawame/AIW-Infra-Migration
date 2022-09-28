@@ -43,7 +43,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
 1. Under **Download and script** tab, **copy (1)** the entire script and paste it in a notepad as it will be used in the further steps and then click on **Close (2)**.
 
-    ![Screenshot of the copy script.](Images/copyscript.png "copy script")
+    ![Screenshot of the copy script.](Images/upd-copyscript.png "copy script")
     
 1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 
@@ -80,7 +80,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     **Note:** Now you have connected your AzureArcVM to Azure successfully.
     
-    ![Screenshot of the powershellscript.](Images/upd-packageinstalld.png)
+   ![Screenshot of the powershellscript.](Images/upd-packageinstalld.png)
      
  1. Close the AzureArcVM, and navigate to Azure portal and go back to the **Azure Arc** page, select **Servers (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
     
