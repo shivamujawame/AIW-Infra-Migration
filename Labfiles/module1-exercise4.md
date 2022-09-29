@@ -1,6 +1,6 @@
 ### HOL1: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
-#### Task 1: Using VM Scale Sets to drive business resiliency
+### Task 1: Using VM Scale Sets to drive business resiliency
 
 1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -60,7 +60,7 @@
 
 15. Select **Review + create**.
 
-#### Task 2: Azure auto manage
+### Task 2: Azure auto manage
 
 In this task, you will Enable Automanage on existing machines.
 
