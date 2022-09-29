@@ -1,4 +1,4 @@
-## HOL1: Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
+### HOL1: Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
 ### Task 1: Register the Hyper-V Host with Migration and modernization
 
