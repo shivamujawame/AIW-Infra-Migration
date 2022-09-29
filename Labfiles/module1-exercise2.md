@@ -1,8 +1,5 @@
 ### HOL1: Exercise 2: Set up your environment on Azure to migrate servers
 
-## Before the hands-on lab
-
-Refer to the [Before the HOL - Line-of-business application migration]([./Before%20the%20HOL%20-%20Line-of-business%20application%20migration.md](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/Landingzone.md)) setup guide manual to understand the lab setup.
 
 > **Note**: The resources are already pre-deployed in the environement. Users do not have to deploy the landing zone.
 
