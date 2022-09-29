@@ -1,6 +1,6 @@
 ### HOL3: Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source.
 
-### Task 1:Enable Microsoft Defender for Cloud
+### Task 1: Enable Microsoft Defender for Cloud
 
 1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
