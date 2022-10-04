@@ -13,15 +13,15 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
    
-1. On the Azure Arc page, select **Servers** under **Infrastructure** and then click **+Add**.
+1. On the **Azure Arc** page, select **Servers** under **Infrastructure** and then click on **+Add**.
     
     ![Screenshot of the add server.](Images/addserver.png "add server")
     
-1. In the Add servers with Azure Arc page, click **generate script** under **Add a single server**.
+1. In the **Add servers with Azure Arc** page, click **Generate script** under **Add a single server**.
 
     ![Screenshot of the Generate script.](Images/singleserver.png "Generate script")
      
-1. Under **pre-requisites** tab, just read the given data and click **Next**.     
+1. Under **Pre-requisites** tab, just read the given data and click on **Next**.     
 
     ![Screenshot of the pre-req tab.](Images/prereq.png "pre-req tab")
     
@@ -29,21 +29,21 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
      
    - Subscription: **Select your subscription**
     
-   - Resource group: **azure-arc (1)**
+   - Resource group: **SmartHotelRG (1)**
   
-   - Region: **Same as your resource group (2)**
+   - Region: **Should be same as your resource group (2)** (You can check the region under Environment details panel.)
    
    - Operating system: **Windows (3)**
    
-   - Leave other values as default and Click **Next (4)**
+   - Leave other values as default and Click on **Next (4)**
 
-    ![Screenshot of the resource details tab.](Images/resourcedetails.png "resource details tab")
+    ![Screenshot of the resource details tab.](Images/upd-resourcedetails.png "resource details tab")
 
-1. Under **Tags** tab, leave the values as default and click **Next**.
+1. Under **Tags** tab, leave the values as default and click on **Next**.
 
-1. Under **Download and script** tab, copy the entire script and paste it in a notepad as it will be used in the further steps and then click **Close**.
+1. Under **Download and script** tab, **copy (1)** the entire script and paste it in a notepad as it will be used in the further steps and then click on **Close (2)**.
 
-    ![Screenshot of the copy script.](Images/copyscript.png "copy script")
+    ![Screenshot of the copy script.](Images/upd-copyscript.png "copy script")
     
 1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 
@@ -55,35 +55,38 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
   
     ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/Hyperv1.png "Hyper-V Manager")
     
-1. In Hyper-V Manager, select the **AzureMigrateAppliance** VM, then select **Start** on the right if not already running.
+1. In Hyper-V Manager, select the **AzureArcVM (1)** VM, then select **Start (2)** on the right if not already running.
 
-    ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/Hyperv2.png "Start AzureMigrateAppliance")    
+    ![Screenshot of Hyper-V Manager showing the start button for the AzureArcVM.](Images/upd-Hyperv2.png "Start AzureArcVM")    
     
-1. In Hyper-V Manager, select the **AzureMigrateAppliance** VM, then select **Connect** on the right.
+1. In Hyper-V Manager, select the **AzureArcVM (1)** VM, then select **Connect (2)** on the right.
 
-    ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/Hyperv3.png "Connect to AzureMigrateAppliance")  
+    ![Screenshot of Hyper-V Manager showing the connect button for the AzureArcVM.](Images/upd-Hyperv3.png "Connect to AzureArcVM")  
     
-1. Under Connect to AzureMigrateAppliance, click **Connect** and then log into the VM with the **Administrator password**: **<inject key="SmartHotelHost Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
+1. Under Connect to AzureArcVM, click on **Connect** and then log into the VM with the **Administrator password**: **<inject key="SmartHotelHost Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
  
-    ![Screenshot of the Connect to AzureMigrateAppliance.](Images/upd-E1S13.png)
+    ![Screenshot of the Connect to AzureArcVM.](Images/updt-E1S13.png)
     
-1. From the **start** menu of the AzureMigrateAppliance VM, search for **powershell** and open it.
+1. From the **Start (1)** menu of the AzureArcVM, search for **Windows Powershell (2)** and open it.
 
-    ![Screenshot of the powershell.](Images/powershell.png)
+    ![Screenshot of the powershell.](Images/upd-powershell.png)
       
 1. In powershell, run the whole script that you copied in the notepad earlier in step 12.
 
-1. After running the script, packages will be installed and a code will be generated for authentication purpose.
-     - Use the code and follow the instruction to finish the login.
-   
-   > **Note:** You need to login in and be authenticated to use the `Azure Connected Machine Agent`.
-        After copy the __code__ and go to the link in the VM's browser, [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin). 
+1. After running the script, packages will be installed and then you will be directed to a pop-up browser page to login into your azure account for authentication purpose.
+   - Use with below Azure credentials.
+    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    * Azure Password: <inject key="AzureAdUserPassword"></inject> 
+
+    **Note:** Now you have connected your AzureArcVM to Azure successfully.
     
-    ![Screenshot of the powershellscript.](Images/packageinstalld.png)
+    ![Screenshot of the powershellscript.](Images/upd-package.png)
      
- 1. Close the AzureMigrateAppliance VM, and go back to Azure portal and verify that a server is now added to Azure Arc successfully.
+ 1. Close the AzureArcVM, and navigate to Azure portal and go back to the **Azure Arc** page, select **Servers (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
+
+    **Note:** The name of the newly server added could be different.
     
-    ![Screenshot of the server added.](Images/serveradded.png)
+    ![Screenshot of the server added.](Images/upd-serveradded.png)
      
     
      
