@@ -71,7 +71,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     ![Screenshot of the powershell.](Images/upd-powershell.png)
       
-1. In powershell, run the whole script that you copied in the notepad earlier in step 12.
+1. In powershell, run the whole script that you copied in the notepad earlier in step 8.
 
 1. After running the script, packages will be installed and then you will be directed to a pop-up browser page to login into your azure account for authentication purpose.
    - Use with below Azure credentials.
