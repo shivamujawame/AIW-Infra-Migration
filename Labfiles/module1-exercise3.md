@@ -1,4 +1,4 @@
-### HOL1: Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
+## HOL1: Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
 ### Task 1: Register the Hyper-V Host with Migration and modernization
 
@@ -111,8 +111,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - Select the **Linux** operating system for the **UbuntuWAF** virtual machine. 
    - Select **Next**. 
 
-
-     ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-replicate-6.png "Replicate - Compute")
+   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-replicate-6.png "Replicate - Compute")
     
 
 8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
@@ -227,7 +226,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 >**Note:** You might have to allow pop-ups inorder to access the bastion session.
 
-    ![Screenshot showing the Azure Bastion connection blade.](Images/upd-web2-connect.png "Connect using Bastion")
+   ![Screenshot showing the Azure Bastion connection blade.](Images/upd-web2-connect.png "Connect using Bastion")
 
 4. In the **smarthotelweb2** remote desktop session, open File Explorer and navigate to the **C:\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file and open with Notepad.
 
