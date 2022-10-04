@@ -1,7 +1,5 @@
-### HOL1: Exercise 2: Set up your environment on Azure to migrate servers
+## HOL1: Exercise 2: Set up your environment on Azure to migrate servers
 
-
-> **Note**: The resources are already pre-deployed in the environement. Users do not have to deploy the landing zone.
 
 ### Task 1: Create a migration assessment
 
@@ -23,7 +21,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      
      1. Assessment name: Enter **SmartHotelAssessment** 
      1. Select or create a group: Choose **Create New**  
-     1. Enter the Group name: **SmartHotel VMs**.
+     1. Enter the Group name: **SmartHotel VMs**
      1. Add machines to the Group:  Select **SmarthotelAppl(Hyper-V)** from dropdown.
      1. Select the **smarthotelweb1**, **smarthotelweb2** and **UbuntuWAF** VMs and
      1. Click on **Next:Review+Create assessment**.
@@ -38,7 +36,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 6. In Azure Migrate, on the **Servers, databases, and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
 
-    ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/e2-t1-s1.png "Azure Migrate - Assessments (count)")
+    ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/E1T4S6-01.png "Azure Migrate - Assessments (count)")
     
 7. Select **Assessments** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the actual assessment.
 
