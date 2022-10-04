@@ -1,4 +1,4 @@
-### HOL1: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
+## HOL1: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
 ### Task 1: Using VM Scale Sets to drive business resiliency
 
@@ -26,7 +26,7 @@
 
 6. In Operating system state select **Specialized**.
 
-7. Select an image definition and click **create new** and create a VM Image dfintion by providing the following details and then click **Ok**: 
+7. Select an image definition and click **create new** and create a VM Image defintion by providing the following details and then click **Ok**: 
   
    - Image VM definition name: **imagedefinition<inject key="DeploymentID" enableCopy="false" />**
 
@@ -48,11 +48,11 @@
 
    ![](Images/upd-vmss1.png)
 
-12. Under the Basics tab, enter the **Virtual Machine name scale set** name: **migrationscaleset<inject key="DeploymentID" enableCopy="false" />**
+12. Under the Basics tab, enter the **Virtual Machine name scale set** name as **migrationscaleset<inject key="DeploymentID" enableCopy="false" />**
 
    ![](Images/upd-vmname.png)
 
-13. Select any **size**.
+13. Select **Standard_D2s_v3** for the **size**.
 
 14. Select the License type as **Window server**.
 
