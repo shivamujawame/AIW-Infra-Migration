@@ -98,7 +98,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - Select your subscription and the existing **SmartHotelHostRG** resource group. 
    - **Virtual Network**: Select **SmartHotelVNet**. 
    - **Subnet**: Select **SmartHotel**. 
-   - Leave other values as default and Select **Next**.
+   - Leave other values as default and select **Next**.
  
  
      ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/e3-t2-s6.png "Replicate - Target settings")
@@ -128,7 +128,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-replicate-9.png "Replication status")
 
-   > **Note**: Please make sure to run the **validation steps** for this task before moving to next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned  failover** when you migrate the servers in Task6.
+   > **Note**: Please make sure to run the **validation steps** for this task before moving to next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task6.
 
 #### Task summary 
 
@@ -224,7 +224,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 3. Connect to the machine with the username **Administrator** and the password <inject key="SmartHotelHost Admin Password"></inject>. When prompted, **Allow** clipboard access.
 
->**Note:** You might have to allow pop-ups inorder to access the bastion session.
+>**Note:** You might have to allow pop-ups in order to access the bastion session.
 
    ![Screenshot showing the Azure Bastion connection blade.](Images/upd-web2-connect.png "Connect using Bastion")
 
@@ -282,7 +282,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
     - **Subscription**: Select your subscription from the dropdown.
     - **Virtual Network**: Select **SmartHotelVNet**. 
     - **Subnet**: Select **SmartHotel**.
-    - **Check** the **Ignore Missing Microsoft.sql Service Endpoin**t box.
+    - **Check** the **Ignore Missing Microsoft.sql Service Endpoint box**.
     - Click **Ok**.
 
     ![](Images/upd-e3-t7-s7.png)
@@ -375,5 +375,4 @@ Azure Migrate has two migrations options:
 - If you are interested in learning more about the Agent-based migration, you can [read more here](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware-agent).
 
 In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
-
 
