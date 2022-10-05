@@ -1,6 +1,6 @@
 ### HOL3: Exercise 2: Configure ASR for on-premises infrastructure
 
-In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to Azure. The Azure Site Recovery service contributes to your disaster-recovery strategy by managing and orchestrating replication, failover and failback of on-premises machines. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
+In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to Azure. The Azure Site Recovery service contributes to your disaster-recovery strategy by managing and orchestrating replication, failover, and failback of on-premises machines. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
 ### Task 1: Create a storage account
 
@@ -16,7 +16,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
     
     ![Screenshot of the search storage account.](Images/upd-create-storage-1.png "search storage account")
     
-1. Under **Create a storage account** tab, fill the following details and click **Create**:
+1. Under **Create a storage account** tab, fill the following details, and click **Create**:
      
    - Subscription: **Select your subscription (1)**
     
@@ -109,7 +109,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
     ![Screenshot of the ASR provider showing successful registration.](Images/upd-asr-registered.png "Registration complete")
 
-16. Return to your Recovery service vault overview page in the Azure Portal, and select **Site Recovery Infrastructure** under **Manage** on the left side of the panel.
+16. Return to your Recovery service vault overview page in the Azure Portal and select **Site Recovery Infrastructure** under **Manage** on the left side of the panel.
 
     ![Screenshot of the Site Recovery Infrastructure.](Images/prepare-infra-7.png)
 
