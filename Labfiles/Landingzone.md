@@ -49,10 +49,10 @@
 
 3. Open a browser tab and navigate to **http://\<SmartHotelHostIP-Address\>**. You should see the SmartHotel application, which is running on nested VMs within Hyper-V on the SmartHotelHost. (The application doesn't do much: you can refresh the page to see the list of guests or select 'CheckIn' or 'CheckOut' to toggle their status.)
 
-    ![Browser screenshot showing the SmartHotel application.](Images/smarthotel.png "SmartHotel applicaion")
+    ![Browser screenshot showing the SmartHotel application.](Images/smarthotel.png "SmartHotel application")
 
     
-    > **Note:** If the SmartHotel application is not shown, wait 10 minutes and try again. It takes **at least 40 minutes** from the start of template deployment. You can also check the CPU, network and disk activity levels for the SmartHotelHost VM in the Azure portal, to see if the provisioning is still active.
+    > **Note:** If the SmartHotel application is not shown, wait 10 minutes and try again. It takes **at least 40 minutes** from the start of template deployment. You can also check the CPU, network, and disk activity levels for the SmartHotelHost VM in the Azure portal, to see if the provisioning is still active.
     
 
 ### Task 3: Verify the landing zone environment
