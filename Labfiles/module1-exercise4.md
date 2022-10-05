@@ -26,7 +26,7 @@
 
 6. In Operating system state select **Specialized**.
 
-7. Select an image definition and click **create new** and create a VM Image defintion by providing the following details and then click **Ok**: 
+7. Select an image definition and click **create new** and create a VM Image definition by providing the following details and then click **Ok**: 
   
    - Image VM definition name: **imagedefinition<inject key="DeploymentID" enableCopy="false" />**
 
@@ -93,4 +93,3 @@ In this task, you will Enable Automanage on existing machines.
    ![](Images/upd-existing-vm-select-machine.png)
 
 6. Click **Create**.
-
