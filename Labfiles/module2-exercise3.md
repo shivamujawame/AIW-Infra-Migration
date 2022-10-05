@@ -119,7 +119,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/overviewnew.png "Overview link")
     
-9. Confirm that the 1 machines are replicating.
+9. Confirm that the 1 machine is replicating.
 
    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/Replication4.png "Replication summary")
 
@@ -209,7 +209,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 > **Note**: You do not need to update any configuration files on **smarthotelweb1** or the **UbuntuWAF** VMs, since the migration has preserved the private IP addresses of all virtual machines they connect with.
 
-1. From the Azure portal menu which is present at the top left, click on **All services**. Select **compute** from the left hand menu and select **Virtual machines**.
+1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
 
 2. Click on **smarthotelweb2** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
 
@@ -223,7 +223,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 5. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
 
-   You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and  from the overview, select **Show database connection strings**.
+   You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and from the overview, select **Show database connection strings**.
 
    ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/show-connection-strings.png "Show database connection strings")
 
