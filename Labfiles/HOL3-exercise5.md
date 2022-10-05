@@ -18,7 +18,7 @@
 
     ![Screenshot of the search Microsoft Defender plans](Images/ex5-s3.png "Microsoft Defender plans")
     
- > **Note:** It might take upto 24 hours for all the changes to get reflected in your subscription successfully.
+ > **Note:** It might take up to 24 hours for all the changes to get reflected in your subscription successfully.
 
 1. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade (2)** tab select **SmartHotelLA (3)** workspace and click on **Upgrade (4)**.
 
@@ -30,7 +30,7 @@
 
 1. The **Microsoft Defender for Cloud Overview page** offers a consolidated perspective for security experts. This section combines various independent cloud security components, such as **Secure Score, Regulatory Compliance, and Workloads Protection**, and provides detailed insights on the security posture on a distinct dashboard.
 
-1. On the **Recommendations page** under _General_, pay attention to the first part of the page. It includes the current Secure Score, progress on the Recommendations status(both completed security controls and recommendations), and Resource health (by severity).
+1. On the **Recommendations page** under _General_, pay attention to the first part of the page. It includes the current Secure Score, progress on the Recommendations status (both completed security controls and recommendations), and Resource health (by severity).
 
 1. On the **Security alerts page** under _General_, you can see the alerts that describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. (The Remediation steps contain the remediation logic where you can remediate the selected resource/s. To simplify remediation and improve your environment's security and increase your secure score, many recommendations include a Fix option. Fix helps you quickly remediate a recommendation on multiple resources.)
 
@@ -60,7 +60,7 @@
 
     ![Screenshot of the Data Connectors.](Images/e5-t2-s5.png "Data Connectors")
 
-1. From the left pane, select **Analytics** present under _Configuration_. You can create custom analytics rules to help discover threats and anomalous behaviors in your environment. (Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.) 
+1. From the left pane, select **Analytics** present under _Configuration_. You can create custom analytics rules to help discover threats and anomalous behaviours in your environment. (Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.) 
 
 
 
