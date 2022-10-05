@@ -28,7 +28,7 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 
    ![Screenshot of the failover jobs.](Images/jobs.png "failover jobs") 
    
-1. After the Failover is completed successfully, the **active location** of the the **replicated smarthotelweb1** will be changed to **Microsoft Azure**.
+1. After the Failover is completed successfully, the **active location** of the **replicated smarthotelweb1** will be changed to **Microsoft Azure**.
 
    ![Screenshot of the failover done.](Images/Failover-done.png "failover done")  
    
