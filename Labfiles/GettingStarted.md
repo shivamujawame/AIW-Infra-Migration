@@ -8,9 +8,9 @@
 
    ![](Images/splitwindow1.png "Lab Environment")
  
-    > You will see SUFFIX value on **Environment Details** tab, use it whereever you see SUFFIX or DeploymentID in lab steps.
+    > You will see SUFFIX value on **Environment Details** tab, use it wherever you see SUFFIX or DeploymentID in lab steps.
 
-1. You can validate the each task by navigating to **Lab Validation** tab and clicking on **Validate** button. Please make sure to run the validation steps for each task after performing it. 
+1. You can validate each task by navigating to **Lab Validation** tab and clicking on **Validate** button. Please make sure to run the validation steps for each task after performing it. 
 
    ![](Images/validation.png "Lab Environment")
 
@@ -19,7 +19,7 @@
 
    ![](Images/cloudlab-vm-guide.png "Lab Environment")
    
-1. On **Sign in to Microsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
+1. On **Sign into Microsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
      ![](Images/image7.png "Enter Email")
