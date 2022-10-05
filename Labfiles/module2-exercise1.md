@@ -46,7 +46,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
    > You can also open the **Hyper-v manager** by clicking on the icon that is present in the taskbar. 
 
-     ![Screenshot of Hyper-V Manager, with the 'Hyperv Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
+     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
 
 10. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the AzureMigrateAppliance VM and four VMs that comprise the on-premises SmartHotel application.
 
@@ -76,7 +76,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the first step 'Set up prerequisites' in progress. The internet connectivity, and time sync steps have been completed.](Images/prereq.png "Set up prerequisites")
 
-17. **Wait** while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter user name **Administrator** and password **<inject key="SmartHotelHost Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
+17. **Wait** while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter username **Administrator** and password **<inject key="SmartHotelHost Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
 
    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/refresh.png "New update installed - Refresh")
 
@@ -114,7 +114,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' button.](Images/add-creds1.png)
 
 
-22. Specify the following details on the **Add credentails** blade for the Hyper-V host/cluster that the appliance will use to discover VMs and select **Save**.
+22. Specify the following details on the **Add credentials** blade for the Hyper-V host/cluster that the appliance will use to discover VMs and select **Save**.
  
       1. Friendly name : Enter **hostlogin** 
       2. Username: <inject key="SmartHotelHost Admin Username" />
@@ -132,7 +132,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
      
       1. Select **Add single item**
       1. IP Address / FQDN:  Enter **SmartHost<inject key="DeploymentID" enableCopy="false" />** .
-      1. Friendly name: Select **hostlogin** from the dropdwon and 
+      1. Friendly name: Select **hostlogin** from the dropdown and 
       1. select **Save**.
 
       ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' panel.](Images/discoverysource-2.png "Discovery source - SmartHotelHost")
