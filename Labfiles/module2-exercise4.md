@@ -2,7 +2,7 @@
 
 #### Task 1: Getting started with Azure Active Directory for Linux 
 
-In this task, you will be enabling the AAD authentication using a VM extension and enbaling Managed identity. 
+In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
 
 1. In the Azure portal `https://portal.azure.com`, Navigate to your newly migrated LinuxVM and select it.
     
@@ -116,4 +116,3 @@ In this task, you will Enable Automanage on existing machines.
    ![](Images/auto-manage.png)
 
 6. Click **Create**.
-
