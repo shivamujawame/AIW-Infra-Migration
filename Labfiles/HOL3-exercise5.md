@@ -70,7 +70,7 @@
 
     ![Screenshot of the Analytics.](Images/hol3-e5-t2-s6.png "Analytics")
 
-### Task 1:Enable Azure Monitor
+### Task 3:  Enable Azure Monitor
 
 1. In the **search resources, services and docs bar**, type **Azure Monitor** and select it from suggestions, as shown below:
 
