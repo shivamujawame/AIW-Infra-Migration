@@ -89,7 +89,7 @@
 - The daily cap set, and how much data was already ingested on the recent day
 - Ingestion anomalies - a list of identified spikes and dips in ingestion to these tables
     
-    ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s3.png "Azure Monitor")
+    ![Screenshot of the search Azure workspace Monitor.](Images/upd-hol3-e5-t3-s3.png "Azure Monitor")
     
 4. On the **Usage tab**, you can see ingestion data of by tables, and defaults to the 5 most ingested tables in the selected time range.
 
