@@ -18,7 +18,7 @@
 
     ![Screenshot of the search Microsoft Defender plans](Images/hol3-e5-s4.png "Microsoft Defender plans")
     
-1. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade (2)** tab select **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)** workspace and click on **Upgrade (4)**.
+1. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade tab (2)** select **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)** workspace and click on **Upgrade (4)**.
 
     ![Screenshot of the setup workspace](Images/hol3-e5-s5.png "setup workspace")
 
@@ -80,7 +80,7 @@
 
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s2.png "Azure Monitor")
 
-3. On the **Overview tab** you can see:
+3. On the **Overview tab**, you can see:
 
 - The monthly ingestion volume of the workspace
 - How many machines sent heartbeats, meaning - machines that are connected to this workspace (in the selected time range)
