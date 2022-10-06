@@ -76,11 +76,11 @@
 
     ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
     
-1.  From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here)and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azuremigraterg.
+2. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here)and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azuremigraterg.
 
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s2.png "Azure Monitor")
 
-1. On the **Overview tab** you can see:
+3. On the **Overview tab** you can see:
 
 - The monthly ingestion volume of the workspace
 - How many machines sent heartbeats, meaning - machines that are connected to this workspace (in the selected time range)
@@ -91,32 +91,45 @@
     
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s3.png "Azure Monitor")
     
-1. On the Usage tab,
+4. On the **Usage tab**, you can see ingestion data of by tables, and defaults to the 5 most ingested tables in the selected time range.
 
+- How much data was ingested to it (during the selected time range)
+- The percentage this table takes, from the entire ingestion volume (during the selected time range). That helps identify the tables that affect your ingestion the most.
+- When was the last update of usage statistics regarding each table - we normally expect usage stats to refresh hourly.
+   
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s4.png "Azure Monitor")  
     
-    
+5. On the **Health tab**, you can see the workspace health state and when it was last reported, as well as operational errors and warnings 
+        
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s5.png "Azure Monitor") 
     
+6. On the **Agents tab**, you can see  :
+
+- Operation errors and warnings - these are errors and warning related specifically to agents. 
+- Workspace agents - these are the agents that sent logs to the workspace during the selected time range. You can see the agents' types and health state. 
+- Agents activity - this grid shows information on either all agents, healthy or unhealthy agents. 
     
-1. From the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
+    ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
+    
+    
+7. From the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
 
-   ![Screenshot of the vm insights.](Images/upd-e5-t3-s2.png "vm insights")
+    ![Screenshot of the vm insights.](Images/upd-e5-t3-s2.png "vm insights")
    
-1. You will see your subscription and all the resource groups in it, listed here. Expand **smarthotelrg** resource group and enable VM insights for the VM. Click on **Enable**.
+8. You will see your subscription and all the resource groups in it, listed here. Expand the resource group and enable VM insights for the VM you want to monitor. Click on **Enable** on that respective VMs.
 
-   ![Screenshot of the vm insights.](Images/e5-t3-s3.png "vm insights")
+    ![Screenshot of the vm insights.](Images/hol3-e5-t3-s7.png "vm insights")
    
-1. On the **Get more visibility into the health and performance of your virtual machines** window, click on **Enable**. This will initiate the deployment of VM insights.   
+9. On the **Get more visibility into the health and performance of your virtual machines** window, click on **Enable**. This will initiate the deployment of VM insights.   
 
-   ![Screenshot of the vm insights.](Images/e5-t3-s4.png "vm insights")
+    ![Screenshot of the vm insights.](Images/e5-t3-s4.png "vm insights")
 
-1. On the **Monitoring configuration** page, click **Configure**.
+10. On the **Monitoring configuration** page, click **Configure**.
 
-   ![Screenshot of the vm insights.](Images/e5-t3-s5.png "vm insights")
+    ![Screenshot of the vm insights.](Images/e5-t3-s5.png "vm insights")
 
-1. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
+11. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
 
-1. From the left pane, select **Applications (1)** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
+12. From the left pane, select **Applications (1)** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
   
     
