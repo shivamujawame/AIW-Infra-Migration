@@ -1,4 +1,4 @@
-# HOL 3: Run workloads anywhere with Azure cloud services.
+# HOL 3: Run apps and workloads anywhere with Azure cloud services.
 
 ### Exercise 1: Onboard On-prem servers to Azure Arc enabled server
 
@@ -67,11 +67,11 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
  
     ![Screenshot of the Connect to AzureArcVM.](Images/updt-E1S13.png)
     
-1. From the **Start (1)** menu of the AzureArcVM, search for **Windows PowerShell (2)** and open it.
+1. From the **Start (1)** menu of the AzureArcVM, search for **Windows Powershell (2)** and open it.
 
-    ![Screenshot of the PowerShell.](Images/upd-powershell.png)
+    ![Screenshot of the powershell.](Images/upd-powershell.png)
       
-1. In PowerShell, run the whole script that you copied in the notepad earlier in step 12.
+1. In powershell, run the whole script that you copied in the notepad earlier in step 8.
 
 1. After running the script, packages will be installed and then you will be directed to a pop-up browser page to login into your azure account for authentication purpose.
    - Use with below Azure credentials.
@@ -80,7 +80,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     **Note:** Now you have connected your AzureArcVM to Azure successfully.
     
-    ![Screenshot of the PowerShell script.](Images/upd-package.png)
+    ![Screenshot of the powershellscript.](Images/upd-package.png)
      
  1. Close the AzureArcVM, and navigate to Azure portal and go back to the **Azure Arc** page, select **Servers (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
 
