@@ -4,6 +4,10 @@ Before the lab, you will have pre-deployed an on-premises infrastructure hosted 
 
 During the lab, you will migrate this entire application stack to Azure. This will include assessing the on-premises application using Azure Migrate; assessing the database migration using Microsoft Data Migration Assistant (DMA); migrating the database using the Azure Database Migration Service (DMS); and migrating the web and application tiers using Azure Migrate: Server Migration. This last step includes migration of both Windows and Linux VMs.
 
+In HOL1, you will evaluate the on-premises environment using Azure Migrate: Server Assessment. Choosing Azure Migrate tools, setting up the Azure Migrate appliance in an on-premises environment, doing a migration evaluation, and utilising the dependency visualisation for Azure Migrate are all aspects of this process. Using the information acquired during the discovery phase, you will develop a migration assessment for the SmartHotel application using Azure Migrate in this assignment. You will register your LabVM Hyper-V host with the Migration and Modernization service in this activity. Azure Site Recovery serves as the foundational migration engine for this service. You will install the Azure Site Recovery Provider on your Hyper-V server as part of the registration procedure.
+
+In HOL3, you will install and set up the Azure Connected Machine agent on a Windows machine that is hosted outside of Azure so that it can be controlled by servers that support Azure Arc. Your disaster recovery plan benefits from the Azure Site Recovery service's supervision and automation of on-premises machine replication, failover, and failback. To evaluate the stability of the virtualized workload without affecting your production workload or ongoing replication, you will deploy a Test Failover to the replicated Virtual Machine. The Failover will be deployed from on-premises to Azure. Azure VMs are built from replicated data following failover.
+
 ## Solution architecture
 
 The SmartHotel application comprises 4 VMs hosted in Hyper-V:
