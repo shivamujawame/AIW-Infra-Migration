@@ -5,7 +5,7 @@ In this Module, you will use Azure Migrate: Server Assessment to assess the on-p
 
 ### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
-In this exercise, you will deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs, and returns that data to your Azure Migrate project.
+In this exercise, you will review the already discovered server on your Azure Migrate project.
 
 1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -19,9 +19,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
     ![Screenshot of the Azure migrate overview blade.](Images/Azmigrate.png "Azmigrate Overview blade")
 
-4. Under **Azure Migrate: Discovery and assessment**, select **Discover** to open the **Discover** blade.
+4. Under **Azure Migrate: Discovery and assessment**, You'll see 7 discovered server. We have already migrated 3 severs is the previous HOL and now we will be migrating and modernizing the redhat and OSS DB in this HOL
  
-    ![](Images/azuremigrate-3.png)
+    ![](Images/newhol2.png)
  
 5. Under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
 
