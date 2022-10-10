@@ -25,9 +25,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Select the **RedHatVM** VMs and
      1.  Click on **Next**.
 
-   ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/Assessment2.png "Assessment VM group")
-
-    **Note:** There is no need to include the **smarthotelSQL1** or **AzureMigrateAppliance** VMs in the assessment, since they will not be migrated to Azure. (The SQL Server will be migrated to the SQL Database service and the Azure Migrate Appliance is only used for migration assessment.)
+   ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/linucredhat.png "Assessment VM group")
 
 5. Click on **Create assessment** to create the assessment. 
 
@@ -35,7 +33,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 6. On the **Servers, databases and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
 
-    ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/E1T4S6.png "Azure Migrate - Assessments (count)")
+    ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/totalvmsgrp.png "Azure Migrate - Assessments (count)")
     
 7. Select **Assessments** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the actual assessment.
 
@@ -49,7 +47,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**,
 
-    ![](Images/E1T5S1.png)   
+    ![](Images/newgrp.png)   
 
 2. Select the **Linux VMs** group to see the group details. 
 
@@ -57,7 +55,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **UbuntuVM** VM.
 
-   ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/Groups2.png "SmartHotel VMs server group")
+   ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/redhatgrpbms.png "SmartHotel VMs server group")
 
 4. On the **Dependencies** blade, select **Configure Log Analytics workspace**.
 
@@ -82,12 +80,10 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 9. Open a command prompt using the desktop shortcut.  
 
-    > **Note**: The SmartHotelHost runs Windows Server 2019 with the Windows Subsystem for Linux enabled. This allows the command prompt to be used as an SSH client. More info of supported Linux on Azure can be found here: https://Azure.com/Linux. 
-
-10. Enter the following command to connect to the **UbuntuWAF** VM running in Hyper-V on the SmartHotelHost:
+10. Enter the following command to connect to the **RedhatVM** VM running in Hyper-V on the SmartHotelHost:
 
     ```bash
-    ssh demouser@192.168.0.7
+    ssh Administrator@192.168.1.18
     ```
 
 11. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotelHost Admin Password" />**.
