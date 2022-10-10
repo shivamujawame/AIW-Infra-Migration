@@ -6,7 +6,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 1. Select **Assess** under **Azure Migrate: Discovery and assessment** and click on **Azure VM** to start a new migration assessment.
 
-   ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/Assessment1.png "Start assessment")
+   ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/newasses.png "Start assessment")
 
 2. On the Assess servers blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
 
@@ -22,7 +22,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Select or create a group: Choose **Create New** and enter the 
      1. Group name: Enter **Linux VMs**.
      1. Add machines to the Group:  Select **UbuntuVM** from dropdown.
-     1. Select the **UbuntuVM** VMs and
+     1. Select the **RedHatVM** VMs and
      1.  Click on **Next**.
 
    ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/Assessment2.png "Assessment VM group")
