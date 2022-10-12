@@ -157,11 +157,11 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
 27. Go to your **Recovery service vault Overview page**, click **Replicated Items (1)** under **Protected Items** and then click **+Replicate (2)** and select **Hyper-V machines to Azure (3)**.
 
-    ![Screenshot of the add replicate items.](Images/replicate-items.png "add replicate items") 
+     ![Screenshot of the add replicate items.](Images/replicate-items.png "add replicate items") 
    
 28. Under **Source environment** tab, select the Hyper-V site that you created earlier and then click **Next**.
  
-    ![Screenshot of the Source environment.](Images/src-env.png "Source environment") 
+     ![Screenshot of the Source environment.](Images/src-env.png "Source environment") 
    
 29. Under **Target environment** tab, fill the following details:
    
@@ -171,21 +171,21 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
    
    - Leave other values as default and click **Next (3)**
    
-   ![Screenshot of the target environment.](Images/target-env.png "Source environment")    
+     ![Screenshot of the target environment.](Images/target-env.png "Source environment")    
     
 30. Under **Virtual machine selection** tab, **check for smarthotelweb1 (1)** and click **Next (2)**.
 
-    ![Screenshot of the vm selection.](Images/vm-selection.png "vm selection")
+     ![Screenshot of the vm selection.](Images/vm-selection.png "vm selection")
 
 31. Under **Replication settings** tab, select **Windows** as OS-disk type for smarthotelweb1.
 
-    ![Screenshot of the Replication settings.](Images/replicate-settings.png "Replication settings")
+     ![Screenshot of the Replication settings.](Images/replicate-settings.png "Replication settings")
    
 32. Under **Review** tab, click **Enable Replication**.
 
 33. The process of replication might take 15-20 minutes to get completed. Once the Replication is successfully completed, the status of the replicated VM will now become **Protected**.
 
-> **Note:** You might have to refresh a couple of times.
+   > **Note:** You might have to refresh a couple of times.
 
-   ![Screenshot of the status-protected.](Images/replicate-status.png "status-protected")
+    ![Screenshot of the status-protected.](Images/replicate-status.png "status-protected")
    
