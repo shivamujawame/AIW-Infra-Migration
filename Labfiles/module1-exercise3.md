@@ -224,9 +224,9 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 3. Connect to the machine with the username **Administrator** and the password <inject key="SmartHotelHost Admin Password"></inject>. When prompted, **Allow** clipboard access.
 
->**Note:** You might have to allow pop-ups in order to access the bastion session.
+    >**Note:** You might have to allow pop-ups in order to access the bastion session.
 
-   ![Screenshot showing the Azure Bastion connection blade.](Images/upd-web2-connect.png "Connect using Bastion")
+      ![Screenshot showing the Azure Bastion connection blade.](Images/upd-web2-connect.png "Connect using Bastion")
 
 4. In the **smarthotelweb2** remote desktop session, open File Explorer and navigate to the **C:\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file and open with Notepad.
 
