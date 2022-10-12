@@ -21,7 +21,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Assessment name: Enter **SmartHotelAssessment** 
      1. Select or create a group: Choose **Create New** and enter the 
      1. Group name: Enter **Linux VMs**.
-     1. Add machines to the Group:  Select **UbuntuVM** from dropdown.
+     1. Add machines to the Group:  Select **LinuxVM** from dropdown.
      1. Select the **RedHatVM** VMs and
      1.  Click on **Next**.
 
