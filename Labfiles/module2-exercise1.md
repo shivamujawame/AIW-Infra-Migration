@@ -21,7 +21,7 @@ In this exercise, you will review the already discovered server on your Azure Mi
  
     ![Screenshot of the Azure migrate overview blade.](Images/Azmigrate.png "Azmigrate Overview blade")
 
-4. Under **Azure Migrate: Discovery and assessment**, You'll see 7 discovered server. We have already migrated 3 severs in the previous HOL and now we will be migrating and modernizing the redhat and OSS DB in this HOL
+4. Under **Azure Migrate: Discovery and assessment**, You'll see 7 discovered servers. We have already migrated 3 severs in the previous HOL and now we will be migrating and modernizing the redhat and OSS DB in this HOL
  
     ![](Images/newhol2.png)
  
@@ -47,10 +47,10 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
 1. Log into the VM with the **Administrator password**: **<inject key="SmartHotelHost Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
 
-1. You should be able to login to your on-prem Redhat server hosted on hyper-V. 
+1. You should be able to login to your on-prem Red hat server hosted on hyper-V. 
 
     ![Screenshot of the Azure Migrate appliance terms of use.](Images/redhathome.png "Desktop shortcut")
 
-1. In the next exercise you will be migrating the Redhat server and the OSS Database hosted in the Redhat VM to the Azure with the help of Azure Migrate and DMS.  
+1. In the next exercise you will be migrating the Red hat server, and the OSS Database hosted in the Red hat VM to the Azure with the help of Azure Migrate .  
     
    
