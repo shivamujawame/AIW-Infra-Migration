@@ -8,7 +8,7 @@ In **hands on lab 1**, you will evaluate the on-premises environment using Azure
 
 In **Hands on Lab2**, you will be reviewing the already discovered hyper-v server running on Redhat 8.3 enterprise version and in later exercises you will be replicating and migrating to the Azure and will be tring to access it. Also, you will be enabling the Azure AD based login for Linux and will be logging into the VM using your Azure Account and later you will be conenct the Redhat VM to the Azure Automanage as well.
 
-**In hands on lab 3**, you will install and set up the agent on a Windows machine (AzureArcVM) that is hosted outside of Azure so that it can be controlled by servers that support Azure Arc. Your disaster recovery plan benefits from the Azure Site Recovery service's supervision and automation of on-premises machine replication, failover, and failback, deploy a Test Failover to evaluate the stability of the virtualized workload without affecting your production workload or ongoing replication and also deploy a Failover so that Azure VM is built from replicated data following failover.
+In **hands on lab 3**, you will install and set up the agent on a Windows machine (AzureArcVM) that is hosted outside of Azure so that it can be controlled by servers that support Azure Arc. Your disaster recovery plan benefits from the Azure Site Recovery service's supervision and automation of on-premises machine replication, failover, and failback, deploy a Test Failover to evaluate the stability of the virtualized workload without affecting your production workload or ongoing replication and also deploy a Failover so that Azure VM is built from replicated data following failover.
 
 ## Solution architecture
 
