@@ -46,17 +46,17 @@
 
 11. On the page for the image gallery, on the upper menu, select **+VMSS**.
 
-   ![](Images/upd-vmss1.png)
+    ![](Images/upd-vmss1.png)
 
 12. Under the Basics tab, enter the **Virtual Machine name scale set** name as **migrationscaleset<inject key="DeploymentID" enableCopy="false" />**
 
-   ![](Images/upd-vmname.png)
+    ![](Images/upd-vmname.png)
 
 13. Select **Standard_D2s_v3** for the **size**.
 
 14. Select the License type as **Window server**.
 
-   ![](Images/upd-License.png)
+     ![](Images/upd-License.png)
 
 15. Select **Review + create**.
 
