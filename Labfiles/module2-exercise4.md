@@ -32,6 +32,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 7. You will be redirected to the **Configure Azure AD based SSH Login extension** page, now click on **Review + create** and then **create** button. It should start the installation of the extension into your LinuxVM.
 
     ![](Images/creasd.png)
+    
     ![](Images/extensionds.png)
 
 8. Once you have the extension installed, please move to the next task.
