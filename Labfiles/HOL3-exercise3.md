@@ -1,4 +1,4 @@
-### HOL3: Exercise 3: Setup test failover
+## HOL3: Exercise 3: Setup test failover
 
 In this exercise, you will deploy a Test Failover to the replicated Virtual Machine which allows you to test the sanity of the virtualized workload without interrupting your production workload or ongoing replication.
 
