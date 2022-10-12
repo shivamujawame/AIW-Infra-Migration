@@ -1,4 +1,4 @@
-# HOL 3: Run apps and workloads anywhere with Azure cloud services.
+# HOL 3: Run workloads anywhere with Azure cloud services.
 
 ### Exercise 1: Onboard On-prem servers to Azure Arc enabled server
 
