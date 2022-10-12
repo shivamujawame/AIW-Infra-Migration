@@ -37,7 +37,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
     ![Screenshot of the data protection.](Images/dataprotection.png "data protection")
 
 
-### Task 2: Configure ASR to on-premise infrastructure
+### Task 2: Configure ASR to on-premises infrastructure
 
 1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
    
