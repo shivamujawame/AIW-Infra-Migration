@@ -1,4 +1,4 @@
-### Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
+## HOL3: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
 #### Task 1: Getting started with Azure Active Directory for Linux 
 
