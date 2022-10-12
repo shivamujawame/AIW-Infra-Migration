@@ -4,9 +4,9 @@
 
 In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
 
-1. In the Azure portal `https://portal.azure.com`, Navigate to your newly migrated LinuxVM and select it.
+1. In the Azure portal `https://portal.azure.com`, Navigate to your newly migrated RedhatVM and select it.
     
-    ![](Images/linucvm.png)
+    ![](Images/redhatrg.png)
     
 2. Now from the left side menu, select the **Identity**.
 
@@ -25,14 +25,14 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
     ![](Images/addexn.png)
 
-6. Once you are on **Install an extension** page, search for **Azr=ure AD based SSH Login** extension and select it and click on **Next** button.
+6. Once you are on **Install an extension** page, search for **Azrure AD based SSH Login** extension and select it and click on **Next** button.
 
     ![](Images/aaadextensfd.png)
 
 7. You will be redirected to the **Configure Azure AD based SSH Login extension** page, now click on **Review + create** and then **create** button. It should start the installation of the extension into your LinuxVM.
 
     ![](Images/creasd.png)
-    ![](Images/isntallas.png)
+    ![](Images/extensionds.png)
 
 8. Once you have the extension installed, please move to the next task.
 
@@ -79,7 +79,7 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
 6. Run the following commands to connect to the VM by using the name and resource group of the VM:
 
       ```
-      az ssh vm -n UbuntuVM -g SmartHotelRG
+      az ssh vm -n RedhatVM -g SmartHotelHostRG
       ```
   
 
@@ -109,10 +109,10 @@ In this task, you will Enable Automanage on existing machines.
 
    a. Filter the list by your Subscription and Resource group.
    
-   b. Check the checkbox of **UbuntuVM** virtual machine 
+   b. Check the checkbox of **RedhatVM** virtual machine 
    
    c. Click the **Review+Create** button.
    
-   ![](Images/auto-manage.png)
+   ![](Images/redhatautomanage.png)
 
 6. Click **Create**.
