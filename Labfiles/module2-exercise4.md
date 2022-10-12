@@ -115,3 +115,5 @@ In this task, you will Enable Automanage on existing machines.
    ![](Images/redhatautomanage.png)
 
 6. Click **Create**.
+
+7. Once the Configuration profile assignment completed successfully it will take around 20-30 minutes to get the Status as Conformant.
