@@ -26,14 +26,14 @@
 
     ![Screenshot of the setup workspace](Images/hol3-e5-s6.png "setup workspace")
     
-     > **Note:** It might take upto 24-48 hours for all the changes to get reflected in your subscription successfully.
+     > **Note:** It might take up to 24-48 hours for all the changes to get reflected in your subscription successfully.
    
 
 1. The **Microsoft Defender for Cloud Overview page** offers a consolidated perspective for security experts. This section combines various independent cloud security components, such as **Secure Score, Regulatory Compliance, and Workloads Protection**, and provides detailed insights on the security posture on a distinct dashboard.
 
     ![Screenshot of the overview page](Images/hol3-e5-s7.png "overview page")
 
-1. On the **Recommendations page** under _General_, pay attention to the first part of the page. It includes the current Secure Score, progress on the Recommendations status(both completed security controls and recommendations), and Resource health (by severity).
+1. On the **Recommendations page** under _General_, pay attention to the first part of the page. It includes the current Secure Score, progress on the Recommendations status (both completed security controls and recommendations), and Resource health (by severity).
     
     ![Screenshot of the Recommendations page](Images/hol3-e5-s8.png "Recommendations page")
    
@@ -66,7 +66,7 @@
 
     ![Screenshot of the Data Connectors.](Images/hol3-e5-t2-s5.png "Data Connectors")
 
-1. From the left pane, select **Analytics** present under _Configuration_. You can create custom analytics rules to help discover threats and anomalous behaviors in your environment. (Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.) 
+1. From the left pane, select **Analytics** present under _Configuration_. You can create custom analytics rules to help discover threats and anomalous behaviours in your environment. (Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.) 
 
     ![Screenshot of the Analytics.](Images/hol3-e5-t2-s6.png "Analytics")
 
