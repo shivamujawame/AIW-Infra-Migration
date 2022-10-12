@@ -12,7 +12,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
     ![](Images/identityt.png)
 
-3. Under Identity,Under System assigned tab, Click on the **On** button under Status tag and clik on **Save** button to turn on the identity. It will take sometime to complete the process and there have some Service principal is getting created behind the process.
+3. Under Identity, Under System assigned tab, Click on the **On** button under Status tag and click on **Save** button to turn on the identity. It will take some time to complete the process and there have some Service principal is getting created behind the process.
 
       ![](Images/turinon.png)
       ![](Images/identidone.png)
@@ -29,7 +29,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
     ![](Images/aaadextensfd.png)
 
-7. You will be redirected to the **Configure Azure AD based SSH Login extension** page, now click on **Review + create** and then **create** button. It should start the installation of the extension into your LinuxVM.
+7. You will be redirected to the **Configure Azure AD based SSH Login extension** page, now click on **Review + create** and then **create** button. It should start the installation of the extension into your Red hat VM.
 
     ![](Images/creasd.png)
     
@@ -116,4 +116,4 @@ In this task, you will Enable Automanage on existing machines.
 
 6. Click **Create**.
 
-7. Once the Configuration profile assignment completed successfully it will take around 20-30 minutes to get the Status as Conformant.
+7. Once the Configuration profile assignment completed successfully, it will take around 20-30 minutes to get the Status as Conformant.
