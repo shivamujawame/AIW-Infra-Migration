@@ -43,7 +43,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
     ![Screenshot of the closing the blade.](Images/upd-discover-projectkey.png "Closing the Azure migrate appliance blade")
 
-9. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
+9. As we hae created the Azure Migrate project key for the Dicsover and Assessment, you will be accessing the Hyper-V manager in the next to start the discovery process with the help of Azure Migrate Appliance.
+
+9. Now, to Connect to you on-premises envrionment, Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. You will be accessing you infrastructure from the hyper-V manager and will be connecting to the Azure Migrate Appliance VM to start the process of discovery.  
 
     > You can also open the **Hyper-V manager** by clicking on the ![](Images/Icon-hyperv.png) icon that is present in the taskbar. 
 
