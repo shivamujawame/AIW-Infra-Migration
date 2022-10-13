@@ -1,3 +1,5 @@
+# Azure Immersion Workshop: Infrastructure Migration
+
 ## Overview
 
 Before the lab, you will have pre-deployed an on-premises infrastructure hosted in Hyper-V.  This infrastructure is hosting a multi-tier application called 'SmartHotel', using Hyper-V VMs for each of the application tiers.
