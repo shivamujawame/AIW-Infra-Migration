@@ -25,7 +25,7 @@ In **hands on lab 3: Run workloads anywhere with Azure cloud services**, you wil
 
 ## Solution architecture
 
-The SmartHotel application comprises 4 VMs hosted in Hyper-V:
+The SmartHotel application comprises 7 VMs hosted in Hyper-V:
 
 - **Database tier** Hosted on the smarthotelSQL1 VM, which is running Windows Server 2016 and SQL Server 2017.
 
@@ -35,12 +35,14 @@ The SmartHotel application comprises 4 VMs hosted in Hyper-V:
 
 - **Web proxy** Hosted on the UbuntuWAF VM, which is running Nginx on Ubuntu 18.04 LTS.
 
+- **Linux web server and OSS DB** Hosted on the Redhat VM, which is running on Red hat enterprise server 8.3. 
+
 For simplicity, there is no redundancy in any of the tiers.
 
 >**Note:** For convenience, the Hyper-V host itself is deployed as an Azure VM. For the purposes of the lab, you should think of it as an on-premises machine.
 
 
-![A slide shows the on-premises SmartHotel application architecture.](Images/overview.png "SmartHotel Migration Overview")
+![A slide shows the on-premises SmartHotel application architecture.](Images/lineofdiagram.png "SmartHotel Migration Overview")
 
 Throughout this lab, you will use Azure Migrate as your primary tool for assessment and migration. In conjunction with Azure Migrate, you will also use a range of other tools, as detailed below.
 
