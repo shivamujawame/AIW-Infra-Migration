@@ -7,11 +7,11 @@ The following labs provide you with a quick and easy way to get started with Azu
 
 For the purposes of these HOLs, let’s consider that SmartHotel is a large hotel company. 
 
-Their IT systems run Windows, Linux, SQL Servers, and MySQL across on-premises data centers, distribution centers, and multiple public clouds. This poses operational challenges for SmartHotel. They’d like a consistent way to govern and operate across these disparate environments, ensure security across the entire organization, and enable innovation and developer agility (especially with their investments in cloud-native practices), all while meeting regulatory and compliance requirements and being able to leverage the latest innovations of database technologies.
+Their IT systems run Windows, Linux, SQL Servers, and MySQL across on-premises data centers, distribution centers, and multiple public clouds. This poses operational challenges for SmartHotel. They’d like a consistent way to govern and operate across these disparate environments, ensure security across the entire organization, and enable innovation and developer agility, all while meeting regulatory and compliance requirements and being able to leverage the latest innovations of database technologies.
 
 ## Lab Context
 
-SmartHotel wants to migrate and modernize their servers and databases. They would like to reduce the management overhead and stay current with the evergreen versions of SQL Server with the help of Azure SQL Server. They would also like to get the benefits of disaster recovery, Automanage, Optimize the workloads and the security with the help of Microsoft Defender for Cloud.
+SmartHotel wants to migrate and modernize some of their servers and databases to cloud. They would like to reduce the management overhead and stay current with the evergreen versions of SQL Server with the help of Azure SQL Server. However, they also want to secure their rest on-premises server from any disaster as they have faced some disaster in the past where the on-premises databases were got corrupted. So, SmartHotel wants to use the Azure Site Recovery and wanted to secure the servers from any disaster. They would also like to get the benefits of disaster recovery, Automanage, Optimize the workloads and the security with the help of Microsoft Defender for Cloud.
 
 Let’s take the journey together with SmartHotel and see how easy it is to accomplish all the above with Azure Migrate, DMS, and with Azure Site Recovery.
 
