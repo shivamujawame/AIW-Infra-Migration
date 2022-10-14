@@ -42,7 +42,7 @@ For simplicity, there is no redundancy in any of the tiers.
 >**Note:** For convenience, the Hyper-V host itself is deployed as an Azure VM. For the purposes of the lab, you should think of it as an on-premises machine.
 
 
-![A slide shows the on-premises SmartHotel application architecture.](Images/lineofdiagram3.png "SmartHotel Migration Overview")
+![A slide shows the on-premises SmartHotel application architecture.](Images/lineofbusines3.png "SmartHotel Migration Overview")
 
 Throughout this lab, you will use Azure Migrate as your primary tool for assessment and migration. In conjunction with Azure Migrate, you will also use a range of other tools, as detailed below.
 
