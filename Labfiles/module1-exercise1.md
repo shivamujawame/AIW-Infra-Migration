@@ -43,9 +43,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
     ![Screenshot of the closing the blade.](Images/upd-discover-projectkey.png "Closing the Azure migrate appliance blade")
 
-9. As we hae created the Azure Migrate project key for the Dicsover and Assessment, you will be accessing the Hyper-V manager in the next to start the discovery process with the help of Azure Migrate Appliance.
+9. As we hae created the Azure Migrate project key for the Discover and Assessment, you will be accessing the Hyper-V manager in the next tasks to start the discovery process with the help of Azure Migrate Appliance.
 
-9. Now, to Connect to you on-premises envrionment, Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. You will be accessing you infrastructure from the hyper-V manager and will be connecting to the Azure Migrate Appliance VM to start the process of discovery.  
+9. Now, to Connect to your on-premises envrionment, Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. You will be accessing you infrastructure from the hyper-V manager and will be connecting to the Azure Migrate Appliance VM to start the process of discovery.  
 
     > You can also open the **Hyper-V manager** by clicking on the ![](Images/Icon-hyperv.png) icon that is present in the taskbar. 
 
@@ -108,13 +108,13 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject> 
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the Azure Migrate project as completed.](Images/azmigrate-06.1.png "Appliance registered")
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the Azure Migrate project as completed.](Images/registrdsfdvd.png "Appliance registered")
 
    Once the registration has completed, you can proceed to the next panel, **Manage credentials and discovery sources**.
 
 20. In **Step 1: Provide Hyper-V host credentials for discovery of Hyper-V VMs** under **2. Manage credentials and discovery sources**, select **Add credentials**.
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' button.](Images/add-creds1.png)
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' button.](Images/addcredsss.png)
 
 
 21. Specify the following details on the **Add credentials** blade for the Hyper-V host/cluster that the appliance will use to discover VMs and select **Save**.
@@ -129,7 +129,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 22. In **Step 2: Provide Hyper-V host/cluster details**, select **Add discovery source** to specify the Hyper-V host/cluster IP address/FQDN and the friendly name for credentials to connect to the host/cluster.
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' button.](Images/add-disc-1.png "Add discovery source")
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' button.](Images/adddscvryyy.png "Add discovery source")
 
 23. On the **Add discovery source** blade, provide the following details:
      
@@ -144,7 +144,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 24. The appliance will validate the connection to the Hyper-V hosts/clusters added and show the **Validation status** in the table against each host/cluster
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the successful validation of the configured discovery source.](Images/discoverysourcevalidation1.png "Discovery source - validation successful")
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the successful validation of the configured discovery source.](Images/validateddd.png "Discovery source - validation successful")
 
     > **Note:** When adding discovery sources:
     > - For successfully validated hosts/clusters, you can view more details by selecting their IP address/FQDN.
@@ -157,12 +157,14 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
      > **Note:** The discovery process can take up to 10 minutes. 
    
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Start discovery' button.](Images/Discovery1.png)
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Start discovery' button.](Images/disablered1.png)
+    
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Start discovery' button.](Images/startdscvry.png)
 
 26. Wait for the Azure Migrate status to show **Discovery has been successfully initiated**. This will take several minutes. After the discovery has been successfully initiated, you can check the discovery status against each host/cluster in the table.
 
 27. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal.  Select **Servers, databases and web apps (1)**, then select **Refresh (2)**.  Under **Azure Migrate: Servers, databases and web apps** you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 7 discovered servers are shown. This may take several minutes.
 
-    ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/newdscvr.png "Discovered servers") 
+    ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/dscsvrdnews.png "Discovered servers") 
 
     > Note:- **Wait for the discovery process to complete before proceeding to the next Task**.
