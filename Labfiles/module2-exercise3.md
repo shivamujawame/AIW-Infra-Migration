@@ -175,8 +175,7 @@ On the migrated VM **RedhatVM**, this configuration needs to be updated to use t
 
 4. In the **RedhatVM** remote desktop session, Enable the root user by running the below commands,and enter password as **demo!pass123**. 
 
-   ```su
-   ```
+   ```su ```
    
 5. Once you connected with the root user, navigate to the **\\etc\\www\\html\\inetpub\\SmartHotel.Registration** folder by running the below command.
       
@@ -184,7 +183,7 @@ On the migrated VM **RedhatVM**, this configuration needs to be updated to use t
 
 7. Run the below command to edit the **Web.config**.
 
-    ``` vim Web.config  
+    ``` vim Web.config```
 
 6. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
 
