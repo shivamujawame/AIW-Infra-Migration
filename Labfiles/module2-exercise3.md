@@ -173,9 +173,20 @@ On the migrated VM **RedhatVM**, this configuration needs to be updated to use t
 
    ![Screenshot showing the Azure Bastion connection blade.](Images/web2-connect.png "Connect using Bastion")
 
-4. In the **RedhatVM** remote desktop session, open File Explorer and navigate to the **\\etc\\www\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file to open it with Notepad.
+4. In the **RedhatVM** remote desktop session, Enable the root user by running the below commands,and enter password as **demo!pass123**. 
 
-5. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
+   ```su
+   ```
+   
+5. Once you connected with the root user, navigate to the **\\etc\\www\\html\\inetpub\\SmartHotel.Registration** folder by running the below command.
+      
+   ```cd /etc/www/html/inetpub/SmartHotel.Registration```
+
+7. Run the below command to edit the **Web.config**.
+
+    ``` vim Web.config  
+
+6. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
 
    You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and from the overview, select **Show database connection strings**.
 
@@ -189,7 +200,7 @@ On the migrated VM **RedhatVM**, this configuration needs to be updated to use t
 
     ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/web2-connection-string.png "web.config")
 
-6. **Save** the `web.config` file and exit your Bastion remote desktop session.
+6. Once done, press **Escape** button and press **:wq** to **Save** the `web.config` file and exit your Bastion remote desktop session.
 
 #### Task summary 
 
