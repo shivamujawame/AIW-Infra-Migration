@@ -169,7 +169,7 @@ On the migrated VM **RedhatVM**, this configuration needs to be updated to use t
 
    **Note:** You may have to wait a few minutes and refresh to have the option to enter the credentials. 
 
-3. Connect to the machine with the username **Administrator** and the password <inject key="SmartHotelHost Admin Password"></inject>. When prompted, **Allow** clipboard access.
+3. Connect to the machine with the username **administrator** and the password <inject key="SmartHotelHost Admin Password"></inject>. When prompted, **Allow** clipboard access.
 
    ![Screenshot showing the Azure Bastion connection blade.](Images/web2-connect.png "Connect using Bastion")
 
