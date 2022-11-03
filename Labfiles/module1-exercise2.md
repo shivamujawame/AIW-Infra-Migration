@@ -26,13 +26,13 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Select the **smarthotelweb1**, **smarthotelweb2** and **UbuntuWAF** VMs and
      1. Click on **Next:Review+Create assessment**.
 
-    ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/newvmms.png "Assessment VM group")
+    ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/upd-hol1-e2-t1-s4.png "Assessment VM group")
 
     **Note:** There is no need to include the **smarthotelSQL1**, **AzureMigrateAppliance** and other VMs in the assessment, since they will not be migrated to Azure. (The SQL Server will be migrated to the SQL Database service and the Azure Migrate Appliance is only used for migration assessment.)
 
 5. Click on **Create assessment** to create the assessment. 
 
-    ![](Images/upd-createassessment1.png)
+    ![](Images/upd-hol1-e2-t1-s5.png)
 
 6. In Azure Migrate, on the **Servers, databases, and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
 
@@ -54,11 +54,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 2. Select the **SmartHotel VMs** group to see the group details. 
 
-    ![](Images/upd-select-group.png)   
+    ![](Images/upd-hol1-e2-t2-s2.png)   
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **smarthotelweb1** VM.
 
-    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/upd-requires-agent-installation-v2.png "SmartHotel VMs server group")
+    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/upd-hol1-e2-t2-s3.png "SmartHotel VMs server group")
 
 4. On the **Dependencies** blade, select **Configure Log Analytics workspace**.
 
