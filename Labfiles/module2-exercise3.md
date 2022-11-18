@@ -177,15 +177,14 @@ On the migrated VM **RedhatVM**, this configuration needs to be updated to use t
 
    ```su ```
    
-5. Once you connected with the root user, navigate to the **\\etc\\www\\html\\inetpub\\SmartHotel.Registration** folder by running the below command.
+5. Once you connected with the root user, navigate to the **\\etc\\www\\html\\inetpub\\SmartHotel.Registration** folder by running the below commands.
       
-   ```   cd .. ```
+     *  ```   cd .. ```
    
    
-   ```   cd .. ```
+     * ```   cd .. ```
    
-   
-   ```   cd /etc/www/html/inetpub/SmartHotel.Registration```
+     *  ```   cd /etc/www/html/inetpub/SmartHotel.Registration```
 
 7. Run the below command to edit the **Web.config**.
 
