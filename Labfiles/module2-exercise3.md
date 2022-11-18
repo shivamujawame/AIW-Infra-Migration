@@ -179,10 +179,9 @@ On the migrated VM **RedhatVM**, this configuration needs to be updated to use t
    
 5. Once you connected with the root user, navigate to the **\\etc\\www\\html\\inetpub\\SmartHotel.Registration** folder by running the below command.
       
-   ```
-   cd ..
-   cd ..
-   cd /etc/www/html/inetpub/SmartHotel.Registration```
+   ```   cd .. ```
+   ```   cd .. ```
+   ```   cd /etc/www/html/inetpub/SmartHotel.Registration```
 
 7. Run the below command to edit the **Web.config**.
 
