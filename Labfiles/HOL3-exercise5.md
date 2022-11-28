@@ -1,5 +1,8 @@
 ## HOL3: Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source.
 
+In this HOL, you will learn how to enable the enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will setup Log Analytics workspace to collect logs and data of the resources and it's information will be stored in a workspace.
+
+
 ### Task 1: Enable Microsoft Defender for Cloud
 
 1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
@@ -133,3 +136,4 @@
 12. From the left pane, select **Applications (1)** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
   
     
+**Summary:** In this exercise, you explored on what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring  which helps you maximize the availability and performance of your applications and services. Then you explore on how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
