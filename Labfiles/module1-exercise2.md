@@ -207,3 +207,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
     
+
+#### Task summary 
+
+In this exercise you created and configured an Azure Migrate migration assessment and configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
