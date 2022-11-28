@@ -1,5 +1,9 @@
 # HOL 3: Run workloads anywhere with Azure cloud services.
 
+In this HOL you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises VMware VMs to Azure Arc for Azure Management.
+
+Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers that are not ideal candidates for migration. 
+
 ### Exercise 1: Onboard On-prem servers to Azure Arc enabled server
 
 In this exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, so that it can be managed through Azure Arc-enabled servers.
@@ -89,4 +93,4 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     ![Screenshot of the server added.](Images/upd-serveradded.png)
      
     
-     
+**Summary:** In this exercise, you explored on how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that it can manage the Windows machine.
