@@ -53,4 +53,5 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
 1. In the next exercise you will be migrating the Red hat server, and the OSS Database hosted in the Red hat VM to the Azure with the help of Azure Migrate .  
     
-   
+
+**Summary:** In this exercise, you explored how Assessments work to migrate your on-premises servers to Azure virtual machines. You learnt how to assess your on-premises servers in VMware and Hyper-V environment, and physical servers for migration to Azure VMs.
