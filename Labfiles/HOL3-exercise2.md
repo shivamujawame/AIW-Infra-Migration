@@ -187,5 +187,5 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
    > **Note:** You might have to refresh a couple of times.
 
-    ![Screenshot of the status-protected.](Images/replicate-status.png "status-protected")
+   ![Screenshot of the status-protected.](Images/replicate-status.png "status-protected")
    
