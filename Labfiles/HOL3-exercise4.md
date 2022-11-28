@@ -1,4 +1,4 @@
-## HOL3: Exercise 4: Failover the infrastructure to Azure Cloud.
+## HOL3: Exercise 4: Failover the infrastructure to Azure Cloud
 
 In this exercise, you will deploy the Failover from on-premises to Azure. After setting up replication to Azure for on-premises machines, when your on-premises site goes down, you fail those machines over to Azure. After failover, Azure VMs are created from replicated data.
 
