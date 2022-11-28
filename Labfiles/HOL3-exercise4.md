@@ -53,3 +53,6 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 1. On the **smarthotelweb1** page, verify that the status of the VM is in **Running state**. 
 
     ![Screenshot of the vm-created status.](Images/vm-created2.png "vm-created status")  
+
+
+**Summary:** In this exercise, you explored on how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
