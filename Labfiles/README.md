@@ -52,7 +52,7 @@ To understand if Azure really makes financial sense, we will start start by crea
 
     >**Note**: Make sure you discovered your on-premises environment with the Azure Migrate agentless appliance, which collects configuration and resource utilization data for your servers and workloads.
 
-     ![](Images/E1T1S5_1.png)
+     ![](Images/azure_migrate1.png)
     
 7. On the **Build business case** blade, enter the following details:
    
@@ -64,37 +64,37 @@ To understand if Azure really makes financial sense, we will start start by crea
    - Click on **Build business case**
 
      
-     ![](Images/azure_migrate1.png)
+     ![](Images/azure_migrate2.png)
    
 8. Once the build is succeeded, you can start reviewing the business case that was created from the above inputs and industry benchmarks.
 
-     ![](Images/azure_migrate2.png)
+     ![](Images/azure_migrate3.png)
    
 9. On the **Potential savings** blade, observe the cost. It represents an estimated on-premises cost versus Azure TCO and the potential savings possible by getting rid of components that you'll no longer need. 
 
-     ![](Images/azure_migrate3.png)
+     ![](Images/azure_migrate4.png)
    
 10. The **YoY estimated current vs future state cost** presents a year-over-year cost breakdown of the estimated current versus future state.
 
-      ![](Images/azure_migrate4.png)
+      ![](Images/azure_migrate5.png)
     
 11. On the same business case overview page, you'll receive unique incentives such as Azure hybrid benefits and extended security update savings to help drive technical and workplace innovations.
 
-     ![](Images/azure_migrate5.png)
+     ![](Images/azure_migrate6.png)
     
 12. Based on the rich data insights collected during the discovery process, on **Recommended migration strategy blade** you can observe how to effectively migrate to Azure, which underutilized servers to right size, and which unused servers to potentially decommission.
 
-     ![](Images/azure_migrate6.png)
+     ![](Images/azure_migrate7.png)
    
 13. Under **Business case reports**, click on **Azure Iaas**. You ou can dive deeper into detailed Azure Infrastructure as a Service and Platform as a Service reports. IaaS Reports will provide you recommended right-sized targets and the most cost effective offers based on your usage.
 
-     ![](Images/azure_migrate7.png)
+     ![](Images/azure_migrate8.png)
 
 14. Click on **On-premises** tab. You can also identify the impact of underutilized servers and identify quick wins through software end-of-support, and for zombie servers.
 
-      ![](Images/storage.png)
+      ![](Images/azure_migrate9.png)
 
 15. Click on **Azure PaaS** from the left navigation pane under **Business case reports**. You'll find recommendations in the PaaS reports to identify quick wins and the ideal right-sized targets for your database and application workloads.
 
-     ![](Images/storage.png)
+     ![](Images/azure_migrate10.png)
      
