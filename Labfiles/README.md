@@ -21,6 +21,7 @@ To understand if Azure really makes financial sense, we will start start by crea
 - Enables creating **what-if** scenarios with customizable settings and assumptions.
 
 
+
 1. Login to Azure portal with below Azure credentials.
 
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
