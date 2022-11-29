@@ -99,3 +99,4 @@ To understand if Azure really makes financial sense, we will start by creating a
 
 16. Given the importance of what-if scenarios and customizations in the planning process, use new settings to override default assumptions and build a business case for your migration strategy. We can present this business case to your stakeholders and obtain buy-ins and know that you've taken the steps to make the right decisions for your business.
      
+17. Learn more about business case here: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/cloud-migration-business-case
