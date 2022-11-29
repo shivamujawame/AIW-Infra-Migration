@@ -4,17 +4,17 @@
 
 In this task, you'll learn how to create a business case for Azure, using a free Azure Migrate feature during assessments that will help simplify your move to Azure.
 
-Managing your on-premises data centers can present time-bound challenges such as expiring contracts, aging hardware, and end-of-support software. You may also be under pressure to address cash flow challenges, add capacity, and prevent security attacks while ensuring business continuity.
+Managing your on-premises data centres can present time-bound challenges such as expiring contracts, aging hardware, and end-of-support software. You may also be under pressure to address cash flow challenges, add capacity, and prevent security attacks while ensuring business continuity.
 
 To understand if Azure really makes financial sense, we will start by creating a directional business case with Azure Migrate. This helps you understand what the best migration strategy is for your business and how to gradually move from a capital expenditure model to an operating expenditure model where you only pay for what you use.
 
 **Business case analysis** is a comprehensive, easy-to-use tool that enables customers and partners to create directional business proposals to understand how azure can bring the most value to their business.
 
-**Features:**
+**Features: **
 
 - Need **minimal inputs** to get started.
 
-- Includes **migration strategy reccomendation** including lift-and-shift to IaaS and modernize to PaaS.
+- Includes **migration strategy recommendation** including lift-and-shift to IaaS and modernize to PaaS.
 
 - Highlights **on-premises TCO, ROI** and financial analysis, **resource utilization-based insights and quick wins**.
 
@@ -87,7 +87,7 @@ To understand if Azure really makes financial sense, we will start by creating a
 
      ![](Images/azure_migrate7.png)
    
-13. Under **Business case reports**, click on **Azure Iaas**. You ou can dive deeper into detailed Azure Infrastructure as a Service and Platform as a Service reports. IaaS Reports will provide you with recommended right-sized targets and the most cost-effective offers based on your usage.
+13. Under **Business case reports**, click on **Azure Iaas**. You can dive deeper into detailed Azure Infrastructure as a Service and Platform as a Service reports. IaaS Reports will provide you with recommended right-sized targets and the most cost-effective offers based on your usage.
 
      ![](Images/azure_migrate8.png)
 
