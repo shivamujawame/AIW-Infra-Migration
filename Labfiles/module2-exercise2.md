@@ -1,6 +1,6 @@
 ## HOL2: Exercise 2: Set up your environment on Azure to migrate servers
 
-In this HOL, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in a number of scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V or VMware VMs and much more.
+In this HOL, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in a number of scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
 
 ### Task 1: Create a migration assessment
 
