@@ -189,3 +189,5 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
    ![Screenshot of the status-protected.](Images/replicate-status.png "status-protected")
    
+**Summary:** In this exercise, you explored on how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you see how to set up the source and target replication environments and create a replication policy so that at the end you can enable replication for a server.
+
