@@ -97,5 +97,5 @@ To understand if Azure really makes financial sense, we will start start by crea
 
 15. Click on **Azure PaaS** from the left navigation pane under **Business case reports**. You'll find recommendations in the PaaS reports to identify quick wins and the ideal right-sized targets for your database and application workloads.
 
-     ![](Images/azure_migrate10.png)
+16. Given the importance of what-if scenarios and customizations in the planning process, use new settings to override default assumptions and build a business case for your migration strategy. We can present this business case to your stakeholders and obtain buy-ins and know that you've taken the steps to make the right decisions for your business.
      
