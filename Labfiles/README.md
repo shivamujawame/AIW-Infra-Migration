@@ -64,31 +64,31 @@ To understand if Azure really makes financial sense, we will start start by crea
    - Click on **Build business case**
 
      
-     ![](Images/storage.png)
+     ![](Images/azure_migrate1.png)
    
 8. Once the build is succeeded, you can start reviewing the business case that was created from the above inputs and industry benchmarks.
 
-     ![](Images/storage.png)
+     ![](Images/azure_migrate2.png)
    
 9. On the **Potential savings** blade, observe the cost. It represents an estimated on-premises cost versus Azure TCO and the potential savings possible by getting rid of components that you'll no longer need. 
 
-     ![](Images/storage.png)
+     ![](Images/azure_migrate3.png)
    
 10. The **YoY estimated current vs future state cost** presents a year-over-year cost breakdown of the estimated current versus future state.
 
-      ![](Images/storage.png)
+      ![](Images/azure_migrate4.png)
     
 11. On the same business case overview page, you'll receive unique incentives such as Azure hybrid benefits and extended security update savings to help drive technical and workplace innovations.
 
-     ![](Images/storage.png)
+     ![](Images/azure_migrate5.png)
     
 12. Based on the rich data insights collected during the discovery process, on **Recommended migration strategy blade** you can observe how to effectively migrate to Azure, which underutilized servers to right size, and which unused servers to potentially decommission.
 
-     ![](Images/storage.png)
+     ![](Images/azure_migrate6.png)
    
 13. Under **Business case reports**, click on **Azure Iaas**. You ou can dive deeper into detailed Azure Infrastructure as a Service and Platform as a Service reports. IaaS Reports will provide you recommended right-sized targets and the most cost effective offers based on your usage.
 
-     ![](Images/storage.png)
+     ![](Images/azure_migrate7.png)
 
 14. Click on **On-premises** tab. You can also identify the impact of underutilized servers and identify quick wins through software end-of-support, and for zombie servers.
 
