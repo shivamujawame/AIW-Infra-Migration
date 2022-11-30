@@ -1,6 +1,4 @@
-# Azure Migrate
-
-## Business case analysis capability (read-only)
+# HOL3: Exercise 7: Business case analysis capability (read-only)
 
 In this task, you'll learn how to create a business case for Azure, using a free Azure Migrate feature during assessments that will help simplify your move to Azure.
 
@@ -22,7 +20,7 @@ To understand if Azure really makes financial sense, we will start by creating a
 
 
 
-1. Login to the Azure portal with the below Azure credentials.
+1. Login to the Azure portal with the below Azure credentials if you are not logged in already.
 
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
