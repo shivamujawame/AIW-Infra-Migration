@@ -40,7 +40,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
    
    - Leave other values as default and click on **Next (5)**
    
-     ![Screenshot of the target environment.](Images/target-env.png "Source environment")    
+     ![Screenshot of the target environment.](Images/hol3-e2-s7.png "Source environment")    
     
 1. Under **Virtual machine selection** tab, **check for AzureArcVM (1)** and click on **Next (2)**.
 
