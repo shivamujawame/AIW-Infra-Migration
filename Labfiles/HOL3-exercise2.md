@@ -44,15 +44,15 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
     
 1. Under **Virtual machine selection** tab, **check for AzureArcVM (1)** and click on **Next (2)**.
 
-     ![Screenshot of the vm selection.](Images/vm-selection.png "vm selection")
+     ![Screenshot of the vm selection.](Images/hol3-e2-s8.png "vm selection")
 
 1. Under **Replication settings** tab, select **Windows (1)** as OS-disk type for AzureArcVM and then click on **Next (2)**.
 
-     ![Screenshot of the Replication settings.](Images/replicate-settings.png "Replication settings")
+     ![Screenshot of the Replication settings.](Images/hol3-e2-s9.png "Replication settings")
      
 1. Under **Replication policy** tab, select **defaultSmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-HyperVSite-policy (1)** from the drop-down and click on **Next (2)**.  
 
-     ![Screenshot of the Replication settings.](Images/replicate-settings.png "Replication settings")
+     ![Screenshot of the Replication settings.](Images/hol3-e2-s10.png "Replication settings")
    
 1. Under **Review** tab, click on **Enable Replication**.
 
@@ -60,7 +60,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
    > **Note:** You might have to refresh a couple of times.
 
-   ![Screenshot of the status-protected.](Images/replicate-status.png "status-protected")
+   ![Screenshot of the status-protected.](Images/hol3-e2-s13.png "status-protected")
    
 **Summary:** In this exercise, you explored on how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you see how to set up the source and target replication environments and create a replication policy so that at the end you can enable replication for a server.
 
