@@ -6,11 +6,11 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
 1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
    
-    ![Screenshot of the search Recovery service vaults.](Images/hol3-e2-s2.png "Recovery service vaults")
+    ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
     
 1. Under Recovery service vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.  
 
-    ![Screenshot of the create Recovery service vaults.](Images/create-asr1.png "create Recovery service vaults")
+    ![Screenshot of the create Recovery service vaults.](Images/hol3-e2-s2.png "create Recovery service vaults")
 
 1. Select **Site Recovery Infrastructure** under **Manage** on the left side of the panel.
 
@@ -20,7 +20,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
     ![Screenshot of the hyper-v-host.](Images/hol3-e2-s4.png "hyper-v-host")  
 
-1. Go to your **Recovery service vault page**, click on **Replicated Items (1)** under **Protected Items** and then click on **+Replicate (2)** and select **Hyper-V machines to Azure (3)** from the drop-down list.
+1. Go back to your **Recovery service vault page**, click on **Replicated Items (1)** under **Protected Items** and then click on **+Replicate (2)** and select **Hyper-V machines to Azure (3)** from the drop-down list.
 
      ![Screenshot of the add replicate items.](Images/hol3-e2-s5.png "add replicate items") 
    
