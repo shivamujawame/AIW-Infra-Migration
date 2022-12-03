@@ -2,18 +2,6 @@
 
 In this exercise, you will deploy a Test Failover to the replicated Virtual Machine which allows you to test the sanity of the virtualized workload without interrupting your production workload or ongoing replication.
 
-
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
-    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
-    * Azure Password: <inject key="AzureAdUserPassword"></inject>
-
-1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
-   
-    ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
-    
-1. Under Recovery service vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.  
-
-    ![Screenshot of the create Recovery service vaults.](Images/hol3-e2-s2.png "create Recovery service vaults")
     
 1. On the **Recovery Service Vault page**, click on **Replicated Items (1)** under **Protected Items** and select **AzureArcVM (2)** that you replicated in the previous exercise.     
 
@@ -41,7 +29,7 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
 
     ![Screenshot of the Test vm.](Images/hol3-e3-s7.png "Test vm") 
   
-1. On the **smarthotelweb1-test page**, verify that the status of the VM is in **Running state (1)** and also you are able to **Connect it through RDP (2)**.  
+1. On the **AzureArcVM-test page**, verify that the status of the VM is in **Running state (1)** and also you are able to **Connect it through RDP (2)**.  
 
     ![Screenshot of the Test vm status.](Images/hol3-e3-s10.png "Test vm status") 
 
