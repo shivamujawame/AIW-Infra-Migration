@@ -43,6 +43,6 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
   
 1. On the **smarthotelweb1-test page**, verify that the status of the VM is in **Running state (1)** and also you are able to **Connect it through RDP (2)**.  
 
-    ![Screenshot of the Test vm status.](Images/test-vm-status.png "Test vm status") 
+    ![Screenshot of the Test vm status.](Images/hol3-e3-s8.png "Test vm status") 
 
 **Summary:** In this exercise, you explored that how can one validate the replication and disaster recovery strategy by testing a failover, that too without any data loss or downtime.
