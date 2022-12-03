@@ -38,7 +38,7 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 
     ![Screenshot of the Failover status.](Images/hol3-e4-s9.png "Failover status")    
    
-1. After the Failover is completed successfully, move back to the Replicated items page and verify that the **active location** of the **replicated smarthotelweb1** is now changed to **Microsoft Azure**.
+1. After the Failover is completed successfully, move back to the Replicated items page and verify that the **active location** of the **replicated AzureArcVM** is now changed to **Microsoft Azure**.
 
    ![Screenshot of the failover done.](Images/hol3-e4-s10.png "failover done")  
    
@@ -46,7 +46,7 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
   
    ![Screenshot of the recovery points.](Images/hol3-e4-s14.png "recovery points") 
    
-1. On the **replicated smarthotelweb1** page, click on **Commit** to commit the failover (The Commit action deletes all the recovery points available with the service). 
+1. On the **replicated AzureArcVM** page, click on **Commit** to commit the failover (The Commit action deletes all the recovery points available with the service). 
 
    ![Screenshot of the commit.](Images/hol3-e4-s15.png "commit")
    
