@@ -2,57 +2,59 @@
 
 In this exercise, you will deploy the Failover from on-premises to Azure. After setting up replication to Azure for on-premises machines, when your on-premises site goes down, you fail those machines over to Azure. After failover, Azure VMs are created from replicated data.
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
-    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
-    * Azure Password: <inject key="AzureAdUserPassword"></inject>
-
 1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
    
    ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
     
-1. Select the Recovery service vault that you created in the previous exercise.    
+1. Under Recovery service vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_**.  
+
+    ![Screenshot of the create Recovery service vaults.](Images/hol3-e2-s2.png "create Recovery service vaults")
     
-1. On the **Recovery Service Vault page**, click **Replicated Items (1)** under **Protected Items** and select **smartholweb1 (2)** that you replicated in the previous exercise.     
+1. On the **Recovery Service Vault page**, click on **Replicated Items (1)** under **Protected Items** and select **AzureArcVM (2)**.     
 
-   ![Screenshot of the replicate items.](Images/replicate-status.png "replicate items") 
+    ![Screenshot of the replicate items.](Images/hol3-e4-s4.png "replicate items") 
    
-1. On the **smarthotelweb1** page, click on **Failover**.
+1. On the **AzureArcVM** page, click on **Failover**.
 
-   ![Screenshot of the failover.](Images/Failover.png "failover") 
+   ![Screenshot of the failover.](Images/hol3-e4-s5.png "failover") 
    
-1. On the **Failover** page, review the settings and click **Ok**.  
+1. On the **Failover** page, review the settings and click on **Ok**.  
 
-   ![Screenshot of the failover page.](Images/Failover2.png "failover page") 
+   ![Screenshot of the failover page.](Images/hol3-e4-s6.png "failover page") 
    
-1. You can follow failover progress on the **Jobs** page.    
+1. Go back to the Replicated items page and select **Site Recovery Jobs (1)** under **Monitoring** from the left-hand side panel and click on **Test Failover (2)** to view the job status.      
 
-   ![Screenshot of the failover jobs.](Images/jobs.png "failover jobs") 
+   ![Screenshot of the failover jobs.](Images/hol3-e4-s7.png "failover jobs") 
    
-1. After the Failover is completed successfully, the **active location** of the **replicated smarthotelweb1** will be changed to **Microsoft Azure**.
+1. Wait for 10-15 minutes, for the job status of the failover to get completed successfully.
 
-   ![Screenshot of the failover done.](Images/Failover-done.png "failover done")  
+    ![Screenshot of the Failover status.](Images/hol3-e4-s9.png "Failover status")    
+   
+1. After the Failover is completed successfully, move back to the Replicated items page and verify that the **active location** of the **replicated smarthotelweb1** is now changed to **Microsoft Azure**.
+
+   ![Screenshot of the failover done.](Images/hol3-e4-s10.png "failover done")  
    
    > **Note:** If you want to switch to different recovery point to use for the failover, use **Change recovery point**.   
   
-   ![Screenshot of the recovery points.](Images/upd-commit-1.png "recovery points") 
+   ![Screenshot of the recovery points.](Images/hol3-e4-s14.png "recovery points") 
    
 1. On the **replicated smarthotelweb1** page, click on **Commit** to commit the failover (The Commit action deletes all the recovery points available with the service). 
 
-   ![Screenshot of the commit.](Images/commit.png "commit")
+   ![Screenshot of the commit.](Images/hol3-e4-s15.png "commit")
    
-1. On the **Commit** page, click **Ok**.   
+1. On the **Commit** page, click on **Ok**.   
 
-   ![Screenshot of the commit page.](Images/commit-2.png "commit page") 
+   ![Screenshot of the commit page.](Images/hol3-e4-s16.png "commit page") 
    
 1. After the Failover is **committed successfully**, go to the **search resources, services and docs bar**, type **Virtual Machines** and select it from suggestions.   
 
-1. Under **Virtual Machines** page, select the **smarthotelweb1** which is automatically created from replicated data after a Failover.
+1. Under **Virtual Machines** page, select the **AzureArcVM** which is automatically created from replicated data after a Failover.
 
-    ![Screenshot of the vm-created.](Images/vm-created.png "vm-created") 
+    ![Screenshot of the vm-created.](Images/hol3-e4-s11.png "vm-created") 
    
-1. On the **smarthotelweb1** page, verify that the status of the VM is in **Running state**. 
+1. On the **AzureArcVM** page, verify that the status of the VM is in **Running state**. 
 
-    ![Screenshot of the vm-created status.](Images/vm-created2.png "vm-created status")  
+    ![Screenshot of the vm-created status.](Images/hol3-e4-s13.png "vm-created status")  
 
 
 **Summary:** In this exercise, you explored on how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
