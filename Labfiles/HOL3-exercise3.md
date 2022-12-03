@@ -27,7 +27,7 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
 
     ![Screenshot of the Test Failover page.](Images/hol3-e3-s4.png "Test Failover page") 
     
-1. Select **Site Recovery Jobs (1)** under **Monitoring** from the left-hand side panel and click on **Test Failover (2)** to view the job status.  
+1. Go back to the Replicated items page and select **Site Recovery Jobs (1)** under **Monitoring** from the left-hand side panel and click on **Test Failover (2)** to view the job status.  
 
     ![Screenshot of the Test Failover satus](Images/hol3-e3-s6.png "Test Failover status") 
 
