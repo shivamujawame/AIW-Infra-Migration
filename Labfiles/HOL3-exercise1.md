@@ -77,12 +77,12 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
       
 1. In powershell, run the whole script that you copied in the notepad earlier in step 8.
 
-1. After running the script, packages will be installed and then you will be directed to a pop-up browser page to login into your azure account for authentication purpose.
-   - Use with below Azure credentials.
+1. After running the script, packages will be installed and then you will be directed to a pop-up browser page to login into your azure account for authentication purpose. Use the below Azure credentials:
+
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject> 
 
-    **Note:** Now you have connected your AzureArcVM to Azure successfully.
+   > **Note:** Now you have connected your AzureArcVM to Azure successfully.
     
     ![Screenshot of the powershellscript.](Images/upd-package.png)
      
