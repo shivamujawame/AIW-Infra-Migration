@@ -33,7 +33,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
    ![](Images/Assessment4.png)
 
-6. On the **Servers, databases and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
+6. On the **Servers, databases and web apps** blade, select **Refresh** periodically until the number of assessments shown is **2** (This may take few minutes). Once the assessments count is updated, click on **2** that is next to **Total** under **Assessments**.  
 
     ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/HOL2-EX2-T1-S6.png "Azure Migrate - Assessments (count)")
     
