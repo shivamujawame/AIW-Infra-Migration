@@ -129,7 +129,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
 10. On the **Monitoring configuration** page, click **Configure**.
 
-    ![Screenshot of the vm insights.](Images/e5-t3-s5.png "vm insights")
+    ![Screenshot of the vm insights.](Images/HOL3-EX5-T2-S10.png "vm insights")
 
 11. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
 
