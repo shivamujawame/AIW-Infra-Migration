@@ -23,7 +23,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Select or create a group: Choose **Create New**  
      1. Enter the Group name: **SmartHotel VMs**
      1. Add machines to the Group:  Select **SmarthotelAppl(Hyper-V)** from dropdown.
-     1. Select the **smarthotelweb1**, **smarthotelweb2** and **UbuntuWAF** VMs and
+     1. Select the **smarthotelweb1**, **smarthotelweb2**, **UbuntuWAF**, and **Redhat VM** VMs and
      1. Click on **Next:Review+Create assessment**.
 
     ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/upd-hol1-e2-t1-s4.png "Assessment VM group")
