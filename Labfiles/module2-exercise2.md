@@ -85,7 +85,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 10. Enter the following command to connect to the **RedhatVM** VM running in Hyper-V on the SmartHotelHost:
 
     ```bash
-    ssh Administrator@192.168.1.18
+    ssh administrator@192.168.1.18
     ```
 
 11. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotelHost Admin Password" />**.
@@ -95,7 +95,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 12. Enter the following command, followed by the password **<inject key="SmartHotelHost Admin Password" />** when prompted:
   
     ```
-    sudo -s
+    su
     ```
 
     > This gives the terminal session elevated privileges.
