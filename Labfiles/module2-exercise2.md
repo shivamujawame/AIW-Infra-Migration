@@ -33,13 +33,13 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
    ![](Images/Assessment4.png)
 
-6. On the **Servers, databases and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
+6. On the **Servers, databases and web apps** blade, select **Refresh** periodically until the number of assessments shown is **2** (This may take few minutes). Once the assessments count is updated, click on **2** that is next to **Total** under **Assessments**.  
 
-    ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/totalvmsgrp.png "Azure Migrate - Assessments (count)")
+    ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/HOL2-EX2-T1-S6.png "Azure Migrate - Assessments (count)")
     
 7. Select **Assessments** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the actual assessment.
 
-   ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/Assessment3.png "Azure Migrate - Assessments (list)")
+   ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/HOL2-EX2-T1-S7.png "Azure Migrate - Assessments (list)")
 
 ### Task 2: Configure dependency visualization
 
@@ -47,13 +47,13 @@ When migrating a workload to Azure, it is important to understand all workload d
 
 In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace, and then to deploy agents on the to-be-migrated VMs.
 
-1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**,
+1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Azure Migrate: Discovery and assessment** select **Groups (2)**,
 
-    ![](Images/newgrp.png)   
+    ![](Images/HOL2-EX2-T2-S1.png)   
 
 2. Select the **Linux VMs** group to see the group details. 
 
-   ![](Images/Groups1.png)   
+   ![](Images/HOL2-EX2-T2-S2.png)   
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **UbuntuVM** VM.
 
@@ -68,7 +68,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
    - Log Analytics workspace: Click on **Create new** and enter **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />**
    - Log Analytics workspace location: Select **East US** from the dropdown.
 
-  ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/createLAW.png "OMS Workspace settings")
+      ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/createLAW.png "OMS Workspace settings")
 
 6. Wait for the workspace to be deployed. Once it is deployed, navigate to **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />** by clicking on it.
 
@@ -76,7 +76,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 7. Select **Agents management** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID** and **Primary Key** (for example by using Notepad).
 
-   ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/workspace-id-key.png "OMS Workspace ID and primary key")
+   ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/HOL2-EX2-T2-S2.png "OMS Workspace ID and primary key")
 
 8. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **UbuntuVM** VM. To do so, you will first connect to the UbuntuWAF remotely using an SSH session.
 
@@ -85,7 +85,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 10. Enter the following command to connect to the **RedhatVM** VM running in Hyper-V on the SmartHotelHost:
 
     ```bash
-    ssh Administrator@192.168.1.18
+    ssh administrator@192.168.1.18
     ```
 
 11. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotelHost Admin Password" />**.
@@ -95,7 +95,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 12. Enter the following command, followed by the password **<inject key="SmartHotelHost Admin Password" />** when prompted:
   
     ```
-    sudo -s
+    su
     ```
 
     > This gives the terminal session elevated privileges.

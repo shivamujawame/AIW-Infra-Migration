@@ -68,7 +68,7 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
 5. At the prompt, login to the azure by entering the following PowerShell command.
 
      ```
-     Az login
+     az login
      ```
   
   - **Note:** Copy the login URL and enter the unique code in the browser.
@@ -78,7 +78,7 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
 6. Run the following commands to connect to the VM by using the name and resource group of the VM:
 
       ```
-      az ssh vm -n RedhatVM -g SmartHotelHostRG
+      az ssh vm -n RedhatVM -g SmartHotelRG
       ```
   
 
