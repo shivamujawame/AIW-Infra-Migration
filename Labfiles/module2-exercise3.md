@@ -26,7 +26,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 1. Under **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
 
-   ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/replicateredhat.png "Replicate link")
+   ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/HOL2-EX3-T2-S1.png "Replicate link")
    
 1. Under **Specific Intent** page, provide the below details:
 
@@ -56,13 +56,13 @@ In this task, you will configure and enable the replication of your on-premises 
    - Select **Next (5)**.
  
  
-   ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/target%20settings.png "Replicate - Target settings")
+   ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL2-EX3-T2-S6.png "Replicate - Target settings")
 
  > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
 6. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
-   - Select the **Linux** operating system for the **UbuntuVM** virtual machine. 
+   - Select the **Linux** operating system for the **RedhatVM** virtual machine. 
    - Select **Next**. 
 
 
@@ -102,9 +102,9 @@ In this task you will modify the settings for each replicated VM to use a static
 
 3. Confirm that the VM is configured to use the **F2s_v2** VM size.
 
-4. Under **Network Interfaces**, select **InternalNATSwitch** to open the network interface settings.
+4. Under **Network Interfaces**, select **AzureMigrateSwitch** to open the network interface settings.
 
-   ![Screenshot showing the link to edit the network interface settings for a replicated VM.](Images/nic.png "Network Interface settings link")
+   ![Screenshot showing the link to edit the network interface settings for a replicated VM.](Images/HOL2-EX3-T3-S5.png "Network Interface settings link")
 
 5. Change the **Private IP address** to **192.168.0.18**.
 
@@ -171,7 +171,7 @@ On the migrated VM **RedhatVM**, this configuration needs to be updated to use t
 
 3. Connect to the machine with the username **administrator** and the password <inject key="SmartHotelHost Admin Password"></inject>. When prompted, **Allow** clipboard access.
 
-   ![Screenshot showing the Azure Bastion connection blade.](Images/web2-connect.png "Connect using Bastion")
+   ![Screenshot showing the Azure Bastion connection blade.](Images/HOL2-EX3-T5-S3.png "Connect using Bastion")
 
 4. In the **RedhatVM** remote desktop session, Enable the root user by running the below commands,and enter password as **demo!pass123**. 
 
