@@ -127,7 +127,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the vm insights.](Images/hol3-e5-t3-s7.png "vm insights")
    
-9. On the **Get more visibility into the health and performance of your virtual machines** window, click on **Enable**. This will initiate the deployment of VM insights.   
+9. On the **Get more visibility into the health and performance of your virtual machine** window, click on **Enable**. This will initiate the deployment of VM insights.   
 
     ![Screenshot of the vm insights.](Images/e5-t3-s4.png "vm insights")
 
