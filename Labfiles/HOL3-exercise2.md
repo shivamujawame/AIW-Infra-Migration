@@ -4,11 +4,11 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
 ### Task 1: Configure ASR to on-premises infrastructure
 
-1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
+1. In the **search resources, services and docs bar**, type **Recovery services vaults** and select it from suggestions, as shown below:
    
     ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
     
-1. Under Recovery service vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.  
+1. Under Recovery services vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.  
 
     ![Screenshot of the create Recovery service vaults.](Images/hol3-e2-s2.png "create Recovery service vaults")
 
@@ -46,7 +46,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
     ![Screenshot of the vm selection.](Images/hol3-e2-s8.png "vm selection")
 
-1. Under **Replication settings** tab, select **Windows (1)** as OS-disk type for AzureArcVM and then click on **Next (2)**.
+1. Under **Replication settings** tab, select **Windows (1)** as OS type for AzureArcVM and then click on **Next (2)**.
 
     ![Screenshot of the Replication settings.](Images/hol3-e2-s9.png "Replication settings")
      
@@ -58,7 +58,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
 1. The process of replication might take 15-20 minutes to get completed. Once the Replication is successfully completed, the status of the replicated AzureArcVM will now become **Protected (2)**.
 
-   > **Note:** You might have to refresh a couple of times.
+   > **Note:** You might have to refresh **(1)** a couple of times.
 
     ![Screenshot of the status-protected.](Images/hol3-e2-s13.png "status-protected")
    
