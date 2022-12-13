@@ -13,7 +13,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
     
-    > Note: If you are prompted with new updates pop-up, click on Skip.
+    > Note: If you are prompted with new upgrade pop-up, click on Skip.
     
 1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
 
