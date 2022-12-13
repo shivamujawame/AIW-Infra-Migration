@@ -25,7 +25,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the setup workspace](Images/hol3-e5-s5.png "setup workspace")
 
-1. On the **Install Agents** tab, click **Continue without Installing Agents**.
+1. On the **Install Agents** tab, click on **Continue without Installing Agents**.
 
     ![Screenshot of the setup workspace](Images/hol3-e5-s6.png "setup workspace")
     
@@ -57,11 +57,11 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the create Microsoft Sentinel.](Images/hol3-e5-t2-s2.png "Microsoft Sentinel")
     
-1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click **Add (2)**. If prompted, Microsoft Sentinel free trial activated, click on Ok.   
+1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click on **Add (2)**. If prompted, Microsoft Sentinel free trial activated, click on Ok.   
 
     ![Screenshot of the add Microsoft Sentinel.](Images/hol3-e5-t2-s3.png "add Microsoft Sentinel")
     
-1. On the **News and guides (1)** window, go to **Get started (2)** tab and Click **Connect (3)** under _Collect data_.   
+1. On the **News and guides (1)** window, go to **Get started (2)** tab and Click on **Connect (3)** under _Collect data_.   
 
     ![Screenshot of the get started.](Images/hol3-e5-t2-s4.png "get started")
     
@@ -79,7 +79,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
     
-2. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here)and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azuremigraterg.
+2. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here) and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azuremigraterg.
 
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s2.png "Azure Monitor")
 
@@ -127,9 +127,11 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the vm insights.](Images/e5-t3-s4.png "vm insights")
 
-10. On the **Monitoring configuration** page, click **Configure**.
+10. On the **Monitoring configuration** page, click on **Cancel**.
 
-    ![Screenshot of the vm insights.](Images/HOL3-EX5-T2-S10.png "vm insights")
+    > Note: In this task we won't be configuring VM insights.
+
+    ![Screenshot of the vm insights.](Images/upd-HOL3-EX5-T2-S10.png "vm insights")
 
 11. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
 
