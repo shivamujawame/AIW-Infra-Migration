@@ -32,5 +32,7 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
 1. On the **AzureArcVM-test page**, verify that the status of the VM is in **Running state (1)** and also you are able to **Connect it through RDP (2)**.  
 
     ![Screenshot of the Test vm status.](Images/hol3-e3-s10.png "Test vm status") 
+    
+   > **Note:** Please make sure to run the **validation steps** for this task before moving to next exercise as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Failover completed** as you will be performing cleanup test failover to setup the failover in the next exercise.
 
 **Summary:** In this exercise, you explored that how can one validate the replication and disaster recovery strategy by testing a failover, that too without any data loss or downtime.
