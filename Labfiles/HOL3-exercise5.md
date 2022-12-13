@@ -59,7 +59,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the create Microsoft Sentinel.](Images/hol3-e5-t2-s2.png "Microsoft Sentinel")
     
-    > Note: If you are prompted with Microsoft Sentinet free trial activated pop-up, click on ok.
+    > Note: If you are prompted with Microsoft Sentinel free trial activated pop-up, click on ok.
     
 1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click on **Add (2)**. If prompted, Microsoft Sentinel free trial activated, click on Ok.   
 
