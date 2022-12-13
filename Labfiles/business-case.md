@@ -8,6 +8,8 @@ To understand if Azure really makes financial sense, we will start by creating a
 
 **Business case analysis** is a comprehensive, easy-to-use tool that enables customers and partners to create directional business proposals to understand how azure can bring the most value to their business.
 
+> Note: You don't need to perform this task as it is read-only exercise.
+
 **Features:**
 
 - Need **minimal inputs** to get started.
@@ -45,7 +47,7 @@ To understand if Azure really makes financial sense, we will start by creating a
 
      - Click on **Project** and select the existing project from the list. Create a new project if you do not have any projects created previously.
 
-        ![](Images/E1T1S5_1.png)
+        ![](Images/upd-E1T1S5_1.png)
         
 6. Under **Azure Migrate: Discovery and assessment**, select **Build business case** to open the **Build business case** blade. 
 
@@ -63,7 +65,8 @@ To understand if Azure really makes financial sense, we will start by creating a
    - Click on **Build business case**
 
      
-     ![](Images/azure_migrate2.png)
+    
+    ![](Images/azure_migrate2.png)
    
 8. Once the build is succeeded, you can start reviewing the business case that was created from the above inputs and industry benchmarks.
 
