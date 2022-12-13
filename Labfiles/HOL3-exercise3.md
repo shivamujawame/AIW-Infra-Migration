@@ -29,7 +29,7 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
 
     ![Screenshot of the Test vm.](Images/hol3-e3-s7.png "Test vm") 
   
-1. On the **AzureArcVM-test page**, verify that the status of the VM is in **Running state (1)** and also you are able to **Connect it through RDP (2)**.  
+1. On the **AzureArcVM-test page**, verify that the status of the VM is in **Running state (1)** and also **Connect it through RDP (2)** option is available to you.  
 
     ![Screenshot of the Test vm status.](Images/hol3-e3-s10.png "Test vm status") 
     
