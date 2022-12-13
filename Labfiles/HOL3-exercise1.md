@@ -17,7 +17,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
    
-1. On the **Azure Arc** page, select **Servers** under **Infrastructure** and then click on **+Add**.
+1. On the **Azure Arc** page, select **Servers (!)** under **Infrastructure** and then click on **+Add (2)**.
     
     ![Screenshot of the add server.](Images/addserver.png "add server")
     
@@ -45,11 +45,11 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
 1. Under **Tags** tab, leave the values as default and click on **Next**.
 
-1. Under **Download and script** tab, **copy (1)** the entire script and paste it in a notepad as it will be used in the further steps and then click on **Close (2)**.
+1. Under **Download and run script** tab, **copy (1)** the entire script and paste it in a notepad as it will be used in the further steps and then click on **Close (2)**.
 
     ![Screenshot of the copy script.](Images/upd-copyscript.png "copy script")
     
-1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
+1. Go to **Start (1)** button in the VM, search for **Hyper-V Manager (2)** there and select it. 
 
     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/upd-hyper-v-manager.png "Hyper-V Manager")
 
@@ -82,13 +82,13 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject> 
 
-   > **Note:** Now you have connected your AzureArcVM to Azure successfully.
+   > **Note:** Move back to the powershell pane and now you have connected your AzureArcVM to Azure successfully.
     
     ![Screenshot of the powershellscript.](Images/upd-package.png)
      
- 1. Close the AzureArcVM, and navigate to Azure portal and go back to the **Azure Arc** page, select **Servers (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
+ 1. Close the AzureArcVM and navigate to Azure portal and go back to the **Azure Arc** page, select **Servers (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
 
-    **Note:** The name of the newly server added could be different.
+    **Note:** The name of the newly server added could be different. You might have to refresh to see the new server.
     
     ![Screenshot of the server added.](Images/upd-serveradded.png)
      
