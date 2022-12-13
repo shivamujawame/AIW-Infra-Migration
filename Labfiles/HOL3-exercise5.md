@@ -13,6 +13,8 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
     
+    > Note: If you are prompted with New updates pop-up, click on Skip.
+    
 1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
 
     ![Screenshot of the search Microsoft Defender for Cloud settings.](Images/hol3-e5-s3.png "Microsoft Defender for Cloud settings") 
@@ -56,6 +58,8 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 1. On the **Microsoft Sentinel** page, click on **+Create**.    
 
     ![Screenshot of the create Microsoft Sentinel.](Images/hol3-e5-t2-s2.png "Microsoft Sentinel")
+    
+    > Note: If you are prompted with Microsoft Sentinet free trial activated pop-up, click on ok.
     
 1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click on **Add (2)**. If prompted, Microsoft Sentinel free trial activated, click on Ok.   
 
@@ -102,7 +106,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
    
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s4.png "Azure Monitor")  
     
-5. On the **Health tab**, you can see the workspace health state and when it was last reported, as well as operational errors and warnings 
+5. On the **Health tab**, you can see the workspace health state and when it was last reported, as well as operational errors and warnings.
         
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s5.png "Azure Monitor") 
     
