@@ -139,7 +139,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
 11. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
 
-12. From the left pane, select **Applications (1)** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
+12. From the left pane, select **Applications** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
   
     
 **Summary:** In this exercise, you explored on what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring  which helps you maximize the availability and performance of your applications and services. Then you explore on how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
