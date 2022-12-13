@@ -71,7 +71,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
  
     ![Screenshot of the Connect to AzureArcVM.](Images/updt-E1S13.png)
     
-1. From the **Start (1)** menu of the AzureArcVM, search for **Windows Powershell (2)** and open it.
+1. From the **Start (1)** menu of the AzureArcVM, search for **Windows Powershell (2)** and open it **(3)**.
 
     ![Screenshot of the powershell.](Images/upd-powershell.png)
       
