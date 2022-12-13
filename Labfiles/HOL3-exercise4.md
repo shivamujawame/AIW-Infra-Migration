@@ -12,7 +12,7 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
     
 1. On the **Recovery Service Vault page**, click on **Replicated Items (1)** under **Protected Items** and select **AzureArcVM (2)**.     
 
-    ![Screenshot of the replicate items.](Images/hol3-e4-s4.png "replicate items") 
+    ![Screenshot of the replicate items.](Images/upd-hol3-e4-s4.png "replicate items") 
     
 1. On the **AzureArcVM** page, click on **Cleanup test Failover**.   
 
@@ -20,6 +20,8 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
    
 1. On the Test failover cleanup page, enter `Test failover ok.` under **Notes (1)** and make sure to **(2) check the box: Testing is complete. Delete test failover virtual machine(s)** and then click on **Ok (3)**.
 
+   > **Note:** Wait for the cleanup test failover to get completed successfully.
+   
    ![Screenshot of the cleanup test failover.](Images/hol3-e3-s9.png "cleanup test failover") 
    
 1. On the **AzureArcVM** page, click on **Failover**.
@@ -30,7 +32,7 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 
    ![Screenshot of the failover page.](Images/hol3-e4-s6.png "failover page") 
    
-1. Go back to the Replicated items page and select **Site Recovery Jobs (1)** under **Monitoring** from the left-hand side panel and click on **Test Failover (2)** to view the job status.      
+1. Go back to the Replicated items page and select **Site Recovery Jobs (1)** under **Monitoring** from the left-hand side panel and click on **Failover (2)** to view the job status.      
 
    ![Screenshot of the failover jobs.](Images/hol3-e4-s7.png "failover jobs") 
    
