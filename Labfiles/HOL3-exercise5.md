@@ -13,11 +13,11 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
     
-1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subsription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
+1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
 
     ![Screenshot of the search Microsoft Defender for Cloud settings.](Images/hol3-e5-s3.png "Microsoft Defender for Cloud settings") 
      
-1. On the **Defender plans** page, switch the plan blade **On for Servers(1)** and then click on **Save (2)**.    
+1. On the **Defender plans** page, switch the plan blade **On for Servers (1)** and then click on **Save (2)**.    
 
     ![Screenshot of the search Microsoft Defender plans](Images/hol3-e5-s4.png "Microsoft Defender plans")
     
@@ -109,7 +109,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 6. On the **Agents tab**, you can see  :
 
 - Operation errors and warnings - these are errors and warning related specifically to agents. 
-- Workspace agents - these are the agents that sent logs to the workspace during the selected time range. You can see the agents' types and health state. 
+- Workspace agents - these are the agents that sent logs to the workspace during the selected time range. You can see the agent's types and health state. 
 - Agents activity - this grid shows information on either all agents, healthy or unhealthy agents. 
     
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
