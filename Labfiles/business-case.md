@@ -41,13 +41,13 @@ To understand if Azure really makes financial sense, we will start by creating a
 
 5. Now, you should see the **Azure Migrate: Discovery and assessment** and **Migration and modernization** panels for the current migration project, as shown below.
 
-    ![](Images/MicrosoftTeams-image%20(5).png)
+    ![](Images/upd-E1T1S5_1.png)
     
     >**Note**: If you are not able to see the **Azure Migrate: Discovery and assessment** and **Migration and modernization** panels, please follow the below instructions to select the migration project.
 
      - Click on **Project** and select the existing project from the list. Create a new project if you do not have any projects created previously.
 
-        ![](Images/upd-E1T1S5_1.png)
+        ![](Images/E1T1S5_.png)
         
 6. Under **Azure Migrate: Discovery and assessment**, select **Build business case** to open the **Build business case** blade. 
 
