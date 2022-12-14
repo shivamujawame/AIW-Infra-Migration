@@ -17,31 +17,31 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![](Images/upd-hol1-e2-t2-s2.png)  
 
-3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **Redhat VM**.
+3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **redhat** VM.
 
-   ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/hol2-e2-s3.png "SmartHotel VMs server group")
+    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/hol2-e2-s3.png "SmartHotel VMs server group")
 
 4. Navigate to **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />** by clicking on it.
 
-   ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/omsworkspace.png "OMS Workspace settings")
+    ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/omsworkspace.png "OMS Workspace settings")
 
 7. Select **Agents management** (1) under **Settings** from the left-hand side menu. Make a note of the **Workspace ID** (2) and **Primary Key** (3) (for example by using Notepad).
 
-   ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/upd-workspace-id-key.png "OMS Workspace ID and primary key")
+    ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/upd-workspace-id-key.png "OMS Workspace ID and primary key")
 
-8. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **RedhatVM**. To do so, you will first connect to the Redhat VM remotely using an SSH session.
+8. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **redhat** VM. To do so, you will first connect to the Redhat VM remotely using an SSH session.
 
 9. Open a command prompt using the desktop shortcut.  
 
-10. Enter the following command to connect to the **RedhatVM** running in Hyper-V on the SmartHotelHost:
+10. Enter the following command to connect to the **redhat** VM running in Hyper-V on the SmartHotelHost:
 
     ```bash
-    ssh administrator@192.168.1.18
+    ssh administrator@192.168.1.19
     ```
 
 11. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotelHost Admin Password" />**.
 
-    ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/ssh.png "SSH session with UbuntuWAF")
+    ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/upd-ssh.png "SSH session with UbuntuWAF")
 
 12. Enter the following command, followed by the password **<inject key="SmartHotelHost Admin Password" />** when prompted:
   
@@ -75,22 +75,22 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     sh InstallDependencyAgent-Linux64.bin -s
     ```
 
-    ![Screenshot showing that the Dependency Agent install on Linux was successful.](Images/da-linux-done.png "Dependency Agent installation was successful")
+    ![Screenshot showing that the Dependency Agent install on Linux was successful.](Images/upd-da-linux-done.png "Dependency Agent installation was successful")
     
 
 17. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The Redhat VM on which the dependency agent was installed should now show its status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
-     ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/Linux-depencyagent.png "Dependency agent installed")
+    ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/upd-Linux-depencyagent.png "Dependency agent installed")
    
    >**Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
 18. Select **View dependencies**.
 
-   ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/view-dependencies.png "View dependencies")
+    ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/upd-view-dependencies.png "View dependencies")
    
 19. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
-    ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
+    ![Screenshot showing the dependencies view in Azure Migrate.](Images/upd-dependencies1.png "Dependency map")
  
 #### Task summary 
 
