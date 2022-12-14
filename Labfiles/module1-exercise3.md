@@ -13,9 +13,9 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
      ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](Images/migrationtools.png "Azure Migrate: Server Migration - Discover")
 
 2. In the **Discover** panel, provide the following details:
-   - Under **Are your machines virtualized**, select **Yes, with Hyper-V**.
-   - Under **Target region** the region is automatically selected as same the Resource Group's region.
-   - Check the **confirmation** checkbox and select **Create resources** to begin the deployment of the Azure Site Recovery resource used by Migration and modernization for Hyper-V migrations.
+   - Under **Are your machines virtualized**, select **Yes, with Hyper-V (1)**.
+   - Under **Target region (2)** the region is automatically selected as same the Resource Group's region.
+   - Check the **confirmation (3)** checkbox and select **Create resources (4)** to begin the deployment of the Azure Site Recovery resource used by Migration and modernization for Hyper-V migrations.
 
      ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](Images/upd-discover-new.png "Discover machines - source hypervisor and target region")
 
@@ -32,13 +32,15 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 5. Open the **AzureSiteRecoveryProvider.exe** installer you downloaded a moment ago. On the **Microsoft Update** tab, select **Off** and select **Next**. Accept the default installation location and select **Install**.
 
+    > **Note:** If you are prompted with a pop-up like the latest version of the Provider is installed on this server. Would you like to proceed to registration? select Yes. (You can directly jump to the next step in that case.)
+  
      ![Screenshot of the ASR provider installer.](Images/upd-asr-provider-install.png "Azure Site Recovery Provider Setup")
 
 6. When the installation has completed select **Register**. Browse to the location of the key file you downloaded. When the key is loaded select **Next**.
 
      ![Screenshot of the ASR provider registration settings.](Images/upd-asr-registration.png "Key file registration")
 
-7. Select **Connect directly to Azure Site Recovery without a proxy server** and select **Next**. The registration of the Hyper-V host with Azure Site Recovery will begin.
+7. Select **Connect directly to Azure Site Recovery without a proxy server (1)** and select **Next (2)**. The registration of the Hyper-V host with Azure Site Recovery will begin.
 
      ![Screenshot of the ASR provider registration settings.](Images/upd-e3-t2-s8.png)
 
@@ -62,7 +64,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 13. The **Migration and modernization** panel should now show 7 discovered servers.
 
-     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/newdscvr.png "Discovered servers")
+     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
 #### Task summary 
 
@@ -88,7 +90,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/upd-replicate-2.png "Replicate - Source settings")
 
-4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment**. Select the **SmartHotel VMs** VM group and the **SmartHotelAssessment** migration assessment.
+4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment (1)**. Select the **SmartHotel VMs (2)** VM group and the **SmartHotelAssessment (3)** migration assessment.
 
      ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/upd-replicate-3.png "Replicate - Virtual machines")
 
@@ -97,10 +99,10 @@ In this task, you will configure and enable the replication of your on-premises 
      ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/upd-replicate-4.png "Replicate - Virtual machines")
 
 6. On the **Target settings** tab, select the below information,
-   - Select your subscription and the existing **SmartHotelHostRG** resource group. 
-   - **Virtual Network**: Select **SmartHotelVNet**. 
-   - **Subnet**: Select **SmartHotel**. 
-   - Leave other values as default and select **Next**.
+   - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
+   - **Virtual Network**: Select **SmartHotelVNet (2)**. 
+   - **Subnet**: Select **SmartHotel (3)**. 
+   - Leave other values as default and select **Next (4)**.
  
  
      ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-T2-S6.png "Replicate - Target settings")
