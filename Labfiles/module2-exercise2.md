@@ -2,83 +2,34 @@
 
 In this HOL, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in a number of scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
 
-### Task 1: Create a migration assessment
 
-In this task, you will use Azure Migrate to create a migration assessment for the SmartHotel application, using the data gathered during the discovery phase.
-
-1. Select **Assess** under **Azure Migrate: Discovery and assessment** and click on **Azure VM** to start a new migration assessment.
-
-   ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/newasses.png "Start assessment")
-
-2. On the Assess servers blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
-
-   ![Screenshot of the Azure Migrate 'Assess servers' blade, showing the assessment name.](Images/assessment1.png "Assess servers - assessment name")
-
-3. The **Assessment settings** blade allows you to tailor many of the settings used when making a migration assessment report. Take a few moments to explore the wide range of assessment properties. Hover over the information icons to see more details on each setting. Choose any settings you like, then select **Save**. (You have to make a change for the Save button to be enabled; if you don't want to make any changes, just close the blade.)
-
-   ![Screenshot of the Azure Migrate 'Assessment properties' blade, showing a wide range of migration assessment settings.](Images/assessment2.png "Assessment properties")
-
-4. Select **Next** to move to the **Select servers to assess** tab and enter the following information:
-     
-     1. Assessment name: Enter **SmartHotelAssessment** 
-     1. Select or create a group: Choose **Create New** and enter the 
-     1. Group name: Enter **Linux VMs**.
-     1. Add machines to the Group:  Select **LinuxVM** from dropdown.
-     1. Select the **RedHatVM** VMs and
-     1.  Click on **Next**.
-
-   ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/linucredhat.png "Assessment VM group")
-
-5. Click on **Create assessment** to create the assessment. 
-
-   ![](Images/Assessment4.png)
-
-6. On the **Servers, databases and web apps** blade, select **Refresh** periodically until the number of assessments shown is **2** (This may take few minutes). Once the assessments count is updated, click on **2** that is next to **Total** under **Assessments**.  
-
-    ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/HOL2-EX2-T1-S6.png "Azure Migrate - Assessments (count)")
-    
-7. Select **Assessments** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the actual assessment.
-
-   ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/HOL2-EX2-T1-S7.png "Azure Migrate - Assessments (list)")
-
-### Task 2: Configure dependency visualization
+### Task 1: Configure dependency visualization
 
 When migrating a workload to Azure, it is important to understand all workload dependencies. A broken dependency could mean that the application doesn't run properly in Azure, perhaps in hard-to-detect ways. Some dependencies, such as those between application tiers, are obvious. Other dependencies, such as DNS lookups, Kerberos ticket validation or certificate revocation checks, are not.
 
 In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace, and then to deploy agents on the to-be-migrated VMs.
 
-1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Azure Migrate: Discovery and assessment** select **Groups (2)**,
+1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
 
-    ![](Images/HOL2-EX2-T2-S1.png)   
+    ![](Images/nwgrpopen.png)   
 
-2. Select the **Linux VMs** group to see the group details. 
+2. Select the **SmartHotel VMs** group to see the group details. 
 
-   ![](Images/HOL2-EX2-T2-S2.png)   
+    ![](Images/upd-hol1-e2-t2-s2.png)  
 
-3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **UbuntuVM** VM.
+3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **Redhat VM**.
 
-   ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/redhatgrpbms.png "SmartHotel VMs server group")
+   ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/hol2-e2-s3.png "SmartHotel VMs server group")
 
-4. On the **Dependencies** blade, select **Configure Log Analytics workspace**.
-
-   ![Screenshot of the Azure Migrate 'Dependencies' blade, with the 'Configure OMS Workspace' button highlighted.](Images/configureLAW.png "Configure OMS Workspace link")
-
-5. On the **Configure Log Analytics workspace** blade, provide the below information and select **Configure**.
-
-   - Log Analytics workspace: Click on **Create new** and enter **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />**
-   - Log Analytics workspace location: Select **East US** from the dropdown.
-
-      ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/createLAW.png "OMS Workspace settings")
-
-6. Wait for the workspace to be deployed. Once it is deployed, navigate to **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />** by clicking on it.
+4. Navigate to **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />** by clicking on it.
 
    ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/omsworkspace.png "OMS Workspace settings")
 
-7. Select **Agents management** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID** and **Primary Key** (for example by using Notepad).
+7. Select **Agents management** (1) under **Settings** from the left-hand side menu. Make a note of the **Workspace ID** (2) and **Primary Key** (3) (for example by using Notepad).
 
-   ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/HOL2-EX2-T2-S2.png "OMS Workspace ID and primary key")
+   ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/upd-workspace-id-key.png "OMS Workspace ID and primary key")
 
-8. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **UbuntuVM** VM. To do so, you will first connect to the UbuntuWAF remotely using an SSH session.
+8. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **Redhat VM** VM. To do so, you will first connect to the Redhat VM remotely using an SSH session.
 
 9. Open a command prompt using the desktop shortcut.  
 
@@ -127,7 +78,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ![Screenshot showing that the Dependency Agent install on Linux was successful.](Images/da-linux-done.png "Dependency Agent installation was successful")
     
 
-17. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
+17. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The Redhat VM on which the dependency agent was installed should now show its status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
      ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/Linux-depencyagent.png "Dependency agent installed")
    

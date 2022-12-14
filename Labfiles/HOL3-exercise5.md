@@ -13,11 +13,13 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
     
-1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subsription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
+    > Note: If you are prompted with new upgrade pop-up, click on Skip.
+    
+1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
 
     ![Screenshot of the search Microsoft Defender for Cloud settings.](Images/hol3-e5-s3.png "Microsoft Defender for Cloud settings") 
      
-1. On the **Defender plans** page, switch the plan blade **On for Servers(1)** and then click on **Save (2)**.    
+1. On the **Defender plans** page, switch the plan blade **On for Servers (1)** and then click on **Save (2)**.    
 
     ![Screenshot of the search Microsoft Defender plans](Images/hol3-e5-s4.png "Microsoft Defender plans")
     
@@ -25,7 +27,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the setup workspace](Images/hol3-e5-s5.png "setup workspace")
 
-1. On the **Install Agents** tab, click **Continue without Installing Agents**.
+1. On the **Install Agents** tab, click on **Continue without Installing Agents**.
 
     ![Screenshot of the setup workspace](Images/hol3-e5-s6.png "setup workspace")
     
@@ -57,11 +59,13 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the create Microsoft Sentinel.](Images/hol3-e5-t2-s2.png "Microsoft Sentinel")
     
-1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click **Add (2)**. If prompted, Microsoft Sentinel free trial activated, click on Ok.   
+    > Note: If you are prompted with Microsoft Sentinel free trial activated pop-up, click on ok.
+    
+1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click on **Add (2)**. If prompted, Microsoft Sentinel free trial activated, click on Ok.   
 
     ![Screenshot of the add Microsoft Sentinel.](Images/hol3-e5-t2-s3.png "add Microsoft Sentinel")
     
-1. On the **News and guides (1)** window, go to **Get started (2)** tab and Click **Connect (3)** under _Collect data_.   
+1. On the **News and guides (1)** window, go to **Get started (2)** tab and Click on **Connect (3)** under _Collect data_.   
 
     ![Screenshot of the get started.](Images/hol3-e5-t2-s4.png "get started")
     
@@ -79,7 +83,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
     
-2. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here)and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azuremigraterg.
+2. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here) and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azuremigraterg.
 
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s2.png "Azure Monitor")
 
@@ -102,14 +106,14 @@ In this HOL, you will learn how to enable the enhanced security features by enab
    
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s4.png "Azure Monitor")  
     
-5. On the **Health tab**, you can see the workspace health state and when it was last reported, as well as operational errors and warnings 
+5. On the **Health tab**, you can see the workspace health state and when it was last reported, as well as operational errors and warnings.
         
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s5.png "Azure Monitor") 
     
 6. On the **Agents tab**, you can see  :
 
 - Operation errors and warnings - these are errors and warning related specifically to agents. 
-- Workspace agents - these are the agents that sent logs to the workspace during the selected time range. You can see the agents' types and health state. 
+- Workspace agents - these are the agents that sent logs to the workspace during the selected time range. You can see the agent's types and health state. 
 - Agents activity - this grid shows information on either all agents, healthy or unhealthy agents. 
     
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
@@ -123,17 +127,19 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the vm insights.](Images/hol3-e5-t3-s7.png "vm insights")
    
-9. On the **Get more visibility into the health and performance of your virtual machines** window, click on **Enable**. This will initiate the deployment of VM insights.   
+9. On the **Get more visibility into the health and performance of your virtual machine** window, click on **Enable**. This will initiate the deployment of VM insights.   
 
     ![Screenshot of the vm insights.](Images/e5-t3-s4.png "vm insights")
 
-10. On the **Monitoring configuration** page, click **Configure**.
+10. On the **Monitoring configuration** page, click on **Cancel**.
 
-    ![Screenshot of the vm insights.](Images/HOL3-EX5-T2-S10.png "vm insights")
+    > Note: In this task we won't be configuring VM insights.
+
+    ![Screenshot of the vm insights.](Images/upd-HOL3-EX5-T2-S10.png "vm insights")
 
 11. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
 
-12. From the left pane, select **Applications (1)** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
+12. From the left pane, select **Applications** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
   
     
 **Summary:** In this exercise, you explored on what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring  which helps you maximize the availability and performance of your applications and services. Then you explore on how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
