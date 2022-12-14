@@ -11,9 +11,9 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
 
-    ![](Images/nwgrpopen.png)   
+    ![](Images/upd-nwgrpopen.png)   
 
-2. Select the **SmartHotel VMs** group to see the group details. 
+2. Under **Groups (1)** pane, select the **SmartHotel VMs (2)** group to see the group details. 
 
     ![](Images/upd-hol1-e2-t2-s2.png)  
 
@@ -29,11 +29,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
    ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/upd-workspace-id-key.png "OMS Workspace ID and primary key")
 
-8. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **Redhat VM** VM. To do so, you will first connect to the Redhat VM remotely using an SSH session.
+8. You will now deploy the Linux versions of the Microsoft Monitoring Agent and Dependency Agent on the **RedhatVM**. To do so, you will first connect to the Redhat VM remotely using an SSH session.
 
 9. Open a command prompt using the desktop shortcut.  
 
-10. Enter the following command to connect to the **RedhatVM** VM running in Hyper-V on the SmartHotelHost:
+10. Enter the following command to connect to the **RedhatVM** running in Hyper-V on the SmartHotelHost:
 
     ```bash
     ssh administrator@192.168.1.18
