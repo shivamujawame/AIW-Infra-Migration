@@ -90,6 +90,6 @@ In this task, you will Enable Automanage on existing machines.
    
    c. Click the **Review+Create (3)** button.
    
-   ![](Images/upd-existing-vm-select-machine.png)
+   ![](Images/updt-existing-vm-select-machine.png)
 
 6. Click **Create**.
