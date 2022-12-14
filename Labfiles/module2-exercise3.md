@@ -189,7 +189,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
        ```
    
      *  ```  
-        cd /etc/www/html/inetpub/SmartHotel.Registration
+        cd /var/www/html/inetpub/SmartHotel.Registration
         ```
 
 7. Run the below command to edit the **Web.config**.
@@ -212,7 +212,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
     ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/web2-connection-string.png "web.config")
 
-6. Once done, press **Escape** button and press **:wq** to **Save** the `web.config` file and exit your Bastion remote desktop session.
+6. Once done, press CTRL + [ button and press **:wq** to **Save** the `web.config` file and exit your Bastion remote desktop session.
 
 #### Task summary 
 
