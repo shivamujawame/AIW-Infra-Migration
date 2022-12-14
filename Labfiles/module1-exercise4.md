@@ -86,7 +86,7 @@ In this task, you will Enable Automanage on existing machines.
 
    a. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (1)**.
    
-   b. **Check the checkbox of the virtual machine (2)** you want to onboard. (for example: let's enable automange for smarthotelweb2.)
+   b. **Check the checkbox of the virtual machine (2)** you want to onboard. (for example: let's enable automanage for smarthotelweb2.)
    
    c. Click the **Review+Create (3)** button.
    
