@@ -4,7 +4,7 @@
 
 In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
 
-1. In the Azure portal `https://portal.azure.com`, Navigate to your newly migrated RedhatVM and select it.
+1. In the Azure portal `https://portal.azure.com`, Navigate to your newly migrated redhat VM and select it.
     
     ![](Images/redhatrg.png)
     
@@ -12,7 +12,9 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
     ![](Images/identityt.png)
 
-3. Under Identity, Under System assigned tab, Click on the **On** button under Status tag and click on **Save** button to turn on the identity. It will take some time to complete the process and there have some Service principal is getting created behind the process.
+3. Under Identity, Under System assigned tab, Click on the **On (1)** button under Status tag and click on **Save (2)** button to turn on the identity. It will take some time to complete the process and there have some Service principal is getting created behind the process.
+
+     > Note: If prompted with Enable system assigned managed identity pop-up, click on Yes.
 
       ![](Images/turinon.png)
       ![](Images/identidone.png)
@@ -21,7 +23,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
    
     ![](Images/extension.png)
 
-5. In the Extension page, Click on **add** button to add an extension that will help you to connect to your machine using your AAD account.
+5. In the Extension page, Click on **+Add** button to add an extension that will help you to connect to your machine using your AAD account.
 
     ![](Images/addexn.png)
 
@@ -56,7 +58,7 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
 3. If prompted about not having a storage account mounted, click on **Show advanced settings**. Select Create new under Storage account and provide values as below: 
   
       - **Resource Group**: Select **Use existing** then select **SmartHotelRG**
-      - **Storage account** : **storage<inject key="Suffix" enableCopy="false"/>**
+      - **Storage account** : **storage<inject key="DeploymentID" enableCopy="false" />**
       - **File Share** : **blob**
 
    ![This is a screenshot of the cloud shell opened in a browser window. Powershell was selected.](Images/b4-image36.png "Azure Cloud Shell")
@@ -71,14 +73,14 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
      az login
      ```
   
-  - **Note:** Copy the login URL and enter the unique code in the browser.
+  - **Note:** Copy the login URL and enter the unique code in the browser. After that pick your account and click on **Continue** under Are you trying to sign in to Microsoft Azure CLI?
   
      ![](Images/azlogin.png)
    
 6. Run the following commands to connect to the VM by using the name and resource group of the VM:
 
       ```
-      az ssh vm -n RedhatVM -g SmartHotelRG
+      az ssh vm -n redhat -g SmartHotelRG
       ```
   
 
@@ -108,7 +110,7 @@ In this task, you will Enable Automanage on existing machines.
 
    a. Filter the list by your Subscription and Resource group.
    
-   b. Check the checkbox of **RedhatVM** virtual machine 
+   b. Check the checkbox of **redhat** virtual machine 
    
    c. Click the **Review+Create** button.
    

@@ -20,21 +20,21 @@
 
    ![](Images/upd-yes.png)
 
-5. In **Gallery details**, create a new gallery by selecting **Create new** and enter **imagemigration<inject key="DeploymentID" enableCopy="false" />** and click **Ok**.
+5. In **Gallery details**, create a new gallery by selecting **Create new (1)** and enter **imagemigration<inject key="DeploymentID" enableCopy="false" /> (2)** and click **Ok (3)**.
 
    ![](Images/upd-e4-t1-s7.png)
 
 6. In Operating system state select **Specialized**.
 
-7. Select an image definition and click **create new** and create a VM Image definition by providing the following details and then click **Ok**: 
+7. Select an image definition and click **Create new (1)** and create a VM Image definition by providing the following details and then click **Ok (6)**: 
   
-   - Image VM definition name: **imagedefinition<inject key="DeploymentID" enableCopy="false" />**
+   - Image VM definition name: **imagedefinition<inject key="DeploymentID" enableCopy="false" /> (2)**
 
-   - Publisher: **Microsoft**
+   - Publisher: **Microsoft (3)**
     
-   - Offer: **windows**
+   - Offer: **windows (4)**
   
-   - SKU: **migration**
+   - SKU: **migration (5)**
 
    ![](Images/upd-4-t1-s9.png)
 
@@ -44,7 +44,7 @@
 
 10. After validation passes, select **Create** to create the image.
 
-11. On the page for the image gallery, on the upper menu, select **+VMSS**.
+11. On the page for the image gallery, on the upper menu, select **+ Create VMSS**.
 
     ![](Images/upd-vmss1.png)
 
@@ -70,7 +70,7 @@ In this task, you will Enable Automanage on existing machines.
 
 2. In the search bar, search for and select **Automanage – Azure machine best practice**s.
 
-3. Under **Automanage machines**, select the **+Enable on existing VM**.
+3. From the left side panel select **Automanage machines (1)** and click on **+Enable on existing VM (2)**.
    
    ![](Images/upd-zero-vm-list-view.png)
 
@@ -84,12 +84,12 @@ In this task, you will Enable Automanage on existing machines.
 
 5. On the Select **machines blade**:
 
-   a. Filter the list by your Subscription and Resource group.
+   a. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (1)**.
    
-   b. Check the checkbox of each virtual machine you want to onboard.
+   b. **Check the checkbox of the virtual machine (2)** you want to onboard. (for example: let's enable automanage for smarthotelweb2.)
    
-   c. Click the **Review+Create** button.
+   c. Click the **Review+Create (3)** button.
    
-   ![](Images/upd-existing-vm-select-machine.png)
+   ![](Images/updt-existing-vm-select-machine.png)
 
 6. Click **Create**.

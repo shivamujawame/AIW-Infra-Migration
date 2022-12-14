@@ -21,7 +21,7 @@ In this exercise, you will review the already discovered server on your Azure Mi
  
     ![Screenshot of the Azure migrate overview blade.](Images/Azmigrate.png "Azmigrate Overview blade")
 
-4. Under **Azure Migrate: Discovery and assessment**, You'll see 7 discovered servers. We have already migrated 3 severs in the previous HOL and now we will be migrating and modernizing the redhat and OSS DB in this HOL
+4. Under **Azure Migrate: Discovery and assessment**, you'll see 7 discovered servers. We have already migrated 3 severs in the previous HOL and now we will be migrating and modernizing the redhat and OSS DB in this HOL
  
     ![](Images/newhol2.png)
  
@@ -33,25 +33,25 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
      ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
      
-1. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the Redhat VM and 6 other VMs that we are going to use in other HOLs.
+1. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the redhat VM and 6 other VMs that we are going to use in other HOLs.
 
      ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/redhatnew.png "Hyper-V Manager")
      
-1. In Hyper-V Manager, select the **RedHat VM** VM, then select **Start** on the right if not already running.
+1. In Hyper-V Manager, select the **redhat**, then select **Start** on the right if not already running.
 
    ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/startredhat.png "Start AzureMigrateAppliance")
 
-1. In Hyper-V Manager, select the **Redhat VM** VM, then select **Connect** on the right.
+1. In Hyper-V Manager, select the **redhat**, then select **Connect** on the right.
 
     ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/connectredhat.png "Connect to AzureMigrateAppliance")
 
 1. Log into the VM with the **Administrator password**: **<inject key="SmartHotelHost Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
 
-1. You should be able to login to your on-prem Red hat server hosted on hyper-V. 
+1. You should be able to login to your on-prem Redhat server hosted on hyper-V. 
 
     ![Screenshot of the Azure Migrate appliance terms of use.](Images/redhathome.png "Desktop shortcut")
 
-1. In the next exercise you will be migrating the Red hat server, and the OSS Database hosted in the Red hat VM to the Azure with the help of Azure Migrate .  
+1. In the next exercise you will be migrating the Redhat server, and the OSS Database hosted in the Red hat VM to the Azure with the help of Azure Migrate.  
     
 
 **Summary:** In this exercise, you explored how Assessments work to migrate your on-premises servers to Azure virtual machines. You learnt how to assess your on-premises servers Hyper-V environment, and physical servers for migration to Azure VMs.

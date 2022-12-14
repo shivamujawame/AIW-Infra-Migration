@@ -5,7 +5,7 @@
 
 In this task, you will use Azure Migrate to create a migration assessment for the SmartHotel application, using the data gathered during the discovery phase.
 
-1. Select **Assess** under **Azure Migrate: Discovery and assessment** and click on **Azure VM** to start a new migration assessment.
+1. Select **Assess (1)** under **Azure Migrate: Discovery and assessment** and click on **Azure VM (2)** to start a new migration assessment.
 
     ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/newasses.png "Start assessment")
 
@@ -19,12 +19,12 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 4. Select **Next** to move to the **Select servers to assess** tab and enter the following information:
      
-     1. Assessment name: Enter **SmartHotelAssessment** 
-     1. Select or create a group: Choose **Create New**  
-     1. Enter the Group name: **SmartHotel VMs**
-     1. Add machines to the Group:  Select **SmarthotelAppl(Hyper-V)** from dropdown.
-     1. Select the **smarthotelweb1**, **smarthotelweb2**, **UbuntuWAF**, and **Redhat VM** VMs and
-     1. Click on **Next:Review+Create assessment**.
+     1. Assessment name: Enter **SmartHotelAssessment (1)** 
+     1. Select or create a group: Choose **Create New (2)**  
+     1. Enter the Group name: **SmartHotel VMs (3)**
+     1. Add machines to the Group:  Select **SmarthotelAppl(Hyper-V) (4)** from dropdown.
+     1. Select the **smarthotelweb1**, **smarthotelweb2**, **UbuntuWAF**, and **redhat** VMs **(5)** and
+     1. Click on **Next: Review+Create assessment (6)**.
 
     ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/upd-hol1-e2-t1-s4.png "Assessment VM group")
 
@@ -38,7 +38,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
     ![Screenshot from Azure Migrate showing the number of assessments as '1'.](Images/nwgrp.png "Azure Migrate - Assessments (count)")
     
-7. Select **Assessments** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the actual assessment.
+7. Select **Assessments (1)** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the **actual assessment (2)**.
 
     ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/upd-assessment-list-v2.png "Azure Migrate - Assessments (list)")
 
@@ -50,9 +50,9 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
 
-    ![](Images/nwgrpopen.png)   
+    ![](Images/upd-nwgrpopen.png)   
 
-2. Select the **SmartHotel VMs** group to see the group details. 
+2. Under the **Groups (1)** pane, select the **SmartHotel VMs (2)** group to see the group details. 
 
     ![](Images/upd-hol1-e2-t2-s2.png)   
 
@@ -64,10 +64,10 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot of the Azure Migrate 'Dependencies' blade, with the 'Configure OMS Workspace' button highlighted.](Images/configureLAW.png "Configure OMS Workspace link")
 
-5. On the **Configure Log Analytics workspace** blade, provide the below information and select **Configure**.
+5. On the **Configure Log Analytics workspace** blade, provide the below information and select **Configure (4)**.
 
-   - Log Analytics workspace: Click on **Create new** and enter **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />**
-   - Log Analytics workspace location: Select **East US** from the dropdown.
+   - Log Analytics workspace: Click on **Create new (1)** and enter **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)**
+   - Log Analytics workspace location: Select **East US (3)** from the dropdown.
 
     ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/upd-createLAW.png "OMS Workspace settings")
 
@@ -75,7 +75,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/omsworkspace.png "OMS Workspace settings")
 
-7. Select **Agents management** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID** and **Primary Key** (for example by using Notepad).
+7. Select **Agents management (1)** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID (2)** and **Primary Key (3)** (for example by using Notepad).
 
     ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/upd-workspace-id-key.png "OMS Workspace ID and primary key")
 
@@ -83,7 +83,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
    
     ![Screenshot of the Azure Migrate 'Dependencies' blade with the 4 agent download links highlighted.](Images/upd-agent-links.png "Agent download links")
 
-9. From **Hyper-V Manager** console, select **smarthotelweb1** and select **Connect**.
+9. From **Hyper-V Manager** console, select **smarthotelweb1 (1)** and select **Connect (2)**.
 
     ![Screenshot from Hyper-V manager highlighting the 'Connect' button for the smarthotelweb1 VM.](Images/e2-t2-s9.png "Connect to smarthotelweb1")
 
@@ -107,11 +107,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma3.png "MMA installation") 
 
-15. On the **Agent Setup Options** blade, select **Connect the agent to Azure Log Analytics (OMS)** and select **Next**.
+15. On the **Agent Setup Options** blade, select **Connect the agent to Azure Log Analytics (OMS) (1)** and select **Next (2)**.
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma4.png "MMA installation") 
 
-16. On the **Azure Log Analytics** blade, enter the **Workspace ID** and **Workspace Key** that you copied earlier, and select **Azure Commercial** from the Azure Cloud drop-down then select **Next**.
+16. On the **Azure Log Analytics** blade, enter the **Workspace ID** and **Workspace Key** that you copied earlier, and select **Azure Commercial (1)** from the Azure Cloud drop-down then select **Next (2)**.
 
     ![Screenshot of the Microsoft Monitoring Agent install wizard, showing the Log Analytics (OMS) workspace ID and key.](Images/upd-mma-wizard.png "MMA agent installer - workspace configuration")
 
