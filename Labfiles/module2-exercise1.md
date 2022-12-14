@@ -37,11 +37,11 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
      ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/redhatnew.png "Hyper-V Manager")
      
-1. In Hyper-V Manager, select the **RedHatVM**, then select **Start** on the right if not already running.
+1. In Hyper-V Manager, select the **redHat**, then select **Start** on the right if not already running.
 
    ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/startredhat.png "Start AzureMigrateAppliance")
 
-1. In Hyper-V Manager, select the **RedhatVM**, then select **Connect** on the right.
+1. In Hyper-V Manager, select the **redhat**, then select **Connect** on the right.
 
     ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/connectredhat.png "Connect to AzureMigrateAppliance")
 
