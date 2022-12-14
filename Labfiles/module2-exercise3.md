@@ -54,7 +54,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - Select **Next (5)**.
  
  
-    ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Target settings")
+    ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL2-EX3-T2-S6.png "Replicate - Target settings")
 
  > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
@@ -64,7 +64,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - Select **Next**. 
 
 
-    ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/redhatconfg.png "Replicate - Compute")
+    ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
 
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
@@ -106,7 +106,7 @@ In this task you will modify the settings for each replicated VM to use a static
 
 5. Change the **Private IP address** to **192.168.0.19**
 
-    ![Screenshot showing a private IP address being configured for a replicated VM in ASR.](Images/smarupdateprivate.png "Network interface - static private IP address")
+    ![Screenshot showing a private IP address being configured for a replicated VM in ASR.](Images/upd-smarupdateprivate.png "Network interface - static private IP address")
 
 6. Select **OK** to close the network interface settings blade, then **Save** the **redhat** settings to configure the private IP address for the VMs.
 
