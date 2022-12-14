@@ -33,15 +33,15 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
      ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
      
-1. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the Redhat VM and 6 other VMs that we are going to use in other HOLs.
+1. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the RedhatVM and 6 other VMs that we are going to use in other HOLs.
 
      ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/redhatnew.png "Hyper-V Manager")
      
-1. In Hyper-V Manager, select the **RedHat VM**, then select **Start** on the right if not already running.
+1. In Hyper-V Manager, select the **RedHatVM**, then select **Start** on the right if not already running.
 
    ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/startredhat.png "Start AzureMigrateAppliance")
 
-1. In Hyper-V Manager, select the **Redhat VM**, then select **Connect** on the right.
+1. In Hyper-V Manager, select the **RedhatVM**, then select **Connect** on the right.
 
     ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/connectredhat.png "Connect to AzureMigrateAppliance")
 
