@@ -94,7 +94,7 @@ In this task, you will Enable Automanage on existing machines.
 
 2. In the search bar, search for and select **Automanage – Azure machine best practice**s.
 
-3. Under **Automanage machines**, select the **+Enable on existing VM**.
+3. Under **Automanage machines (1)**, select the **+Enable on existing VM (2)**.
    
    ![](Images/upd-zero-vm-list-view.png)
 
