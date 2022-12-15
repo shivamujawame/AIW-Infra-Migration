@@ -56,7 +56,7 @@ In this task, you will configure and enable the replication of your on-premises 
  
     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL2-EX3-T2-S6.png "Replicate - Target settings")
 
- > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
+ > **Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
 
 6. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
@@ -108,14 +108,14 @@ In this task you will modify the settings for each replicated VM to use a static
 
     ![Screenshot showing a private IP address being configured for a replicated VM in ASR.](Images/upd-smarupdateprivate.png "Network interface - static private IP address")
 
-6. Select **OK** to close the network interface settings blade, then **Save** the **redhat** settings to configure the private IP address for the VMs.
+6. Select **OK** to close the network interface settings blade, then **Save** the **redhat** settings to configure the private IP address for the VM.
 
 
 #### Task summary 
 
 In this task you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
 
-> **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machine in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VMs during migration (for example, by editing web.config files).
+> **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machine in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VM during migration (for example, by editing web.config files).
 
 
 ### Task 4: Server migration
@@ -152,7 +152,7 @@ In this task you will perform a migration of the redhat virtual machine to Azure
 
 #### Task summary 
 
-In this task you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
+In this task you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
 
 
 ### Task 5: Configure the database connection
