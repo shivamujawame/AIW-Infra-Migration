@@ -10,7 +10,7 @@ In this task, you will review the already registered Hyper-V host(LabVM) with th
 
     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/7dscvrredhat.png "Discovered servers")
 
-13. In the discovered list, you'll see the **redhat**, we will be replicating this redhat VM in the next task with the help of Azure Migrate.
+3. In the discovered list, you'll see the **redhat**, we will be replicating this redhat VM in the next task with the help of Azure Migrate.
 
     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-redhatdscvtd.png "Discovered servers")
 
@@ -24,7 +24,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 1. Return to the Azure Migrate | Servers, databases and web apps blade and under **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
 
-    ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/upd-HOL2-EX3-T2-S1.png "Replicate link")
+    ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/HOL2-EX3-T2-S1.png "Replicate link")
    
 1. Under **Specific Intent** page, provide the below details:
 
@@ -48,7 +48,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 5. On the **Target settings** tab, select the below information,
    - Select your subscription and the existing **SmartHotelRG (1)** resource group. 
-   - **Replication storage account**: Select the **(Auto-created)** storage account that has been created in the previous HOL1 **(2)**.
+   - **Cache storage account**: Select the **(Auto-created)** storage account that has been created in the previous HOL1 **(2)**.
    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
    - **Subnet**: Select **SmartHotel (4)**. 
    - Select **Next (5)**.
