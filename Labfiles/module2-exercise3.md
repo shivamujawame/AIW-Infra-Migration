@@ -222,21 +222,21 @@ In this task, you updated the **redhat** configuration to connect to the Azure S
 
 In this task, you will associate an Application Gateway with Web Application Firewall (WAF) to replace the Ubuntu VM with the Azure managed service.
 
-1. Navigate to the **SmartHotel-WAF** Application Gateway in the **SmartHotelRG** resource group
+1. Navigate to the **SmartHotel-WAF** Application Gateway in the **SmartHotelRG** resource group.
 
-1. Select **Backend pools** under the Settings section, and select the **WebBackend** pool
+1. Select **Backend pools (1)** under the Settings section, and select the **WebBackend (2)** pool.
 
-    ![Screenshot showing the backend pool selection for the Application Gateway](Images/waf-backend-pool.png "Select WebBackend")
+    ![Screenshot showing the backend pool selection for the Application Gateway](Images/upd-waf-backend-pool.png "Select WebBackend")
 
-1. Set the Target type to **Virtual machine** and the Target to the NIC of **redhat**; select **Save** to update the backend pool
+1. Set the Target type to **Virtual machine** and the Target to the NIC of **redhat**; select **Save** to update the backend pool.
 
-    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/confgredhat.png "Add VM to backend pool")
+    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/upd-confgredhat.png "Add VM to backend pool")
 
     > **Note:** This backend pool is already associated with the front-end IP address of the Application Gateway via the SmartHotelApp rule. The front-end IP, listener, rule, and backend pool were all created with the Application Gateway. This step now ties the migrated VM to the front end.
    
-1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations** way in the Settings section, and note the IP address associated with the public IP address **appGwPublicFrontendIp**.
+1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations (1)** way in the Settings section, and note the IP address associated with the public IP address **appGwPublicFrontendIp (2)**.
 
-    ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/waf-public-ip-address.png "Public IP address of AppGW")
+    ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/upd-waf-public-ip-address.png "Public IP address of AppGW")
 
 1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
 
