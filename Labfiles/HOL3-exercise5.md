@@ -5,7 +5,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 > **Note:** 
 > - Microsoft Defender for Cloud, Azure Sentinel and Monitor Insights can take several hours to surface post the completion of a scan.
 > - At this point of the workshop, only a limited number of data visualisations may be populated. (So the result in the screenshots below may vary)
-> - The screenshots and information below, has been provided so that you can conceptualise the type of insights that can be gleaned from a fully populated environment.
+> - The screenshots and information below, has been provided so that you can conceptualise the type of graphs and output that can be gleaned from a fully populated environment.
 
 ### Task 1: Enable Microsoft Defender for Cloud
 
