@@ -4,9 +4,9 @@
 
 In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
 
-1. In the Azure portal `https://portal.azure.com`, Navigate to your newly migrated redhat VM and select it.
+1. In the Azure portal `https://portal.azure.com`, Navigate to your newly migrated **redhat** VM and select it.
     
-    ![](Images/redhatrg.png)
+    ![](Images/upd-redhatrg.png)
     
 2. Now from the left side menu, select the **Identity**.
 
@@ -108,14 +108,14 @@ In this task, you will Enable Automanage on existing machines.
 
 5. On the Select **machines blade**:
 
-   a. Filter the list by your Subscription and Resource group.
+   a. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (2)**.
    
-   b. Check the checkbox of **redhat** virtual machine 
+   b. Check the checkbox of **redhat (1)** virtual machine.
    
-   c. Click the **Review+Create** button.
+   c. Click the **Review+Create (3)** button.
    
-   ![](Images/redhatautomanage.png)
+   ![](Images/upd-redhatautomanage.png)
 
-6. Click **Create**.
+6. Click on **Create**.
 
 7. Once the Configuration profile assignment completed successfully, it will take around 20-30 minutes to get the Status as Conformant.
