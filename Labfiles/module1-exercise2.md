@@ -58,7 +58,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **smarthotelweb1** VM.
 
-    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/upd-hol1-e2-t2-s3.png "SmartHotel VMs server group")
+    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/updt-hol1-e2-t2-s3.png "SmartHotel VMs server group")
 
 4. On the **Dependencies** blade, select **Configure Log Analytics workspace**.
 
