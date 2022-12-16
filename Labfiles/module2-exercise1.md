@@ -31,19 +31,19 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
    > You can also open the **Hyper-v manager** by clicking on the icon that is present in the taskbar. 
 
-     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
+    ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
      
-1. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the redhat VM and 6 other VMs that we are going to use in other HOLs.
+1. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. You should now see the **redhat** VM and 6 other VMs that we are going to use in other HOLs.
 
-     ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/redhatnew.png "Hyper-V Manager")
+    ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/upd-redhatnew.png "Hyper-V Manager")
      
-1. In Hyper-V Manager, select the **redhat**, then select **Start** on the right if not already running.
+1. In Hyper-V Manager, select the **redhat (1)**, then select **Start (2)** on the right if not already running.
 
-   ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/startredhat.png "Start AzureMigrateAppliance")
+    ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/upd-startredhat.png "Start AzureMigrateAppliance")
 
-1. In Hyper-V Manager, select the **redhat**, then select **Connect** on the right.
+1. In Hyper-V Manager, select the **redhat (1)**, then select **Connect (2)** on the right.
 
-    ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/connectredhat.png "Connect to AzureMigrateAppliance")
+    ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/upd-connectredhat.png "Connect to AzureMigrateAppliance")
 
 1. Log into the VM with the **Administrator password**: **<inject key="SmartHotelHost Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
 

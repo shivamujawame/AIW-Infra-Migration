@@ -19,7 +19,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **redhat** VM.
 
-    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/hol2-e2-s3.png "SmartHotel VMs server group")
+    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/upd-hol2-e2-s3.png "SmartHotel VMs server group")
 
 4. Navigate to **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />** by clicking on it.
 

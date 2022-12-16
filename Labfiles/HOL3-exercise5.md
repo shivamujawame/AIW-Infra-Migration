@@ -2,6 +2,10 @@
 
 In this HOL, you will learn how to enable the enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will setup Log Analytics workspace to collect logs and data of the resources and it's information will be stored in a workspace.
 
+> **Note:** 
+> - Microsoft Defender for Cloud, Azure Sentinel and Monitor Insights can take several hours to surface post the completion of a scan.
+> - At this point of the workshop, only a limited number of data visualisations may be populated. (So the result in the screenshots below may vary)
+> - The screenshots and information below, has been provided so that you can conceptualise the type of graphs and output that can be gleaned from a fully populated environment.
 
 ### Task 1: Enable Microsoft Defender for Cloud
 
@@ -59,11 +63,12 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the create Microsoft Sentinel.](Images/hol3-e5-t2-s2.png "Microsoft Sentinel")
     
-    > Note: If you are prompted with Microsoft Sentinel free trial activated pop-up, click on ok.
     
 1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click on **Add (2)**. If prompted, Microsoft Sentinel free trial activated, click on Ok.   
 
     ![Screenshot of the add Microsoft Sentinel.](Images/hol3-e5-t2-s3.png "add Microsoft Sentinel")
+    
+    > Note: If you are prompted with Microsoft Sentinel free trial activated pop-up, click on ok.
     
 1. On the **News and guides (1)** window, go to **Get started (2)** tab and Click on **Connect (3)** under _Collect data_.   
 

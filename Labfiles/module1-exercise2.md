@@ -26,7 +26,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Select the **smarthotelweb1**, **smarthotelweb2**, **UbuntuWAF**, and **redhat** VMs **(5)** and
      1. Click on **Next: Review+Create assessment (6)**.
 
-    ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/upd-hol1-e2-t1-s4.png "Assessment VM group")
+    ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/updt-hol1-e2-t1-s4.png "Assessment VM group")
 
     **Note:** There is no need to include the **smarthotelSQL1**, **AzureMigrateAppliance** and other VMs in the assessment, since they will not be migrated to Azure. (The SQL Server will be migrated to the SQL Database service and the Azure Migrate Appliance is only used for migration assessment.)
 
@@ -58,7 +58,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **smarthotelweb1** VM.
 
-    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/upd-hol1-e2-t2-s3.png "SmartHotel VMs server group")
+    ![Screenshot showing the SmartHotel VMs group. Each VM has dependency status 'Requires agent installation'.](Images/updt-hol1-e2-t2-s3.png "SmartHotel VMs server group")
 
 4. On the **Dependencies** blade, select **Configure Log Analytics workspace**.
 
