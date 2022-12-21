@@ -227,7 +227,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
    **Note:** You may have to wait a few minutes and refresh to have the option to enter the credentials. 
 
-3. Connect to the machine with the username **Administrator (1)** and the password **<inject key="SmartHotelHost Admin Password"></inject> (2)** and then click on **Connect (3)**. When prompted, **Allow** clipboard access.
+3. Connect to the machine with the username **Administrator (1)** and the password **<inject key="SmartHotel Admin Password"></inject> (2)** and then click on **Connect (3)**. When prompted, **Allow** clipboard access.
 
     >**Note:** You might have to allow pop-ups in order to access the bastion session.
 
@@ -245,7 +245,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
     > **Note:** You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste into the VM.
 
-    Set the password in the connection string to **<inject key="SmartHotelHost Admin Password" />**.
+    Set the password in the connection string to **<inject key="SmartHotel Admin Password" />**.
 
     ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/upd-web2-connection-string.png "web.config")
 
