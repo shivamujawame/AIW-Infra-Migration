@@ -45,7 +45,7 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
     ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/upd-connectredhat.png "Connect to AzureMigrateAppliance")
 
-1. Log into the VM with the **Administrator password**: **<inject key="SmartHotelHost Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
+1. Log into the VM with the **Administrator password**: **<inject key="SmartHotel Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
 
 1. You should be able to login to your on-prem Redhat server hosted on hyper-V. 
 
