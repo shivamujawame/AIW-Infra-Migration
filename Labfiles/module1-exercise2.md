@@ -87,7 +87,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot from Hyper-V manager highlighting the 'Connect' button for the smarthotelweb1 VM.](Images/e2-t2-s9.png "Connect to smarthotelweb1")
 
-10. Select **Connect** again when prompted and log in to the **Administrator** account using the password **<inject key="SmartHotelHost Admin Password" />**.
+10. Select **Connect** again when prompted and log in to the **Administrator** account using the password **<inject key="SmartHotel Admin Password" />**.
 
 11. Go to **Start** button in the **smarthotelweb1** VM and select **Internet Explorer** to open it. Paste the link to the 64-bit Microsoft Monitoring Agent for Windows, which you noted earlier. When prompted, **Run** the installer.
 
@@ -154,11 +154,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ssh demouser@192.168.0.8
     ```
 
-26. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotelHost Admin Password" />**.
+26. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotel Admin Password" />**.
 
     ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/ssh.png "SSH session with UbuntuWAF")
 
-27. Enter the following command, followed by the password **<inject key="SmartHotelHost Admin Password" />** when prompted:
+27. Enter the following command, followed by the password **<inject key="SmartHotel Admin Password" />** when prompted:
   
     ```
     sudo -s
