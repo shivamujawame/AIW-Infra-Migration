@@ -123,7 +123,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
       1. Friendly name: Enter **hostlogin (1)** 
       2. Username: **<inject key="SmartHotelHost Admin Username" /> (2)**
-      3. Password: **<inject key="SmartHotel Admin Password" /> (3)**
+      3. Password: **<inject key="SmartHotelHost Admin Password" /> (3)**
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/upd-add-creds.png "Credentials")
 
