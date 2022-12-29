@@ -88,7 +88,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/upd-view-dependencies.png "View dependencies")
    
-19. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
+19. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see the process information. See which connections each server makes.
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/upd-dependencies1.png "Dependency map")
  
