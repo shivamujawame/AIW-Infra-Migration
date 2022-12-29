@@ -6,7 +6,7 @@ In this task, you will review the already registered Hyper-V host(LabVM) with th
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, and select **Servers, databases and web apps** under **Migration goals** on the left. 
 
-2. Now under Migration and modernization, you should be able to see 7 discovered server. Now click on the **Discovered server** to view all the server that has been discovered with the help of Azure Migrate. 
+2. Under Migration and modernization, you should be able to see 7 discovered servers. Now click on the **Discovered server** to view all the server that has been discovered with the help of Azure Migrate. 
 
     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/7dscvrredhat.png "Discovered servers")
 
@@ -171,7 +171,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
     ![Screenshot showing the Azure Bastion connection blade.](Images/HOL2-EX3-T5-S3.png "Connect using Bastion")
 
-4. In the **redhat** remote desktop session, Enable the root user by running the below commands,and enter password as **demo!pass123**. 
+4. In the **redhat** remote desktop session, enable the root user by running the below commands,and enter password as **demo!pass123**. 
 
     ```
     su 
