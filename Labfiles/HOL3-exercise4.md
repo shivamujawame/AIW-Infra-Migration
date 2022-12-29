@@ -44,7 +44,7 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 
    ![Screenshot of the failover done.](Images/hol3-e4-s10.png "failover done")  
    
-   > **Note:** If you want to switch to different recovery point to use for the failover, use **Change recovery point**.   
+   > **Note:** If you want to switch to a different recovery point to use for the failover, use **Change recovery point**.   
   
    ![Screenshot of the recovery points.](Images/hol3-e4-s14.png "recovery points") 
    
@@ -67,4 +67,4 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
     ![Screenshot of the vm-created status.](Images/hol3-e4-s13.png "vm-created status")  
 
 
-**Summary:** In this exercise, you explored on how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
+**Summary:** In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
