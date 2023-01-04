@@ -56,11 +56,11 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
    
 1. Under **Review** tab, click on **Enable Replication**.
 
-1. The process of replication might take 15-20 minutes to get completed. Once the Replication is successfully completed, the status of the replicated AzureArcVM will now become **Protected (2)**.
+1. The process of replication might take 15-20 minutes to complete. Once the Replication is successfully completed, the status of the replicated AzureArcVM will now become **Protected (2)**.
 
    > **Note:** You might have to refresh **(1)** a couple of times.
 
     ![Screenshot of the status-protected.](Images/hol3-e2-s13.png "status-protected")
    
-**Summary:** In this exercise, you explored on how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you see how to set up the source and target replication environments and create a replication policy so that at the end you can enable replication for a server.
+**Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learnt how to set up the source and target replication environments and create a replication policy to enable replication for a server.
 
