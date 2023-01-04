@@ -63,8 +63,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - Select the **Linux** operating system for the **redhat** virtual machine. 
    - Select **Next**. 
 
-
-    ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
+  ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
 
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
@@ -167,7 +166,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
    **Note:** You may have to wait a few minutes and refresh to have the option to enter the credentials. 
 
-3. **Connect** to the machine with the username **administrator** and the password <inject key="SmartHotelHost Admin Password"></inject>. When prompted, **Allow** clipboard access.
+3. **Connect** to the machine with the username **administrator** and the password <inject key="SmartHotel Admin Password"></inject>. When prompted, **Allow** clipboard access.
 
     ![Screenshot showing the Azure Bastion connection blade.](Images/HOL2-EX3-T5-S3.png "Connect using Bastion")
 
@@ -208,7 +207,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
     > **Note:** You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste into the VM.
 
-    Set the password in the connection string to **<inject key="SmartHotelHost Admin Password" />**.
+    Set the password in the connection string to **<inject key="SmartHotel Admin Password" />**.
 
     ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/web2-connection-string.png "web.config")
 
