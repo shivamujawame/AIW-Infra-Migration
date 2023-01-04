@@ -4,7 +4,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
 > **Note:** 
 > - Microsoft Defender for Cloud, Azure Sentinel and Monitor Insights can take several hours to surface post the completion of a scan.
-> - At this point of the workshop, only a limited number of data visualisations may be populated. (So the result in the screenshots below may vary)
+> - At this point of the workshop, only a limited number of data visualizations may be populated. (So the result in the screenshots below may vary)
 > - The screenshots and information below, has been provided so that you can conceptualise the type of graphs and output that can be gleaned from a fully populated environment.
 
 ### Task 1: Enable Microsoft Defender for Cloud
@@ -50,9 +50,6 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 1. On the **Security alerts page** under _General_, you can see the alerts that describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. (The Remediation steps contain the remediation logic where you can remediate the selected resource/s. To simplify remediation and improve your environment's security and increase your secure score, many recommendations include a Fix option. Fix helps you quickly remediate a recommendation on multiple resources.)
 
   
-
-
-
 ### Task 2: Enable Microsoft Sentinel
 
 1. In the **search resources, services and docs bar**, type **Microsoft Sentinel** and select it from suggestions, as shown below:
@@ -147,4 +144,4 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 12. From the left pane, select **Applications** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
   
     
-**Summary:** In this exercise, you explored on what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring  which helps you maximize the availability and performance of your applications and services. Then you explore on how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
+**Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
