@@ -21,7 +21,6 @@ To understand if Azure really makes financial sense, we will start by creating a
 - Enables creating **what-if** scenarios with customizable settings and assumptions.
 
 
-
 1. Login to the Azure portal with the below Azure credentials if you are not logged in already.
 
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
