@@ -1,16 +1,16 @@
 # Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the lab guide bottom area to switch to different exercises of the lab guide.
+1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of lab guide ti switch to different exercises of the lab guide.
 
    ![](Images/upd-cloudlab-vm-guide.png "Lab Environment")
 
-1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your email address provided during registration. You can also open the Lab Guide on separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
+1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide on separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
 
    ![](Images/upd-splitwindow1.png "Lab Environment")
  
     > You will see DeplymentID value on **Environment Details** tab, use it wherever you see SUFFIX or DeploymentID in lab steps.
 
-1. You can validate each task by navigating to **Lab Validation** tab and clicking on **Validate** button. Please make sure to run the validation steps for each task after performing it. 
+1. You can validate each task by navigating to **Lab Validation** tab and clicking on **Validate** button. Please make sure you run the validation steps for each task after performing it. 
 
    ![](Images/upd-validation.png "Lab Environment")
 
