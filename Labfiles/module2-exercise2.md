@@ -39,7 +39,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ssh administrator@192.168.1.19
     ```
 
-11. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotel Admin Password" />**.
+11. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotelHost Admin Password" />**.
 
     ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/upd-ssh.png "SSH session with UbuntuWAF")
 
