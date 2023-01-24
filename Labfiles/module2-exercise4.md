@@ -14,7 +14,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
 3. Under Identity, Under System assigned tab, Click on the **On (1)** button under Status tag and click on **Save (2)** button to turn on the identity. It will take some time to complete the process and there have some Service principal is getting created behind the process.
 
-     > Note: If prompted with Enable system assigned managed identity pop-up, click on Yes.
+     > **Note**: If prompted with Enable system assigned managed identity pop-up, click on Yes.
 
       ![](Images/turinon.png)
       ![](Images/identidone.png)
@@ -73,7 +73,7 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
      az login
      ```
   
-  - **Note:** Copy the login URL and enter the unique code in the browser. After that pick your account and click on **Continue** under Are you trying to sign in to Microsoft Azure CLI?
+    > **Note:** Copy the login URL and enter the unique code in the browser. After that pick your account and click on **Continue** under Are you trying to sign in to Microsoft Azure CLI?
   
      ![](Images/azlogin.png)
    
