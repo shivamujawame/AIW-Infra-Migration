@@ -8,7 +8,7 @@ To understand if Azure really makes financial sense, we will start by creating a
 
 **Business case analysis** is a comprehensive, easy-to-use tool that enables customers and partners to create directional business proposals to understand how azure can bring the most value to their business.
 
-> Note: You don't need to perform this task as it is read-only exercise.
+> **Note:** You don't need to perform this task as it is read-only exercise.
 
 **Features:**
 
