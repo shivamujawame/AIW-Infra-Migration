@@ -53,7 +53,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/upd-hyper-v-manager.png "Hyper-V Manager")
 
-   > You can also open the **Hyper-V manager** by clicking on the icon that is present in the taskbar. 
+   > **Note:** You can also open the **Hyper-V manager** by clicking on the icon that is present in the taskbar. 
     
 1. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. 
   

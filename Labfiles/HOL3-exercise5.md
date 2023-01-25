@@ -17,7 +17,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
     
-    > Note: If you are prompted with new upgrade pop-up, click on Skip.
+    > **Note:** If you are prompted with new upgrade pop-up, click on Skip.
     
 1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
 
@@ -65,7 +65,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the add Microsoft Sentinel.](Images/hol3-e5-t2-s3.png "add Microsoft Sentinel")
     
-    > Note: If you are prompted with Microsoft Sentinel free trial activated pop-up, click on ok.
+    > **Note:** If you are prompted with Microsoft Sentinel free trial activated pop-up, click on ok.
     
 1. On the **News and guides (1)** window, go to **Get started (2)** tab and Click on **Connect (3)** under _Collect data_.   
 
@@ -135,7 +135,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
 10. On the **Monitoring configuration** page, click on **Cancel**.
 
-    > Note: In this task we won't be configuring VM insights.
+    > **Note:** In this task we won't be configuring VM insights.
 
     ![Screenshot of the vm insights.](Images/upd-HOL3-EX5-T2-S10.png "vm insights")
 
