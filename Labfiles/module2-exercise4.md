@@ -102,7 +102,7 @@ In this task, you will Enable Automanage on existing machines.
    
    ![](Images/upd-existing-vm-quick-create.png)
    
-   > Click View best practice profiles to see the differences between the environments.
+   > **Note:** Click View best practice profiles to see the differences between the environments.
     
    ![](Images/upd-browse-production-profile.png)
 
