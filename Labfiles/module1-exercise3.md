@@ -104,7 +104,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - **Subnet**: Select **SmartHotel (3)**. 
    - Leave other values as default and select **Next (4)**.
  
-   > **Note:** If auto-create(default) option for storage account is not visible to you then just reload the azure portal page and repeat the steps from 1-6 again.
+   > **Note:** If auto-create(default) option for storage account is not visible to you then just reload the azure portal or logout and login to azure portal and repeat the steps from 1-6 again.
    
      ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-T2-S6.png "Replicate - Target settings")
 
