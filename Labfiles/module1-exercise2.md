@@ -174,6 +174,12 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ```
     wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w <Workspace ID> -s <Workspace Key>
     ```
+    
+    > **Note**: If you receive any error while running the above command, run the below command to update the packages and perform **Step 28** again.
+     
+     ```
+     apt-get update
+     ```
 
 29. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
 
