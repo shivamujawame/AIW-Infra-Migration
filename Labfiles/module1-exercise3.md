@@ -106,7 +106,7 @@ In this task, you will configure and enable the replication of your on-premises 
  
    > **Note:** In few cases, the auto-create(default) option can take upto 5 minutes to show up. If auto-create(default) option for storage account is not visible to you then just reload the azure portal or logout and login to azure portal and repeat the steps from 1-6 again.
    
-     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-T2-S6.png "Replicate - Target settings")
+     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-T2-S6-new.png "Replicate - Target settings")
 
    > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
