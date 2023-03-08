@@ -24,7 +24,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
     ![](Images/upd-azuremigrate-3.png)
  
-5. Under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
+5. Under **Are your servers virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
 
     ![](Images/upd-SP-Ex1t2s2.png)
 
