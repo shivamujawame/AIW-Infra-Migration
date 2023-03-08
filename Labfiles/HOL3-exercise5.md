@@ -121,7 +121,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
     
     
-7. From the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
+7. Go back to your **Monitor Page** from the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
 
     ![Screenshot of the vm insights.](Images/upd-e5-t3-s2.png "vm insights")
    
