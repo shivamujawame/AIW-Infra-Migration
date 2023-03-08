@@ -15,7 +15,7 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
 2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
  
-    ![Screenshot of the All services overview blade.](Images/Allservices.png "Allservices Overview blade")
+    ![Screenshot of the All services overview blade.](Images/Allservices1.png "Allservices Overview blade")
 
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
