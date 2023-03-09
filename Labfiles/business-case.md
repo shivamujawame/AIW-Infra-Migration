@@ -28,7 +28,7 @@ To understand if Azure really makes financial sense, we will start by creating a
 
 2. Click on the **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
  
-    ![Screenshot of the All services overview blade.](Images/Allservices.png)
+    ![Screenshot of the All services overview blade.](Images/Allservices1.png)
 
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  

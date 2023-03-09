@@ -67,9 +67,9 @@ In this HOL, you will learn how to enable the enhanced security features by enab
     
     > **Note:** If you are prompted with Microsoft Sentinel free trial activated pop-up, click on ok.
     
-1. On the **News and guides (1)** window, go to **Get started (2)** tab and Click on **Connect (3)** under _Collect data_.   
+1. On the **News and guides (1)** window, go to **Get started (2)** tab review the content and from left pane under **Configuration**, select **Data connectors**.   
 
-    ![Screenshot of the get started.](Images/hol3-e5-t2-s4.png "get started")
+    ![Screenshot of the get started.](Images/hol3-e5-t2-s4-01.png "get started")
     
 1. You will now be directed to the **Data Connectors** page. Microsoft Sentinel comes with many connectors for Microsoft solutions that are available out of the box and provide real-time integration. For non-Microsoft solutions, Microsoft Sentinel provides built-in interfaces to the larger security and application ecosystems.
 
@@ -121,7 +121,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
     
     
-7. From the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
+7. Go back to your **Monitor Page** from the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
 
     ![Screenshot of the vm insights.](Images/upd-e5-t3-s2.png "vm insights")
    

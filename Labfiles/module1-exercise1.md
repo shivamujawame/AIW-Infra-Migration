@@ -14,7 +14,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
  
-    ![Screenshot of the All services overview blade.](Images/Allservices.png "All services Overview blade")
+    ![Screenshot of the All services overview blade.](Images/Allservices1.png "All services Overview blade")
 
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
@@ -24,7 +24,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
     ![](Images/upd-azuremigrate-3.png)
  
-5. Under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
+5. Under **Are your servers virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
 
     ![](Images/upd-SP-Ex1t2s2.png)
 
@@ -86,7 +86,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the first step 'Set up prerequisites' in progress. The internet connectivity, and time sync steps have been completed.](Images/upd-prereq.png "Set up prerequisites")
 
-18. **Wait** while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter username **Administrator** and password **<inject key="SmartHotel Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
+18. **Wait** for some time while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter username **Administrator** and password **<inject key="SmartHotel Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/upd-refresh.png "New update installed - Refresh")
 
