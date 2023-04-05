@@ -2,7 +2,51 @@
 
 In this HOL, you will learn about Azure migrate and how all pre-migration steps such as discovery, assessments, and right-sizing of on-premises resources are included for infrastructure, data, and applications. Azure Migrate provides a simplified migration, modernization, and optimization service for Azure.
 
-### Task 1: Register the Hyper-V Host with Migration and modernization
+### Task 1: Create a Storage Account
+
+In this task you will create a new Azure Storage Account that will be used by Migration and for storage of your virtual machine data during migration.
+
+> **Note:** This lab focuses on the technical tools required for workload migration. In a real-world scenario, more consideration should go into the long-term plan prior to migrating assets. The landing zone required to host VMs should also include considerations for network traffic, access control, resource organization, and governance. For example, the CAF Migration Blueprint and CAF Foundation Blueprint can be used to deploy a pre-defined landing zone, and demonstrate the potential of an Infrastructure as Code (IaC) approach to infrastructure resource management. For more information, see [Azure Landing Zones](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/) and [Cloud Adoption Framework Azure Migration landing zone Blueprint sample](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/).
+
+1. In the Azure portal's left navigation, select **+ Create a resource**, then search for and select **Storage account**, followed by **Create**.
+
+    ![Screenshot of the Azure portal showing the create storage account navigation.](Images/1.1.png "Storage account - Create")
+
+2. In the **Create storage account** blade, on the **Basics** tab, use the following values:
+
+   - Subscription: **Select your Azure subscription**.
+  
+   - Resource group: **AzureMigrateRG**
+  
+   - Storage account name: **migrationstorage<inject key="DeploymentID" enableCopy="false" />**
+
+   - Location: Select **<inject key="Region" enableCopy="false" />** from the dropdown.
+    
+   - Performance: **Standard**
+  
+   - Redundancy: **Locally-redundant storage (LRS)**
+
+    ![Screenshot of the Azure portal showing the create storage account blade.](Images/1.2.png "Storage account settings")
+
+3. Select **Review + create**, then select **Create**.
+
+4. Once the storage account is deployed, click on **Go to resource** to open it.
+
+5. Select **Data protection** under **Data management** from the left-hand side menu of storage account.
+
+   ![Screenshot of the Azure portal showing the create storage account blade.](Images/1.3.png)
+
+6. Now, uncheck the box next to **Enable soft delete for blobs** and **Enable soft delete for containers** to disable the soft delete on blobs and container as the soft delete enabled storage account is **not supported** for enabling replication on Virtual Machines. Click on **Save**.
+
+   > (You will enable replication on Virtual Machines in Task4 of this Exercise)
+
+   ![Screenshot of the Azure portal showing the create storage account blade.](Images/1.4.png)
+
+#### Task summary 
+
+In this task you created a new Azure Storage Account that will be used by Migration and modernization.
+
+### Task 2: Register the Hyper-V Host with Migration and modernization
 
 In this task, you will register your Hyper-V host(LabVM) with the Migration and modernization service. This service uses Azure Site Recovery as the underlying migration engine. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
