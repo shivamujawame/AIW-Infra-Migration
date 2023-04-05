@@ -38,8 +38,6 @@ In this task you will create a new Azure Storage Account that will be used by Mi
 
 6. Now, uncheck the box next to **Enable soft delete for blobs** and **Enable soft delete for containers** to disable the soft delete on blobs and container as the soft delete enabled storage account is **not supported** for enabling replication on Virtual Machines. Click on **Save**.
 
-   > (You will enable replication on Virtual Machines in Task4 of this Exercise)
-
    ![Screenshot of the Azure portal showing the create storage account blade.](Images/1.4.png)
 
 #### Task summary 
