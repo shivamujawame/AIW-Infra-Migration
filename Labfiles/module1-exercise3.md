@@ -142,13 +142,12 @@ In this task, you will configure and enable the replication of your on-premises 
 
 6. On the **Target settings** tab, select the below information,
    - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
-   - **Virtual Network**: Select **SmartHotelVNet (2)**. 
-   - **Subnet**: Select **SmartHotel (3)**. 
-   - Leave other values as default and select **Next (4)**.
- 
-   > **Note:** In few cases, the auto-create(default) option can take upto 5 minutes to show up. If auto-create(default) option for storage account is not visible to you then just reload the azure portal or logout and login to azure portal and repeat the steps from 1-6 again.
+   - **Cache storage account**: Enter the storage account here from drop down which you create in task 1. 
+   - **Virtual Network**: Select **SmartHotelVNet (3)**. 
+   - **Subnet**: Select **SmartHotel (4)**. 
+   - Leave other values as default and select **Next (5)**.
    
-     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-T2-S6-1.png "Replicate - Target settings")
+     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/1.5.png)
 
    > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
