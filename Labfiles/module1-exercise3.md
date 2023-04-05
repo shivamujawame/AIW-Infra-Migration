@@ -114,7 +114,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 In this task you registered your Hyper-V host with the Azure Migrate Server Migration service.
 
-### Task 2: Enable Replication from Hyper-V to Azure Migrate
+### Task 3: Enable Replication from Hyper-V to Azure Migrate
 
 In this task, you will configure and enable the replication of your on-premises virtual machines from Hyper-V to the Azure Migrate Server Migration service.
 
@@ -183,7 +183,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 In this task you enabled replication from the Hyper-V host to Azure Migrate and configured the replicated VM size in Azure.
 
-### Task 3: Configure Networking
+### Task 4: Configure Networking
 
 In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
@@ -220,7 +220,7 @@ In this task you modified the settings for each replicated VM to use a static pr
 > **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machines in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VMs during migration (for example, by editing web.config files).
 
 
-### Task 4: Server migration
+### Task 5: Server migration
 
 In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
 
@@ -257,7 +257,7 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 In this task you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machines. This migrated your on-premises VMs to Azure.
 
 
-### Task 5: Configure the database connection
+### Task 6: Configure the database connection
 
 The application tier machine **smarthotelweb2** is configured to connect to the application database running on the **smarthotelsql** machine.
 
@@ -299,7 +299,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 In this task, you updated the **smarthotelweb2** configuration to connect to the Azure SQL Database.
 
-### Task 6: Configure the public IP address and test the SmartHotel application
+### Task 7: Configure the public IP address and test the SmartHotel application
 
 In this task, you will associate an Application Gateway with Web Application Firewall (WAF) to replace the Ubuntu VM with the Azure managed service.
 
@@ -356,7 +356,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
 
 In this task, you assigned a public IP address to the UbuntuWAF VM and verified that the SmartHotel application is now working in Azure.
 
-### Task 7: Pointers around Azure Networking and Azure Network Security (Read only)
+### Task 8: Pointers around Azure Networking and Azure Network Security (Read only)
 
 Design and implementation of Azure networking is one of the most critical steps in migrating your infrastructure as a service (IaaS) and platform as a service (PaaS) implementations in Azure.
 
@@ -393,7 +393,7 @@ Design and implementation of Azure networking is one of the most critical steps 
 - Once the NSGs are created and configured, we can run a test failover to verify scripted NSG associations and post-failover VM connectivity.
 
 
-### Task 8:  Migrating VMware VMs to Azure (Read only)
+### Task 9:  Migrating VMware VMs to Azure (Read only)
 
 Azure Migrate is a free tool from Microsoft that allows VMware administrators to replicate their VMs from on-prem to Azure. It is an extremely powerful tool that even allows for pre-migration tests to run.
 
