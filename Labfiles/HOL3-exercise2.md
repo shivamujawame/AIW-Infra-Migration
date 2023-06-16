@@ -32,7 +32,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
    - Post-failover resource group: **SmartHotelRG (1)**
    
-   - Storage account: **select the one available in the drop-down list (2)**  
+   - Storage account: **select stoarge type as Storage account and select the stoarge account created in previos HOL available in the drop-down list (2)**  
    
    - Virtual network: **SmartHotelVNet (3)**
 
