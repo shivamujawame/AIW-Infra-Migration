@@ -162,7 +162,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
 1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
 
-2. Click on **redhat** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options.
+2. Click on **redhat** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
 
    **Note:** You may have to wait a few minutes and refresh to have the option to enter the credentials. 
 
