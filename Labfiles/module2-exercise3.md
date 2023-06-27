@@ -12,7 +12,7 @@ In this task, you will review the already registered Hyper-V host(LabVM) with th
 
 3. In the discovered list, you'll see the **redhat**, we will be replicating this redhat VM in the next task with the help of Azure Migrate.
 
-    ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-redhatdscvtd.png "Discovered servers")
+    ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/HOL2-EX3-T1-S3.png "Discovered servers")
 
 #### Task summary 
 
