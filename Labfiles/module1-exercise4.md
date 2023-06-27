@@ -42,7 +42,7 @@
 
 9. Select **Review + create**.
 
-10. After validation passes, select **Create** to create the image.
+10. After validation passes, select **Create** to create the image and wait for the image creation.
 
 11. On the page for the image gallery, on the upper menu, select **+ Create VMSS**.
 
@@ -58,7 +58,7 @@
 
      ![](Images/upd-License.png)
 
-15. Select **Review + create**.
+15. Select **Review + create** and then **create**.
 
 ### Task 2: Azure auto manage
 

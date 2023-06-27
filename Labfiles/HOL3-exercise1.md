@@ -55,21 +55,21 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
    > **Note:** You can also open the **Hyper-V manager** by clicking on the icon that is present in the taskbar. 
     
-1. In Hyper-V Manager, select **SMARTHOST<inject key="DeploymentID" enableCopy="false" />**. 
+1. In Hyper-V Manager, select **HOSTVMS<inject key="DeploymentID" enableCopy="false" />**. 
   
-    ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/Hyperv1.png "Hyper-V Manager")
+    ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/HOL3-EX1-S10.png "Hyper-V Manager")
     
 1. In Hyper-V Manager, select the **AzureArcVM (1)** VM, then select **Start (2)** on the right if not already running.
 
-    ![Screenshot of Hyper-V Manager showing the start button for the AzureArcVM.](Images/upd-Hyperv2.png "Start AzureArcVM")    
+    ![Screenshot of Hyper-V Manager showing the start button for the AzureArcVM.](Images/HOL3-EX1-S11.png "Start AzureArcVM")    
     
 1. In Hyper-V Manager, select the **AzureArcVM (1)** VM, then select **Connect (2)** on the right.
 
-    ![Screenshot of Hyper-V Manager showing the connect button for the AzureArcVM.](Images/upd-Hyperv3.png "Connect to AzureArcVM")  
+    ![Screenshot of Hyper-V Manager showing the connect button for the AzureArcVM.](Images/HOL3-EX1-S12.png "Connect to AzureArcVM")  
     
 1. Under Connect to AzureArcVM, click on **Connect** and then log into the VM with the **Administrator password**: **<inject key="SmartHotel Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
  
-    ![Screenshot of the Connect to AzureArcVM.](Images/updt-E1S13.png)
+    ![Screenshot of the Connect to AzureArcVM.](Images/HOL3-EX1-S13.png)
     
 1. From the **Start (1)** menu of the AzureArcVM, search for **Windows Powershell (2)** and open it **(3)**.
 

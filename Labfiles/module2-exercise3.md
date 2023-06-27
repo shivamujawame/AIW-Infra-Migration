@@ -12,7 +12,7 @@ In this task, you will review the already registered Hyper-V host(LabVM) with th
 
 3. In the discovered list, you'll see the **redhat**, we will be replicating this redhat VM in the next task with the help of Azure Migrate.
 
-    ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-redhatdscvtd.png "Discovered servers")
+    ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/HOL2-EX3-T1-S3.png "Discovered servers")
 
 #### Task summary 
 
@@ -162,7 +162,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
 1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
 
-2. Click on **redhat** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options.
+2. Click on **redhat** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
 
    **Note:** You may have to wait a few minutes and refresh to have the option to enter the credentials. 
 
