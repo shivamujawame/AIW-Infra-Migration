@@ -18,7 +18,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
 1. Under Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
 
-    ![Screenshot of the hyper-v-host.](Images/hol3-e2-s4.png "hyper-v-host")  
+    ![Screenshot of the hyper-v-host.](Images/HOL3-EX2-T1-S4.png "hyper-v-host")  
 
 1. Go back to your **Recovery service vault page**, click on **Replicated Items (1)** under **Protected Items** and then click on **+Replicate (2)** and select **Hyper-V machines to Azure (3)** from the drop-down list.
 
