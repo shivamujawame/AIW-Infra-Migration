@@ -88,7 +88,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 9. From **Hyper-V Manager** console, select **smarthotelweb1 (1)** and select **Connect (2)**.
 
-    ![Screenshot from Hyper-V manager highlighting the 'Connect' button for the smarthotelweb1 VM.](Images/e2-t2-s9.png "Connect to smarthotelweb1")
+    ![Screenshot from Hyper-V manager highlighting the 'Connect' button for the smarthotelweb1 VM.](Images/HOL1-EX2-T2-S9.png "Connect to smarthotelweb1")
 
 10. Select **Connect** again when prompted and log in to the **Administrator** account using the password **<inject key="SmartHotel Admin Password" />**.
 
