@@ -1,12 +1,12 @@
-# Hands-on Lab: Onboard Windows Servers to Azure Arc
+# Hands-On Lab: Onboard Windows Servers to Azure Arc
 
-In this Hands-on Lab, you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
+In this Hands-On Lab, you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
 
 Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers that are not ideal candidates for migration. 
 
 ### Onboard On-prem servers to Azure Arc enabled server
 
-In this Hands-on Lab, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
+In this Hands-On Lab, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
 
 1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -92,4 +92,4 @@ In this Hands-on Lab, you will deploy and configure the Azure Connected Machine 
     ![Screenshot of the server added.](Images/upd-serveradded.png)
      
     
-**Summary:** In this Hands-on Lab, you explored on how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that it can manage the Windows machine.
+**Summary:** In this Hands-On Lab, you explored on how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that it can manage the Windows machine.
