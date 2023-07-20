@@ -1,5 +1,7 @@
 # HOL 1: Setup Azure Migrate Project
 
+Duration: 25 minutes
+
 ## Exercise 2: Set up your environment on Azure to migrate servers
 
 ### Task 1: Create a migration assessment

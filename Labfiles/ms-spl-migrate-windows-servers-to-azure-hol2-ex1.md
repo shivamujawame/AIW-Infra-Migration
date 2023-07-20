@@ -1,5 +1,7 @@
 # HOL 2: Migrate Windows Servers from Hyper-V to Azure
 
+Duration: 45 minutes
+
 ## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
 In this HOL, you will learn about Azure migrate and how all pre-migration steps such as discovery, assessments, and right-sizing of on-premises resources are included for infrastructure, data, and applications. Azure Migrate provides a simplified migration, modernization, and optimization service for Azure.
