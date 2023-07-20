@@ -16,9 +16,9 @@
           "Order": 3
         },
         {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-hol2-ex1.md",
-            "Order": 3
-          }        
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-hol2-ex1.md",
+          "Order": 4
+        }        
       ]
     }
   ]
