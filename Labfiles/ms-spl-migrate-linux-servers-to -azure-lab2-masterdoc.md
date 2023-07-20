@@ -1,0 +1,28 @@
+[
+    {
+      "Name": "Hands-on Lab: Migrate Linux Servers to Azure",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/GettingStarted.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-windows-servers-to-azure-hol1-ex1.md",
+          "Order": 2
+        },
+         {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-windows-servers-to-azure-hol1-ex2.md",
+          "Order": 3
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-linux-servers-to%20-azure-hol3-ex1.md",
+          "Order": 4
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-linux-servers-to%20-azure-hol3-ex2.md",
+          "Order": 5
+        }                 
+      ]
+    }
+  ]
