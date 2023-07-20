@@ -1,4 +1,4 @@
-# HOL 2: Migrate Migrate Linux Servers from Hyper-V to Azure
+# HOL 2: Migrate Linux Servers from Hyper-V to Azure
 
 In this HOL you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
 

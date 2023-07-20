@@ -1,4 +1,4 @@
-# HOL 2: Migrate Migrate Linux Servers from Hyper-V to Azure
+# HOL 2: Migrate Linux Servers from Hyper-V to Azure
 
 ## Exercise 2: Setup test failover
 
