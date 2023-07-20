@@ -1,4 +1,4 @@
-# HOL 1: Migrating Windows & SQL Server workloads
+# HOL 1: Setup Azure Migrate Project
 
 Duration: 60 minutes
 
