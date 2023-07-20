@@ -1,4 +1,4 @@
-# HOL 1: Migrating Windows & SQL Server workloads
+# HOL 1: Setup Azure Migrate Project
 
 ## Exercise 2: Set up your environment on Azure to migrate servers
 
