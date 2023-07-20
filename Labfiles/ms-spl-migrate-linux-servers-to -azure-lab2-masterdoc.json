@@ -16,11 +16,11 @@
           "Order": 3
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-linux-servers-to%20-azure-hol3-ex1.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-linux-servers-to-azure-hol3-ex1.md",
           "Order": 4
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-linux-servers-to%20-azure-hol3-ex2.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-linux-servers-to-azure-hol3-ex2.md",
           "Order": 5
         }                 
       ]
