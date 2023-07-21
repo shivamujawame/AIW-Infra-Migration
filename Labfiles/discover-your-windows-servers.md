@@ -1,4 +1,4 @@
-# Hands-On Lab: Migrating Windows & SQL Server workloads
+# Hands-On Lab: Discover your Windows Server
 
 Duration: 60 minutes
 
