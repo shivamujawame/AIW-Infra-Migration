@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Discover and Assess on-prem Windows & SQL Servers",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/GettingStarted.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-discover-your-windows-servers.md",
+        "Order": 2
+      }
+    ]
+  }
+]
