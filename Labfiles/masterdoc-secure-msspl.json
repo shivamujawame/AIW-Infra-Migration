@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Secure Windows Servers Azure Arc & Microsoft Defender",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/GettingStarted.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-onboard-windows-server-to-azure.md",
+        "Order": 2
+      }
+    ]
+  }
+]
