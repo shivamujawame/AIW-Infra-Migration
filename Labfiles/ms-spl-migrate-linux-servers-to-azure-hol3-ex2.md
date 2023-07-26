@@ -1,6 +1,6 @@
 # HOL 2: Migrate Linux Servers from Hyper-V to Azure
 
-Duration: 15 minutes
+Duration: 30 minutes
 
 ## Exercise 2: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs. 
 
