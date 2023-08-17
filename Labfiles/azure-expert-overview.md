@@ -1,4 +1,4 @@
-# Discover and Assess Windows & SQL Servers
+# Discover and Assess: Windows & SQL Servers
 
 ## Hands-on Labs Scenario
 
