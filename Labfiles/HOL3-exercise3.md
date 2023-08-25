@@ -29,9 +29,9 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
 
     ![Screenshot of the Test vm.](Images/hol3-e3-s7.png "Test vm") 
   
-1. On the **AzureArcVM-test page**, verify that the status of the VM is in **Running state (1)** and also **Connect it through RDP (2)** option is available to you.  
+1. On the **AzureArcVM-test page**, verify that the status of the VM is in **Running state (1)** and click on **Connect (2).** Then select the **Native RDP** option and connect to the VM through RDP.    
 
-    ![Screenshot of the Test vm status.](Images/hol3-e3-s10.png "Test vm status") 
+    ![Screenshot of the Test vm status.](Images/HOL3E3S8.png "Test vm status") 
     
    > **Note:** Please make sure you run the **validation steps** for this task before moving to next exercise as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Failover completed** as you will be performing cleanup test failover to setup the failover in the next exercise.
 
