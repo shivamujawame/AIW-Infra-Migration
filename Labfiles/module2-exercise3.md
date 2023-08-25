@@ -162,7 +162,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
 1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
 
-2. Click on **redhat** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
+2. Click on **redhat** VM, from the overview blade, and select **Connect**. Click on **Go to Bastion** (you may have to scroll down a little to see this option).
 
    **Note:** You may have to wait a few minutes and refresh to have the option to enter the credentials. 
 
@@ -203,7 +203,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
     ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/show-connection-strings.png "Show database connection strings")
 
-    Copy the **ADO.NET** connection string, and paste into the web.config file on **redhat**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
+    To edit in the Vim editor, press **i** then copy the **ADO.NET** connection string, and paste into the web.config file on **redhat**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.** 
 
     > **Note:** You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste into the VM.
 
