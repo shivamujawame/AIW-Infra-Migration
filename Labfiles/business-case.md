@@ -58,14 +58,15 @@ To understand if Azure really makes financial sense, we will start by creating a
    
    - **Business case name**: Enter **Contoso (1)**
    - **Target location**: Select any available region **(2)**
-   - **Migration strategy**: Select **Optimize for cost (3)**
-   - **Custom discount (%)**: Enter **0 (4)**
-   - **Currency**: Select **US Dollar ($) (5)**
+   - **Migration strategy**: Select **Azure recommended approach to minimize cost (3)**
+   - **Savings Option** : Select **Reserved Instance + Azure Savings Plan (4)**
+   - **Discount(%) on Pay as you go**: Enter **0 (5)**
+   - **Currency**: Select **US Dollar ($)**
    - Click on **Build business case**
 
      
     
-    ![](Images/azure_migrate2.png)
+    ![](Images/HOL3E7S7.png)
    
 8. Once the build is succeeded, you can start reviewing the business case that was created from the above inputs and industry benchmarks.
 

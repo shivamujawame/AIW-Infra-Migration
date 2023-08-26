@@ -17,19 +17,15 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
    
-1. On the **Azure Arc** page, select **Servers (1)** under **Infrastructure** and then click on **+Add (2)**.
+1. On the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and then click on **+Add (2)**.
     
-    ![Screenshot of the add server.](Images/addserver.png "add server")
+    ![Screenshot of the add server.](Images/HOL3E1S3.png "add server")
     
 1. In the **Add servers with Azure Arc** page, click **Generate script** under **Add a single server**.
 
     ![Screenshot of the Generate script.](Images/singleserver.png "Generate script")
-     
-1. Under **Pre-requisites** tab, just read the given data and click on **Next**.     
-
-    ![Screenshot of the pre-req tab.](Images/prereq.png "pre-req tab")
     
-1. Under **Resource details** tab, fill the following details:
+1. Under **Basics** tab, fill the following details:
      
    - Subscription: **Select your subscription**
     
@@ -41,7 +37,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
    - Leave other values as default and Click on **Next (4)**
 
-    ![Screenshot of the resource details tab.](Images/upd-resourcedetails.png "resource details tab")
+    ![Screenshot of the resource details tab.](Images/HOL3E1S5.png "resource details tab")
 
 1. Under **Tags** tab, leave the values as default and click on **Next**.
 
@@ -86,11 +82,11 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     
     ![Screenshot of the powershellscript.](Images/upd-package.png)
      
- 1. Close the AzureArcVM and navigate to Azure portal and go back to the **Azure Arc** page, select **Servers (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
+ 1. Close the AzureArcVM and navigate to Azure portal and go back to the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
 
     **Note:** The name of the newly server added could be different. You might have to refresh to see the new server.
     
-    ![Screenshot of the server added.](Images/upd-serveradded.png)
+    ![Screenshot of the server added.](Images/HOL3E1S17.png)
      
     
 **Summary:** In this exercise, you explored on how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that it can manage the Windows machine.
