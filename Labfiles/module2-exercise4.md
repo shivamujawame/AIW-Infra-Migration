@@ -92,9 +92,9 @@ In this task, you will Enable Automanage on existing machines.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-2. In the search bar, search for and select **Automanage – Azure machine best practices**.
+2. In the search bar, search for and select **Automanage**.
 
-3. Under **Automanage machines (1)**, select the **+Enable on existing VM (2)**.
+3. Under **Automanage machines (1)**, select the **+Enable on existing machine(2)**.
    
    ![](Images/upd-zero-vm-list-view.png)
 
