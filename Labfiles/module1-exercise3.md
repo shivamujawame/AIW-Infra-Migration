@@ -286,11 +286,13 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
     > **Note**: You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste into the VM.
 
-    Set the password in the connection string to **<inject key="SmartHotel Admin Password" />**.
+    Set the password in the connection string from {your_password} to **<inject key="SmartHotel Admin Password" />**.
+
+    ![](Images/connection.png)
 
     ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/upd-web2-connection-string.png "web.config")
 
-6. **Save** the `web.config` file and exit your Bastion remote desktop session.
+7. **Save** the `web.config` file and exit your Bastion remote desktop session.
 
 #### Task summary 
 
