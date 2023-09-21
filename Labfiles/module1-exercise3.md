@@ -264,7 +264,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
 1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
 
-2. Click on **smarthotelweb2** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
+2. Click on **smarthotelweb2** VM, from the left-side pane, select **Bastion** under **Operations**.
 
    >**Note**: You may have to wait a few minutes and refresh to have the option to enter the credentials. 
 
