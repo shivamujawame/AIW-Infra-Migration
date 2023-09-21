@@ -11,7 +11,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 2. On the Basics blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Azure Migrate Appliance**. Under **Assessment settings**, select **Edit**.
 
-    ![Screenshot of the Azure Migrate 'Assess servers' blade, showing the assessment name.](Images/upd-assessment1.png "Assess servers - assessment name")
+    ![Screenshot of the Azure Migrate 'Assess servers' blade, showing the assessment name.](Images/H1E2T1S2.png "Assess servers - assessment name")
 
 3. The **Assessment settings** blade allows you to tailor many of the settings used when making a migration assessment report. Take a few moments to explore the wide range of assessment properties. Hover over the information icons to see more details on each setting. Choose any settings you like, then select **Save**. (You have to make a change for the Save button to be enabled; if you don't want to make any changes, just close the blade.)
 
