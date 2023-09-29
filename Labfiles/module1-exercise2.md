@@ -219,4 +219,4 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 #### Task summary 
 
-In this exercise you created and configured an Azure Migrate migration assessment and configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
+In this exercise you created and configured a migration assessment in Azure Migrate and its dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
