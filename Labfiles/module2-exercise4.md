@@ -1,6 +1,6 @@
 ## HOL2: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
-#### Task 1: Getting started with Azure Active Directory for Linux 
+### Task 1: Getting started with Azure Active Directory for Linux 
 
 In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
 
@@ -41,7 +41,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
     ![](Images/completed.png)
 
-#### Task 2: Leveraging SSH to connect and authenticate Linux Servers on Azure 
+### Task 2: Leveraging SSH to connect and authenticate Linux Servers on Azure 
 
 To improve the security of Linux virtual machines in Azure, you can integrate with Azure Active Directory (Azure AD) authentication. You can now use Azure AD as a core authentication platform and a certificate authority to SSH into a Linux VM by using Azure AD and OpenSSH certificate-based authentication. This functionality allows organizations to manage access to VMs with Azure role-based access control (RBAC) and Conditional Access policies.
 
@@ -84,7 +84,7 @@ In this task we are using Azure CloudShell to configure a Linux VM and log in wi
       ```
   
 
-#### Task 3: Azure auto manage
+### Task 3: Azure auto manage
 
 In this task, you will Enable Automanage on existing machines.
 
