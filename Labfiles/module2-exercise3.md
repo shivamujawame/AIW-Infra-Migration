@@ -168,7 +168,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
 3. **Connect** to the machine with the username **administrator** and the password <inject key="SmartHotel Admin Password"></inject>. When prompted, **Allow** clipboard access.
 
-    ![Screenshot showing the Azure Bastion connection blade.](Images/HOL2-EX3-T5-S3.png "Connect using Bastion")
+    ![Screenshot showing the Azure Bastion connection blade.](Images/bastionnew1.png "Connect using Bastion")
 
 4. In the **redhat** remote desktop session, enable the root user by running the below commands,and enter password as **demo!pass123**. 
 
