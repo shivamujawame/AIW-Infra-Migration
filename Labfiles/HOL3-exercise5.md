@@ -119,29 +119,6 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 - Agents activity - this grid shows information on either all agents, healthy or unhealthy agents. 
     
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
-    
-    
-7. Go back to your **Monitor Page** from the left pane, select **Virtual Machines (1)** present under Insights and then click on **Configure Insights (2)**.
-
-    ![Screenshot of the vm insights.](Images/upd-e5-t3-s2.png "vm insights")
-   
-8. You will see your subscription and all the resource groups in it, listed here. Expand the resource group and enable VM insights for the VM you want to monitor. Click on **Enable** on that respective VMs.
-
-    ![Screenshot of the vm insights.](Images/hol3-e5-t3-s7.png "vm insights")
-   
-9. On the **Get more visibility into the health and performance of your virtual machine** window, click on **Enable**. This will initiate the deployment of VM insights.   
-
-    ![Screenshot of the vm insights.](Images/e5-t3-s4.png "vm insights")
-
-10. On the **Monitoring configuration** page, click on **Cancel**.
-
-    > **Note:** In this task we won't be configuring VM insights.
-
-    ![Screenshot of the vm insights.](Images/upd-HOL3-EX5-T2-S10.png "vm insights")
-
-11. VM insights include a set of performance charts that target several key performance indicators (KPIs) to help you determine how well a virtual machine is performing. To view that, open the **Virtual Machines** tab present in the left pane and click on **Performance**.
-
-12. From the left pane, select **Applications** present under Insights. It is one of the powerful tools which can help to diagnose, monitor, and analyze your application. It can help in identifying anomalies and monitoring the performances of applications deployed anywhere irrespective of their technology. Azure application insights can monitor the application deployed on Azure as well as it can monitor the application which is deployed on-premises.
   
     
 **Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
