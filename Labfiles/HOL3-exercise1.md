@@ -31,7 +31,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     
    - Resource group: **SmartHotelRG (1)**
   
-   - Region: **Should be same as your resource group (2)** (You can check the region under Environment details panel)
+   - Region: Select **<inject key="Region" enableCopy="false" />**
    
    - Operating system: **Windows (3)**
    
