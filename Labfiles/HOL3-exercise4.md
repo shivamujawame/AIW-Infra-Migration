@@ -18,7 +18,7 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 
    ![Screenshot of the cleanup test failover.](Images/hol3-e3-s8.png "cleanup test failover") 
    
-1. On the Test failover cleanup page, enter `Test failover ok.` under **Notes (1)** and make sure to **(2) check the box: Testing is complete. Delete test failover virtual machine(s)** and then click on **Ok (3)**.
+1. On the Test failover cleanup page, enter `Test failover ok.` under **Notes (1)** and make sure to **(2) check the box: Testing is complete. Delete test failover virtual machine(s)** and then click on **OK (3)**.
 
    > **Note:** Wait for the cleanup test failover to get completed successfully.
    
