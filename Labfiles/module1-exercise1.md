@@ -18,7 +18,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
-    ![Screenshot of the Azure migrate overview blade.](Images/newmigrateasd.png "Azmigrate Overview blade")
+    ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3.png "Azmigrate Overview blade")
 
 4. Under **Migration goals**, select **Servers, databases and web apps (1)** and then under **Azure Migrate: Discovery and assessment**, select **Discover (2)** to open the **Discover** blade.
  
@@ -41,7 +41,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 8.  Read through the instructions on how to download, deploy and configure the Azure Migrate appliance, then close the 'Discover machines' blade by clicking on cross button **X** (do **not** download the .VHD file or .ZIP file, the .VHD has already been downloaded for you). 
  
-    ![Screenshot of the closing the blade.](Images/upd-discover-projectkey.png "Closing the Azure migrate appliance blade")
+    ![Screenshot of the closing the blade.](Images/hol1-ex-1-s8.png "Closing the Azure migrate appliance blade")
 
 9. As we have created the Azure Migrate project key for the Discover and Assessment, you will be accessing the Hyper-V manager in the next tasks to start the discovery process with the help of Azure Migrate Appliance.
 
