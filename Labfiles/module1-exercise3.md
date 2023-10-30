@@ -142,7 +142,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 6. On the **Target settings** tab, select the below information,
    - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
-   - **Replication storage account**: Enter the storage account here from drop down which you create in task 1 **(2)**. 
+   - **Cache storage account**: Enter the storage account here from drop down which you create in task 1 **(2)**. 
    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
    - **Subnet**: Select **SmartHotel (4)**. 
    - Leave other values as default and select **Next (5)**.
@@ -182,7 +182,7 @@ In this task you enabled replication from the Hyper-V host to Azure Migrate and 
 
 ### Task 4: Configure Networking
 
-In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
+In this task, you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
 1. Still using the **Migration and modernization - Replicating machines** blade, select the **smarthotelweb1** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
@@ -219,7 +219,7 @@ In this task you modified the settings for each replicated VM to use a static pr
 
 ### Task 5: Server migration
 
-In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
+In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
