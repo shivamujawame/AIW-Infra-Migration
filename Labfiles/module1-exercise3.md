@@ -84,7 +84,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 7. Select **Connect directly to Azure Site Recovery without a proxy server (1)** and select **Next (2)**. The registration of the Hyper-V host with Azure Site Recovery will begin.
 
-     ![Screenshot of the ASR provider registration settings.](Images/upd-e3-t2-s8.png)
+     ![Screenshot of the ASR provider registration settings.](Images/hol1-ex-3-s7.png)
 
 8. Wait for registration to complete (this may take several minutes). Then select **Finish**.
 
@@ -147,7 +147,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - **Subnet**: Select **SmartHotel (4)**. 
    - Leave other values as default and select **Next (5)**.
    
-     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-S6.png)
+     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/hol1-ex-3-T3-s7.png)
 
    > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
@@ -225,7 +225,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
 1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate**.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/upd-migrate-1.png "Replication summary")
+    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/hol1-ex-3-T5-s1.png "Replication summary")
 
 2. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines **(2)** then select **Migrate (3)** to start the migration process.
 
@@ -310,7 +310,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
 
 1. Set the Target type to **Virtual machine (1)** and the Target to the NIC of **smarthotelweb1 (2)**; select **Save (3)** to update the backend pool
 
-    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/backendpool-01.png "Add VM to backend pool")
+    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/hol1-ex-3-T7-s3.png "Add VM to backend pool")
 
     > **Note**: This backend pool is already associated with the front-end IP address of the Application Gateway via the SmartHotelApp rule. The front-end IP, listener, rule, and backend pool were all created with the Application Gateway. This step now ties the migrated VM to the front end.
 
@@ -333,11 +333,11 @@ In this task, you will associate an Application Gateway with Web Application Fir
     - **Check** the **Ignore Missing Microsoft.sql Service Endpoint box (5)**.
     - Click **Ok (6)**.
 
-    ![](Images/upd-e3-t7-s7.png)
+    ![](Images/hol1-ex-3-T7-s7.png)
    
-1. Navigate back to the **Public access (2)** tab of **Networking (1)** section. Set **Public network access** to **Disabled (3)** and **Save (4)** your changes.
+1. Navigate back to the **Public access (2)** tab of **Networking (1)** section. Set **Public network access** to **Disable (3)** and **Save (4)** your changes.
 
-    ![](Images/deny-firewalls-sqlserver1.png)
+    ![](Images/hol1-ex-3-T7-s8.png)
    
 1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations (1)** way in the Settings section and note the IP address associated with the public IP address **appGwPublicFrontendIp (2)**.
 
