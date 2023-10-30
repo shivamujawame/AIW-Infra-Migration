@@ -58,7 +58,7 @@
 
      ![](Images/upd-License.png)
 
-15. Select **Review + create** and then **create**.
+15. Select **Review + create** and then **Create**.
 
 ### Task 2: Azure auto manage
 
