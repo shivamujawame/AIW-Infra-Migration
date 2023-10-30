@@ -26,7 +26,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
 5. Under **Are your servers virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
 
-    ![](Images/upd-SP-Ex1t2s2.png)
+    ![](Images/mod-1-ex1-s5.png)
 
 6.  In **1: Generate project key**, provide the below name for the **Azure Migrate appliance (1)** that you will set up for the discovery of Hyper-V VMs. Select **Generate key (2)** to start the creation of the required Azure resources.
 
