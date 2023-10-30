@@ -51,7 +51,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
       ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/upd-hyper-v-manager.png "Hyper-V Manager")
 
-11. In Hyper-V Manager, select **HOSTVMS<inject key="DeploymentID" enableCopy="false" /> (1)**. You should now see the AzureMigrateAppliance VM and seven VMs(2) that comprise the on-premises SmartHotel application and will be used in the next HOLs.
+11. In Hyper-V Manager, select **HOSTVMS<inject key="DeploymentID" enableCopy="false" /> (1)**. You should now see the AzureMigrateAppliance VM and seven VMs that comprise the on-premises SmartHotel application and will be used in the next HOLs.
 
     ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/HOL1-EX1-S11.png "Hyper-V Manager")
      
@@ -98,9 +98,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/azmigrate-05.1.png "Azure Migrate login code")
    
-   > Now, follow the below instructions to complete the login process.
+> Now, follow the below instructions to complete the login process.
     
- 1. At first, you will be presented with a **Continue with Azure login** pop-up. On the **Continue with Azure login** pop-up dialog, click on **Copy code & Login**.
+ 21. At first, you will be presented with a **Continue with Azure login** pop-up. On the **Continue with Azure login** pop-up dialog, click on **Copy code & Login**.
    
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/azmigrate-05.png "Azure Migrate login code")
   
@@ -158,7 +158,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
     > - You can't remove a specific host from a cluster. You can only remove the entire cluster.
     > - You can add a cluster, even if there are issues with specific hosts in the cluster.
 
-26. In **Step 3: provide server credentials to perform software inventory and agentless dependency analysis**, **Disable the slider (1)** and select **Start discovery (2)** to kick off VM discovery from the successfully validated hosts/clusters.
+26. In **Step 3: Provide server credentials to perform software inventory and agentless dependency analysis**, **Disable the slider (1)** and select **Start discovery (2)** to kick off VM discovery from the successfully validated hosts/clusters.
 
      > **Note:** The discovery process can take up to 10 minutes. 
    
