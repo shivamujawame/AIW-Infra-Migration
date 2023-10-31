@@ -4,7 +4,7 @@ In this HOL you will use Azure Migrate: Discovery and assessment tool that descr
 
 Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers that are not ideal candidates for migration. 
 
-### Exercise 1: Onboard On-prem servers to Azure Arc enabled server
+### Task 1: Onboard On-prem servers to Azure Arc enabled server
 
 In this exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
 
@@ -88,5 +88,11 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     
     ![Screenshot of the server added.](Images/HOL3E1S17.png)
      
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
     
 **Summary:** In this exercise, you explored on how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that it can manage the Windows machine.
