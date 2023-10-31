@@ -33,7 +33,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
     > **Note**: Please note that even though we are adding **redhat** VM to the assessment here, we will not be setting up our environment in redhat VM in this exercise. Users will review the assessment and perform all the steps for environment setup in HOL2.
     
     
-5. Click on **Create assessment** to create the assessment. 
+5. Click on **create assessment** to create the assessment. 
 
     ![](Images/upd-hol1-e2-t1-s5.png)
 
@@ -44,6 +44,12 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 7. Select **Assessments (1)** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the **actual assessment (2)**.
 
     ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/upd-assessment-list-v2.png "Azure Migrate - Assessments (list)")
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
 ### Task 2: Configure dependency visualization
 
@@ -100,19 +106,19 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 12. On the **Welcome to the Microsoft Monitoring Agent Setup Wizard** blade, select **Next**. 
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mod1ex2.png "MMA installation")
+    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/hol1-ex-2-s12.png "MMA installation")
 
 13. On the **Microsoft Software License Terms** blade, select **I Agree**.
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma2.png "MMA installation")
+    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/hol1-ex-2-s13.png "MMA installation")
 
 14. On the **Destination Folder** blade, leave everything as default and select **Next**. 
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma3.png "MMA installation") 
+    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/hol1-ex-2-s14.png "MMA installation") 
 
 15. On the **Agent Setup Options** blade, select **Connect the agent to Azure Log Analytics (OMS) (1)** and select **Next (2)**.
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma4.png "MMA installation") 
+    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/hol1-ex-2-s15.png "MMA installation") 
 
 16. On the **Azure Log Analytics** blade, enter the **Workspace ID** and **Workspace Key** that you copied earlier, and select **Azure Commercial (1)** from the Azure Cloud drop-down then select **Next (2)**.
 
@@ -136,11 +142,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 21. On the **License Agreement** blade, select **I Agree** to accept the agreement and continue. 
 
-    ![Screenshot for installing Dependency Agent.](Images/dependencyagent1.png "Dependency Agent installation") 
+    ![Screenshot for installing Dependency Agent.](Images/hol1-ex-2-s21.png "Dependency Agent installation") 
 
 22. On the **Completing Dependency Agent Setup** blade, select **Finish** to finish the installation process.
 
-    ![Screenshot for installing Dependency Agent.](Images/dependencyagent2.png "Dependency Agent installation") 
+    ![Screenshot for installing Dependency Agent.](Images/hol1-ex-2-s22.png "Dependency Agent installation") 
  
 
     > **Note**: You do not need to configure the workspace ID and key when installing the Dependency Agent, since it uses the same settings as the Microsoft Monitoring Agent, which must be installed beforehand.
@@ -215,7 +221,12 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 34. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
-    
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
 #### Task summary 
 

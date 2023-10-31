@@ -18,7 +18,7 @@
 
 4. To create the image in a gallery, select **Yes, share it to a gallery as an image version** under **Instance details**.
 
-   ![](Images/upd-yes.png)
+   ![](Images/md1-ex-4-t1-s6.png)
 
 5. In **Gallery details**, create a new gallery by selecting **Create new (1)** and enter **imagemigration<inject key="DeploymentID" enableCopy="false" /> (2)** and click **Ok (3)**.
 
@@ -58,7 +58,13 @@
 
      ![](Images/upd-License.png)
 
-15. Select **Review + create** and then **create**.
+15. Select **Review + create** and then **Create**.
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 ### Task 2: Azure auto manage
 

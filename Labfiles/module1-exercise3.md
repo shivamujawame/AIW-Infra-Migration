@@ -84,7 +84,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 7. Select **Connect directly to Azure Site Recovery without a proxy server (1)** and select **Next (2)**. The registration of the Hyper-V host with Azure Site Recovery will begin.
 
-     ![Screenshot of the ASR provider registration settings.](Images/upd-e3-t2-s8.png)
+     ![Screenshot of the ASR provider registration settings.](Images/hol1-ex-3-s7.png)
 
 8. Wait for registration to complete (this may take several minutes). Then select **Finish**.
 
@@ -108,6 +108,12 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
 #### Task summary 
 
 In this task you registered your Hyper-V host with the Azure Migrate Server Migration service.
@@ -118,7 +124,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 1. Under **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
 
-     ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/replicatenw.png "Replicate link")
+     ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/md1-ex-3-t3-s1.png "Replicate link")
    
 2. Under **Specific Intent** page, provide the below details:
 
@@ -130,24 +136,24 @@ In this task, you will configure and enable the replication of your on-premises 
 
 3. In the **Basics settings** tab, under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the drop-down. Then select **Next**.
 
-     ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/upd-replicate-2.png "Replicate - Source settings")
+     ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/md1-ex-3-t3-s3.png "Replicate - Source settings")
 
 4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment (1)**. Select the **SmartHotel VMs (2)** VM group and the **SmartHotelAssessment (3)** migration assessment.
 
-     ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/upd-replicate-3.png "Replicate - Virtual machines")
+     ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/md1-ex-3-t3-s4.png "Replicate - Virtual machines")
 
 5. The **Virtual machines** tab should now show the virtual machines included in the assessment. Select the **UbuntuWAF**, **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
 
-     ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/upd-replicate-4.png "Replicate - Virtual machines")
+     ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/md1-ex-3-t3-s5.png "Replicate - Virtual machines")
 
 6. On the **Target settings** tab, select the below information,
    - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
-   - **Replication storage account**: Enter the storage account here from drop down which you create in task 1 **(2)**. 
+   - **Cache storage account**: Enter the storage account here from drop down which you create in task 1 **(2)**. 
    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
    - **Subnet**: Select **SmartHotel (4)**. 
    - Leave other values as default and select **Next (5)**.
    
-     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-S6.png)
+     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/hol1-ex-3-T3-s7.png)
 
    > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
@@ -174,7 +180,14 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-replicate-9.png "Replication status")
 
-   > **Note**: Please make sure you run the **validation steps** for this task before moving to next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
+    > **Note**: Please make sure you run the **validation steps** for this task before moving to next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
+
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 #### Task summary 
 
@@ -182,7 +195,7 @@ In this task you enabled replication from the Hyper-V host to Azure Migrate and 
 
 ### Task 4: Configure Networking
 
-In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
+In this task, you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
 1. Still using the **Migration and modernization - Replicating machines** blade, select the **smarthotelweb1** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
@@ -219,13 +232,13 @@ In this task you modified the settings for each replicated VM to use a static pr
 
 ### Task 5: Server migration
 
-In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
+In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
 1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate**.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/upd-migrate-1.png "Replication summary")
+    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/hol1-ex-3-T5-s1.png "Replication summary")
 
 2. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines **(2)** then select **Migrate (3)** to start the migration process.
 
@@ -248,6 +261,12 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 6. Navigate to the **SmartHotelHostRG** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-migrate-6.png "Migrated resources")
+
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 #### Task summary 
 
@@ -310,7 +329,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
 
 1. Set the Target type to **Virtual machine (1)** and the Target to the NIC of **smarthotelweb1 (2)**; select **Save (3)** to update the backend pool
 
-    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/backendpool-01.png "Add VM to backend pool")
+    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/hol1-ex-3-T7-s3.png "Add VM to backend pool")
 
     > **Note**: This backend pool is already associated with the front-end IP address of the Application Gateway via the SmartHotelApp rule. The front-end IP, listener, rule, and backend pool were all created with the Application Gateway. This step now ties the migrated VM to the front end.
 
@@ -333,11 +352,11 @@ In this task, you will associate an Application Gateway with Web Application Fir
     - **Check** the **Ignore Missing Microsoft.sql Service Endpoint box (5)**.
     - Click **Ok (6)**.
 
-    ![](Images/upd-e3-t7-s7.png)
+    ![](Images/hol1-ex-3-T7-s7.png)
    
-1. Navigate back to the **Public access (2)** tab of **Networking (1)** section. Set **Public network access** to **Disabled (3)** and **Save (4)** your changes.
+1. Navigate back to the **Public access (2)** tab of **Networking (1)** section. Set **Public network access** to **Disable (3)** and **Save (4)** your changes.
 
-    ![](Images/deny-firewalls-sqlserver1.png)
+    ![](Images/hol1-ex-3-T7-s8.png)
    
 1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations (1)** way in the Settings section and note the IP address associated with the public IP address **appGwPublicFrontendIp (2)**.
 
