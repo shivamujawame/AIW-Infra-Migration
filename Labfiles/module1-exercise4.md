@@ -18,7 +18,7 @@
 
 4. To create the image in a gallery, select **Yes, share it to a gallery as an image version** under **Instance details**.
 
-   ![](Images/upd-yes.png)
+   ![](Images/md1-ex-4-t1-s6.png)
 
 5. In **Gallery details**, create a new gallery by selecting **Create new (1)** and enter **imagemigration<inject key="DeploymentID" enableCopy="false" /> (2)** and click **Ok (3)**.
 
