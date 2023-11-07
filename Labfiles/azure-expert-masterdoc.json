@@ -4,7 +4,7 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/GettingStarted.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/aea-getstarted.md",
         "Order": 1
       },
       {
@@ -16,7 +16,7 @@
         "Order": 3
       },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/aea-exercise-2.md",
         "Order": 4
       }
     ]
