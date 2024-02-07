@@ -1,0 +1,20 @@
+[
+    {
+      "Name": "Hands-on Lab: Setup Azure Migrate Project",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
+          "Order": 1
+        },  
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/overview.md",
+          "Order": 2
+        }, 
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/ms-spl-migrate-linux-servers-to-azure-hol3-ex2.md",
+          "Order": 3
+        }
+      ]
+    }
+  ]
