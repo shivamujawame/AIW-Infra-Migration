@@ -8,12 +8,8 @@
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/overview.md",
-        "Order": 2
-      ),
-      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-create-vm-assessment.md",
-        "Order": 3
+        "Order": 2
       }
     ]
   }
