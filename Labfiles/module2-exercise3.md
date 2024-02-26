@@ -88,9 +88,9 @@ In this task, you enabled replication from the Hyper-V host to Azure Migrate, an
 
 In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
-1. Still using the **Migration and modernization - Replicating machines** blade, select the **redhat** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
+1. Still using the **Migration and modernization - Replications** blade, select the **redhat** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
-    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/updt-redhatreplicated.png "Replicating machines")
+    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/infra1.11.png "Replicating machines")
 
 2. Select **Compute and Network (1)** under **General** on the left, then select **Edit (2)**.
 
@@ -123,7 +123,11 @@ In this task, you will perform a migration of the redhat virtual machine to Azur
 
 1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate more servers**.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/upd-Migration1.png "Replication summary")
+    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/infra1.12.png "Replication summary")
+
+1. On the **Specify Intent** blade, select **Azure VM (1)** for **Where do you want to migrate to?** and click on **Continue (2)**
+
+    ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/infra1.6.png "Migrate - VM selection")
 
 2. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the **redhat (2)** virtual machine then select **Migrate (3)** to start the migration process.
 
@@ -137,11 +141,11 @@ In this task, you will perform a migration of the redhat virtual machine to Azur
 
 4. To monitor progress, select **Jobs (1)** under **Manage** on the left and review the status of the redhat **Planned failover (2)** job.
 
-    ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/upd-itshappening.png "Migration jobs")
+    ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/infra1.13.png "Migration jobs")
 
 5. **Wait** until the **Planned failover** jobs show a **Status** of **Successful**. You should not need to refresh your browser. This could take up to 15 minutes.
 
-    ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/upd-completefailredhat.png "Migration status")
+    ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/infra1.14.png "Migration status")
 
 6. Navigate to the **SmartHotelRG** resource group and check that the VM, network interface, and disk resource has been created for redhat virtual machine being migrated.
 
@@ -166,7 +170,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
 3. **Connect** to the machine with the username **administrator** and the password <inject key="SmartHotel Admin Password"></inject>. When prompted, **Allow** clipboard access.
 
-    ![Screenshot showing the Azure Bastion connection blade.](Images/bastionnew1.png "Connect using Bastion")
+    ![Screenshot showing the Azure Bastion connection blade.](Images/infra1.7.png "Connect using Bastion")
 
 4. In the **redhat** remote desktop session, enable the root user by running the below commands,and enter password as **demo!pass123**. 
 
