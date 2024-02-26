@@ -76,7 +76,7 @@ In this task, you will Enable Automanage on existing machines.
 
 2. In the search bar, search for and select **Automanage – Azure machine best practice**s.
 
-3. From the left side panel select **Automanage machines (1)** and click on **+Enable on existing VM (2)**.
+3. From the left side panel select **Automanage machines (1)** and click on **+ Enable on existing VM (2)**.
    
    ![](Images/upd-zero-vm-list-view.png)
 
@@ -94,7 +94,7 @@ In this task, you will Enable Automanage on existing machines.
    
    b. **Check the checkbox of the virtual machine (2)** you want to onboard. (for example: let's enable automanage for smarthotelweb2.)
    
-   c. Click the **Review+Create (3)** button.
+   c. Click on the **Review + Create (3)** button.
    
    ![](Images/updt-existing-vm-select-machine.png)
 
