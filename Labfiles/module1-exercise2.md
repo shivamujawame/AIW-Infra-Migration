@@ -31,7 +31,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
     
     > **Note**: Please note that even though we are adding **Redhat** VM to the assessment here, we will not be setting up our environment in Redhat VM in this exercise. Users will review the assessment and perform all the steps for environment setup in HOL2.
     
-5. Click on **create assessment** to create the assessment. 
+5. Click on **Create assessment** to create the assessment. 
 
     ![](Images/upd-hol1-e2-t1-s5.png)
 
