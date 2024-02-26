@@ -16,7 +16,7 @@ In this task, you will review the already registered Hyper-V host(LabVM) with th
 
 #### Task summary 
 
-In this task you get a overview of your registered Hyper-V host with the Azure Migrate Server Migration service.
+In this task, you get a overview of your registered Hyper-V host with the Azure Migrate Server Migration service.
 
 ### Task 2: Enable Replication from Hyper-V to Azure Migrate
 
@@ -83,7 +83,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 #### Task summary 
 
-In this task you enabled replication from the Hyper-V host to Azure Migrate, and configured the replicated VM size in Azure.
+In this task, you enabled replication from the Hyper-V host to Azure Migrate, and configured the replicated VM size in Azure.
 
 ### Task 3: Configure Networking
 
@@ -112,14 +112,13 @@ In this task you will modify the settings for each replicated VM to use a static
 
 #### Task summary 
 
-In this task you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
+In this task, you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
 
 > **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machine in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VM during migration (for example, by editing web.config files).
 
-
 ### Task 4: Server migration
 
-In this task you will perform a migration of the redhat virtual machine to Azure.
+In this task, you will perform a migration of the redhat virtual machine to Azure.
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
@@ -151,7 +150,7 @@ In this task you will perform a migration of the redhat virtual machine to Azure
 
 #### Task summary 
 
-In this task you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
+In this task, you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
 
 
 ### Task 5: Configure the database connection
