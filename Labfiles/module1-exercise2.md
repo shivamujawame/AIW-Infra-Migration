@@ -53,7 +53,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 When migrating a workload to Azure, it is important to understand all workload dependencies. A broken dependency could mean that the application does not run properly in Azure, perhaps in hard-to-detect ways. Some dependencies, such as those between application tiers, are obvious. Other dependencies, such as DNS lookups, Kerberos ticket validation or certificate revocation checks, are not.
 
-In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace and then to deploy agents on the to-be-migrated VMs.
+In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace and then deploy agents on the to-be-migrated VMs.
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
 
