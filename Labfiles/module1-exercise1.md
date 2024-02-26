@@ -20,9 +20,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
     ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3.png "Azmigrate Overview blade")
 
-4. Under **Migration goals**, select **Servers, databases and web apps (1)** and then under **Azure Migrate: Discovery and assessment**, select **Discover (2)** to open the **Discover** blade.
+4. Under **Migration goals**, select **Servers, databases and web apps (1)** and then under **Azure Migrate: Discovery and assessment**, select **Discover (2) > Using appliance (3)** to open the **Discover** blade.
  
-    ![](Images/upd-azuremigrate-3.png)
+    ![](Images/infra1.1.png)
  
 5. Under **Are your servers virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
 

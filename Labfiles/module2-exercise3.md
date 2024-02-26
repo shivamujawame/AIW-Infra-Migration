@@ -6,7 +6,7 @@ In this task, you will review the already registered Hyper-V host(LabVM) with th
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, and select **Servers, databases and web apps** under **Migration goals** on the left. 
 
-2. Under Migration and modernization, you should be able to see 7 discovered servers. Now click on the **Discovered server** to view all the server that has been discovered with the help of Azure Migrate. 
+2. Under Migration and modernization, you should be able to see 7 discovered servers. Now click on the **Discovered servers** to view all the server that has been discovered with the help of Azure Migrate. 
 
     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/7dscvrredhat.png "Discovered servers")
 
@@ -32,7 +32,7 @@ In this task, you will configure and enable the replication of your on-premises 
     -  Where do you want to migrate to? : Select **Azure VM** **(2)**
     -  Click on **Continue (3)**
 
-    ![](Images/specifi%20intent.png)
+        ![](Images/specifi%20intent.png)
 
 3. In the **Basics settings** tab, under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the drop-down. Then select **Next**.
 
@@ -53,8 +53,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - **Subnet**: Select **SmartHotel (4)**. 
    - Select **Next (5)**.
  
- 
-    ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/hol2-ex-3-T2-s6.png)
+        ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/hol2-ex-3-T2-s6.png)
 
    > **Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
 
@@ -63,7 +62,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - Select the **Linux** operating system for the **redhat** virtual machine. 
    - Select **Next**. 
 
-   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
+        ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
 
 8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
@@ -72,13 +71,13 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/nwoverview.png "Overview link")
     
-10. Confirm that the 1 machine is replicating.
+10. Confirm that the **1** machine is replicating.
 
     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/Replication4.png "Replication summary")
 
-11. Select **Replicating Machines (1)** under **Manage** on the left. Select **Refresh (2)** occasionally and wait until the redhat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
+11. Select **Replications (1)** under **Manage** on the left. Select **Refresh (2)** occasionally and wait until the redhat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-redhatreplicated.png "Replication status")
+    ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/infra1.10.png "Replication status")
 
 
 #### Task summary 

@@ -55,17 +55,19 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
      ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](Images/migrationtools.png "Azure Migrate: Server Migration - Discover")
 
 2. In the **Discover** panel, provide the following details:
-   - Under **Are your machines virtualized**, select **Yes, with Hyper-V (1)**.
+
+   - Under **Where do you want to migrate to?**, select **Azure VM (1)**
+   - Under **Are your machines virtualized**, select **Yes, with Hyper-V (2)**.
    - Under **Target region (2)** make sure to select the **<inject key="Region"></inject>** region as same the Resource Group's region.
    - Check the **confirmation (3)** checkbox and select **Create resources (4)** to begin the deployment of the Azure Site Recovery resource used by Migration and modernization for Hyper-V migrations.
 
-     ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](Images/upd-discover-new1.png "Discover machines - source hypervisor and target region")
+     ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](Images/infra1.2.png "Discover machines - source hypervisor and target region")
 
    Once deployment is complete, the 'Discover machines' panel should be updated with additional instructions.
   
 3. Click on the **Download** link for the Hyper-V replication provider software installer to download the Azure Site Recovery provider installer.
 
-     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link for the Hyper-V replication provider software installer.](Images/upd-e3-t2-s3.png?raw=true "Replication provider download link")
+     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link for the Hyper-V replication provider software installer.](Images/infra1.3.png "Replication provider download link")
 
 4. Return to the **Discover** page in your browser, select the blue **Download** button and download the registration key file.
 
@@ -102,7 +104,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 12. Once the registration is complete, close the **Discover machines** panel using **X** button.
 
-     ![Screenshot of the 'Discover machines' panel from Azure Migrate, showing the 'Registration finalized' message.](Images/upd-discover-7.png "Registration finalized")
+     ![Screenshot of the 'Discover machines' panel from Azure Migrate, showing the 'Registration finalized' message.](Images/infra1.4.png "Registration finalized")
 
 13. The **Migration and Modernization** panel should now show 7 discovered servers.
 
@@ -175,9 +177,9 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/upd-overviewnew.png "Replication summary")
 
-11. Select **Replicating Machines (1)** under **Manage** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
+11. Select **Replications (1)** under **Manage** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
-     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-replicate-9.png "Replication status")
+     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/infra1.5.png "Replication status")
 
     > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
 
@@ -195,9 +197,9 @@ In this task, you enabled replication from the Hyper-V host to Azure Migrate and
 
 In this task, you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
-1. Still using the **Migration and modernization - Replicating machines** blade, select the **smarthotelweb1** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
+1. Still using the **Migration and modernization - Replications** blade, select the **smarthotelweb1** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
-    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/upd-config-0.png "Replicating machines")
+    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/infra1.8.png "Replicating machines")
 
 2. Select **Compute and Network (1)** under **General** on the left, then select **Edit (2)**.
 
@@ -237,6 +239,10 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/hol1-ex-3-T5-s1.png "Replication summary")
 
+1. On the **Specify Intent** blade, select **Azure VM (1)** for **Where do you want to migrate to?** and click on **Continue (2)**
+
+    ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/infra1.6.png "Migrate - VM selection")
+
 2. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines **(2)** then select **Migrate (3)** to start the migration process.
 
     ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/upd-e3-t6-s2.png "Migrate - VM selection")
@@ -253,7 +259,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
 5. **Wait** until all three **Planned failover** jobs show a **Status** of **Successful**. You should not need to refresh your browser. This could take up to 15 minutes.
 
-    ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/upd-migrate-5.png "Migration status")
+    ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/infra1.9.png "Migration status")
 
 6. Navigate to the **SmartHotelHostRG** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
 
@@ -287,7 +293,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
     >**Note**: You might have to allow pop-ups to access the bastion session.
 
-      ![Screenshot showing the Azure Bastion connection blade.](Images/bastionnew.png "Connect using Bastion")
+      ![Screenshot showing the Azure Bastion connection blade.](Images/infra1.7.png "Connect using Bastion")
 
 4. In the **smarthotelweb2** remote desktop session, open File Explorer and navigate to the **C:\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file and open it with Notepad.
 
@@ -346,9 +352,9 @@ In this task, you will associate an Application Gateway with a Web Application F
     - **Virtual Network**: Select **SmartHotelVNet (3)**. 
     - **Subnet**: Select **SmartHotel (4)**.
     - **Check** the **Ignore Missing Microsoft.sql Service Endpoint box (5)**.
-    - Click **Ok (6)**.
+    - Click **OK (6)**.
 
-    ![](Images/hol1-ex-3-T7-s7.png)
+      ![](Images/hol1-ex-3-T7-s7.png)
    
 1. Navigate back to the **Public access (2)** tab of **Networking (1)** section. Set **Public network access** to **Disable (3)** and **Save (4)** your changes.
 
