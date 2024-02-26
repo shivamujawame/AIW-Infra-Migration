@@ -1,6 +1,5 @@
 # HOL 2: Migrate and modernize Linux & OSS DB workloads to Azure
 
-
 In this Module, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
 
 ### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
@@ -53,5 +52,4 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
 1. In the next exercise you will be migrating the Redhat server, and the OSS Database hosted in the Red hat VM to the Azure with the help of Azure Migrate.  
     
-
 **Summary:** In this exercise, you explored how Assessments work to migrate your on-premises servers to Azure virtual machines. You learnt how to assess your on-premises servers Hyper-V environment, and physical servers for migration to Azure VMs.
