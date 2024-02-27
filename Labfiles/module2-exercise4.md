@@ -12,12 +12,12 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
     ![](Images/identityt.png)
 
-3. Under Identity, Under System assigned tab, Click on the **On (1)** button under Status tag and click on **Save (2)** button to turn on the identity. It will take some time to complete the process and there have some Service principal is getting created behind the process.
+3. In Identity, Under System assigned tab, Click on the **On (1)** button under Status tag and click on **Save (2)** button to turn on the identity. It will take some time to complete the process and there have some Service principal is getting created behind the process.
 
      > **Note**: If prompted with Enable system assigned managed identity pop-up, click on Yes.
 
-      ![](Images/turinon.png)
-      ![](Images/identidone.png)
+      ![](Images/turnonidentity.png)
+      ![](Images/identityon.png)
       
 4. Now, Navigate to **Extension + application** from the left side menu.
    

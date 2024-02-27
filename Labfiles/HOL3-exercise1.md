@@ -17,7 +17,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
    
-1. On the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and then click on **+Add (2)**.
+1. On the **Azure Arc** page, select **Machines (1)** under **Infrastructure**, click on **+Add (2)** and then **Add a Machine (3)**.
     
     ![Screenshot of the add server.](Images/HOL3E1S3.png "add server")
     
