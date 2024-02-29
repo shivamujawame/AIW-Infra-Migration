@@ -121,9 +121,9 @@ In this task, you will perform a migration of the redhat virtual machine to Azur
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
-1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate more servers**.
+1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate**.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/infra1.12.png "Replication summary")
+    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/HOL2E3T4S1.png "Replication summary")
 
 1. On the **Specify Intent** blade, select **Azure VM (1)** for **Where do you want to migrate to?** and click on **Continue (2)**
 
