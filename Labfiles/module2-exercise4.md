@@ -1,6 +1,6 @@
 ## HOL2: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
-### Task 1: Getting started with Azure Active Directory for Linux 
+### Task 1: Getting Started with Azure Active Directory for Linux 
 
 In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
 
@@ -12,9 +12,9 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
     ![](Images/identityt.png)
 
-3. In Identity, Under System assigned tab, Click on the **On (1)** button under Status tag and click on **Save (2)** button to turn on the identity. It will take some time to complete the process and there have some Service principal is getting created behind the process.
+3. In Identity, Under the System assigned tab, Click on the **On (1)** button under the Status tag and click on the **Save (2)** button to turn on the identity. It will take some time to complete the process and there are some Service principal is getting created behind the process.
 
-     > **Note**: If prompted with Enable system assigned managed identity pop-up, click on Yes.
+     > **Note**: If prompted with the Enable system-assigned managed identity pop-up, click on Yes.
 
       ![](Images/turnonidentity.png)
       ![](Images/identityon.png)
@@ -23,15 +23,15 @@ In this task, you will be enabling the AAD authentication using a VM extension a
    
     ![](Images/extension.png)
 
-5. In the Extension page, click on **+Add** button to add an extension that will help you to connect to your machine using your AAD account.
+5. On the Extension page, click on the **+Add** button to add an extension that will help you connect to your machine using your AAD account.
 
     ![](Images/addexn.png)
 
-6. Once you are on **Install an extension** page, search for **Azrure AD based SSH Login** extension and select it and click on **Next** button.
+6. Once you are on the **Install an extension** page, search for **Azure AD based SSH Login** extension select it and click on the **Next** button.
 
     ![](Images/aaadextensfd.png)
 
-7. You will be redirected to the **Configure Azure AD based SSH Login extension** page, now click on **Review + create** and then **create** button. It should start the installation of the extension into your Red hat VM.
+7. You will be redirected to the **Configure Azure AD based SSH Login extension** page, now click on **Review + create** and then **Create** button. It should start the installation of the extension into your Redhat VM.
 
     ![](Images/creasd.png)
     
@@ -94,13 +94,13 @@ In this task, we are using Azure CloudShell to configure a Linux VM and log in w
 
 In this task, you will Enable Automanage on existing machines.
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
 2. In the search bar, search for and select **Automanage**.
 
-3. Under **Automanage machines (1)**, select the **+Enable on existing machine(2)**.
+3. Under **Automanage machines (1)**, select the **+ Enable on existing machine (2)**.
    
    ![](Images/upd-zero-vm-list-view.png)
 
@@ -118,10 +118,10 @@ In this task, you will Enable Automanage on existing machines.
    
    b. Check the checkbox of **redhat (1)** virtual machine.
    
-   c. Click the **Review+Create (3)** button.
+   c. Click the **Review + Create (3)** button.
    
    ![](Images/upd-redhatautomanage.png)
 
 6. Click on **Create**.
 
-7. Once the Configuration profile assignment completed successfully, it will take around 20-30 minutes to get the Status as Conformant.
+7. Once the Configuration profile assignment is completed successfully, it will take around 20-30 minutes to get the Status as Conformant.
