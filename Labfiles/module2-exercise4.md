@@ -19,7 +19,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
       ![](Images/turnonidentity.png)
       ![](Images/identityon.png)
       
-4. Now, Navigate to **Extension + application** from the left side menu.
+4. Now, Navigate to **Extension + applications** from the left side menu.
    
     ![](Images/extension.png)
 
