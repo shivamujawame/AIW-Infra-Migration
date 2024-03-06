@@ -23,7 +23,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
    
     ![](Images/extension.png)
 
-5. On the Extension page, click on the **+Add** button to add an extension that will help you connect to your machine using your AAD account.
+5. On the Extension page, click on the **+ Add** button to add an extension that will help you connect to your machine using your AAD account.
 
     ![](Images/addexn.png)
 
