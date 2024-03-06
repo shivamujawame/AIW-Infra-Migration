@@ -14,7 +14,7 @@ SmartHotel wants to migrate and modernize some of its servers and databases to t
 
 Let’s take the journey together with SmartHotel and see how easy it is to accomplish all the above with Azure Migrate, DMS, and Azure Site Recovery.
 
-In this lab, you will leverage Azure Migrate and DMS to migrate and modernize the on-premises servers and databases to Azure cloud.
+In this lab, you will leverage Azure Migrate and DMS to migrate and modernize the on-premises servers and databases to the Azure cloud.
 
 In **Hands-on lab 1: Migrating Windows & SQL Server workloads**, you will evaluate the on-premises environment using Azure Migrate, choosing Azure Migrate tools, setting up the Azure Migrate appliance in an on-premises environment, doing a migration evaluation, and utilising the dependency visualisation, develop a migration assessment for the SmartHotel application using Azure Migrate, register your LabVM Hyper-V host with the Migration and Modernization service in this activity. Azure Site Recovery serves as the foundational migration engine for this service. You will install the Azure Site Recovery Provider on your Hyper-V server as part of the registration procedure. In hands-on lab 2, you will be using the Red Hat VM and Cosmosdb for performing the above migration activities.
 
@@ -38,7 +38,7 @@ The SmartHotel application comprises 7 VMs hosted in Hyper-V:
 
 For simplicity, there is no redundancy in any of the tiers.
 
->**Note:** For convenience, the Hyper-V host itself is deployed as an Azure VM. For the purposes of the lab, you should think of it as an on-premises machine.
+>**Note:** For convenience, the Hyper-V host itself is deployed as an Azure VM. For the lab, you should think of it as an on-premises machine.
 
 
 ![A slide shows the on-premises SmartHotel application architecture.](Images/lineofbusines3.png "SmartHotel Migration Overview")
