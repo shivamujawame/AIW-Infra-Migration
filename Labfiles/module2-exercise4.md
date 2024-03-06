@@ -10,18 +10,18 @@ In this task, you will be enabling the AAD authentication using a VM extension a
     
 2. Now from the left side menu, select the **Identity**.
 
-    ![](Images/identityt.png)
+    ![](Images/extenssions.png)
 
-3. In Identity, Under the System assigned tab, Click on the **On (1)** button under the Status tag and click on the **Save (2)** button to turn on the identity. It will take some time to complete the process and there are some Service principal is getting created behind the process.
+3. In Identity, Under the System assigned tab, Click on the **On (1)** button under the Status tag and click on the **Save (2)** button to turn on the identity. It will take some time to complete the process and some Service principles are being created behind the process.
 
      > **Note**: If prompted with the Enable system-assigned managed identity pop-up, click on Yes.
 
       ![](Images/turnonidentity.png)
       ![](Images/identityon.png)
       
-4. Now, Navigate to **Extension + applications** from the left side menu.
+4. Now, Navigate to **Extensions + applications** from the left side menu.
    
-    ![](Images/extension.png)
+    ![](Images/extenssions1.png)
 
 5. On the Extension page, click on the **+ Add** button to add an extension that will help you connect to your machine using your AAD account.
 
@@ -89,7 +89,6 @@ In this task, we are using Azure CloudShell to configure a Linux VM and log in w
       az ssh vm -n redhat -g SmartHotelRG
       ```
   
-
 ### Task 3: Azure auto manage
 
 In this task, you will Enable Automanage on existing machines.
