@@ -8,7 +8,6 @@ Azure Arc allows you to manage your hybrid IT estate with a single pane of glass
 
 In this exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
 
-
 1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
@@ -79,6 +78,8 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     * Azure Password: <inject key="AzureAdUserPassword"></inject> 
 
    > **Note:** Move back to the PowerShell pane and now you have connected your AzureArcVM to Azure successfully.
+   >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**, on **Stay current with your browsing data** select **Confirm and continue** and on the help for importing Google browsing data page, select the  **Continue without this data**  button. Then, proceed to select  **Confirm and start browsing**  on the next page
+has a context menu.
     
     ![Screenshot of the powershellscript.](Images/upd-package.png)
      
