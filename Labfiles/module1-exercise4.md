@@ -26,7 +26,7 @@
 
 6. In Operating system state select **Specialized**.
 
-7. Select an image definition and click **Create new (1)** and create a VM Image definition by providing the following details and then click **Ok (6)**: 
+7. On Target VM definition click **Create new (1)** and create a VM Image definition by providing the following details and then click **Ok (6)**: 
   
    - Image VM definition name: **imagedefinition<inject key="DeploymentID" enableCopy="false" /> (2)**
 
