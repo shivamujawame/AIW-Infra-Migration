@@ -4,12 +4,11 @@ In this HOL you will use Azure Migrate: Discovery and assessment tool that descr
 
 Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers that are not ideal candidates for migration. 
 
-### Task 1: Onboard On-prem servers to Azure Arc enabled server
+### Task 1: Onboard On-prem servers to Azure Arc-enabled server
 
 In this exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
 
-
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
@@ -17,7 +16,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
    
-1. On the **Azure Arc** page, select **Machines (1)** under **Infrastructure**, click on **+Add (2)** and then **Add a Machine (3)**.
+1. On the **Azure Arc** page, select **Machines (1)** under **Infrastructure**, click on **+ Add (2)** and then **Add a Machine (3)**.
     
     ![Screenshot of the add server.](Images/HOL3E1S3.png "add server")
     
@@ -25,7 +24,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     ![Screenshot of the Generate script.](Images/singleserver.png "Generate script")
     
-1. Under **Basics** tab, fill the following details:
+1. Under the **Basics** tab, fill in the following details:
      
    - Subscription: **Select your subscription**
     
@@ -39,13 +38,13 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     ![Screenshot of the resource details tab.](Images/HOL3E1S5.png "resource details tab")
 
-1. Under **Tags** tab, leave the values as default and click on **Next**.
+1. Under the **Tags** tab, leave the values as default and click on **Next**.
 
-1. Under **Download and run script** tab, **copy (1)** the entire script and paste it in a notepad as it will be used in the further steps and then click on **Close (2)**.
+1. Under the **Download and run script** tab, **copy (1)** the entire script and paste it into a notepad as it will be used in the further steps and then click on **Close (2)**.
 
     ![Screenshot of the copy script.](Images/upd-copyscript.png "copy script")
     
-1. Go to **Start (1)** button in the VM, search for **Hyper-V Manager (2)** there and select it. 
+1. Go to the **Start (1)** button in the VM, search for **Hyper-V Manager (2)** there and select it. 
 
     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/upd-hyper-v-manager.png "Hyper-V Manager")
 
@@ -71,20 +70,22 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     ![Screenshot of the powershell.](Images/upd-powershell.png)
       
-1. In powershell, run the whole script that you copied in the notepad earlier in step 8.
+1. In PowerShell, run the whole script that you copied in the notepad earlier in step 8.
 
-1. After running the script, packages will be installed and then you will be directed to a pop-up browser page to login into your azure account for authentication purpose. Use the below Azure credentials:
+1. After running the script, packages will be installed and then you will be directed to a pop-up browser page to log into your Azure account for authentication purposes. Use the below Azure credentials:
 
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject> 
 
-   > **Note:** Move back to the powershell pane and now you have connected your AzureArcVM to Azure successfully.
+   > **Note:** Move back to the PowerShell pane and now you have connected your AzureArcVM to Azure successfully.
+   >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**, on **Stay current with your browsing data** select **Confirm and continue** and on the help for importing Google browsing data page, select the  **Continue without this data**  button. Then, proceed to select  **Confirm and start browsing**  on the next page
+has a context menu.
     
     ![Screenshot of the powershellscript.](Images/upd-package.png)
      
- 1. Close the AzureArcVM and navigate to Azure portal and go back to the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
+ 1. Close the AzureArcVM, navigate to the Azure portal go back to the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
 
-    **Note:** The name of the newly server added could be different. You might have to refresh to see the new server.
+    **Note:** The name of the new server added could be different. You might have to refresh to see the new server.
     
     ![Screenshot of the server added.](Images/HOL3E1S17.png)
      
@@ -95,4 +96,4 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
     
-**Summary:** In this exercise, you explored on how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that it can manage the Windows machine.
+**Summary:** In this exercise, you explored how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that they can manage the Windows machine.

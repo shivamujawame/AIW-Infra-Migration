@@ -1,15 +1,15 @@
 ## HOL3: Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
 
-In this HOL, you will learn how to enable the enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will setup Log Analytics workspace to collect logs and data of the resources and it's information will be stored in a workspace.
+In this HOL, you will learn how to enable enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will set up a Log Analytics workspace to collect logs and data of the resources and its information will be stored in a workspace.
 
 > **Note:** 
-> - Microsoft Defender for Cloud, Azure Sentinel and Monitor Insights can take several hours to surface post the completion of a scan.
+> - Microsoft Defender for Cloud, Azure Sentinel and Monitor Insights can take several hours to surface after the completion of a scan.
 > - At this point of the workshop, only a limited number of data visualizations may be populated. (So the result in the screenshots below may vary)
-> - The screenshots and information below, has been provided so that you can conceptualise the type of graphs and output that can be gleaned from a fully populated environment.
+> - The screenshots and information below, have been provided so that you can conceptualise the type of graphs and output that can be gleaned from a fully populated environment.
 
 ### Task 1: Enable Microsoft Defender for Cloud
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
@@ -17,7 +17,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
     
-    > **Note:** If you are prompted with new upgrade pop-up, click on Skip.
+    > **Note:** If you are prompted with a new upgrade pop-up, click on Skip.
     
 1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
 
@@ -37,17 +37,15 @@ In this HOL, you will learn how to enable the enhanced security features by enab
     
      > **Note:** It might take up to 24-48 hours for all the changes to get reflected in your subscription successfully.
    
-
 1. The **Microsoft Defender for Cloud Overview page** offers a consolidated perspective for security experts. This section combines various independent cloud security components, such as **Secure Score, Regulatory Compliance, and Workloads Protection**, and provides detailed insights on the security posture on a distinct dashboard.
 
     ![Screenshot of the overview page](Images/hol3-e5-s7.png "overview page")
 
 1. On the **Recommendations page** under _General_, pay attention to the first part of the page. It includes the current Secure Score, progress on the Recommendations status (both completed security controls and recommendations), and Resource health (by severity).
     
-    ![Screenshot of the Recommendations page](Images/hol3-e5-s8.png "Recommendations page")
+    ![Screenshot of the Recommendations page](Images/hol3-e5-s8.png "Recommendations page")   
    
-   
-1. On the **Security alerts page** under _General_, you can see the alerts that describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. (The Remediation steps contain the remediation logic where you can remediate the selected resource/s. To simplify remediation and improve your environment's security and increase your secure score, many recommendations include a Fix option. Fix helps you quickly remediate a recommendation on multiple resources.)
+1. On the **Security alerts page** under _General_, you can see the alerts that describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. (The Remediation steps contain the remediation logic where you can remediate the selected resource/s. To simplify remediation improve your environment's security and increase your secure score, many recommendations include a Fix option. Fix helps you quickly remediate a recommendation on multiple resources.)
 
   
 ### Task 2: Enable Microsoft Sentinel
@@ -56,16 +54,16 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
     ![Screenshot of the search Microsoft Sentinel.](Images/e5-t2-s1.png "Microsoft Sentinel")
     
-1. On the **Microsoft Sentinel** page, click on **+Create**.    
+1. On the **Microsoft Sentinel** page, click on **+ Create**.    
 
     ![Screenshot of the create Microsoft Sentinel.](Images/hol3-e5-t2-s2.png "Microsoft Sentinel")
     
     
-1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click on **Add (2)**. If prompted, Microsoft Sentinel free trial activated, click on Ok.   
+1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click on **Add (2)**. If prompted, the Microsoft Sentinel free trial is activated, click on OK.   
 
     ![Screenshot of the add Microsoft Sentinel.](Images/hol3-e5-t2-s3.png "add Microsoft Sentinel")
     
-    > **Note:** If you are prompted with Microsoft Sentinel free trial activated pop-up, click on ok.
+    > **Note:** If you are prompted with the Microsoft Sentinel free trial activated pop-up, click on ok.
     
 1. On the **News and guides (1)** window, go to **Get started (2)** tab review the content and from left pane under **Configuration**, select **Data connectors**.   
 
@@ -106,7 +104,7 @@ In this HOL, you will learn how to enable the enhanced security features by enab
     
     ![Screenshot of the search Azure workspace Monitor.](Images/upd-hol3-e5-t3-s3.png "Azure Monitor")
     
-4. On the **Usage tab**, you can see ingestion data of by tables, and defaults to the 5 most ingested tables in the selected time range.
+4. On the **Usage tab**, you can see ingestion data by tables and defaults to the 5 most ingested tables in the selected time range.
 
 - How much data was ingested to it (during the selected time range)
 - The percentage this table takes, from the entire ingestion volume (during the selected time range). That helps identify the tables that affect your ingestion the most.
@@ -114,14 +112,14 @@ In this HOL, you will learn how to enable the enhanced security features by enab
    
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s4.png "Azure Monitor")  
     
-5. On the **Health tab**, you can see the workspace health state and when it was last reported, as well as operational errors and warnings.
+5. On the **Health tab**, you can see the workspace's health state and when it was last reported, as well as operational errors and warnings.
         
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s5.png "Azure Monitor") 
     
-6. On the **Agents tab**, you can see  :
+6. On the **Agents tab**, you can see :
 
-- Operation errors and warnings - these are errors and warning related specifically to agents. 
-- Workspace agents - these are the agents that sent logs to the workspace during the selected time range. You can see the agent's types and health state. 
+- Operation errors and warnings - these are errors and warnings related specifically to agents. 
+- Workspace agents - these are the agents that send logs to the workspace during the selected time range. You can see the agent's types and health state. 
 - Agents activity - this grid shows information on either all agents, healthy or unhealthy agents. 
     
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  

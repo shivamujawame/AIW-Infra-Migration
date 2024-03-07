@@ -1,18 +1,18 @@
 ## HOL2: Exercise 2: Set up your environment on Azure to migrate servers
 
-In this HOL, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in a number of scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
+In this HOL, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in several scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
 
 ### Task 1: Configure dependency visualization
 
 When migrating a workload to Azure, it is important to understand all workload dependencies. A broken dependency could mean that the application doesn't run properly in Azure, perhaps in hard-to-detect ways. Some dependencies, such as those between application tiers, are obvious. Other dependencies, such as DNS lookups, Kerberos ticket validation or certificate revocation checks, are not.
 
-In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace, and then to deploy agents on the to-be-migrated VMs.
+In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace and then deploy agents on the to-be-migrated VMs.
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
 
     ![](Images/upd-nwgrpopen.png)   
 
-2. Under **Groups (1)** pane, select the **SmartHotel VMs (2)** group to see the group details. 
+2. Under the **Groups (1)** pane, select the **SmartHotel VMs (2)** group to see the group details. 
 
     ![](Images/upd-hol1-e2-t2-s2.png)  
 
@@ -93,4 +93,4 @@ In this task, you will configure the Azure Migrate dependency visualization feat
  
 #### Task summary 
 
-In this task you configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on Linux on-premises machine.
+In this task, you configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on a Linux on-premises machine.

@@ -9,26 +9,25 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
     ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
     
 1. Under Recovery services vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.  
-
     ![Screenshot of the create Recovery service vaults.](Images/hol3-e2-s2.png "create Recovery service vaults")
 
 1. Select **Site Recovery Infrastructure** under **Manage** on the left side of the panel.
 
     ![Screenshot of the Site Recovery Infrastructure.](Images/hol3-e2-s3.png)
 
-1. Under Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
+1. Under the Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
 
     ![Screenshot of the hyper-v-host.](Images/HOL3-EX2-T1-S4.png "hyper-v-host")  
 
-1. Go back to your **Recovery service vault page**, click on **Replicated Items (1)** under **Protected Items** and then click on **+Replicate (2)** and select **Hyper-V machines to Azure (3)** from the drop-down list.
+1. Go back to your **Recovery service vault page**, click on **Replicated Items (1)** under **Protected Items** and then click on **+ Replicate (2)** and select **Hyper-V machines to Azure (3)** from the drop-down list.
 
     ![Screenshot of the add replicate items.](Images/hol3-e2-s5.png "add replicate items") 
    
-1. Under **Source environment** tab, select the **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-HyperVSite (1)**  and then click on **Next (2)**.
+1. Under the **Source environment** tab, select the **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-HyperVSite (1)**  and then click on **Next (2)**.
  
     ![Screenshot of the Source environment.](Images/hol3-e2-s6.png "Source environment") 
    
-1. Under **Target environment** tab, fill the following details:
+1. Under the **Target environment** tab, fill in the following details:
 
    - Post-failover resource group: **SmartHotelRG (1)**
    
@@ -70,5 +69,5 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
    
-**Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learnt how to set up the source and target replication environments and create a replication policy to enable replication for a server.
+**Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learn how to set up the source and target replication environments and create a replication policy to enable replication for a server.
 

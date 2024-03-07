@@ -22,7 +22,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Select or create a group: Choose **Create new (2)**  
      1. Enter the Group name: **SmartHotel VMs (3)**
      1. Add machines to the Group:  Select **SmarthotelAppl(Hyper-V) (4)** from dropdown.
-     1. Select the **smarthotelweb1**, **smarthotelweb2**, **UbuntuWAF**, and **redhat** VMs **(5)** and
+     1. Select the **smarthotelweb1**, **smarthotelweb2**, **UbuntuWAF**, and **redhat** VMs **(5)**
      1. Click on **Next: Review + Create assessment > (6)**.
 
         ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/updt-hol1-e2-t1-s4.png "Assessment VM group")
@@ -152,7 +152,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 24. Open a command prompt using the desktop shortcut.  
 
-    > **Note**: The SmartHotelHost runs Windows Server 2019 with the Windows Subsystem for Linux enabled. This allows the command prompt to be used as an SSH client. More info of supported Linux on Azure can be found here: https://Azure.com/Linux. 
+    > **Note**: The SmartHotelHost runs Windows Server 2019 with the Windows Subsystem for Linux enabled. This allows the command prompt to be used as an SSH client. More info on supported Linux on Azure can be found here: https://Azure.com/Linux. 
 
 25. Enter the following command to connect to the **UbuntuWAF** VM running in Hyper-V on the SmartHotelHost:
 

@@ -56,11 +56,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
-7. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+7. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
      ![](Images/select-rg.png "Resource groups")
    
-8. Confirm you have all resource group are present as shown below.
+8. Confirm you have all resource groups present as shown below.
 
      ![](Images/upimage10.png "Resource groups")
    

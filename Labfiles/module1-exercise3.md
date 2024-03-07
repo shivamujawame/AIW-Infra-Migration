@@ -303,7 +303,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
     ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/upd-show-connection-strings.png "Show database connection strings")
 
-    Copy the **ADO.NET** connection string and paste it into the web.config file on **smarthotelweb2**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
+    Copy the **ADO.NET** connection string and paste it into the web.config file on **smarthotelweb2**, replacing the existing connection string. **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
 
     > **Note**: You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste it into the VM.
 
