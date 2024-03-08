@@ -1,6 +1,6 @@
-# Lab 06: Setup test failover
+# Lab 06: Deploy Azure Site Recover and Failover to DR
 
-## Exercise 02
+## Exercise 02: Setup test failover
 
 In this exercise, you will deploy a Test Failover to the replicated Virtual Machine which allows you to test the sanity of the virtualized workload without interrupting your production workload or ongoing replication.
 
