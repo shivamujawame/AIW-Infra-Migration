@@ -2,13 +2,13 @@
 
 In this task, you'll learn how to create a business case for Azure, using a free Azure Migrate feature during assessments that will help simplify your move to Azure.
 
-Managing your on-premises data centres can present time-bound challenges such as expiring contracts, aging hardware, and end-of-support software. You may also be under pressure to address cash flow challenges, add capacity, and prevent security attacks while ensuring business continuity.
+Managing your on-premises data centres can present time-bound challenges such as expiring contracts, ageing hardware, and end-of-support software. You may also be under pressure to address cash flow challenges, add capacity, and prevent security attacks while ensuring business continuity.
 
-To understand if Azure really makes financial sense, we will start by creating a directional business case with Azure Migrate. This helps you understand what the best migration strategy is for your business and how to gradually move from a capital expenditure model to an operating expenditure model where you only pay for what you use.
+To understand if Azure makes financial sense, we will start by creating a directional business case with Azure Migrate. This helps you understand what the best migration strategy is for your business and how to gradually move from a capital expenditure model to an operating expenditure model where you only pay for what you use.
 
-**Business case analysis** is a comprehensive, easy-to-use tool that enables customers and partners to create directional business proposals to understand how azure can bring the most value to their business.
+**Business case analysis** is a comprehensive, easy-to-use tool that enables customers and partners to create directional business proposals to understand how Azure can bring the most value to their business.
 
-> **Note:** You don't need to perform this task as it is read-only exercise.
+> **Note:** You don't need to perform this task as it is a read-only exercise.
 
 **Features:**
 
@@ -20,8 +20,7 @@ To understand if Azure really makes financial sense, we will start by creating a
 
 - Enables creating **what-if** scenarios with customizable settings and assumptions.
 
-
-1. Login to the Azure portal with the below Azure credentials if you are not logged in already.
+1. log in to the Azure portal with the below Azure credentials if you are not logged in already.
 
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
@@ -63,12 +62,10 @@ To understand if Azure really makes financial sense, we will start by creating a
    - **Discount(%) on Pay as you go**: Enter **0 (5)**
    - **Currency**: Select **US Dollar ($)**
    - Click on **Build business case**
-
      
-    
     ![](Images/HOL3E7S7.png)
    
-8. Once the build is succeeded, you can start reviewing the business case that was created from the above inputs and industry benchmarks.
+8. Once the build has succeeded, you can start reviewing the business case that was created from the above inputs and industry benchmarks.
 
      ![](Images/azure_migrate3.png)
    
@@ -92,12 +89,12 @@ To understand if Azure really makes financial sense, we will start by creating a
 
      ![](Images/azure_migrate8.png)
 
-14. Click on **On-premises** tab. You can also identify the impact of underutilized servers and identify quick wins through software end-of-support, and for zombie servers.
+14. Click on **On-premises** tab. You can also identify the impact of underutilized servers and identify quick wins through software end-of-support and zombie servers.
 
       ![](Images/azure_migrate9.png)
 
 15. Click on **Azure PaaS** from the left navigation pane under **Business case reports**. You'll find recommendations in the PaaS reports identifying quick wins and the ideal right-sized targets for your database and application workloads.
 
-16. Given the importance of what-if scenarios and customizations in the planning process, use new settings to override default assumptions and build a business case for your migration strategy. We can present this business case to your stakeholders and obtain buy-ins and know that you've taken the steps to make the right decisions for your business.
+16. Given the importance of what-if scenarios and customizations in the planning process, use new settings to override default assumptions and build a business case for your migration strategy. We can present this business case to your stakeholders obtain buy-ins and know that you've taken the steps to make the right decisions for your business.
      
-17. Learn more about business case here: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/cloud-migration-business-case
+17. Learn more about the business case here: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/cloud-migration-business-case

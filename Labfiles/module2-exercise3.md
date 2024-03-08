@@ -6,7 +6,7 @@ In this task, you will review the already registered Hyper-V host(LabVM) with th
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, and select **Servers, databases and web apps** under **Migration goals** on the left. 
 
-2. Under Migration and modernization, you should be able to see 7 discovered servers. Now click on the **Discovered servers** to view all the server that has been discovered with the help of Azure Migrate. 
+2. Under Migration and Modernization, you should be able to see 7 discovered servers. Now click on the **Discovered servers** to view all the servers that have been discovered with the help of Azure Migrate. 
 
     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/7dscvrredhat.png "Discovered servers")
 
@@ -16,7 +16,7 @@ In this task, you will review the already registered Hyper-V host(LabVM) with th
 
 #### Task summary 
 
-In this task, you get a overview of your registered Hyper-V host with the Azure Migrate Server Migration service.
+In this task, you get an overview of your registered Hyper-V host with the Azure Migrate Server Migration service.
 
 ### Task 2: Enable Replication from Hyper-V to Azure Migrate
 
@@ -26,7 +26,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/HOL2-EX3-T2-S1.png "Replicate link")
    
-2. Under **Specific Intent** page, provide the below details:
+2. Under the **Specific Intent** page, provide the below details:
 
     -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
     -  Where do you want to migrate to? : Select **Azure VM** **(2)**
@@ -82,11 +82,11 @@ In this task, you will configure and enable the replication of your on-premises 
 
 #### Task summary 
 
-In this task, you enabled replication from the Hyper-V host to Azure Migrate, and configured the replicated VM size in Azure.
+In this task, you enabled replication from the Hyper-V host to Azure Migrate and configured the replicated VM size in Azure.
 
 ### Task 3: Configure Networking
 
-In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
+In this task, you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
 1. Still using the **Migration and modernization - Replications** blade, select the **redhat** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
@@ -113,7 +113,7 @@ In this task you will modify the settings for each replicated VM to use a static
 
 In this task, you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
 
-> **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machine in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VM during migration (for example, by editing web.config files).
+> **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machine in Azure retains the same IPs they had on-premises, which avoids having to reconfigure the VM during migration (for example, by editing web.config files).
 
 ### Task 4: Server migration
 
@@ -147,104 +147,10 @@ In this task, you will perform a migration of the redhat virtual machine to Azur
 
     ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/infra1.14.png "Migration status")
 
-6. Navigate to the **SmartHotelRG** resource group and check that the VM, network interface, and disk resource has been created for redhat virtual machine being migrated.
+6. Navigate to the **SmartHotelRG** resource group and check that the VM, network interface, and disk resource have been created for the redhat virtual machine being migrated.
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-redhatrg.png "Migrated resources")
 
 #### Task summary 
 
 In this task, you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
-
-
-### Task 5: Configure the database connection
-
-The application tier machine **redhat** is configured to connect to the application database running on-Prem.
-
-On the migrated VM **redhat**, this configuration needs to be updated to use the Azure SQL Database instead.
-
-1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
-
-2. Click on **redhat** VM, from the left-side pane, select **Bastion** under **Connect**. 
-
-   **Note:** You may have to wait a few minutes and refresh to have the option to enter the credentials. 
-
-3. **Connect** to the machine with the username **administrator** and the password <inject key="SmartHotel Admin Password"></inject>. When prompted, **Allow** clipboard access.
-
-    ![Screenshot showing the Azure Bastion connection blade.](Images/infra1.7.png "Connect using Bastion")
-
-4. In the **redhat** remote desktop session, enable the root user by running the below commands,and enter password as **demo!pass123**. 
-
-    ```
-    su 
-    ```
-   
-5. Once you connected with the root user, navigate to the **\\etc\\www\\html\\inetpub\\SmartHotel.Registration** folder by running the below commands.
-      
-    *  ```  
-       cd .. 
-       ```
-   
-   
-     * ```  
-       cd .. 
-       ```
-   
-     *  ```  
-        cd /var/www/html/inetpub/SmartHotel.Registration
-        ```
-
-7. Run the below command to edit the **Web.config**.
-
-    ``` 
-    vim Web.config
-    ```
-
-6. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
-
-   You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and from the overview, select **Show database connection strings**.
-
-    ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/show-connection-strings.png "Show database connection strings")
-
-    To edit in the Vim editor, press **i** then copy the **ADO.NET** connection string, and paste into the web.config file on **redhat**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.** 
-
-    > **Note:** You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste into the VM.
-
-    Set the password in the connection string to **<inject key="SmartHotel Admin Password" />**.
-
-    ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/web2-connection-string.png "web.config")
-
-6. Once done, press **Esc** button and press **:wq** to **Save** the `web.config` file and exit your Bastion remote desktop session.
-
-#### Task summary 
-
-In this task, you updated the **redhat** configuration to connect to the Azure SQL Database.
-
-### Task 6: Configure the public IP address and test the SmartHotel application
-
-In this task, you will associate an Application Gateway with Web Application Firewall (WAF) to replace the Ubuntu VM with the Azure managed service.
-
-1. Navigate to the **SmartHotel-WAF** Application Gateway in the **SmartHotelRG** resource group.
-
-1. Select **Backend pools (1)** under the Settings section, and select the **WebBackend (2)** pool.
-
-    ![Screenshot showing the backend pool selection for the Application Gateway](Images/upd-waf-backend-pool.png "Select WebBackend")
-
-1. Set the Target type to **Virtual machine** and the Target to the NIC of **redhat**; select **Save** to update the backend pool.
-
-    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/upd-confgredhat.png "Add VM to backend pool")
-
-    > **Note:** This backend pool is already associated with the front-end IP address of the Application Gateway via the SmartHotelApp rule. The front-end IP, listener, rule, and backend pool were all created with the Application Gateway. This step now ties the migrated VM to the front end.
-   
-1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations (1)** way in the Settings section, and note the IP address associated with the public IP address **appGwPublicFrontendIp (2)**.
-
-    ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/upd-waf-public-ip-address.png "Public IP address of AppGW")
-
-1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
-
-    ![Screenshot showing the SmartHotel application.](Images/lob-issue-02.png "Migrated SmartHotel application")
- 
-    > **Note**: The Check-in and Check-out might differ for you when compared to the above screenshot.
-
-#### Task summary 
-
-In this task, you assigned a public IP address to the UbuntuWAF VM and verified that the SmartHotel application is now working in Azure.
