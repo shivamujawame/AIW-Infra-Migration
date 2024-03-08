@@ -30,7 +30,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/HOL2-EX3-T2-S1.png "Replicate link")
    
-1. Under **Specific Intent** page, provide the below details:
+2. Under **Specific Intent** page, provide the below details:
 
     -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
     -  Where do you want to migrate to? : Select **Azure VM** **(2)**
@@ -38,19 +38,19 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![](Images/specifi%20intent.png)
 
-2. In the **Basics settings** tab, under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the drop-down. Then select **Next**.
+3. In the **Basics settings** tab, under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the drop-down. Then select **Next**.
 
     ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/upd-replicate-2.png "Replicate - Source settings")
 
-3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment (1)**. Select the **SmartHotel VMs (2)** VM group and the **SmartHotelAssessment (3)** migration assessment.
+4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment (1)**. Select the **SmartHotel VMs (2)** VM group and the **SmartHotelAssessment (3)** migration assessment.
 
     ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/upd-replicate-3.png "Replicate - Virtual machines")
 
-4. The **Virtual machines** tab should now show the virtual machines included in the assessment. Select the **redhat (1)** virtual machine, then select **Next (2)**.
+5. The **Virtual machines** tab should now show the virtual machines included in the assessment. Select the **redhat (1)** virtual machine, then select **Next (2)**.
 
     ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/upd-migrateredhat.png "Replicate - Virtual machines")
 
-5. On the **Target settings** tab, select the below information,
+6. On the **Target settings** tab, select the below information,
    - Select your subscription and the existing **SmartHotelRG (1)** resource group. 
    - **Cache storage account**: Select the storage account that has been created in the previous HOL1 **(2)**.
    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
@@ -62,7 +62,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
  > **Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
 
-6. On the **Compute** tab, select the below configuration,
+7. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
    - Select the **Linux** operating system for the **redhat** virtual machine. 
    - Select **Next**. 
@@ -70,17 +70,17 @@ In this task, you will configure and enable the replication of your on-premises 
   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
 
-7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
+8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
-8. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
+9. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
 
     ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/nwoverview.png "Overview link")
     
-9. Confirm that the 1 machine is replicating.
+10. Confirm that the 1 machine is replicating.
 
     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/Replication4.png "Replication summary")
 
-10. Select **Replicating Machines (1)** under **Manage** on the left. Select **Refresh (2)** occasionally and wait until the redhat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
+11. Select **Replicating Machines (1)** under **Manage** on the left. Select **Refresh (2)** occasionally and wait until the redhat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-redhatreplicated.png "Replication status")
 
@@ -195,13 +195,13 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
         cd /var/www/html/inetpub/SmartHotel.Registration
         ```
 
-7. Run the below command to edit the **Web.config**.
+6. Run the below command to edit the **Web.config**.
 
     ``` 
     vim Web.config
     ```
 
-6. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
+7. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
 
    You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and from the overview, select **Show database connection strings**.
 
@@ -215,7 +215,7 @@ On the migrated VM **redhat**, this configuration needs to be updated to use the
 
     ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/web2-connection-string.png "web.config")
 
-6. Once done, press CTRL + [ button and press **:wq** to **Save** the `web.config` file and exit your Bastion remote desktop session.
+8. Once done, press CTRL + [ button and press **:wq** to **Save** the `web.config` file and exit your Bastion remote desktop session.
 
 #### Task summary 
 
@@ -227,21 +227,21 @@ In this task, you will associate an Application Gateway with Web Application Fir
 
 1. Navigate to the **SmartHotel-WAF** Application Gateway in the **SmartHotelRG** resource group.
 
-1. Select **Backend pools (1)** under the Settings section, and select the **WebBackend (2)** pool.
+2. Select **Backend pools (1)** under the Settings section, and select the **WebBackend (2)** pool.
 
     ![Screenshot showing the backend pool selection for the Application Gateway](Images/upd-waf-backend-pool.png "Select WebBackend")
 
-1. Set the Target type to **Virtual machine** and the Target to the NIC of **redhat**; select **Save** to update the backend pool.
+3. Set the Target type to **Virtual machine** and the Target to the NIC of **redhat**; select **Save** to update the backend pool.
 
     ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/upd-confgredhat.png "Add VM to backend pool")
 
     > **Note:** This backend pool is already associated with the front-end IP address of the Application Gateway via the SmartHotelApp rule. The front-end IP, listener, rule, and backend pool were all created with the Application Gateway. This step now ties the migrated VM to the front end.
    
-1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations (1)** way in the Settings section, and note the IP address associated with the public IP address **appGwPublicFrontendIp (2)**.
+4. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations (1)** way in the Settings section, and note the IP address associated with the public IP address **appGwPublicFrontendIp (2)**.
 
     ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/upd-waf-public-ip-address.png "Public IP address of AppGW")
 
-1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
+5. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
 
     ![Screenshot showing the SmartHotel application.](Images/lob-issue-02.png "Migrated SmartHotel application")
  
