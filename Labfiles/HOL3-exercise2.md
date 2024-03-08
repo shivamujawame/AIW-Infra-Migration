@@ -1,6 +1,6 @@
-# Lab 06: Configure ASR for on-premises infrastructure
+# Lab 06: Deploy Azure Site Recover and Failover to DR
 
-## Exercise 01
+## Exercise 01: Configure ASR for on-premises infrastructure
 
 In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to Azure. The Azure Site Recovery service contributes to your disaster-recovery strategy by managing and orchestrating replication, failover, and failback of on-premises machines. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
