@@ -1,19 +1,15 @@
 [
     {
-      "Name": "AIW-Infra-Migration",
+      "Name": "Guided Lab - Infra-Migration",
       "Language": "English",
       "Files": [
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
           "Order": 1
-        },  
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/overview.md",
-          "Order": 2
         }, 
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/module1-exercise4.md",
-          "Order": 3
+          "Order": 2
         }
       ]
     }
