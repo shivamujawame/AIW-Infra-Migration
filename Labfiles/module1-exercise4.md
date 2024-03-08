@@ -1,4 +1,4 @@
-## HOL1: Exercise 4: Creating VM Scale sets from Azure VMs
+# Lab 03: Creating VM Scale sets from Azure VMs
 
 ### Task 1: Using VM Scale Sets to drive business resiliency
 
