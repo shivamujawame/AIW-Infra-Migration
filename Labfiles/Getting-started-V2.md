@@ -1,6 +1,6 @@
-# **Getting Started with Your AIW-INFRA-MIGRATION Workshop**
+# **Getting Started with Your Guided Lab - Infrastructure Migration**
  
-Welcome to your AIW-Infra-Migration workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Guided Lab-Infrastructure Migration workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## **Accessing Your Lab Environment**
  
@@ -16,7 +16,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
 
-   ![](./Images/GS12.png)
+   ![](./Images/GS12-new.png)
  
 ## **Utilizing the Split Window Feature**
  

@@ -1,14 +1,14 @@
-# HOL 2: Migrate Linux Servers from Hyper-V to Azure
+# Lab 04: Migrate Linux Servers from Hyper-V to Azure
 
-Duration: 15 minutes
+### Duration: 15 minutes
 
-In this Module, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
+In this Guided Lab, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
 
-### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
+## Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
 In this exercise, you will review the already discovered server on your Azure Migrate project.
 
-#### Task 1: Review the already discovered and Assessed environment in Azure migrate
+### Task 1: Review the already discovered and Assessed environment in Azure migrate
 
 1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -26,7 +26,7 @@ In this exercise, you will review the already discovered server on your Azure Mi
  
     ![](Images/newhol2.png)
  
-#### Task 2: Review your on-prem Hyper-V Linux Server and OSS DB.
+### Task 2: Review your on-prem Hyper-V Linux Server and OSS DB.
  
 1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 

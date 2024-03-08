@@ -1,6 +1,8 @@
-## HOL3: Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
+# Lab 07: Secure Infra workloads with Defender for Cloud 
 
-In this HOL, you will learn how to enable the enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will setup Log Analytics workspace to collect logs and data of the resources and it's information will be stored in a workspace.
+## Exercise 01: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
+
+In this Guided Lab, you will learn how to enable the enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will setup Log Analytics workspace to collect logs and data of the resources and it's information will be stored in a workspace.
 
 > **Note:** 
 > - Microsoft Defender for Cloud, Azure Sentinel and Monitor Insights can take several hours to surface post the completion of a scan.
@@ -97,20 +99,20 @@ In this HOL, you will learn how to enable the enhanced security features by enab
 
 3. On the **Overview tab**, you can see:
 
-- The monthly ingestion volume of the workspace
-- How many machines sent heartbeats, meaning - machines that are connected to this workspace (in the selected time range)
-- Machines that haven't sent heartbeats in the last hour (in the selected time range)
-- The data retention period set
-- The daily cap set, and how much data was already ingested on the recent day
-- Ingestion anomalies - a list of identified spikes and dips in ingestion to these tables
+   - The monthly ingestion volume of the workspace
+   - How many machines sent heartbeats, meaning - machines that are connected to this workspace (in the selected time range)
+   - Machines that haven't sent heartbeats in the last hour (in the selected time range)
+   - The data retention period set
+   - The daily cap set, and how much data was already ingested on the recent day
+   - Ingestion anomalies - a list of identified spikes and dips in ingestion to these tables
     
     ![Screenshot of the search Azure workspace Monitor.](Images/upd-hol3-e5-t3-s3.png "Azure Monitor")
     
 4. On the **Usage tab**, you can see ingestion data of by tables, and defaults to the 5 most ingested tables in the selected time range.
 
-- How much data was ingested to it (during the selected time range)
-- The percentage this table takes, from the entire ingestion volume (during the selected time range). That helps identify the tables that affect your ingestion the most.
-- When was the last update of usage statistics regarding each table - we normally expect usage stats to refresh hourly.
+   - How much data was ingested to it (during the selected time range)
+   - The percentage this table takes, from the entire ingestion volume (during the selected time range). That helps identify the tables that affect your ingestion the most.
+   - When was the last update of usage statistics regarding each table - we normally expect usage stats to refresh hourly.
    
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s4.png "Azure Monitor")  
     
@@ -120,9 +122,9 @@ In this HOL, you will learn how to enable the enhanced security features by enab
     
 6. On the **Agents tab**, you can see  :
 
-- Operation errors and warnings - these are errors and warning related specifically to agents. 
-- Workspace agents - these are the agents that sent logs to the workspace during the selected time range. You can see the agent's types and health state. 
-- Agents activity - this grid shows information on either all agents, healthy or unhealthy agents. 
+   - Operation errors and warnings - these are errors and warning related specifically to agents. 
+   - Workspace agents - these are the agents that sent logs to the workspace during the selected time range. You can see the agent's types and health state. 
+   - Agents activity - this grid shows information on either all agents, healthy or unhealthy agents. 
     
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
   

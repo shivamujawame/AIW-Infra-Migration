@@ -1,27 +1,23 @@
 [
     {
-      "Name": "AIW-Infra-Migration",
+      "Name": "Guided Lab: Infrastructure Migration",
       "Language": "English",
       "Files": [
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/Getting-started-V2.md",
           "Order": 1
-        },  
+        },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/overview.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise2.md",
           "Order": 2
         }, 
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise2.md",
-          "Order": 3
-        }, 
-        {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise3.md",
-          "Order": 4
+          "Order": 3
         },
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise4.md",
-          "Order": 5
+          "Order": 4
         }
       ]
     }
