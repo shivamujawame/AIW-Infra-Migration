@@ -25,7 +25,7 @@ In this HOL, you will learn how to enable enhanced security features by enabling
      
 1. On the **Defender plans** page, switch the plan blade **On for Servers (1)** and then click on **Save (2)**.    
 
-    ![Screenshot of the search Microsoft Defender plans](Images/hol3-e5-s4.png "Microsoft Defender plans")
+    ![Screenshot of the search Microsoft Defender plans](Images/save.png "Microsoft Defender plans")
     
 1. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade tab (2)** select **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)** workspace and click on **Upgrade (4)**.
 
@@ -69,9 +69,13 @@ In this HOL, you will learn how to enable enhanced security features by enabling
 
     ![Screenshot of the get started.](Images/hol3-e5-t2-s4-01.png "get started")
     
-1. You will now be directed to the **Data Connectors** page. Microsoft Sentinel comes with many connectors for Microsoft solutions that are available out of the box and provide real-time integration. For non-Microsoft solutions, Microsoft Sentinel provides built-in interfaces to the larger security and application ecosystems.
+1. On **Microsoft Sentinel | Data connectors** page scroll down and click on **Go to Content hub**.
 
-    ![Screenshot of the Data Connectors.](Images/hol3-e5-t2-s5.png "Data Connectors")
+    ![Screenshot of the get started.](Images/hub.png "get started")
+
+1. You will now be directed to the **Content hub** page. Microsoft Sentinel comes with many connectors for Microsoft solutions that are available out of the box and provide real-time integration. For non-Microsoft solutions, Microsoft Sentinel provides built-in interfaces to the larger security and application ecosystems.
+
+    ![Screenshot of the Data Connectors.](Images/hub1.png "Data Connectors")
 
 1. From the left pane, select **Analytics** present under _Configuration_. You can create custom analytics rules to help discover threats and anomalous behaviours in your environment. (Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.) 
 
@@ -85,9 +89,9 @@ In this HOL, you will learn how to enable enhanced security features by enabling
 
 ### Task 3:  Enable Azure Monitor
 
-1. In the **search resources, services and docs bar**, type **Azure Monitor** and select it from suggestions, as shown below:
+1. In the **search resources, services and docs bar**, type **Monitor** and select it from suggestions, as shown below:
 
-    ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
+    ![Screenshot of the search Azure Monitor.](Images/monitor.png "Azure Monitor")
     
 2. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here) and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azuremigraterg.
 

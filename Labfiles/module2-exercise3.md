@@ -154,5 +154,3 @@ In this task, you will perform a migration of the redhat virtual machine to Azur
 #### Task summary 
 
 In this task, you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
-
-
