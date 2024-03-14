@@ -8,16 +8,20 @@
           "Order": 1
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise2.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/ms-spl-migrate-windows-servers-to-azure-common-.md",
           "Order": 2
+        },   
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise2.md",
+          "Order": 3
         }, 
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise3.md",
-          "Order": 3
+          "Order": 4
         },
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise4.md",
-          "Order": 4
+          "Order": 5
         }
       ]
     }

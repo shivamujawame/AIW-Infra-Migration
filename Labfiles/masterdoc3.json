@@ -6,14 +6,18 @@
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/Getting-started-V2.md",
           "Order": 1
-        }, 
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/ms-spl-migrate-windows-servers-to-azure-common-.md",
+          "Order": 2
+        },   
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/ms-spl-migrate-linux-servers-to-azure-hol3-ex1.md",
-          "Order": 2
+          "Order": 3
         },  
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/ms-spl-migrate-linux-servers-to-azure-hol3-ex2.md",
-          "Order": 3
+          "Order": 4
         }
       ]
     }
