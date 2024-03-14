@@ -1,4 +1,4 @@
-# Lab: Migrate Windows Servers from Hyper-V to Azure
+# Migrate Windows Servers from Hyper-V to Azure
 
 ## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
