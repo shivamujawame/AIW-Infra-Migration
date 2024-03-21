@@ -80,7 +80,9 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 6. Wait for the workspace to be deployed. Once it is deployed, navigate to **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />** by clicking on it.
 
-    ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/omsworkspace.png "OMS Workspace settings")
+    ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/h1-e2-t2-s3.png "OMS Workspace settings")
+
+     > **Note**: If you don't see the workspace here. You can attempt to close and reopen the Workspace, or alternatively, you can try refreshing the browser page. This may have been caused by a temporary error in the portal.
 
 7. Select **Agents (1)** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID (2)** and **Primary Key (3)** (for example by using Notepad).
 
@@ -177,6 +179,8 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ```
     wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w <Workspace ID> -s <Primary Key>
     ```
+
+    ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/h1-e2-t2-s28.png "SSH session with UbuntuWAF")
     
     > **Note**: If you receive any error while running the above command, run the below command to update the packages and perform **Step 28** again.
      
