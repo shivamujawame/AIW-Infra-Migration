@@ -172,7 +172,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
     ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/updt-dscsvrdnews.png "Discovered servers") 
 
-    > Note:- **Wait for the discovery process to complete before proceeding to the next Task**.
+
 
 
 #### Task summary 
