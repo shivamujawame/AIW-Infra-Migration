@@ -115,6 +115,8 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      <validation step="a6405ea6-b97d-4e45-8cf8-c8997009392d" />
 
+     
+
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
