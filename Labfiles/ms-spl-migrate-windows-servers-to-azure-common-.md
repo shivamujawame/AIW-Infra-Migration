@@ -129,24 +129,20 @@ In this task, you will configure and enable the replication of your on-premises 
 
     -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
     -  Where do you want to migrate to? : Select **Azure VM** **(2)**
-    -  Click on **Continue (3)**
+    -  Are your machines virtualized? : Select **Yes, with Hyper-V (3)** from the drop-down. Click on **Continue (4)**
 
-     ![](Images/specifi%20intent.png)
+     ![](Images/specify.png)
 
-3. In the **Basics settings** tab, under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the drop-down. Then select **Next**.
-
-     ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/upd-replicate-2.png "Replicate - Source settings")
-
-4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'LL specify the migration settings manually (1)**.
+3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'LL specify the migration settings manually (1)**.
 
      ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/no1.png "Replicate - Virtual machines")
 
-5. The **Virtual machines** Tab . Select the **UbuntuWAF**, **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
+4. The **Virtual machines** Tab . Select the **UbuntuWAF**, **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
 
      ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/replicate1.png "Replicate - Virtual machines")
 
 
-6. On the **Target settings** tab, select the below information,
+5. On the **Target settings** tab, select the below information,
    - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
    - **Replication storage account**: Enter the storage account here from drop down which you create in task 1 **(2)**. 
    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
@@ -157,7 +153,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
    > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
-7. On the **Compute** tab, select the below configuration,
+6. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
    - Select the **Windows** operating system for the **smarthotelweb1**, **smarthotelweb2** virtual machines.
    - Select the **Linux** operating system for the **UbuntuWAF** virtual machine. 
@@ -166,17 +162,17 @@ In this task, you will configure and enable the replication of your on-premises 
    ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-replicate-6.png "Replicate - Compute")
     
 
-8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
+7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
-9. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
+8. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
 
      ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/newoverviewreplication.png "Overview link")
     
-10. Confirm that the 3 machines are replicating.
+9. Confirm that the 3 machines are replicating.
 
      ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/upd-overviewnew.png "Replication summary")
 
-11. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
+10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
      ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-replicate-09.png "Replication status")
 
