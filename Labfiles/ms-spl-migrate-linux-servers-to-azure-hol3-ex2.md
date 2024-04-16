@@ -127,9 +127,9 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/Replication4.png "Replication summary")
 
-10. Select **Replicating Machines (1)** under **Manage** on the left. Select **Refresh (2)** occasionally and wait until the redhat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
+10. Select **Replication (1)** under **Manage** on the left. Select **Refresh (2)** occasionally and wait until the redhat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-redhatreplicated.png "Replication status")
+    ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-redhatreplicated1.png "Replication status")
 
 
 #### Task summary 
@@ -140,7 +140,7 @@ In this task you enabled replication from the Hyper-V host to Azure Migrate, and
 
 In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
-1. Still using the **Migration and modernization - Replicating machines** blade, select the **redhat** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
+1. Still using the **Migration and modernization - Replication** blade, select the **redhat** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
     ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/updt-redhatreplicated.png "Replicating machines")
 
