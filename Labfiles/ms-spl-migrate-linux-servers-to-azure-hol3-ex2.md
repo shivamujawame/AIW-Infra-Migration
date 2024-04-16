@@ -6,17 +6,67 @@
 
 ### Task 1: Register the Hyper-V Host with Migration and modernization
 
-In this task, you will review the already registered Hyper-V host(LabVM) with the Migration and modernization service. This service uses Azure Site Recovery as the underlying migration engine. As part of the registration process, we have already deployed the Azure Site Recovery Provider on your Hyper-V host in HOL1 and we will be using the same here as well.
+In this task, you will register your Hyper-V host(LabVM) with the Migration and modernization service. This service uses Azure Site Recovery as the underlying migration engine. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
-1. Return to the **Azure Migrate** blade in the Azure Portal, and select **Servers, databases and web apps** under **Migration goals** on the left. 
+1. Return to the **Azure Migrate | Servers, databases and web apps** blade in the Azure Portal, and select **Servers, databases and web apps (1)** under **Migration goals** on the left. Under **Migration Tools**, select **Discover (2)**.
 
-2. Under Migration and modernization, you should be able to see 7 discovered servers. Now click on the **Discovered server** to view all the server that has been discovered with the help of Azure Migrate. 
+   **Note:** You may need to add the migration tool yourself by following the link below the **Migration Tools** section, selecting **Migration and modernization**, then selecting **Add tool(s)**.
+   
+     ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](Images/migrationtools.png "Azure Migrate: Server Migration - Discover")
 
-    ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/7dscvrredhat.png "Discovered servers")
+2. In the **Discover** panel, provide the following details:
+   - Under **Are your machines virtualized**, select **Yes, with Hyper-V (1)**.
+   - Under **Target region (2)** make sure to select the **<inject key="Region"></inject>** region as same the Resource Group's region.
+   - Check the **confirmation (3)** checkbox and select **Create resources (4)** to begin the deployment of the Azure Site Recovery resource used by Migration and modernization for Hyper-V migrations.
 
-3. In the discovered list, you'll see the **redhat**, we will be replicating this redhat VM in the next task with the help of Azure Migrate.
+     ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](Images/upd-discover-new1.png "Discover machines - source hypervisor and target region")
 
-    ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/HOL2-EX3-T1-S3.png "Discovered servers")
+   Once deployment is complete, the 'Discover machines' panel should be updated with additional instructions.
+  
+3. Click on the **Download** link for the Hyper-V replication provider software installer to download the Azure Site Recovery provider installer.
+
+     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link for the Hyper-V replication provider software installer.](Images/upd-e3-t2-s3.png?raw=true "Replication provider download link")
+
+4. Return to the **Discover** page in your browser and select the blue **Download** button and download the registration key file.
+
+     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/upd-e3-t2-s4.png "Download registration key file")
+
+
+5. Open the **AzureSiteRecoveryProvider.exe** installer you downloaded a moment ago. On the **Microsoft Update** tab, select **Off** and select **Next**. Accept the default installation location and select **Install**.
+
+    > **Note:** If you are prompted with a pop-up like the latest version of the Provider is installed on this server. Would you like to proceed to registration? select **Yes**. (You can directly jump to the next step in that case.)
+  
+     ![Screenshot of the ASR provider installer.](Images/upd-asr-provider-install.png "Azure Site Recovery Provider Setup")
+
+6. When the installation has completed select **Register**. Browse to the location of the key file you downloaded. When the key is loaded select **Next**.
+
+     ![Screenshot of the ASR provider registration settings.](Images/upd-asr-registration.png "Key file registration")
+
+7. Select **Connect directly to Azure Site Recovery without a proxy server (1)** and select **Next (2)**. The registration of the Hyper-V host with Azure Site Recovery will begin.
+
+     ![Screenshot of the ASR provider registration settings.](Images/hol1-ex-3-s7.png)
+
+8. Wait for registration to complete (this may take several minutes). Then select **Finish**.
+
+     ![Screenshot of the ASR provider showing successful registration.](Images/upd-asr-registered.png "Registration complete")
+
+9. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization** and selecting **Yes, with Hyper-V** for **Are your machines virtualized?**.
+
+10. Select **Finalize registration**, which should now be enabled.
+
+     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/upd-e3-t2-s10.png?raw=true "Finalize registration")
+
+11. Azure Migrate will now complete the registration with the Hyper-V host. **Wait** for the registration to complete. This may take several minutes.
+
+     ![Screenshot of the 'Discover machines' panel from Azure Migrate, showing the 'Finalizing registration...' message.](Images/upd-discover-6.png "Finalizing registration...")
+
+12. Once the registration is complete, close the **Discover machines** panel using **X** button.
+
+     ![Screenshot of the 'Discover machines' panel from Azure Migrate, showing the 'Registration finalized' message.](Images/upd-discover-7.png "Registration finalized")
+
+13. The **Migration and modernization** panel should now show 7 discovered servers.
+
+     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
 #### Task summary 
 
