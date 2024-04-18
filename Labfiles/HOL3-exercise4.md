@@ -1,5 +1,3 @@
-# Lab 06: Deploy Azure Site Recover and Failover to DR
-
 ## Exercise 03: Failover the infrastructure to Azure Cloud
 
 In this exercise, you will deploy the Failover from on-premises to Azure. After setting up replication to Azure for on-premises machines, when your on-premises site goes down, you fail those machines over to Azure. After failover, Azure VMs are created from replicated data.
@@ -60,7 +58,7 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
    
 1. After the Failover is **committed successfully**, go to the **search resources, services and docs bar**, type **Virtual Machines** and select it from suggestions.   
 
-1. Under **Virtual Machines** page, select the **AzureArcVM** which is automatically created from replicated data after a Failover.
+1. Under the **Virtual Machines** page, select the **AzureArcVM** which is automatically created from replicated data after a Failover.
 
     ![Screenshot of the vm-created.](Images/hol3-e4-s11.png "vm-created") 
    
