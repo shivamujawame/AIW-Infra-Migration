@@ -9,7 +9,9 @@ In this HOL, you will use Azure Migrate: Server Assessment to assess the on-prem
 In this exercise, you will deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs and returns that data to your Azure Migrate project.
 
 1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+    
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
 2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
@@ -123,7 +125,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 25. Specify the following details on the **Add credentials** blade for the Hyper-V host/cluster that the appliance will use to discover VMs and select **Save (4)**.
  
       1. Friendly name: Enter **hostlogin (1)** 
+      
       2. Username: **<inject key="SmartHotelHost Admin Username" /> (2)**
+      
       3. Password: **<inject key="SmartHotelHost Admin Password" /> (3)**
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/upd-add-creds.png "Credentials")
@@ -137,8 +141,11 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 27. On the **Add discovery source** blade, provide the following details:
      
       1. Select **Add single item (1)**
+      
       1. IP Address / FQDN:  Enter **HOSTVMS<inject key="DeploymentID" enableCopy="false" /> (2)** 
+      
       1. Friendly name: Select **hostlogin (3)** from the dropdown and 
+      
       1. Select **Save (4)**.
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' panel.](Images/HOL1-EX1-S24.png "Discovery source - SmartHotelHost")
@@ -170,7 +177,6 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
     ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/updt-dscsvrdnews.png "Discovered servers") 
 
-   
 #### Task summary 
 
 In this exercise, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
