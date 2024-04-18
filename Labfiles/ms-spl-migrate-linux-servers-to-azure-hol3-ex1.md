@@ -1,4 +1,4 @@
-# Lab 04: Migrate Linux Servers from Hyper-V to Azure
+# Lab 01: Migrate Linux Servers from Hyper-V to Azure
 
 ### Duration: 15 minutes
 
@@ -10,8 +10,10 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
 ### Task 1: Review the already discovered and Assessed environment in Azure migrate
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials below.
+    
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
 2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
@@ -22,7 +24,7 @@ In this exercise, you will review the already discovered server on your Azure Mi
  
     ![Screenshot of the Azure migrate overview blade.](Images/Azmigrate.png "Azmigrate Overview blade")
 
-4. Under **Azure Migrate: Discovery and assessment**, you'll see 7 discovered servers. We have already migrated 3 severs in the previous HOL and now we will be migrating and modernizing the redhat and OSS DB in this HOL
+4. Under **Azure Migrate: Discovery and assessment**, you'll see 7 discovered servers. We have already migrated 3 servers in the previous HOL and now we will be migrating and modernizing the Redhat and OSS DB in this HOL
  
     ![](Images/newhol2.png)
  
@@ -48,11 +50,11 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
 1. Log into the VM with the **Administrator password**: **<inject key="SmartHotel Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
 
-1. You should be able to login to your on-prem Redhat server hosted on hyper-V. 
+1. You should be able to log in to your on-prem Redhat server hosted on Hyper-V. 
 
     ![Screenshot of the Azure Migrate appliance terms of use.](Images/redhathome.png "Desktop shortcut")
 
-1. In the next exercise you will be migrating the Redhat server, and the OSS Database hosted in the Red hat VM to the Azure with the help of Azure Migrate.  
+1. In the next exercise you will be migrating the Redhat server, and the OSS Database hosted in the Red Hat VM to the Azure with the help of Azure Migrate.  
     
 
 **Summary:** In this exercise, you explored how Assessments work to migrate your on-premises servers to Azure virtual machines. You learnt how to assess your on-premises servers Hyper-V environment, and physical servers for migration to Azure VMs.
