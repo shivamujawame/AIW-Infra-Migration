@@ -1,5 +1,3 @@
-# Lab 06: Deploy Azure Site Recover and Failover to DR
-
 ## Exercise 02: Setup test failover
 
 In this exercise, you will deploy a Test Failover to the replicated Virtual Machine which allows you to test the sanity of the virtualized workload without interrupting your production workload or ongoing replication.
@@ -34,6 +32,6 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
 
     ![Screenshot of the Test vm status.](Images/HOL3E3S8.png "Test vm status") 
     
-   > **Note:** Please make sure you run the **validation steps** for this task before moving to next exercise as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Failover completed** as you will be performing cleanup test failover to setup the failover in the next exercise.
+   > **Note:** Please make sure you run the **validation steps** for this task before moving to the next exercise as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Failover completed** as you will be performing cleanup test failover to set up the failover in the next exercise.
 
 **Summary:** In this exercise, you learnt how to validate the replication and disaster recovery strategy by testing a failover, that too without any data loss or downtime.
