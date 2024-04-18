@@ -57,7 +57,7 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 
     ![Screenshot of the search Microsoft Sentinel.](Images/e5-t2-s1.png "Microsoft Sentinel")
     
-1. On the **Microsoft Sentinel** page, click on **+Create**.    
+1. On the **Microsoft Sentinel** page, click on **+ Create**.    
 
     ![Screenshot of the create Microsoft Sentinel.](Images/hol3-e5-t2-s2.png "Microsoft Sentinel")
         
