@@ -187,7 +187,6 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-replicate-09.png "Replication status")
 
-
 #### Task summary 
 
 In this task, you enabled replication from the Hyper-V host to Azure Migrate and configured the replicated VM size in Azure.
