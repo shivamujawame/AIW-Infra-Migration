@@ -85,6 +85,8 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
+      <validation step="2bc40646-bf54-4cb9-bfad-e02d398693c8" />
+
 ### Task 3:  Enable Azure Monitor
 
 1. In the **search resources, services and docs bar**, type **Azure Monitor** and select it from suggestions, as shown below:
@@ -140,5 +142,7 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+
+      <validation step="429df833-4ba9-4dcb-88e5-f48a509ac964" />
     
 **Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
