@@ -81,23 +81,17 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
    
      <validation step="2bc40646-bf54-4cb9-bfad-e02d398693c8" />
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
 ### Task 3:  Enable Azure Monitor
 
 1. In the **search resources, services and docs bar**, type **Azure Monitor** and select it from suggestions, as shown below:
 
     ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
     
-2. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here) and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azure migrate rg.
+1. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here) and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azure migrate rg.
 
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s2.png "Azure Monitor")
 
-3. On the **Overview tab**, you can see:
+1. On the **Overview tab**, you can see:
 
    - The monthly ingestion volume of the workspace
 
@@ -113,7 +107,7 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
     
     ![Screenshot of the search Azure workspace Monitor.](Images/upd-hol3-e5-t3-s3.png "Azure Monitor")
     
-5. On the **Usage tab**, you can see ingestion data by tables and defaults to the 5 most ingested tables in the selected time range.
+1. On the **Usage tab**, you can see ingestion data by tables and defaults to the 5 most ingested tables in the selected time range.
 
    - How much data was ingested to it (during the selected time range)
 
@@ -123,11 +117,11 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
    
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s4.png "Azure Monitor")  
     
-7. On the **Health tab**, you can see the workspace's health state and when it was last reported, as well as operational errors and warnings.
+1. On the **Health tab**, you can see the workspace's health state and when it was last reported, as well as operational errors and warnings.
         
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s5.png "Azure Monitor") 
     
-8. On the **Agents tab**, you can see  :
+1. On the **Agents tab**, you can see:
 
    - Operation errors and warnings - these are errors and warnings related specifically to agents. 
 
@@ -138,11 +132,5 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")
 
      <validation step="429df833-4ba9-4dcb-88e5-f48a509ac964" />
-  
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
     
 **Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
