@@ -66,6 +66,8 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
     ![Screenshot of the status-protected.](Images/hol3-e2-s13.png "status-protected")
 
+     <validation step="6f4ede7d-d07d-4209-b748-c272002a4085" />
+
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
