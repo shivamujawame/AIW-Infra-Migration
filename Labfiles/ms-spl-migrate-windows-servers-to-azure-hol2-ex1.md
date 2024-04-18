@@ -217,14 +217,14 @@ In this task you will modify the settings for each replicated VM to use a static
 
 #### Task summary 
 
-In this task you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
+In this task, you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
 
 > **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machines in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VMs during migration (for example, by editing web.config files).
 
 
 ### Task 5: Server migration
 
-In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
+In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
@@ -256,7 +256,7 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 
 #### Task summary 
 
-In this task you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machines. This migrated your on-premises VMs to Azure.
+In this task, you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machines. This migrated your on-premises VMs to Azure.
 
 
 ### Task 6: Configure the database connection
@@ -279,7 +279,7 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
       ![Screenshot showing the Azure Bastion connection blade.](Images/upd-web2-connect.png "Connect using Bastion")
 
-4. In the **smarthotelweb2** remote desktop session, open File Explorer and navigate to the **C:\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file and open with Notepad.
+4. In the **smarthotelweb2** remote desktop session, open File Explorer and navigate to the **C:\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file and open it with Notepad.
 
 5. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
 
@@ -287,9 +287,9 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
     ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/upd-show-connection-strings.png "Show database connection strings")
 
-    Copy the **ADO.NET** connection string and paste into the web.config file on **smarthotelweb2**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
+    Copy the **ADO.NET** connection string and paste it into the web.config file on **smarthotelweb2**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
 
-    > **Note**: You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste into the VM.
+    > **Note**: You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste it into the VM.
 
     Set the password in the connection string to **<inject key="SmartHotel Admin Password" />**.
 
@@ -303,7 +303,7 @@ In this task, you updated the **smarthotelweb2** configuration to connect to the
 
 ### Task 7: Configure the public IP address and test the SmartHotel application
 
-In this task, you will associate an Application Gateway with Web Application Firewall (WAF) to replace the Ubuntu VM with the Azure managed service.
+In this task, you will associate an Application Gateway with a Web Application Firewall (WAF) to replace the Ubuntu VM with the Azure-managed service.
 
 1. Navigate to the **SmartHotel-WAF** Application Gateway in the **SmartHotelRG** resource group
 
@@ -323,7 +323,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
 
     ![](Images/website1.1.png)
      
-1. Now, on the **Public access** tab, click on **Add a virtual network rule** to add a virtual network so that the access to the database will be allowed from specific network.
+1. Now, on the **Public access** tab, click on **Add a virtual network rule** to add a virtual network so that access to the database will be allowed from a specific network.
 
     ![](Images/website2.1.png)
    
@@ -352,7 +352,7 @@ In this task, you will associate an Application Gateway with Web Application Fir
  
     > **Note**: 
       1. The Check-in and Check-out might differ for you when compared to the above screenshot.
-      2. At this point the base Application Gateway service is providing access to the backend application. This validates that the application is working and can be further protected by the WAF in following steps.
+      2. At this point the base Application Gateway service is providing access to the backend application. This validates that the application is working and can be further protected by the WAF in the following steps.
 
 #### Task summary 
 
