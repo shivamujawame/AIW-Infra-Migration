@@ -1,9 +1,11 @@
-# Lab 03: Creating VM Scale sets from Azure VMs
+# Lab 01: Creating VM Scale sets from Azure VMs
 
-### Task 1: Using VM Scale Sets to drive business resiliency
+### Task 1: Using VM Scale Sets to Drive Business Resiliency
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+    
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
 2. In the Azure portal's navigation pane, select **Resource groups**.
@@ -24,7 +26,7 @@
 
    ![](Images/upd-e4-t1-s7.png)
 
-6. In Operating system state select **Specialized**.
+6. In the Operating system state select **Specialized**.
 
 7. Select an image definition and click **Create new (1)** and create a VM Image definition by providing the following details and then click **Ok (6)**: 
   
@@ -70,11 +72,13 @@
 
 In this task, you will Enable Automanage on existing machines.
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials below.
+    
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-2. In the search bar, search for and select **Automanage – Azure machine best practice**s.
+2. In the search bar, search for and select **Automanage – Azure machine best practices**.
 
 3. From the left side panel select **Automanage machines (1)** and click on **+Enable on existing VM (2)**.
    
@@ -94,7 +98,7 @@ In this task, you will Enable Automanage on existing machines.
    
    b. **Check the checkbox of the virtual machine (2)** you want to onboard. (for example: let's enable automanage for smarthotelweb2.)
    
-   c. Click the **Review+Create (3)** button.
+   c. Click the **Review + Create (3)** button.
    
    ![](Images/updt-existing-vm-select-machine.png)
 
