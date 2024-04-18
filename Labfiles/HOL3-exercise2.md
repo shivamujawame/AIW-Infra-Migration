@@ -1,4 +1,4 @@
-# Lab 06: Deploy Azure Site Recover and Failover to DR
+# Lab 01: Deploy Azure Site Recover and Failover to DR
 
 ## Exercise 01: Configure ASR for on-premises infrastructure
 
@@ -18,7 +18,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
     ![Screenshot of the Site Recovery Infrastructure.](Images/hol3-e2-s3.png)
 
-1. Under Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
+1. Under the Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
 
     ![Screenshot of the hyper-v-host.](Images/HOL3-EX2-T1-S4.png "hyper-v-host")  
 
@@ -30,7 +30,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
  
     ![Screenshot of the Source environment.](Images/hol3-e2-s6.png "Source environment") 
    
-1. Under **Target environment** tab, fill the following details:
+1. Under the **Target environment** tab, fill in the following details:
 
    - Post-failover resource group: **SmartHotelRG (1)**
    
@@ -72,5 +72,5 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
    
-**Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learnt how to set up the source and target replication environments and create a replication policy to enable replication for a server.
+**Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learn how to set up the source and target replication environments and create a replication policy to enable replication for a server.
 
