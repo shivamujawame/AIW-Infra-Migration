@@ -1,4 +1,4 @@
-# HOL 1: Migrate Windows Servers from Hyper-V to Azure
+# HOL 2: Migrate Windows Servers from Hyper-V to Azure
 
 Duration: 45 minutes
 
