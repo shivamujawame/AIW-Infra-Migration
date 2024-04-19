@@ -1,4 +1,4 @@
-# Lab 01: Migrate Linux Servers from Hyper-V to Azure
+## Lab 01: Migrate Linux Servers from Hyper-V to Azure
 
 ### Duration: 15 minutes
 
