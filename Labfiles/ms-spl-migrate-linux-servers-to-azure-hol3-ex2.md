@@ -1,6 +1,6 @@
 ## Exercise 2: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs. 
 
-### Duration: 30 minutes
+### Duration: 45 minutes
 
 ### Task 1: Register the Hyper-V Host with Migration and modernization
 
