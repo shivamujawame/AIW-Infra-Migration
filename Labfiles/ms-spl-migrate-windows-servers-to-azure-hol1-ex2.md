@@ -12,7 +12,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
     ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/newasses.png "Start assessment")
 
-2. On the Basics blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
+2. On the Basics blade, ensure the Assessment type is **Azure VM** and the Discovery Source is **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
 
     ![Screenshot of the Azure Migrate 'Assess servers' blade, showing the assessment name.](Images/upd-assessment1.png "Assess servers - assessment name")
 
@@ -47,6 +47,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 7. Select **Assessments (1)** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the **actual assessment (2)**.
 
     ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/upd-assessment-list-v2.png "Azure Migrate - Assessments (list)")
+     <validation step="b63de4e6-d84b-4e2c-9ff0-eb75fde9efb8" />
 
 ### Task 2: Configure dependency visualization
 
@@ -144,7 +145,6 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 22. On the **Completing Dependency Agent Setup** blade, select **Finish** to finish the installation process.
 
     ![Screenshot for installing Dependency Agent.](Images/dependencyagent2.png "Dependency Agent installation") 
- 
 
     > **Note**: You do not need to configure the workspace ID and key when installing the Dependency Agent, since it uses the same settings as the Microsoft Monitoring Agent, which must be installed beforehand.
 
@@ -218,8 +218,8 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 34. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
-    
+     <validation step="2790af24-9e46-4014-a113-9db36189a7d9" />
 
 #### Task summary 
 
-In this exercise you created and configured an Azure Migrate migration assessment and configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
+In this exercise, you created and configured an Azure Migrate migration assessment and configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
