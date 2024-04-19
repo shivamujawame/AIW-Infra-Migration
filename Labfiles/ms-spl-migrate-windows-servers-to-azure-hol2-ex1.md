@@ -116,6 +116,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 14. The **Migration and Modernization** panel should now show 7 discovered servers.
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
+      <validation step="9fc36ce0-cb51-4b57-82c8-d39b098ff703" />
 
 #### Task summary 
 
@@ -195,6 +196,7 @@ In this task, you will configure and enable the replication of your on-premises 
      ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-replicate-09.png "Replication status")
 
    > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
+    <validation step="6ac8790a-4aa0-4be6-aa43-ac679c533192" />
 
 #### Task summary 
 
@@ -236,7 +238,6 @@ In this task, you modified the settings for each replicated VM to use a static p
 
 > **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machines in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VMs during migration (for example, by editing web.config files).
 
-
 ### Task 5: Server migration
 
 In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
@@ -268,6 +269,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 6. Navigate to the **SmartHotelHostRG** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-migrate-6.png "Migrated resources")
+     <validation step="f67f3b8c-a957-47d5-bbdf-40efc2c5266e" />
 
 #### Task summary 
 
