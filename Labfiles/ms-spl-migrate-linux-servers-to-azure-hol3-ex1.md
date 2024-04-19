@@ -180,7 +180,7 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
     ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/updt-dscsvrdnews.png "Discovered servers")
  
-### Task 2: Review your on-prem Hyper-V Linux Server and OSS DB.
+### Task 2: Review your on-prem Hyper-V Linux Server and OSS DB
  
 1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 
