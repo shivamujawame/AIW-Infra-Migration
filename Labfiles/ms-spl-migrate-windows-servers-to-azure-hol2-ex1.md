@@ -132,17 +132,15 @@ In this task, you will configure and enable the replication of your on-premises 
    
 2. Under the **Specific Intent** page, provide the below details:
 
-    -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
+    -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** 
     
-    -  Where do you want to migrate to? : Select **Azure VM** **(2)**
+    -  Where do you want to migrate to? : Select **Azure VM** 
+  
+    -  Are your machines virtualized? : Select **Yes, with Hyper-V**
     
-    -  Click on **Continue (3)**
+    -  Click on **Continue**
 
-     ![](Images/specifi%20intent.png)
-
-3. In the **Basics settings** tab, under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the drop-down. Then select **Next**.
-
-     ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/upd-replicate-2.png "Replicate - Source settings")
+     ![](Images/HOL2T3S2.png)
 
 4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment (1)**. Select the **SmartHotel VMs (2)** VM group and the **SmartHotelAssessment (3)** migration assessment.
 
@@ -156,7 +154,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
    - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
 
-   - **Replication storage account**: Enter the storage account here from the drop-down which you create in task 1 **(2)**. 
+   - **Cache storage account**: Enter the storage account here from the drop-down which you create in task 1 **(2)**. 
 
    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
 
@@ -248,7 +246,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/upd-migrate-1.png "Replication summary")
 
-2. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines **(2)** then select **Migrate (3)** to start the migration process.
+2. On the **Specify Intent** blade, for _Where do you want to migrate to_, select **Azure VM** and click on **Continue**. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines **(2)** then select **Migrate (3)** to start the migration process.
 
     ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/upd-e3-t6-s2.png "Migrate - VM selection")
 
