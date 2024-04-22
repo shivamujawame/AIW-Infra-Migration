@@ -1,4 +1,4 @@
-# Lab 01: Creating VM Scale sets from Azure VMs
+# Creating VM Scale sets from Azure VMs
 
 ### Task 1: Using VM Scale Sets to Drive Business Resiliency
 
