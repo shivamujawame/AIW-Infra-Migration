@@ -121,16 +121,15 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' button.](Images/addcredsss.png)
 
-
 25. Specify the following details on the **Add credentials** blade for the Hyper-V host/cluster that the appliance will use to discover VMs and select **Save (4)**.
  
       1. Friendly name: Enter **hostlogin (1)** 
       2. Username: **<inject key="SmartHotelHost Admin Username" /> (2)**
       3. Password: **<inject key="SmartHotelHost Admin Password" /> (3)**
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/upd-add-creds.png "Credentials")
+       ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/upd-add-creds.png "Credentials")
 
-     > **Note**: The Azure Migrate appliance may not have picked up your local keyboard mapping. Select the 'eyeball' in the password box to check the password was entered correctly.
+       > **Note**: The Azure Migrate appliance may not have picked up your local keyboard mapping. Select the 'eyeball' in the password box to check the password was entered correctly.
 
 26. In **Step 2: Provide Hyper-V host/cluster details**, select **Add discovery source** to specify the Hyper-V host/cluster IP address/FQDN and the friendly name for credentials to connect to the host/cluster.
 
@@ -143,9 +142,9 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
       1. Friendly name: Select **hostlogin (3)** from the dropdown and 
       1. Select **Save (4)**.
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' panel.](Images/HOL1-EX1-S24.png "Discovery source - SmartHotelHost")
+      ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add discovery source' panel.](Images/HOL1-EX1-S24.png "Discovery source - SmartHotelHost")
 
-    > **Note:** You can either **Add single item** at a time or **Add multiple items** in one go. There is also an option to provide Hyper-V host/cluster details through **Import CSV**.
+      > **Note:** You can either **Add single item** at a time or **Add multiple items** in one go. There is also an option to provide Hyper-V host/cluster details through **Import CSV**.
 
 28. The appliance will validate the connection to the Hyper-V hosts/clusters added and show the **Validation status** in the table against each host/cluster
 
