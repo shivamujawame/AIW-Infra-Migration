@@ -103,3 +103,5 @@ In this task, you will Enable Automanage on existing machines.
    ![](Images/updt-existing-vm-select-machine.png)
 
 6. Click **Create**.
+
+  ## You Have successfully completed the Lab
