@@ -98,7 +98,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 11. Go to **Start** button in the **smarthotelweb1** VM and select **Internet Explorer** to open it. Paste the link to the 64-bit Microsoft Monitoring Agent for Windows, which you noted earlier. When prompted, **Run** the installer.
 
-    ![Screenshot showing the Internet Explorer prompt to run the installer for the Microsoft Monitoring Agent.](Images/upd-mma-win-run.png "Run MMA installer")
+       ![Screenshot showing the Internet Explorer prompt to run the installer for the Microsoft Monitoring Agent.](Images/upd-mma-win-run.png "Run MMA installer")
 
     > **Note**: You may need to disable **Internet Explorer Enhanced Security Configuration** on **Server Manager** under **Local Server** to complete the download. 
 
@@ -180,9 +180,9 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     
     > **Note**: If you receive any error while running the above command, run the below command to update the packages and perform **Step 28** again.
 
-       ```
-       apt-get update 
-       ```
+    ```s
+    apt-get update
+    ```
 30. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
 
     ```s
