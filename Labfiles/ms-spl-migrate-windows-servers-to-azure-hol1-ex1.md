@@ -20,7 +20,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
     ![Screenshot of the Azure migrate overview blade.](Images/newmigrateasd.png "Azmigrate Overview blade")
 
-4. Under **Migration goals**, select **Servers, databases and web apps (1)** and then under **Azure Migrate: Discovery and assessment**, select **Discover (2)** to open the **Discover** blade.
+4. Under **Migration goals**, select **Servers, databases and web apps (1)** and then under **Azure Migrate: Discovery and assessment**, select **Discover (2)**  and select **Under Appliance** from the dropdown to open the **Discover** blade.
  
     ![](Images/upd-azuremigrate-3.png)
  
