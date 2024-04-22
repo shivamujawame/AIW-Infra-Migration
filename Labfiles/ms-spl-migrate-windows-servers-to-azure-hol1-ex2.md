@@ -209,7 +209,10 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/upd-dependency-viz-installed.png "Dependency agent installed")
    
        >**Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
- 
+
+      >**Note**: You can also sign out and sign in to the Azure portal.
+
+
 34. Select **View dependencies**.
 
     ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/upd-view-dependencies.png "View dependencies")
