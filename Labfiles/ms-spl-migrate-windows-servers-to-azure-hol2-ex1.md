@@ -140,7 +140,7 @@ In this task, you will configure and enable the replication of your on-premises 
     
     -  Click on **Continue**
 
-       ![](Images/HOL2T3S2.png)
+       ![](Images/HOL2T3S21.png)
 
       >**Note**:If you get any error kindly refresh the screen periodically.
 
