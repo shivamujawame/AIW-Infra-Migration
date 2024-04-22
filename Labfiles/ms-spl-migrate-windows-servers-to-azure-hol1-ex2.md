@@ -180,9 +180,9 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     
     > **Note**: If you receive any error while running the above command, run the below command to update the packages and perform **Step 28** again.
 
-       ```
-       apt-get update 
-       ```
+    ```s
+    apt-get update
+    ```
 30. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
 
     ```s
