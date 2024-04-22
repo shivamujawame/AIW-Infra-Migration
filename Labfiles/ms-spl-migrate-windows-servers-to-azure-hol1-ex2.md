@@ -100,53 +100,53 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
        ![Screenshot showing the Internet Explorer prompt to run the installer for the Microsoft Monitoring Agent.](Images/upd-mma-win-run.png "Run MMA installer")
 
-    > **Note**: You may need to disable **Internet Explorer Enhanced Security Configuration** on **Server Manager** under **Local Server** to complete the download. 
+       > **Note**: You may need to disable **Internet Explorer Enhanced Security Configuration** on **Server Manager** under **Local Server** to complete the download. 
 
 12. On the **Welcome to the Microsoft Monitoring Agent Setup Wizard** blade, select **Next**. 
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma1.png "MMA installation")
+       ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma1.png "MMA installation")
 
 13. On the **Microsoft Software License Terms** blade, select **I Agree**.
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma2.png "MMA installation")
+      ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma2.png "MMA installation")
 
 14. On the **Destination Folder** blade, leave everything as default and select **Next**. 
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma3.png "MMA installation") 
+      ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma3.png "MMA installation") 
 
 15. On the **Agent Setup Options** blade, select **Connect the agent to Azure Log Analytics (OMS) (1)** and select **Next (2)**.
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma4.png "MMA installation") 
+      ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma4.png "MMA installation") 
 
 16. On the **Azure Log Analytics** blade, enter the **Workspace ID** and **Workspace Key** that you copied earlier, and select **Azure Commercial (1)** from the Azure Cloud drop-down then select **Next (2)**.
 
-    ![Screenshot of the Microsoft Monitoring Agent install wizard, showing the Log Analytics (OMS) workspace ID and key.](Images/upd-mma-wizard.png "MMA agent installer - workspace configuration")
+      ![Screenshot of the Microsoft Monitoring Agent install wizard, showing the Log Analytics (OMS) workspace ID and key.](Images/upd-mma-wizard.png "MMA agent installer - workspace configuration")
 
 17. On the **Microsoft Update** blade, leave everything as default and select **Next**. 
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/updt-mma7.png "MMA installation")
+      ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/updt-mma7.png "MMA installation")
 
 18. On the **Ready to Install** blade, click on **Install**. 
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma5.png "MMA installation")
+      ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma5.png "MMA installation")
 
 19. Select **Finish** to finish the installation process of **Microsoft Monitoring Agent for Windows**.
 
-    ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma6.png "MMA installation")
+      ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma6.png "MMA installation")
 
 20. Paste the link to the **Dependency Agent Windows installer** into the browser address bar. **Run** the installer.
 
-    ![Screenshot showing the Internet Explorer prompt to run the installer for the Dependency Agent.](Images/upd-da-win-run.png "Run Dependency Agent installer")
+      ![Screenshot showing the Internet Explorer prompt to run the installer for the Dependency Agent.](Images/upd-da-win-run.png "Run Dependency Agent installer")
 
 21. On the **License Agreement** blade, select **I Agree** to accept the agreement and continue. 
 
-    ![Screenshot for installing Dependency Agent.](Images/dependencyagent1.png "Dependency Agent installation") 
+      ![Screenshot for installing Dependency Agent.](Images/dependencyagent1.png "Dependency Agent installation") 
 
 22. On the **Completing Dependency Agent Setup** blade, select **Finish** to finish the installation process.
 
-    ![Screenshot for installing Dependency Agent.](Images/dependencyagent2.png "Dependency Agent installation") 
+      ![Screenshot for installing Dependency Agent.](Images/dependencyagent2.png "Dependency Agent installation") 
 
-    > **Note**: You do not need to configure the workspace ID and key when installing the Dependency Agent, since it uses the same settings as the Microsoft Monitoring Agent, which must be installed beforehand.
+       > **Note**: You do not need to configure the workspace ID and key when installing the Dependency Agent, since it uses the same settings as the Microsoft Monitoring Agent, which must be installed beforehand.
 
 23. Close the virtual machine connection window for the **smarthotelweb1 VM**. Connect to the **smarthotelweb2 VM** and repeat the installation process (steps 10-22) for both agents (the administrator password is the same as for smarthotelweb1). Close the virtual machine connection window for the **smarthotelweb2 VM**, once the installation of agents is done.
 
