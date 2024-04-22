@@ -10,15 +10,6 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/module1-exercise1.md",
         "Order": 2
-        "UnlockingRules": [
-          {
-            "UnlockDependency": "Validations",
-            "UnlockCriteria": "Completion Percentage",
-            "UnlockPercentageThreshold": 50,
-            "DependentValidations": [
-              "f46f663f-2c8d-473c-99b3-15243457b6ec"
-            ]
-          }
       }
     ]
   }
