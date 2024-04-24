@@ -91,13 +91,9 @@ In this task, you will configure and enable the replication of your on-premises 
 
        ![](Images/specify.png)
 
-3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'LL specify the migration settings manually (1)**.
+3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually (1)** and The **Virtual machines** tab should now show the virtual machines included in the assessment. Select the **redhat (1)** virtual machine, then select **Next (2)**.
 
-     ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/no1.png "Replicate - Virtual machines")
-
-4. The **Virtual machines** tab should now show the virtual machines included in the assessment. Select the **redhat (1)** virtual machine, then select **Next (2)**.
-
-    ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/upd-migrateredhat.png "Replicate - Virtual machines")
+     ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/24-04-2024(1).png "Replicate - Virtual machines")
 
 5. On the **Target settings** tab, select the below information,
 
