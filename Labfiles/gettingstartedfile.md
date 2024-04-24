@@ -6,7 +6,7 @@ Welcome to **Migrate Windows Server to Azure** workshop! We've prepared a seamle
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](Images/labguide.png)
+![Access Your VM and Lab Guide](Images/labguide2.png)
 
 ### Virtual Machine & Lab Guide
  
