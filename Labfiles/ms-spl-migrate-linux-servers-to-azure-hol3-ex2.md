@@ -36,38 +36,34 @@ In this task, you will configure and enable the replication of your on-premises 
     -  Where do you want to migrate to? : Select **Azure VM** **(2)**
     -  Click on **Continue (3)**
 
-    ![](Images/specifi%20intent.png)
+       ![](Images/specifi%20intent.png)
 
 2. In the **Basics settings** tab, under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the drop-down. Then select **Next**.
 
     ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/upd-replicate-2.png "Replicate - Source settings")
 
-3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment (1)**. Select the **SmartHotel VMs (2)** VM group and the **SmartHotelAssessment (3)** migration assessment.
+3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **NO, I'll specify the migration settings manually (1)**. Select the **redhat (2)** VM group and select **Next (3)**.
 
-    ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/upd-replicate-3.png "Replicate - Virtual machines")
-
-4. The **Virtual machines** tab should now show the virtual machines included in the assessment. Select the **redhat (1)** virtual machine, then select **Next (2)**.
-
-    ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/upd-migrateredhat.png "Replicate - Virtual machines")
+    ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/24-04-2024(1).png "Replicate - Virtual machines")
 
 5. On the **Target settings** tab, select the below information,
    - Select your subscription and the existing **SmartHotelRG (1)** resource group. 
-   - **Cache storage account**: Select the storage account that has been created in the previous HOL1 **(2)**.
+   - **Cache storage account**: Select **Auto-create (default)** **(2)**.
    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
    - **Subnet**: Select **SmartHotel (4)**. 
    - Select **Next (5)**.
  
  
-    ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/1.6.png)
+      ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/24-04-2024.png)
 
- > **Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
+    > **Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
 
 6. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
    - Select the **Linux** operating system for the **redhat** virtual machine. 
    - Select **Next**. 
 
-  ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
+     ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
 
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
