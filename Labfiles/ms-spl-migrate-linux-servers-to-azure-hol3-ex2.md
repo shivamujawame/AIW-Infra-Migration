@@ -196,7 +196,7 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
 
 4. To monitor progress, select **Jobs (1)** under **Manage** on the left and review the status of the redhat **Planned failover (2)** job.
 
-    ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/upd-itshappening.png "Migration jobs")
+    ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/24-04-2024(2).png "Migration jobs")
 
 5. **Wait** until the **Planned failover** jobs show a **Status** of **Successful**. You should not need to refresh your browser. This could take up to 15 minutes.
 
