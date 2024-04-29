@@ -54,11 +54,11 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 1. Return to the **Azure Migrate | Servers, databases and web apps** blade in the Azure Portal, and select **Servers, databases and web apps (1)** under **Migration goals** on the left. Under **Migration Tools**, select **Discover (2)**.
 
-   **Note:** You may need to add the migration tool yourself by following the link below the **Migration Tools** section, selecting **Migration and modernization**, then selecting **Add tool(s)**.
+   > **Note:** You may need to add the migration tool yourself by following the link below the **Migration Tools** section, selecting **Migration and modernization**, then selecting **Add tool(s)**.
    
      ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](Images/migrationtools.png "Azure Migrate: Server Migration - Discover")
 
-2. In the **Discover** panel, provide the following details:
+1. In the **Discover** panel, provide the following details:
 
    - Under **Where do you want to migrate to?**, select **Azure VM (1)**
 
@@ -148,7 +148,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
        ![](Images/29-04-2024(1).png)
 
-      >**Note**: If you get any error kindly refresh the screen periodically.
+       >**Note**: If you get any error kindly refresh the screen periodically.
 
 1. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually (1)**.
 
@@ -172,7 +172,7 @@ In this task, you will configure and enable the replication of your on-premises 
    
      ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-S6.png)
 
-   > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
+     > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
 1. On the **Compute** tab, select the below configuration,
 
@@ -184,7 +184,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
    - Select **Next**. 
 
-   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-replicate-6.png "Replicate - Compute")
+     ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-replicate-6.png "Replicate - Compute")
     
 1. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
@@ -249,7 +249,6 @@ In this task, you will modify the settings for each replicated VM to use a stati
 In this task, you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
 
 > **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machines in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VMs during migration (for example, by editing web.config files).
-
 
 ### Task 5: Server migration
 
