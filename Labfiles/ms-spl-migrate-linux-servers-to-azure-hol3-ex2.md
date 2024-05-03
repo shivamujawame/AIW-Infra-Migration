@@ -250,6 +250,8 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-redhatrg.png "Migrated resources")
 
+    <validation step="fca01519-165a-49c3-897e-6f25ea3468a6" />
+
 #### Task summary 
 
 In this task, you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
