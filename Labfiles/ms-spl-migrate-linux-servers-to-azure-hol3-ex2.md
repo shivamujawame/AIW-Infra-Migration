@@ -6,7 +6,7 @@
  
 1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 
-   > You can also open the **Hyper-v manager** by clicking on the icon that is present in the taskbar. 
+    > You can also open the **Hyper-v manager** by clicking on the icon that is present in the taskbar. 
 
     ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
      
