@@ -57,6 +57,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 2. In the **Discover** panel, provide the following details:
 
    - Under **Where do you want to migrate to?**, select **Azure VM (1)**
+
    - Under **Are your machines virtualized**, select **Yes, with Hyper-V (2)**.
 
    - Under **Target region (3)** make sure to select the **<inject key="Region"></inject>** region as same the Resource Group's region.
@@ -141,7 +142,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
    - Select your subscription and the existing **SmartHotelRG (1)** resource group. 
 
-   - **Cache storage account**: Select the storage account that has been created in the previous HOL1 **(2)**.
+   - **Cache storage account**: Select **Auto-create** **(2)**.
 
    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
 
