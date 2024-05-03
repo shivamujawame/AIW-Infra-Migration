@@ -250,7 +250,7 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-redhatrg.png "Migrated resources")
 
-   <validation step="89a90fb3-5af4-400e-a592-ef0b61aaff30" />
+   <validation step="fca01519-165a-49c3-897e-6f25ea3468a6" />
 
 #### Task summary 
 
