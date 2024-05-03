@@ -1,7 +1,4 @@
-
 ## Lab 01: Migrate Linux Servers from Hyper-V to Azure
-
-## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs. 
 
 ### Duration: 45 minutes
 
