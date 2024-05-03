@@ -1,6 +1,8 @@
 ## Lab 01: Migrate Linux Servers from Hyper-V to Azure
 
-### Duration: 45 minutes
+#### Duration: 45 minutes
+
+### Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs
 
 ### Task 1: Review your on-prem Hyper-V Linux Server and OSS DB
  
