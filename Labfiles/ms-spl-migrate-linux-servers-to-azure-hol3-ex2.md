@@ -1,10 +1,55 @@
-## Exercise 2: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs. 
+
+## Lab 01: Migrate Linux Servers from Hyper-V to Azure
+
+## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs. 
 
 ### Duration: 45 minutes
 
-### Task 1: Register the Hyper-V Host with Migration and modernization
+### Task 1: Review your on-prem Hyper-V Linux Server and OSS DB
+ 
+1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
+
+   > You can also open the **Hyper-v manager** by clicking on the icon that is present in the taskbar. 
+
+    ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
+     
+1. In Hyper-V Manager, select **HOSTVMS<inject key="DeploymentID" enableCopy="false" />**. You should now see the **redhat** VM and 6 other VMs that we are going to use in other HOLs.
+
+    ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/upd-redhatnew.png "Hyper-V Manager")
+     
+1. In Hyper-V Manager, select the **redhat (1)**, then select **Start (2)** on the right if not already running.
+
+    ![Screenshot of Hyper-V Manager showing the start button for the Azure Migrate appliance.](Images/HOL2-EX1-T2-S3.png "Start AzureMigrateAppliance")
+
+1. In Hyper-V Manager, select the **redhat (1)**, then select **Connect (2)** on the right.
+
+    ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/HOL2-EX1-T2-S4.png "Connect to AzureMigrateAppliance")
+
+1. Log into the VM with the **Administrator password**: **<inject key="SmartHotel Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
+
+1. You should be able to log in to your on-prem Redhat server hosted on Hyper-V. 
+
+    ![Screenshot of the Azure Migrate appliance terms of use.](Images/redhathome.png "Desktop shortcut")
+
+1. In the next task you will be migrating the Redhat server, and the OSS Database hosted in the Red Hat VM to the Azure with the help of Azure Migrate.
+
+### Task 2: Register the Hyper-V Host with Migration and modernization
 
 In this task, you will register your Hyper-V host(LabVM) with the Migration and Modernization service. This service uses Azure Site Recovery as the underlying migration engine. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
+
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+    
+    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
+    * Azure Password: <inject key="AzureAdUserPassword"></inject>
+
+2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
+ 
+    ![Screenshot of the All services overview blade.](Images/Allservices1.png "All services Overview blade")
+
+3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
+ 
+    ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3.png "Azmigrate Overview blade")
 
 1. Return to the **Azure Migrate | Servers, databases and web apps** blade in the Azure Portal, and select **Servers, databases and web apps (1)** under **Migration goals** on the left. Under **Migration Tools**, select **Discover (2)**.
 
@@ -73,7 +118,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 In this task, you get an overview of your registered Hyper-V host with the Azure Migrate Server Migration service.
 
-### Task 2: Enable Replication from Hyper-V to Azure Migrate
+### Task 3: Enable Replication from Hyper-V to Azure Migrate
 
 In this task, you will configure and enable the replication of your on-premises virtual machine from Hyper-V to the Azure Migrate Server Migration service.
 
@@ -139,7 +184,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 In this task, you enabled replication from the Hyper-V host to Azure Migrate and configured the replicated VM size in Azure.
 
-### Task 3: Configure Networking
+### Task 4: Configure Networking
 
 In this task, you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
@@ -169,7 +214,7 @@ In this task, you modified the settings for each replicated VM to use a static p
 
 > **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machine in Azure retains the same IPs they had on-premises, which avoids having to reconfigure the VM during migration (for example, by editing web.config files).
 
-### Task 4: Server migration
+### Task 5: Server migration
 
 In this task, you will perform a migration of the Redhat virtual machine to Azure.
 
@@ -182,7 +227,6 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
 1. Select **Azure VM** under **Where do you want to migrate to?** and select **Continue (2)**.
 
     ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/19-04-2024(4).png "Migrate - VM selection")
-
 
 2. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the **redhat (2)** virtual machine then select **Migrate (3)** to start the migration process.
 
@@ -207,12 +251,6 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-redhatrg.png "Migrated resources")
 
    <validation step="89a90fb3-5af4-400e-a592-ef0b61aaff30" />
-
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 #### Task summary 
 
