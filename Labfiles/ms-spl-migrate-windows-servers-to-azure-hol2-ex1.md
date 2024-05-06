@@ -286,12 +286,6 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
    <validation step="e9fd6a73-9493-4184-b9c0-7bd0a4d4fce2" />
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
 #### Task summary 
 
 In this task, you assigned a public IP address to the UbuntuWAF VM and verified that the SmartHotel application is now working in Azure.
