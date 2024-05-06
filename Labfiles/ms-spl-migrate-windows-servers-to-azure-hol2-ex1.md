@@ -52,7 +52,21 @@ In this task, you created a new Azure Storage Account that will be used for Migr
 
 In this task, you will register your Hyper-V host(LabVM) with the Migration and Modernization service. This service uses Azure Site Recovery as the underlying migration engine. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
-1. Return to the **Azure Migrate | Servers, databases and web apps** blade in the Azure Portal, and select **Servers, databases and web apps (1)** under **Migration goals** on the left. Under **Migration Tools**, select **Discover (2)**.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+    
+    * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
+    * Azure Password: <inject key="AzureAdUserPassword"></inject>
+
+2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
+ 
+    ![Screenshot of the All services overview blade.](Images/Allservices1.png "All services Overview blade")
+
+3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
+ 
+    ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3.png "Azmigrate Overview blade")
+
+1. Select **Servers, databases and web apps (1)** under **Migration goals** on the left. Under **Migration Tools**, select **Discover (2)**.
 
    > **Note:** You may need to add the migration tool yourself by following the link below the **Migration Tools** section, selecting **Migration and modernization**, then selecting **Add tool(s)**.
    
