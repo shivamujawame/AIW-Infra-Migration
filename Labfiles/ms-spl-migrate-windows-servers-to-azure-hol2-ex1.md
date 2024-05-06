@@ -132,12 +132,6 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      <validation step="a6405ea6-b97d-4e45-8cf8-c8997009392d" />
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
 #### Task summary 
 
 In this task, you registered your Hyper-V host with the Azure Migrate Server Migration service.
@@ -217,12 +211,6 @@ In this task, you will configure and enable the replication of your on-premises 
    > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
 
 <validation step="216eebdd-a59b-4f61-a316-af714d0c342e" />
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
 #### Task summary 
 
@@ -312,14 +300,13 @@ In this task, you assigned a public IP address to the UbuntuWAF VM and verified 
 
 Design and implementation of Azure networking is one of the most critical steps in migrating your infrastructure as a service (IaaS) and platform as a service (PaaS) implementations in Azure.
 
-
 #### Azure Networking Best Practises:
 
 - Assign an address space that is not larger than a CIDR range of /16 for each virtual network. Virtual networks allow for the use of 65,536 IP addresses. Assigning a smaller prefix than /16, such as a /15, which has 131,072 addresses, will result in the excess IP addresses becoming unusable elsewhere. It is important not to waste IP addresses, even if they're in the private ranges defined by RFC 1918.
 
 - The hub is an Azure virtual network that acts as a central point of connectivity. The spokes are virtual networks that connect to the hub virtual network by using peering. Shared services are deployed in the hub, while individual workloads are deployed as spokes.
 
-- To provide isolation within a virtual network, you segment it into one or more subnets, and give a portion of the virtual network's address space to each subnet.
+- To provide isolation within a virtual network, you segment it into one or more subnets and give a portion of the virtual network's address space to each subnet.
 
 - Azure adds a DNS server by default when you deploy a virtual network. You can use this server to rapidly build virtual networks and deploy resources.
 
@@ -332,7 +319,6 @@ Design and implementation of Azure networking is one of the most critical steps 
 - A VPN gateway is a specific type of virtual network gateway. It sends encrypted traffic between an Azure virtual network and an on-premises location over the public internet.
 
 - A VPN gateway can also send encrypted traffic between virtual networks in Azure over the Microsoft network. Each virtual network can have only one VPN gateway.
-
 
 #### Azure Network Security Best Practises:
 
