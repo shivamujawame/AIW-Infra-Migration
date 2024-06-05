@@ -78,13 +78,13 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
    - Under **Are your machines virtualized**, select **Yes, with Hyper-V (2)**.
 
-   - Under **Target region (3)** make sure to select the **<inject key="Region"></inject>** region as same the Resource Group's region.
+   - Under **Target region (3)** make sure to select the **<inject key="Region" enableCopy="false" />** region.
 
    - Check the **confirmation (4)** checkbox and select **Create resources (5)** to begin the deployment of the Azure Site Recovery resource used by Migration and modernization for Hyper-V migrations.
 
      ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](Images/03-05-2024(1).png "Discover machines - source hypervisor and target region")
 
-     Once deployment is complete, the 'Discover machines' panel should be updated with additional instructions.
+     > **Note:** Once deployment is complete, the 'Discover machines' panel should be updated with additional instructions.
   
 1. Click on the **Download** link for the Hyper-V replication provider software installer to download the Azure Site Recovery provider installer.
 
@@ -126,7 +126,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the 'Discover machines' panel from Azure Migrate, showing the 'Registration finalized' message.](Images/upd-discover-7.png "Registration finalized")
 
-1. The **Migration and Modernization** panel should now show 7 discovered servers.
+1. The **Migration and modernization** panel should now show 7 discovered servers.
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
@@ -144,7 +144,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/replicatenw.png "Replicate link")
    
-2. Under the **Specific Intent** page, provide the below details:
+2. Under the **Specific intent** page, provide the below details:
 
     -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
     
@@ -158,7 +158,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
        >**Note**: If you get any error kindly refresh the screen periodically.
 
-1. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually (1)**.
+1. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
 
      ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/no1.png "Replicate - Virtual machines")
 
