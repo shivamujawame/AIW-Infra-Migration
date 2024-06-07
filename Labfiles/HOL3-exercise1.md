@@ -4,7 +4,7 @@ In this HOL you will use Azure Migrate: Discovery and assessment tool that descr
 
 Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers that are not ideal candidates for migration. 
 
-### Task 1: Onboard On-prem servers to Azure Arc-enabled server
+### Task 1: Onboard On-prem servers to Azure Arc-enabled server.
 
 In this exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
 
