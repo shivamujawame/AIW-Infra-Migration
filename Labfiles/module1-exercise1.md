@@ -173,7 +173,13 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 31. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal. Select **Servers, databases, and web apps (1)**, then select **Refresh (2)**. Under **Azure Migrate: Servers, databases and web apps** you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 7 discovered servers are shown. This may take several minutes.
 
     ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/updt-dscsvrdnews.png "Discovered servers")
-     <validation step="f46f663f-2c8d-473c-99b3-15243457b6ec" />
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+    <validation step="f46f663f-2c8d-473c-99b3-15243457b6ec" />
 
 #### Task summary 
 
