@@ -135,7 +135,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="7df6e281-5a25-416d-8ad3-7e0c8a9218d9" />
+    <validation step="a6405ea6-b97d-4e45-8cf8-c8997009392d" />
      
 
 #### Task summary 
