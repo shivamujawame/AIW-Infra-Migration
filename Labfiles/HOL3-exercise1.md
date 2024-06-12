@@ -20,9 +20,9 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
    
-1. On the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and then click on **+Add (2)**.
+1. On the **Azure Arc** page, select **Machines (1)** under **Azure arc resources (2)** and then click on **+Add (2)**.
     
-    ![Screenshot of the add server.](Images/HOL3E1S3.png "add server")
+    ![Screenshot of the add server.](Images/azure_machines.png "add server")
     
 1. In the **Add servers with Azure Arc** page, click **Generate script** under **Add a single server**.
 
@@ -88,21 +88,23 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     * Azure Password: <inject key="AzureAdUserPassword"></inject> 
 
    > **Note:** Move back to the PowerShell pane and now you have connected your AzureArcVM to Azure successfully.
-    
+   
+   > **Note:** When the browser prompts you to sign in, select "**Continue without data**."
+   
     ![Screenshot of the powershellscript.](Images/upd-package.png)
      
- 1. Close the AzureArcVM. Navigate to the Azure portal and go back to the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
+ 1. Close the AzureArcVM. Navigate to the Azure portal and go back to the **Azure Arc** page, select **Machines (1)** under **azure arc resources** and now verify that a server is connected successfully **(2)**.
 
     **Note:** The name of the new server added could be different. You might have to refresh to see the new server.
     
-    ![Screenshot of the server added.](Images/HOL3E1S17.png)
+    ![Screenshot of the server added.](Images/machines_2.png)
 
-    <validation step="05a7a390-6121-4c68-ae18-dea094999056" />
-     
+    
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
+    
+    <validation step="05a7a390-6121-4c68-ae18-dea094999056" />
     
 **Summary:** In this exercise, you explored how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that they can manage the Windows machine.
