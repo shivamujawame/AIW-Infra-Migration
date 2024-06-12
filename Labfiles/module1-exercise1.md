@@ -174,12 +174,14 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
     ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/updt-dscsvrdnews.png "Discovered servers")
 
+     <validation step="f46f663f-2c8d-473c-99b3-15243457b6ec" />
+     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click on validate button.
     > - If you receive a success message, you can proceed to the next task.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-    
-    <validation step="f46f663f-2c8d-473c-99b3-15243457b6ec" />
+
 
 #### Task summary 
 
