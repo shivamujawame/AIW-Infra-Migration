@@ -130,7 +130,13 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
-     <validation step="a6405ea6-b97d-4e45-8cf8-c8997009392d" />
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+    <validation step="7df6e281-5a25-416d-8ad3-7e0c8a9218d9" />
+     
 
 #### Task summary 
 
@@ -156,7 +162,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
        ![](Images/29-04-2024(1).png)
 
-       >**Note**: If you get any error kindly refresh the screen periodically.
+       >**Note**: If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
 
 1. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
 
@@ -208,7 +214,13 @@ In this task, you will configure and enable the replication of your on-premises 
 
    > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
 
-<validation step="216eebdd-a59b-4f61-a316-af714d0c342e" />
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+    <validation step="216eebdd-a59b-4f61-a316-af714d0c342e" />
+
 
 #### Task summary 
 
@@ -284,7 +296,12 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/06-05-2024(12).png "Migrated resources")
 
-   <validation step="e9fd6a73-9493-4184-b9c0-7bd0a4d4fce2" />
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+    <validation step="e9fd6a73-9493-4184-b9c0-7bd0a4d4fce2" />
 
 #### Task summary 
 
