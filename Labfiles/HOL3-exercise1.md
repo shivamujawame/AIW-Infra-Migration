@@ -99,12 +99,13 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     
     ![Screenshot of the server added.](Images/machines_2.png)
 
+    <validation step="05a7a390-6121-4c68-ae18-dea094999056" />
     
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
     
-    <validation step="05a7a390-6121-4c68-ae18-dea094999056" />
+    
     
 **Summary:** In this exercise, you explored how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that they can manage the Windows machine.
