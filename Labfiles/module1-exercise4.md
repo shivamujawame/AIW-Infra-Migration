@@ -14,7 +14,7 @@
 
 4. Select **smarthotelweb1** VM to create image.
 
-2. On the page for the VM, on the upper menu, select **Capture**.
+2. On the page for the VM, on the upper menu, select **Capture** and then select **Image** in the dropdown.
    
    ![](Images/upd-capture.png)
 
