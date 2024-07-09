@@ -116,7 +116,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 1. Select **Finalize registration**, which should now be enabled.
 
-     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/upd-e3-t2-s10.png?raw=true "Finalize registration")
+     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/upd-e3-t2-s10-1.png?raw=true "Finalize registration")
 
 1. Azure Migrate will now complete the registration with the Hyper-V host. **Wait** for the registration to complete. This may take several minutes.
 
