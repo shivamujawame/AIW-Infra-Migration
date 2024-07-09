@@ -112,7 +112,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the ASR provider showing successful registration.](Images/upd-asr-registered.png "Registration complete")
 
-1. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization** and selecting **Yes, with Hyper-V** for **Are your machines virtualized?**.
+1. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization** and selecting **Azure Vm** for **Where do you want to migrate to?** and **Yes, with Hyper-V** for **Are your machines virtualized?**.
 
 1. Select **Finalize registration**, which should now be enabled.
 
