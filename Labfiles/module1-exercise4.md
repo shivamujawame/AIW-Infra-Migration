@@ -16,7 +16,7 @@
 
 2. On the page for the VM, on the upper menu, select **Capture** and then select **Image** in the dropdown.
    
-   ![](Images/upd-capture.png)
+   ![](Images/upd-capture-1.png)
 
 4. To create the image in a gallery, select **Yes, share it to a gallery as an image version** under **Instance details**.
 
