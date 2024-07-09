@@ -237,7 +237,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/upd-migrate-1.png "Replication summary")
 
-2. On the Specify intent tab, Select Azure VM under Where do you want to migrate to? and select Continue.
+2. On the **Specify intent** tab, Select **Azure VM** under Where do you want to migrate to? and select **Continue**.
 
     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/06-05-2024(7).png "Replication summary")
 
