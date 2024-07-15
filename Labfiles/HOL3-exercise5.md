@@ -47,7 +47,6 @@ In this HOL, you will learn how to enable enhanced security features by enabling
    
 1. On the **Security alerts page** under _General_, you can see the alerts that describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. (The Remediation steps contain the remediation logic where you can remediate the selected resource/s. To simplify remediation improve your environment's security and increase your secure score, many recommendations include a Fix option. Fix helps you quickly remediate a recommendation on multiple resources.)
 
-  
 ### Task 2: Enable Microsoft Sentinel
 
 1. In the **search resources, services and docs bar**, type **Microsoft Sentinel** and select it from suggestions, as shown below:
@@ -57,7 +56,6 @@ In this HOL, you will learn how to enable enhanced security features by enabling
 1. On the **Microsoft Sentinel** page, click on **+ Create**.    
 
     ![Screenshot of the create Microsoft Sentinel.](Images/hol3-e5-t2-s2.png "Microsoft Sentinel")
-    
     
 1. On the **Add Microsoft Sentinel to a Workspace** page, select the **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (1)** workspace and click on **Add (2)**. If prompted, the Microsoft Sentinel free trial is activated, click on OK.   
 
@@ -128,7 +126,6 @@ In this HOL, you will learn how to enable enhanced security features by enabling
     
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
   
-
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
