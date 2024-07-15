@@ -64,7 +64,6 @@ In this task, you will configure and enable the replication of your on-premises 
 
         ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
-
 8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
 9. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
@@ -108,7 +107,6 @@ In this task, you will modify the settings for each replicated VM to use a stati
 
 6. Select **OK** to close the network interface settings blade, then **Save** the **redhat** settings to configure the private IP address for the VM.
 
-
 #### Task summary 
 
 In this task, you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
@@ -117,7 +115,7 @@ In this task, you modified the settings for each replicated VM to use a static p
 
 ### Task 4: Server migration
 
-In this task, you will perform a migration of the redhat virtual machine to Azure.
+In this task, you will perform a migration of the Redhat virtual machine to Azure.
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
@@ -147,7 +145,7 @@ In this task, you will perform a migration of the redhat virtual machine to Azur
 
     ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/infra1.14.png "Migration status")
 
-6. Navigate to the **SmartHotelRG** resource group and check that the VM, network interface, and disk resource have been created for the redhat virtual machine being migrated.
+6. Navigate to the **SmartHotelRG** resource group and check that the VM, network interface, and disk resource have been created for the Redhat virtual machine being migrated.
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-redhatrg.png "Migrated resources")
 
