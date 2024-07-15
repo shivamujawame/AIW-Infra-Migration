@@ -28,7 +28,7 @@ In this task, you will create a new Azure Storage Account that will be used by M
 
     ![Screenshot of the Azure portal showing the create storage account blade.](Images/HOL1-EX3-T1-S2.png "Storage account settings")
 
-3. Select **Review**, then select **Create**.
+3. Select **Review+create**, then select **Create**.
 
 4. Once the storage account is deployed, click on **Go to resource** to open it.
 
@@ -271,112 +271,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-#### Task summary 
-
-In this task, you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machines. This migrated your on-premises VMs to Azure.
-
-### Task 6: Configure the database connection
-
-The application tier machine **smarthotelweb2** is configured to connect to the application database running on the **smarthotelsql** machine.
-
-On the migrated VM **smarthotelweb2**, this configuration needs to be updated to use the Azure SQL Database instead.
-
-> **Note**: You do not need to update any configuration files on **smarthotelweb1** or the **UbuntuWAF** VMs, since the migration has preserved the private IP addresses of all virtual machines they connect with.
-
-1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
-
-2. Click on **smarthotelweb2** VM, from the left-side pane, select **Bastion** under **Operations**.
-
-   >**Note**: You may have to wait a few minutes and refresh to have the option to enter the credentials. 
-
-3. Connect to the machine with the username **Administrator (1)** and the password **<inject key="SmartHotel Admin Password"></inject> (2)** and then click on **Connect (3)**. When prompted, **Allow** clipboard access.
-
-    >**Note**: You might have to allow pop-ups to access the bastion session.
-
-      ![Screenshot showing the Azure Bastion connection blade.](Images/infra1.7.png "Connect using Bastion")
-
-4. In the **smarthotelweb2** remote desktop session, open File Explorer and navigate to the **C:\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file and open it with Notepad.
-
-5. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
-
-   You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and from the overview, select **Show database connection strings**.
-
-    ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/upd-show-connection-strings.png "Show database connection strings")
-
-    Copy the **ADO.NET** connection string and paste it into the web.config file on **smarthotelweb2**, replacing the existing connection string. **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
-
-    > **Note**: You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste it into the VM.
-
-    Set the password in the connection string from {your_password} to **<inject key="SmartHotel Admin Password" />**.
-
-    ![](Images/connection.png)
-
-    ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/upd-web2-connection-string.png "web.config")
-
-7. **Save** the `web.config` file and exit your Bastion remote desktop session.
-
-#### Task summary 
-
-In this task, you updated the **smarthotelweb2** configuration to connect to the Azure SQL Database.
-
-### Task 7: Configure the public IP address and test the SmartHotel application
-
-In this task, you will associate an Application Gateway with a Web Application Firewall (WAF) to replace the Ubuntu VM with the Azure-managed service.
-
-1. Navigate to the **SmartHotel-WAF** Application Gateway in the **SmartHotelRG** resource group
-
-1. Select **Backend pools (1)** under the Settings section, and select the **WebBackend (2)** pool
-
-    ![Screenshot showing the backend pool selection for the Application Gateway](Images/upd-waf-backend-pool.png "Select WebBackend")
-
-1. Set the Target type to **Virtual machine (1)** and the Target to the NIC of **smarthotelweb1 (2)**; select **Save (3)** to update the backend pool
-
-    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/hol1-ex-3-T7-s3.png "Add VM to backend pool")
-
-    > **Note**: This backend pool is already associated with the front-end IP address of the Application Gateway via the SmartHotelApp rule. The front-end IP, listener, rule, and backend pool were all created with the Application Gateway. This step now ties the migrated VM to the front end.
-
-1. Navigate to the **SmartHotelRG** resource group, and then to the **SmartHoteldb<inject key="DeploymentID" enableCopy="false" />** database server to update the Firewall settings.
-           
-1. Under Security, select **Networking (1)** then **Public access (2)** tab. Now, set **Public network access** to **Selected networks (3)** and **Save (4)** your changes.
-
-    ![](Images/website1.1.png)
-     
-1. Now, on the **Public access** tab, click on **Add a virtual network rule** to add a virtual network so that access to the database will be allowed from a specific network.
-
-    ![](Images/website2.1.png)
-   
-1. On the **Create/Update** blade, enter the below information.
-
-    - **Name**: **AllowaccesstoDB (1)**.
-    - **Subscription**: Select your subscription from the dropdown **(2)**.
-    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
-    - **Subnet**: Select **SmartHotel (4)**.
-    - **Check** the **Ignore Missing Microsoft.sql Service Endpoint box (5)**.
-    - Click **OK (6)**.
-
-      ![](Images/hol1-ex-3-T7-s7.png)
-   
-1. Navigate back to the **Public access (2)** tab of **Networking (1)** section. Set **Public network access** to **Disable (3)** and **Save (4)** your changes.
-
-    ![](Images/hol1-ex-3-T7-s8.png)
-   
-1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations (1)** way in the Settings section and note the IP address associated with the public IP address **appGwPublicFrontendIp (2)**.
-
-    ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/upd-waf-public-ip-address.png "Public IP address of AppGW")
-
-1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
-
-    ![Screenshot showing the SmartHotel application.](Images/lob-issue-02.png "Migrated SmartHotel application")
- 
-    > **Note**: 
-      1. The Check-in and Check-out might differ for you when compared to the above screenshot.
-      2. At this point the base Application Gateway service is providing access to the backend application. This validates that the application is working and can be further protected by the WAF in the following steps.
-
-#### Task summary 
-
-In this task, you assigned a public IP address to the UbuntuWAF VM and verified that the SmartHotel application is now working in Azure.
-
-### Task 8: Pointers around Azure Networking and Azure Network Security (Read only)
+### Task 6: Pointers around Azure Networking and Azure Network Security (Read only)
 
 Design and implementation of Azure networking is one of the most critical steps in migrating your infrastructure as a service (IaaS) and platform as a service (PaaS) implementations in Azure.
 
