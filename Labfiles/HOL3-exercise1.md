@@ -37,7 +37,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
    - Leave other values as default and Click on **Next (4)**
 
-    ![Screenshot of the resource details tab.](Images/HOL3E1S5.png "resource details tab")
+        ![Screenshot of the resource details tab.](Images/HOL3E1S5.png "resource details tab")
 
 1. Under the **Tags** tab, leave the values as default and click on **Next**.
 
@@ -73,9 +73,9 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
       
 1. In powershell, run the below command to set the execution policy as unrestricted.
 
-   * ```
-     Set-ExecutionPolicy -ExecutionPolicy unrestricted
-     ```
+    ```
+    Set-ExecutionPolicy -ExecutionPolicy unrestricted
+    ```
 
 1. Now, run the whole script that you copied in the notepad earlier in step 7.
 
@@ -85,8 +85,8 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     * Azure Password: <inject key="AzureAdUserPassword"></inject> 
 
    > **Note:** Move back to the PowerShell pane and now you have connected your AzureArcVM to Azure successfully.
-   >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**, on **Stay current with your browsing data** select **Confirm and continue** and on the help for importing Google browsing data page, select the  **Continue without this data**  button. Then, proceed to select  **Confirm and start browsing**  on the next page
-has a context menu.
+   
+   >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**, on **Stay current with your browsing data** select **Confirm and continue** and on the help for importing Google browsing data page, select the  **Continue without this data**  button. Then, proceed to select  **Confirm and start browsing**  on the next page has a context menu.
     
     ![Screenshot of the powershellscript.](Images/upd-package.png)
      

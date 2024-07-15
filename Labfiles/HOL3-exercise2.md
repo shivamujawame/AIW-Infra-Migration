@@ -15,7 +15,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
     ![Screenshot of the Site Recovery Infrastructure.](Images/hol3-e2-s3.png)
 
-1. Under the Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
+1. Under the Site Recovery Infrastructure page, select **Hyper-V hosts (1)** under **For Hyper-V sites** and then make sure that the status of the server is **Connected (2)**.
 
     ![Screenshot of the hyper-v-host.](Images/HOL3-EX2-T1-S4.png "hyper-v-host")  
 

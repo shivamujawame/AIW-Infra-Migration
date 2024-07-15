@@ -74,7 +74,7 @@ In this task, you will Enable Automanage on existing machines.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-2. In the search bar, search for and select **Automanage – Azure machine best practices**.
+2. In the search bar, search for and select **Automanage**.
 
 3. From the left side panel select **Automanage machines (1)** and click on **+ Enable on existing machine (2)**.
    
@@ -90,11 +90,11 @@ In this task, you will Enable Automanage on existing machines.
 
 5. On the **Select Machines** blade:
 
-   a. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (1)**.
+   i. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (1)**.
    
-   b. **Check the checkbox of the virtual machine (2)** you want to onboard. (for example: let's enable automanage for smarthotelweb2.)
+   ii. **Check the checkbox of the virtual machine (2)** you want to onboard. (for example: let's enable automanage for smarthotelweb2.)
    
-   c. Click on the **Review + Create (3)** button.
+   iii. Click on the **Review + Create (3)** button.
    
    ![](Images/updt-existing-vm-select-machine.png)
 

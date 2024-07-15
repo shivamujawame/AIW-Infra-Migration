@@ -8,7 +8,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
     
     ![](Images/upd-redhatrg.png)
     
-2. Now from the left side menu, select the **Identity**.
+2. Now from the left side menu, select the **Identity** under Security.
 
     ![](Images/extenssions.png)
 
@@ -19,7 +19,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
       ![](Images/turnonidentity.png)
       ![](Images/identityon.png)
       
-4. Now, Navigate to **Extensions + applications** from the left side menu.
+4. Now, Navigate to **Extensions + applications** under Settings from the left side menu.
    
     ![](Images/extenssions1.png)
 
@@ -33,7 +33,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
 
 7. You will be redirected to the **Configure Azure AD based SSH Login extension** page, now click on **Review + create** and then **Create** button. It should start the installation of the extension into your Redhat VM.
 
-    ![](Images/creasd.png)
+    ![](Images/15-07-2024.png)
     
     ![](Images/extensionds.png)
 
@@ -47,49 +47,8 @@ In this task, you will be enabling the AAD authentication using a VM extension a
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-### Task 2: Leveraging SSH to connect and authenticate Linux Servers on Azure 
 
-To improve the security of Linux virtual machines in Azure, you can integrate with Azure Active Directory (Azure AD) authentication. You can now use Azure AD as a core authentication platform and a certificate authority to SSH into a Linux VM by using Azure AD and OpenSSH certificate-based authentication. This functionality allows organizations to manage access to VMs with Azure role-based access control (RBAC) and Conditional Access policies.
-
-In this task, we are using Azure CloudShell to configure a Linux VM and log in with Azure AD by using OpenSSH certificate-based authentication.
-
-1. In the Azure portal `https://portal.azure.com`, select the Azure Cloud Shell icon from the top menu.
-
-   ![The Azure Cloud Shell icon is highlighted in the Azure portal's top menu.](Images/cloud-shell-icon.png "Azure Cloud Shell")
-
-2. In the Cloud Shell window that opens at the bottom of your browser window, select **PowerShell**.
-
-   ![In the Welcome to Azure Cloud Shell window, PowerShell is highlighted.](Images/cloud-shell-select-powershell.png "Azure Cloud Shell")
-
-3. If prompted about not having a storage account mounted, click on **Show advanced settings**. Select Create new under Storage account and provide values as below: 
-  
-      - **Resource Group**: Select **Use existing** then select **SmartHotelRG**
-      - **Storage account** : **storage<inject key="DeploymentID" enableCopy="false" />**
-      - **File Share** : **blob**
-
-   ![This is a screenshot of the cloud shell opened in a browser window. Powershell was selected.](Images/b4-image36.png "Azure Cloud Shell")
-
-4. After a moment, a message is displayed that you have successfully requested a Cloud Shell, and you are presented with a PS Azure prompt.
-
-   ![In the Azure Cloud Shell dialog, a message is displayed that requesting a Cloud Shell succeeded, and the PS Azure prompt is displayed.](Images/cloud-shell-ps-azure-prompt.png "Azure Cloud Shell")
-   
-5. At the prompt, login to the azure by entering the following PowerShell command.
-
-     ```
-     az login
-     ```
-  
-    > **Note:** Copy the login URL and enter the unique code in the browser. After that pick your account and click on **Continue** under Are you trying to sign in to Microsoft Azure CLI?
-  
-     ![](Images/azlogin.png)
-   
-6. Run the following commands to connect to the VM by using the name and resource group of the VM:
-
-      ```
-      az ssh vm -n redhat -g SmartHotelRG
-      ```
-  
-### Task 3: Azure auto manage
+### Task 2: Azure auto manage
 
 In this task, you will Enable Automanage on existing machines.
 
@@ -113,11 +72,11 @@ In this task, you will Enable Automanage on existing machines.
 
 5. On the Select **machines blade**:
 
-   a. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (2)**.
+   i. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (2)**.
    
-   b. Check the checkbox of **redhat (1)** virtual machine.
+   ii. Check the checkbox of **redhat (1)** virtual machine.
    
-   c. Click the **Review + Create (3)** button.
+   iii. Click the **Review + Create (3)** button.
    
    ![](Images/upd-redhatautomanage.png)
 
