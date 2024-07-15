@@ -59,7 +59,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
    - Under **Where do you want to migrate to?**, select **Azure VM (1)**
    - Under **Are your machines virtualized**, select **Yes, with Hyper-V (2)**.
    - Under **Target region (3)** make sure to select the **<inject key="Region"></inject>** region as same the Resource Group's region.
-   - Check the **Confirmation (4)** checkbox and select **Create resources (5)** to begin the deployment of the Azure Site Recovery resource used by Migration and modernization for Hyper-V migrations.
+   - Check the **Confirmation (4)** checkbox and select **Create resources (5)** to begin the deployment of the Azure Site Recovery resource used by Migration and Modernization for Hyper-V migrations.
 
      ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](Images/infra1.2.png "Discover machines - source hypervisor and target region")
 
@@ -270,69 +270,3 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
-### Task 6: Pointers around Azure Networking and Azure Network Security (Read only)
-
-Design and implementation of Azure networking is one of the most critical steps in migrating your infrastructure as a service (IaaS) and platform as a service (PaaS) implementations in Azure.
-
-#### Azure Networking Best Practises:
-
-- Assign an address space that is not larger than a CIDR range of /16 for each virtual network. Virtual networks allow for the use of 65,536 IP addresses. Assigning a smaller prefix than /16, such as a /15, which has 131,072 addresses, will result in the excess IP addresses becoming unusable elsewhere. It is important not to waste IP addresses, even if they're in the private ranges defined by RFC 1918.
-
-- The hub is an Azure virtual network that acts as a central point of connectivity. The spokes are virtual networks that connect to the hub virtual network by using peering. Shared services are deployed in the hub, while individual workloads are deployed as spokes.
-
-- To provide isolation within a virtual network, you segment it into one or more subnets and give a portion of the virtual network's address space to each subnet.
-
-- Azure adds a DNS server by default when you deploy a virtual network. You can use this server to rapidly build virtual networks and deploy resources.
-
-- DNS servers in a virtual network can forward DNS queries to the recursive resolvers in Azure. This forwarding enables you to resolve host names within that virtual network.
-
-- DNS forwarding allows VMs to see both your on-premises resources (via the domain controller) and Azure-provided host names (using the forwarder). You can access the recursive resolvers in Azure by using the virtual IP address 168.63.129.16.
-
-- DNS forwarding also enables DNS resolution between virtual networks and allows on-premises machines to resolve host names provided by Azure.
-
-- A VPN gateway is a specific type of virtual network gateway. It sends encrypted traffic between an Azure virtual network and an on-premises location over the public internet.
-
-- A VPN gateway can also send encrypted traffic between virtual networks in Azure over the Microsoft network. Each virtual network can have only one VPN gateway.
-
-
-#### Azure Network Security Best Practises:
-
-- Azure Site Recovery enables disaster recovery and migration to Azure for on-premises Hyper-V virtual machines, VMware virtual machines, and physical servers. For all on-premises to Azure scenarios, replication data is sent to and stored in an Azure Storage account.
-
-- Once VMs have been created after failover to Azure, NSGs can be used to limit network traffic to the virtual network and VMs. Site Recovery does not create NSGs as part of the failover operation.
-
-- We can create the required Azure NSGs before initiating failover. You can then associate NSGs to failed over VMs automatically during failover, using automation scripts with Site Recovery's powerful recovery plans.
-
-- Once the NSGs are created and configured, we can run a test failover to verify scripted NSG associations and post-failover VM connectivity.
-
-### Task 7:  Migrating VMware VMs to Azure (Read only)
-
-Azure Migrate is a free tool from Microsoft that allows VMware administrators to replicate their VMs from on-prem to Azure. It is an extremely powerful tool that even allows for pre-migration tests to run.
-
-Azure Migrate has two migration options:
-
-- Migration with a replication agent, requires an agent to be installed on each VM that is to be migrated.
-- Migration using agentless replication, requires an agentless format which requires no agent.
-
-**Discovery/Assessment**:
-
- Discover up to 10,000 VMware VMs with a single Azure Migrate appliance for VMware. The appliance supports adding multiple vCenter Servers. You can add up to 10 vCenter Servers per appliance.
-
-#### Agentless migration: 
-
-- Agentless migration uses the Azure Migrate appliance. You can deploy the appliance as a VMware VM using an OVA template, imported into the vCenter Server, or using a PowerShell script.
-
-- you can simultaneously replicate a maximum of 500 VMs across multiple vCenter Servers (discovered from one appliance) using a scale-out appliance.
-
-- If you are interested in learning more about Agentless migration, you can [read more here](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware).
-
-#### Agent-based migration: 
-
-- Agent-based migration does not use the Azure Migrate appliance. If you've set up an appliance for assessment, you can leave it in place, or remove it if you're done with assessment.
-
-- you can scale out the replication appliance to replicate large numbers of VMs.
-
-- If you are interested in learning more about Agent-based migration, you can [read more here](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware-agent).
-
-In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
