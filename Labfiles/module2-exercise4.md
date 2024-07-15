@@ -47,7 +47,6 @@ In this task, you will be enabling the AAD authentication using a VM extension a
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-
 ### Task 2: Azure auto manage
 
 In this task, you will Enable Automanage on existing machines.
