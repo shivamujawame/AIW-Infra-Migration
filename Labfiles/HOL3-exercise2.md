@@ -31,7 +31,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
    - Post-failover resource group: **SmartHotelRG (1)**
    
-   - Storage type: **storage account (2)**
+   - Storage type: **Storage account (2)**
 
    - Storage account: select the storage account created in the previous HOL **migrationstorage<inject key="DeploymentID" enableCopy="false" /> (3)** available in the drop-down list.   
    
@@ -70,4 +70,3 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
    
 **Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learn how to set up the source and target replication environments and create a replication policy to enable replication for a server.
-
