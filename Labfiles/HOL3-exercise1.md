@@ -16,7 +16,6 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
   
-  
 1. On the **Azure Arc** page, select **Machines (1)** under **Infrastructure**, click on **+Add/create (2)** and then **Add a Machine (3)**.
     
     ![Screenshot of the add server.](Images/HOL3E1S3.png "add server")
@@ -71,7 +70,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     ![Screenshot of the powershell.](Images/upd-powershell.png)
       
-1. In powershell, run the below command to set the execution policy as unrestricted.
+1. In PowerShell, run the below command to set the execution policy as unrestricted.
 
     ```
     Set-ExecutionPolicy -ExecutionPolicy unrestricted
@@ -96,7 +95,6 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     
     ![Screenshot of the server added.](Images/HOL3E1S17.png)
      
-
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
