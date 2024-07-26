@@ -53,7 +53,7 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 
     At the bottom of the Auto-provisioning template, click Apply.
    
-    ![Screenshot of the setup workspace](Images/hol3-e5-s6.png "setup workspace")
+    ![Screenshot of the setup workspace](Images/hol3-e5-s6(1).png "setup workspace")
     
      > **Note:** It might take up to 24-48 hours for all the changes to get reflected in your subscription successfully.
    
@@ -99,9 +99,9 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 
 ### Task 3:  Enable Azure Monitor
 
-1. In the **search resources, services and docs bar**, type **Azure Monitor** and select it from suggestions, as shown below:
+1. In the **search resources, services and docs bar**, type **Monitor** and select it from suggestions, as shown below:
 
-    ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
+    ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1(1).png "Azure Monitor")
     
 1. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here) and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azure migrate rg.
 
