@@ -1,6 +1,6 @@
 # Lab 01: Secure Infra workloads with Defender for Cloud 
 
-### Exercise 01: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
+### Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
 
 In this Guided Lab, you will learn how to enable enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will set up a Log Analytics workspace to collect logs and data of the resources and its information will be stored in a workspace.
 
@@ -17,27 +17,43 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
     
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-1. In the **search resources, services and docs bar**, type **Microsoft Defender for Cloud** and select it from suggestions, as shown below:
+2. In the **search resources, services and docs bar**, type **Microsoft Defender for Cloud** and select it from suggestions, as shown below:
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
     
     > **Note:** If you are prompted with a new upgrade pop-up, click on Skip.
     
-1. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
+3. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
 
     ![Screenshot of the search Microsoft Defender for Cloud settings.](Images/hol3-e5-s3.png "Microsoft Defender for Cloud settings") 
      
-1. On the **Defender plans** page, switch the plan blade **On for Servers (1)** and then click on **Save (2)**.    
+4. On the **Defender plans** page, switch the plan blade **On for Servers (1)** and then click on **Save (2)**.    
 
     ![Screenshot of the search Microsoft Defender plans](Images/hol3-e5-s4.png "Microsoft Defender plans")
     
-1. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade tab (2)** select **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)** workspace and click on **Upgrade (4)**.
+5. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade tab (2)** select **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)** workspace and click on **Upgrade (4)**.
 
-    ![Screenshot of the setup workspace](Images/hol3-e5-s5.png "setup workspace")
+    ![Screenshot of the setup workspace](Images/hol3-e5-s5(1).png "setup workspace")
 
-1. On the **Install Agents** tab, click on **Continue without Installing Agents**.
+6. From Defender for Cloud’s menu, open **Environment settings**.
 
-    ![Screenshot of the setup workspace](Images/hol3-e5-s6.png "setup workspace")
+7. Select the your subscription.
+
+8. In the Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring**.
+
+9. In the Log Analytics row, in the Configuration column, click **Edit configuration**.
+
+10. In the Auto-provisioning configuration template complete the following actions:
+
+    Under Workspace selection, click Custom workspace.
+
+    Click the dropdown menu and select your previously created workspace.
+
+    Under Security events storage, click the dropdown menu and, select All Events.
+
+    At the bottom of the Auto-provisioning template, click Apply.
+   
+    ![Screenshot of the setup workspace](Images/hol3-e5-s6(1).png "setup workspace")
     
      > **Note:** It might take up to 24-48 hours for all the changes to get reflected in your subscription successfully.
    
@@ -83,9 +99,9 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 
 ### Task 3:  Enable Azure Monitor
 
-1. In the **search resources, services and docs bar**, type **Azure Monitor** and select it from suggestions, as shown below:
+1. In the **search resources, services and docs bar**, type **Monitor** and select it from suggestions, as shown below:
 
-    ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1.png "Azure Monitor")
+    ![Screenshot of the search Azure Monitor.](Images/upd-e5-t3-s1(1).png "Azure Monitor")
     
 1. From the left pane, select **Log Analytics Workspaces (1)** present under Insights (You will see your subscription and all the workspaces in it, listed here) and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)** workspace under azure migrate rg.
 
