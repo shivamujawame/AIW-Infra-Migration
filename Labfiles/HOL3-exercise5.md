@@ -17,33 +17,53 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
     
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-2. In the **search resources, services and docs bar**, type **Microsoft Defender for Cloud** and select it from suggestions, as shown below:
+2. In the **search resources, services and docs bar**, type **Log Analytics Workspaces** and select it from suggestions, as shown below:
+
+    ![Screenshot of the search Microsoft Defender for Cloud.](Images/configureloganalyticsworkspaces.png "Microsoft Defender for Cloud")
+   
+4. Select **+Create** on the Log Analytics workspaces page.
+   
+5. Within the Create Log Analytics workspace pane, enter the following details:
+   
+   * Subscription: Select the default subscription.
+     
+   * Resource Group: **AzureMigrateRG**.
+     
+   * Name : Enter **AzureMigrateWS<inject key="Deployment ID" enableCopy="false"/>** .
+     
+   * Location: Select the default **location**.
+
+      ![Screenshot of the search Microsoft Defender for Cloud.](Images/configureinglaw.png "Microsoft Defender for Cloud")
+     
+6. Click on **review+create** then click on **Create** and wait for the deployment to complete.
+   
+7. once the deployment is completed, In the **search resources, services and docs bar**, type **Microsoft Defender for Cloud** and select it from suggestions, as shown below:
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
     
     > **Note:** If you are prompted with a new upgrade pop-up, click on Skip.
     
-3. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
+9. On the **Microsoft Defender for Cloud** page, click on **Environment settings (1)** and click on the **down arrow (2)** of your subscription name and click on **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)**.
 
     ![Screenshot of the search Microsoft Defender for Cloud settings.](Images/hol3-e5-s3.png "Microsoft Defender for Cloud settings") 
      
-4. On the **Defender plans** page, switch the plan blade **On for Servers (1)** and then click on **Save (2)**.    
+10. On the **Defender plans** page, switch the plan blade **On for Servers (1)** and then click on **Save (2)**.    
 
     ![Screenshot of the search Microsoft Defender plans](Images/hol3-e5-s4.png "Microsoft Defender plans")
     
-5. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade tab (2)** select **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)** workspace and click on **Upgrade (4)**.
+11. Go back to the **Getting started (1)** page Microsoft Defender for Cloud, under the **Upgrade tab (2)** select **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (3)** workspace and click on **Upgrade (4)**.
 
     ![Screenshot of the setup workspace](Images/hol3-e5-s5(1).png "setup workspace")
 
-6. From Defender for Cloud’s menu, open **Environment settings**.
+12. From Defender for Cloud’s menu, open **Environment settings**.
 
-7. Select the your subscription.
+13. Select the your subscription.
 
-8. In the Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring**.
+14. In the Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring**.
 
-9. In the Log Analytics row, in the Configuration column, click **Edit configuration**.
+15. In the Log Analytics row, in the Configuration column, click **Edit configuration**.
 
-10. In the Auto-provisioning configuration template complete the following actions:
+16. In the Auto-provisioning configuration template complete the following actions:
 
     Under Workspace selection, click Custom workspace.
 
