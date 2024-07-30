@@ -376,3 +376,15 @@ In the portal, you can select up to 10 machines at once for replication. To repl
 
 >**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
 
+- Here are the steps to delete the lab:
+
+1. On the environment page, click the **delete icon (1)** in the top right corner.
+   
+2. Ensure all validations are successful.
+   
+3. Click **Proceed to Delete (2)**.
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-1.jpg "Replication summary")
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-2.jpg "Replication summary")
+
