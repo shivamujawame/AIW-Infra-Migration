@@ -263,4 +263,4 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-migrate-6.png "Migrated resources")
 
->**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
+### Proceed to next 
