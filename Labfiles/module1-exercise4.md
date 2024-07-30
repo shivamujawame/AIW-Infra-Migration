@@ -107,3 +107,5 @@ In this task, you will Enable Automanage on existing machines.
 6. Click **Create**.
 
   ## You Have successfully completed the Lab
+
+  >**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
