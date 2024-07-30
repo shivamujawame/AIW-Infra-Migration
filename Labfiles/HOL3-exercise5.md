@@ -179,7 +179,21 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 
  <validation step="429df833-4ba9-4dcb-88e5-f48a509ac964" />
 
-
->**Note**: If you complete the lab ahead of the allotted time, please review and validate each step. Once validation is successful, you may proceed to delete the respective lab.
-
 **Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
+
+### You have successfully completed the lab.
+
+>**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the lab.
+
+- Here are the steps to delete the lab:
+
+1. On the environment page, click the **delete icon (1)** in the top right corner.
+   
+2. Ensure all validations are successful.
+   
+3. Click **Proceed to Delete (2)**.
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-1.jpg "Replication summary")
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-2.jpg "Replication summary")
+
