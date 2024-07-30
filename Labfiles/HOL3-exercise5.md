@@ -178,6 +178,8 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
  <validation step="429df833-4ba9-4dcb-88e5-f48a509ac964" />
-  
-    
+
+
+>**Note**: If you complete the lab ahead of the allotted time, please review and validate each step. Once validation is successful, you may proceed to delete the respective lab.
+
 **Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
