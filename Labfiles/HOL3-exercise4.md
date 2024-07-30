@@ -65,7 +65,15 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 1. On the **AzureArcVM** page, verify that the status of the VM is in **Running state**. 
 
     ![Screenshot of the vm-created status.](Images/hol3-e4-s13.png "vm-created status")
-     <validation step="f44dc9dc-f959-4f70-9cbd-09949f72c0fb" />
+
+   <validation step="f44dc9dc-f959-4f70-9cbd-09949f72c0fb" />
+   
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click on validate button.
+   > - If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 
 >**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
 
