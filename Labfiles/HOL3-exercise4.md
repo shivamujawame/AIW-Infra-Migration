@@ -67,4 +67,6 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
     ![Screenshot of the vm-created status.](Images/hol3-e4-s13.png "vm-created status")
      <validation step="f44dc9dc-f959-4f70-9cbd-09949f72c0fb" />
 
+>**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
+
 **Summary:** In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
