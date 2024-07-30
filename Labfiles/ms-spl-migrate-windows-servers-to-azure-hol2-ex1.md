@@ -374,3 +374,5 @@ Azure Migrate has two migration options:
 
 In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
 
+>**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
+
