@@ -106,6 +106,8 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     
 **Summary:** In this exercise, you explored how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that they can manage the Windows machine.
 
+### You have successfully completed the lab.
+
 >**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the lab.
 
 - Here are the steps to delete the lab:
