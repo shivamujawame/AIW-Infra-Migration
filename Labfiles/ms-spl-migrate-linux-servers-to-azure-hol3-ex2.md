@@ -257,9 +257,25 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
    > - If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-   
->**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the lab.
+
 
 #### Task summary 
 
 In this task, you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
+
+### You have successfully completed the lab.
+
+>**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the lab.
+
+- Here are the steps to delete the lab:
+
+1. On the environment page, click the **delete icon (1)** in the top right corner.
+   
+2. Ensure all validations are successful.
+   
+3. Click **Proceed to Delete (2)**.
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-1.jpg "Replication summary")
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-2.jpg "Replication summary")
+
