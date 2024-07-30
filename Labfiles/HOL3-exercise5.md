@@ -21,7 +21,7 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 
     ![Screenshot of the search Microsoft Defender for Cloud.](Images/configureloganalyticsworkspaces.png "Microsoft Defender for Cloud")
    
-4. Select **+Create** on the Log Analytics workspaces page.
+4. Select **+ Create** on the Log Analytics workspaces page.
    
 5. Within the Create Log Analytics workspace pane, enter the following details:
    
@@ -35,7 +35,7 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 
       ![Screenshot of the search Microsoft Defender for Cloud.](Images/configureinglaw.png "Microsoft Defender for Cloud")
      
-6. Click on **review+create** then click on **Create** and wait for the deployment to complete.
+6. Click on **Review + Create** then click on **Create** and wait for the deployment to complete.
    
 7. once the deployment is completed, In the **search resources, services and docs bar**, type **Microsoft Defender for Cloud** and select it from suggestions, as shown below:
 
