@@ -114,13 +114,13 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
 1. From the left pane, select **Analytics** present under _Configuration_. You can create custom analytics rules to help discover threats and anomalous behaviours in your environment. (Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.) 
 
     ![Screenshot of the Analytics.](Images/hol3-e5-t2-s6.png "Analytics")
-   
-    <validation step="2bc40646-bf54-4cb9-bfad-e02d398693c8" />
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click on validate button.
-    > - If you receive a success message, you can proceed to the next task.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="2bc40646-bf54-4cb9-bfad-e02d398693c8" />
 
 ### Task 3:  Enable Azure Monitor
 
@@ -172,11 +172,12 @@ In this Guided Lab, you will learn how to enable enhanced security features by e
     
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")
 
-    <validation step="429df833-4ba9-4dcb-88e5-f48a509ac964" />
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click on validate button.
-    > - If you receive a success message, you can proceed to the next task.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+ <validation step="429df833-4ba9-4dcb-88e5-f48a509ac964" />
+  
     
 **Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
