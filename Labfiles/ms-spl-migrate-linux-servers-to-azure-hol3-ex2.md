@@ -5,6 +5,8 @@
 ### Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs
 
 ### Task 1: Review your on-prem Hyper-V Linux Server and OSS DB
+
+In this task, you will access the Hyper-V Manager to start and connect to the redhat VM, which contains an OSS Database. You'll log into this Red Hat server, preparing it for migration to Azure using Azure Migrate.
  
 1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 
@@ -31,6 +33,9 @@
     ![Screenshot of the Azure Migrate appliance terms of use.](Images/redhathome.png "Desktop shortcut")
 
 1. In the next task you will be migrating the Redhat server, and the OSS Database hosted in the Red Hat VM to the Azure with the help of Azure Migrate.
+
+#### Task summary
+You successfully logged into the Red Hat VM within Hyper-V Manager, and you are now ready to migrate the server and its OSS Database to Azure using Azure Migrate in the next task.
 
 ### Task 2: Register the Hyper-V Host with Migration and modernization
 
