@@ -263,4 +263,12 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-migrate-6.png "Migrated resources")
 
+#### Task summary
+
+In this task, I migrated the **UbuntuWAF**, **smarthotelweb1**, and **smarthotelweb2** VMs to Azure. I initiated the migration process, monitored progress, and confirmed the successful creation of the resources in the **SmartHotelHostRG** resource group.
+
+### Summary
+
+In this lab, you had learned to migrate Windows Servers from Hyper-V to Azure using Azure Migrate: Server Migration. Created a storage account for migration data, registered the Hyper-V host with Azure Migrate, and enabled replication of on-premises VMs. Configured static private IP addresses for the replicated VMs and performed their migration to Azure, ensuring successful deployment and resource creation in the target resource group.
+
 ### Proceed to next 
