@@ -374,6 +374,10 @@ Azure Migrate has two migration options:
 
 In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
 
+#### Summary 
+
+In this lab, you learned to migrate Windows Servers from Hyper-V to Azure using Azure Migrate: Server Migration. You created a storage account for migration data, registered your Hyper-V host with Azure Migrate, and configured replication for virtual machines. You then set up networking with static IPs for replicated VMs, performed a migration, and reviewed network and security best practices. The lab covered the essentials of discovery, replication, and migration to Azure.
+
 ### You have successfully completed the lab.
 
 >**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
