@@ -76,5 +76,8 @@ In this task, I configured Azure Site Recovery (ASR) to replicate on-premises Hy
 
    <validation step="6f4ede7d-d07d-4209-b748-c272002a4085" />
    
-**Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learn how to set up the source and target replication environments and create a replication policy to enable replication for a server.
+### Summary
 
+In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learn how to set up the source and target replication environments and create a replication policy to enable replication for a server.
+
+### Proceed to next
