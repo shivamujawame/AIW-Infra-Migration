@@ -74,7 +74,9 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 
    <validation step="f44dc9dc-f959-4f70-9cbd-09949f72c0fb" />
 
-**Summary:** In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
+### Summary
+
+In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
 
 ### You have successfully completed the lab.
 
