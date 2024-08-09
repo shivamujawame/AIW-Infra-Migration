@@ -263,10 +263,13 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-
 #### Task summary 
 
 In this task, you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
+
+### Summary
+
+In this lab, you began by reviewing your on-prem Hyper-V Red Hat VM and OSS Database, preparing them for migration using Azure Migrate. You then registered the Hyper-V host with Azure Migrate and deployed the Azure Site Recovery Provider. Following this, you enabled replication of the Red Hat VM to Azure, configured static private IP addresses to match on-premises settings, and completed the migration of the VM to Azure. The lab concluded with verifying the migration and ensuring that all resources were correctly created in the Azure environment.
 
 ### You have successfully completed the lab.
 
