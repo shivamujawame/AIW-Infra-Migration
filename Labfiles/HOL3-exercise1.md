@@ -18,7 +18,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
    
-1. On the **Azure Arc** page, select **Machines (1)** under **Azure arc resources** and then click on **+Add/Create (2)** and select **Add a Machine(3)**.
+1. On the **Azure Arc** page, select **Machines (1)** under **Azure arc resources** and then click on **+ Add/Create (2)** and select **Add a Machine (3)**.
     
     ![Screenshot of the add server.](Images/azure_machines.png "add server")
     
@@ -77,7 +77,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    * ```
      Set-ExecutionPolicy -ExecutionPolicy unrestricted
      ```
-   > **Note:** "If you are asked, **'Do you want to change the execution policy?'**, type **Y** to confirm."
+   > **Note:** "If you're prompted with **'Do you want to change the execution settings?'**, just type **Y** to confirm."
    
 1. Now, run the whole script that you copied in the notepad earlier in step 7.
 
