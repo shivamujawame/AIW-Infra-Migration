@@ -77,7 +77,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    * ```
      Set-ExecutionPolicy -ExecutionPolicy unrestricted
      ```
-   > **Note:** "If you're prompted with **'Do you want to change the execution settings?'**, just type **Y** to confirm."
+   > **Note:** "If you're prompted with **'Do you want to change the execution Policy?'**, just type **Y** to confirm."
    
 1. Now, run the whole script that you copied in the notepad earlier in step 7.
 
