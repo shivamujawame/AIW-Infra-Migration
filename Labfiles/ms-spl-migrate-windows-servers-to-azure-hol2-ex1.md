@@ -116,7 +116,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 1. The **Migration and Modernization** panel should now show 7 discovered servers.
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
-      <validation step="9fc36ce0-cb51-4b57-82c8-d39b098ff703" />
+      <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
 
 #### Task summary 
 
@@ -196,7 +196,7 @@ In this task, you will configure and enable the replication of your on-premises 
      ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-replicate-09.png "Replication status")
 
        > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
-        <validation step="6ac8790a-4aa0-4be6-aa43-ac679c533192" />
+        <validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
 
 #### Task summary 
 
@@ -269,7 +269,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 6. Navigate to the **SmartHotelHostRG** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-migrate-6.png "Migrated resources")
-     <validation step="f67f3b8c-a957-47d5-bbdf-40efc2c5266e" />
+     <validation step="e4fc8753-2a84-4e27-8b12-cb43582a0e6c" />
 
 #### Task summary 
 
