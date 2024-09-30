@@ -1,6 +1,6 @@
 ## HOL2: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
-### Estimated time: 60 minutes
+### Estimated time: 40 minutes
 
 In this exercise, you will enable Azure Active Directory (AAD) authentication and Managed Identity on virtual machines by deploying a VM extension. Additionally, you'll activate Automanage on existing machines to streamline configuration and monitoring. This process simplifies identity management and automates the operational tasks necessary for managing VMs efficiently in Azure, ensuring enhanced security and compliance across your cloud environment.
 
@@ -93,7 +93,7 @@ In this task, you will Enable Automanage on existing machines.
 
 6. Click on **Create**.
 
-7. Once the Configuration profile assignment is completed successfully, it will take around 20-30 minutes to get the Status as Conformant.
+7. Once the Configuration profile assignment is completed successfully, it will take around 5-10 minutes to get the Status as Conformant.
 
 ### Summary
 
