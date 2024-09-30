@@ -1,6 +1,19 @@
 ## HOL1: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
+### Estimated time: 20 minutes
+
+In this exercise you will focuses on enhancing business resilience through the use of Azure Virtual Machine Scale Sets (VMSS). It involves creating and deploying a specialized virtual machine image, which is captured and stored in a gallery named "imagemigration." Additionally, a VM scale set called "migrationscaleset" is established to showcase Azure's scalability and business continuity capabilities. As part of this process, you will also enable Automanage on existing machines to streamline management and optimize performance.
+
+## Lab objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Using VM Scale Sets to Drive Business Resiliency
+- Task 2: Azure auto manage
+
 ### Task 1: Using VM Scale Sets to Drive Business Resiliency
+
+In this task, you will be using Azure Virtual Machine Scale Sets (VMSS) to improve business resilience by creating and deploying a specialized virtual machine image. The image is captured and stored in a gallery called imagemigration, and a VM scale set named migrationscaleset is created, demonstrating Azure's scalability and business continuity capabilities.
 
 1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -99,3 +112,9 @@ In this task, you will Enable Automanage on existing machines.
    ![](Images/updt-existing-vm-select-machine.png)
 
 6. Click **Create**.
+
+### Task summary 
+
+In this exercise, you focused on enhancing business resilience through the use of Azure Virtual Machine Scale Sets (VMSS). It involved creating and deploying a specialized virtual machine image, which was captured and stored in a gallery named "imagemigration." Additionally, a VM scale set called "migrationscaleset" was established to showcase Azure's scalability and business continuity capabilities. As part of this process, Automanage was enabled on existing machines to streamline management and optimize performance.
+
+Click on **Next** from the lower right corner to move on to the next page.

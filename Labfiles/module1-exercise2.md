@@ -242,7 +242,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
-#### Task summary 
+### Task summary 
 
 In this exercise, you created and configured a migration assessment in Azure Migrate and its dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
 
