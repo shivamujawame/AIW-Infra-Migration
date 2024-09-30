@@ -1,6 +1,6 @@
 ## HOL3: Exercise 2: Configure ASR for on-premises infrastructure
 
-### Estimated time:
+### Estimated time: 30 minutes
 
 In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to Azure. The Azure Site Recovery service contributes to your disaster-recovery strategy by managing and orchestrating replication, failover, and failback of on-premises machines. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
@@ -71,11 +71,12 @@ In this exercise, you will complete the following task:
 
     ![Screenshot of the status-protected.](Images/hol3-e2-s13.png "status-protected")
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    - If you receive a success message, you can proceed to the next task.
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
+    <validation step="a173ef6e-b637-4954-b652-309ef10b6968" />
    
 ### Summary 
 
