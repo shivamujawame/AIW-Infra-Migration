@@ -4,6 +4,12 @@
 
 In this exercise, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in several scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
 
+## Lab objectives
+
+In this exercise, you will complete the following task:
+
+- Task 1: Configure dependency visualization
+
 ### Task 1: Configure dependency visualization
 
 When migrating a workload to Azure, it is important to understand all workload dependencies. A broken dependency could mean that the application doesn't run properly in Azure, perhaps in hard-to-detect ways. Some dependencies, such as those between application tiers, are obvious. Other dependencies, such as DNS lookups, Kerberos ticket validation or certificate revocation checks, are not.
@@ -96,3 +102,5 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 #### Task summary 
 
 In this task, you configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on a Linux on-premises machine.
+
+Click on **Next** from the lower right corner to move on to the next page.

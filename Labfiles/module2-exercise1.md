@@ -1,6 +1,6 @@
 # HOL 2: Migrate and modernize Linux & OSS DB workloads to Azure
 
-### Estimated time: 25 minutes
+### Estimated time: 10 minutes
 
 In this HOL, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
 
@@ -33,7 +33,7 @@ In this task, you will review the environment discovered in Azure Migrate. After
  
     ![Screenshot of the Azure migrate overview blade.](Images/Azmigrate.png "Azmigrate Overview blade")
 
-4. Under **Azure Migrate: Discovery and assessment**, you'll see 7 discovered servers. We have already migrated 3 servers in the previous HOL and now we will be migrating and modernizing the Redhat and OSS DB in this HOL
+4. Under **Migration goals**, select **Servers, databases and web apps** and then under **Azure Migrate: Discovery and assessment** you'll see 7 discovered servers. We have already migrated 3 servers in the previous HOL and now we will be migrating and modernizing the Redhat and OSS DB in this HOL
  
     ![](Images/newhol2.png)
  
