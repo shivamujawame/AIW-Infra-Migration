@@ -1,6 +1,6 @@
 # HOL 3: Onboard On-prem servers to Azure Arc-enabled server
 
-### Estimated time: 
+### Estimated time: 15 minutes
 
 In this HOL, you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
 
