@@ -14,7 +14,7 @@ In this HOL, you will complete the following exercises:
 - Exercise 2: Configure ASR for on-premises infrastructure
 - Exercise 3: Setup test failover
 - Exercise 4: Failover the infrastructure to Azure Cloud
-- Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
+- Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics
 - Exercise 6: Azure Governance (Read Only)
 - Exercise 7: Business case analysis capability (read-only)
 
