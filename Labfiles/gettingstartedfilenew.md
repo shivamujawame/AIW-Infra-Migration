@@ -1,4 +1,4 @@
-# Infrastructure Migration
+# Azure Migrate
 
 ## Overall Estimated Duration: 8 hours  
 
