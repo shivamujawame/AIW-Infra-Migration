@@ -2,7 +2,7 @@
 
 ### Estimated time: 30 minutes
 
-In this lab, you'll assess the migration readiness of the SmartHotel application using Azure Migrate. First, you'll create an assessment for selected VMs, setting up and grouping them to generate a report that shows whether they're ready for migration to Azure.
+In this exercise, you'll assess the migration readiness of the SmartHotel application using Azure Migrate. First, you'll create an assessment for selected VMs, setting up and grouping them to generate a report that shows whether they're ready for migration to Azure.
 
 Next, you'll configure dependency visualization by installing monitoring agents on the VMs. This will help you map out and understand the dependencies between different application parts, ensuring everything works properly before migrating to Azure.
 
