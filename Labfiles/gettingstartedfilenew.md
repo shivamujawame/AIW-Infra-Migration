@@ -39,7 +39,7 @@ This diagram shows the process of migrating an on-premises SQL Server database t
 
 ## Getting Started with Lab
  
-Welcome to **Migrate Windows Server to Azure** workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to the **Migrate Windows Server to Azure** workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
@@ -83,7 +83,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
 
-
 ## Let's Get Started with Azure Portal
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
@@ -106,12 +105,24 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
    
-6. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+6. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
      ![](Images/select-rg.png "Resource groups")
    
-7. Confirm you have all resource group are present as shown below.
+7. Confirm you have all resource groups present as shown below.
 
      ![](Images/upimage10.png "Resource groups")
-   
-8. Now, click on the **Next** from lower right corner to move on next page.
+
+## Support Contact
+ 
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+- Email Support: labs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+ 
+   ![](./media/10.png)
+
+### Happy Learning!!
