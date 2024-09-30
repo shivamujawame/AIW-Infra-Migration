@@ -1,5 +1,17 @@
 ## HOL2: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
+### Estimated time: 60 minutes
+
+In this exercise, you will enable Azure Active Directory (AAD) authentication and Managed Identity on virtual machines by deploying a VM extension. Additionally, you'll activate Automanage on existing machines to streamline configuration and monitoring. This process simplifies identity management and automates the operational tasks necessary for managing VMs efficiently in Azure, ensuring enhanced security and compliance across your cloud environment.
+
+## Lab objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Getting Started with Azure Active Directory for Linux
+- Task 2: Azure auto manage
+
+
 ### Task 1: Getting Started with Azure Active Directory for Linux 
 
 In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
@@ -57,11 +69,11 @@ In this task, you will Enable Automanage on existing machines.
 
 2. In the search bar, search for and select **Automanage**.
 
-3. Under **Automanage machines (1)**, select the **+ Enable on existing machine (2)**.
+3. Select **Automanage machines (1)** under Azure machine best practices and click on **+ Enable on existing machine (2)**.
    
    ![](Images/upd-zero-vm-list-view.png)
 
-4. Under **Configuration profile**, select your profile type: **Azure Best Practices - Production or Azure Best Practices - Dev/Test or Custom profile**.
+4. Under **Configuration profile**, select your profile type: **Azure Best Practices - Production or Azure Best Practices - Dev/Test or Custom profile** and select **Next: Machines >**.
    
    ![](Images/upd-existing-vm-quick-create.png)
    
@@ -82,3 +94,9 @@ In this task, you will Enable Automanage on existing machines.
 6. Click on **Create**.
 
 7. Once the Configuration profile assignment is completed successfully, it will take around 20-30 minutes to get the Status as Conformant.
+
+### Task summary
+
+In this exercise, you enabled Azure Active Directory (AAD) authentication and Managed Identity on virtual machines by deploying a VM extension. Additionally, you activated Automanage on existing machines to streamline configuration and monitoring. This process simplified identity management and automated the operational tasks necessary for managing VMs efficiently in Azure, ensuring enhanced security and compliance across the cloud environment.
+
+Click on **Next** from the lower right corner to move on to the next page.
