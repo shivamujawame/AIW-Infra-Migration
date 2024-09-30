@@ -1,5 +1,18 @@
 ## HOL1: Exercise 2: Set up your environment on Azure to migrate servers
 
+### Estimated time: 30 minutes
+
+In this lab, you'll assess the migration readiness of the SmartHotel application using Azure Migrate. First, you'll create an assessment for selected VMs, setting up and grouping them to generate a report that shows whether they're ready for migration to Azure.
+
+Next, you'll configure dependency visualization by installing monitoring agents on the VMs. This will help you map out and understand the dependencies between different parts of the application, ensuring everything works properly before migrating to Azure.
+
+## Lab objectives
+
+In this Exercise, you will complete the following tasks:
+
+- Task 1: Create a migration assessment
+- Task 2: Configure dependency visualization
+
 ### Task 1: Create a migration assessment
 
 In this task, you will use Azure Migrate to create a migration assessment for the SmartHotel application, using the data gathered during the discovery phase.
@@ -21,9 +34,9 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Assessment name: Enter **SmartHotelAssessment (1)** 
      1. Select or create a group: Choose **Create new (2)**  
      1. Enter the Group name: **SmartHotel VMs (3)**
-     1. Add machines to the Group:  Select **SmarthotelAppl(Hyper-V) (4)** from dropdown.
+     1. Add machines to the Group:  Select **SmarthotelAppl (Hyper-V) (4)** from dropdown.
      1. Select the **smarthotelweb1**, **smarthotelweb2**, **UbuntuWAF**, and **redhat** VMs **(5)**
-     1. Click on **Next: Review + Create assessment > (6)**.
+     1. Click on **Next: Review + create assessment > (6)**.
 
         ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/updt-hol1-e2-t1-s4.png "Assessment VM group")
 
@@ -232,3 +245,5 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 #### Task summary 
 
 In this exercise, you created and configured a migration assessment in Azure Migrate and its dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
+
+Click on **Next** from the lower right corner to move on to the next page.
