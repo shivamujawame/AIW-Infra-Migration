@@ -25,9 +25,9 @@ In this task, you will be using Azure Virtual Machine Scale Sets (VMSS) to impro
 
 4. Select **smarthotelweb1** VM to create image.
 
-2. On the page for the VM, on the upper menu, select **Capture**.
+2. On the page for the VM, on the upper menu, select **Capture > Image**.
    
-   ![](Images/upd-capture.png)
+   ![](Images/30-09-2024(8).png)
 
 4. To create the image in a gallery, select **Yes, share it to a gallery as an image version** under **Instance details**.
 
@@ -69,7 +69,7 @@ In this task, you will be using Azure Virtual Machine Scale Sets (VMSS) to impro
 
 14. Select the License type as **Window server**.
 
-     ![](Images/upd-License.png)
+     ![](Images/30-09-2024(9).png)
 
 15. Select **Review + create** and then **Create**.
 
