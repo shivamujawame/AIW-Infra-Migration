@@ -1,6 +1,14 @@
 ## HOL3: Exercise 2: Configure ASR for on-premises infrastructure
 
+### Estimated time:
+
 In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to Azure. The Azure Site Recovery service contributes to your disaster-recovery strategy by managing and orchestrating replication, failover, and failback of on-premises machines. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
+
+## Lab objectives
+
+In this exercise, you will complete the following task:
+
+- Task 1: Configure ASR to on-premises infrastructure
 
 ### Task 1: Configure ASR to on-premises infrastructure
 
@@ -41,7 +49,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
    
    - Leave other values as default and click on **Next (6)**
    
-    ![Screenshot of the target environment.](Images/hol3-ex2-task1-step7.png "Source environment")    
+     ![Screenshot of the target environment.](Images/hol3-ex2-task1-step7.png "Source environment")    
     
 1. Under **Virtual machine selection** tab, **check for AzureArcVM (1)** and click on **Next (2)**.
 
@@ -69,4 +77,8 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
    
-**Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learn how to set up the source and target replication environments and create a replication policy to enable replication for a server.
+### Summary 
+
+In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learn how to set up the source and target replication environments and create a replication policy to enable replication for a server.
+
+Click on **Next** from the lower right corner to move on to the next page.

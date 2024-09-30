@@ -1,6 +1,16 @@
 ## HOL3: Exercise 4: Failover the infrastructure to Azure Cloud
 
+### Estimated time:
+
 In this exercise, you will deploy the Failover from on-premises to Azure. After setting up replication to Azure for on-premises machines, when your on-premises site goes down, you fail those machines over to Azure. After failover, Azure VMs are created from replicated data.
+
+## Lab objectives
+
+In this exercise, you will complete the following task:
+
+- Task 1: Failover the infrastructure to Azure Cloud
+
+### Task 1: Failover the infrastructure to Azure Cloud
 
 1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
    
@@ -72,4 +82,8 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-**Summary:** In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
+### Summary
+
+In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
+
+Click on **Next** from the lower right corner to move on to the next page.

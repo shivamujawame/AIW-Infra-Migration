@@ -1,10 +1,25 @@
-# HOL 3: Exercise 1: Run workloads anywhere with Azure cloud services.
+# HOL 3: Onboard On-prem servers to Azure Arc-enabled server
 
-In this HOL you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
+### Estimated time: 
 
-Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers that are not ideal candidates for migration. 
+In this HOL, you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
 
-### Task 1: Onboard On-prem servers to Azure Arc-enabled server.
+Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers that are not ideal candidates for migration.
+
+## Lab objectives
+
+In this HOL, you will complete the following exercises:
+
+- Exercise 1: Run workloads anywhere with Azure cloud services
+- Exercise 2: Configure ASR for on-premises infrastructure
+- Exercise 3: Setup test failover
+- Exercise 4: Failover the infrastructure to Azure Cloud
+- Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
+- Exercise 6: Azure Governance (Read Only)
+- Exercise 7: Business case analysis capability (read-only)
+
+
+### Exercise 1: Run workloads anywhere with Azure cloud services
 
 In this exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
 
@@ -91,7 +106,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
      
  1. Close the AzureArcVM, navigate to the Azure portal go back to the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
 
-    **Note:** The name of the new server added could be different. You might have to refresh to see the new server.
+    >**Note:** The name of the new server added could be different. You might have to refresh to see the new server.
     
     ![Screenshot of the server added.](Images/HOL3E1S17.png)
      
@@ -101,4 +116,8 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
     
-**Summary:** In this exercise, you explored how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt  about creating Azure Arc-enabled servers so that they can manage the Windows machine.
+### Summary
+
+In this exercise, you explored how to deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure. You learnt about creating Azure Arc-enabled servers so that they can manage the Windows machine.
+
+Click on **Next** from the lower right corner to move on to the next page.

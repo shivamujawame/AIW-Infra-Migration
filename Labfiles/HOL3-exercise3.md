@@ -1,6 +1,16 @@
 ## HOL3: Exercise 3: Setup test failover
 
+### Estimated time:
+
 In this exercise, you will deploy a Test Failover to the replicated Virtual Machine which allows you to test the sanity of the virtualized workload without interrupting your production workload or ongoing replication.
+
+## Lab objectives
+
+In this exercise, you will complete the following task:
+
+- Task 1: Setup test failover
+
+### Task 1: Setup test failover
 
 1. On the **Recovery Service Vault page**, click on **Replicated Items (1)** under **Protected Items** and select **AzureArcVM (2)** that you replicated in the previous exercise.     
     ![Screenshot of the replicate items.](Images/hol3-e3-s2.png "replicate items") 
@@ -33,4 +43,8 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
     
    > **Note:** Please make sure you run the **validation steps** for this task before moving to the next exercise as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Failover completed** as you will be performing cleanup test failover to set up the failover in the next exercise.
 
-**Summary:** In this exercise, you learnt how to validate the replication and disaster recovery strategy by testing a failover, that too without any data loss or downtime.
+### Summary 
+
+In this exercise, you learnt how to validate the replication and disaster recovery strategy by testing a failover, that too without any data loss or downtime.
+
+Click on **Next** from the lower right corner to move on to the next page.

@@ -1,13 +1,25 @@
 ## HOL3: Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
 
-In this HOL, you will learn how to enable enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will set up a Log Analytics workspace to collect logs and data of the resources and its information will be stored in a workspace.
+### Estimated time:
+
+In this exercise, you will learn how to enable enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will set up a Log Analytics workspace to collect logs and data of the resources and its information will be stored in a workspace.
 
 > **Note:** 
 > - Microsoft Defender for Cloud, Azure Sentinel and Monitor Insights can take several hours to surface after the completion of a scan.
 > - At this point of the workshop, only a limited number of data visualizations may be populated. (So the result in the screenshots below may vary)
 > - The screenshots and information below, have been provided so that you can conceptualise the type of graphs and output that can be gleaned from a fully populated environment.
 
+## Lab objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Enable Microsoft Defender for Cloud
+- Task 2: Enable Microsoft Sentinel
+- Task 3:  Enable Azure Monitor
+
 ### Task 1: Enable Microsoft Defender for Cloud
+
+In this task, you will enable Microsoft Defender for Cloud to enhance the security of your Azure environment.
 
 1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -49,6 +61,8 @@ In this HOL, you will learn how to enable enhanced security features by enabling
 
 ### Task 2: Enable Microsoft Sentinel
 
+In this task, you will create and enable Microsoft Sentinel and review the Content Hub for enhanced security monitoring and threat detection in your Azure environment.
+
 1. In the **search resources, services and docs bar**, type **Microsoft Sentinel** and select it from suggestions, as shown below:
 
     ![Screenshot of the search Microsoft Sentinel.](Images/e5-t2-s1.png "Microsoft Sentinel")
@@ -85,7 +99,9 @@ In this HOL, you will learn how to enable enhanced security features by enabling
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-### Task 3:  Enable Azure Monitor
+### Task 3: Enable Azure Monitor
+
+In this task, you will enable Azure Monitor to track and manage the performance and health of your Azure resources, and you can check the insights for detailed analytics.
 
 1. In the **search resources, services and docs bar**, type **Monitor** and select it from suggestions, as shown below:
 
@@ -132,4 +148,8 @@ In this HOL, you will learn how to enable enhanced security features by enabling
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
     
-**Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
+### Summary
+
+In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
+
+Click on **Next** from the lower right corner to move on to the next page.
