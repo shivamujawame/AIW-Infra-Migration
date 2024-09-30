@@ -1,10 +1,10 @@
 [
   {
-    "Name": "Azure Immersion Workshops : Infrastructure Migration",
+    "Name": "Azure Immersion Workshops: Infrastructure Migration",
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/refs/heads/main/Labfiles/gettingstartedfilenew.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/refs/heads/main/Labfiles/gettingstartedfilenew.md",
         "Order": 1
       },
        {
