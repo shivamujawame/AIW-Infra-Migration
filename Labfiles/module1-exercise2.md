@@ -4,11 +4,11 @@
 
 In this lab, you'll assess the migration readiness of the SmartHotel application using Azure Migrate. First, you'll create an assessment for selected VMs, setting up and grouping them to generate a report that shows whether they're ready for migration to Azure.
 
-Next, you'll configure dependency visualization by installing monitoring agents on the VMs. This will help you map out and understand the dependencies between different parts of the application, ensuring everything works properly before migrating to Azure.
+Next, you'll configure dependency visualization by installing monitoring agents on the VMs. This will help you map out and understand the dependencies between different application parts, ensuring everything works properly before migrating to Azure.
 
 ## Lab objectives
 
-In this Exercise, you will complete the following tasks:
+In this exercise, you will complete the following tasks:
 
 - Task 1: Create a migration assessment
 - Task 2: Configure dependency visualization
@@ -25,7 +25,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
     ![Screenshot of the Azure Migrate 'Assess servers' blade, showing the assessment name.](Images/H1E2T1S2.png "Assess servers - assessment name")
 
-3. The **Assessment settings** blade allows you to tailor many of the settings used when making a migration assessment report. Take a few moments to explore the wide range of assessment properties. Hover over the information icons to see more details on each setting. Choose any settings you like, then select **Save**. (You have to make a change for the Save button to be enabled; if you don't want to make any changes, just close the blade.)
+3. The **Assessment settings** blade allows you to tailor many settings used when making a migration assessment report. Take a few moments to explore the wide range of assessment properties. Hover over the information icons to see more details on each setting. Choose any settings you like, then select **Save**. (You have to make a change for the Save button to be enabled; if you don't want to make any changes, close the blade.)
 
     ![Screenshot of the Azure Migrate 'Assessment properties' blade, showing a wide range of migration assessment settings.](Images/upd-assessment2.png "Assessment properties")
 
@@ -34,7 +34,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Assessment name: Enter **SmartHotelAssessment (1)** 
      1. Select or create a group: Choose **Create new (2)**  
      1. Enter the Group name: **SmartHotel VMs (3)**
-     1. Add machines to the Group:  Select **SmarthotelAppl (Hyper-V) (4)** from dropdown.
+     1. Add machines to the Group:  Select **SmarthotelAppl (Hyper-V) (4)** from the dropdown.
      1. Select the **smarthotelweb1**, **smarthotelweb2**, **UbuntuWAF**, and **redhat** VMs **(5)**
      1. Click on **Next: Review + create assessment > (6)**.
 
@@ -95,7 +95,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/h1-e2-t2-s3.png "OMS Workspace settings")
 
-     > **Note**: If you don't see the workspace here. You can attempt to close and reopen the Workspace, or alternatively, you can try refreshing the browser page. This may have been caused by a temporary error in the portal.
+     > **Note**: If you don't see the workspace here. You can attempt to close and reopen the Workspace, or you can try refreshing the browser page. This may have been caused by a temporary error in the portal.
 
 7. Select **Agents (1)** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID (2)** and **Primary Key (3)** (for example by using Notepad).
 
