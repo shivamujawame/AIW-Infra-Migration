@@ -149,7 +149,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
     -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
     -  Where do you want to migrate to? : Select **Azure VM** **(2)**
-    -  Are your machines virtualized? : Select **Yes, with Hyper-V (3)** 
+    -  Are your machines virtualized? : Select **Yes, with Hyper-V (3)**
     -  Click on **Continue (4)**
 
        ![](Images/30-09-2024(3).png)

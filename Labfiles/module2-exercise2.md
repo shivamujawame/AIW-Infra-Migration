@@ -1,6 +1,6 @@
 ## HOL2: Exercise 2: Set up your environment on Azure to migrate servers
 
-### Estimated time: 20 minutes
+### Estimated time: 30 minutes
 
 In this exercise, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in several scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
 

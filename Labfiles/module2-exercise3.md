@@ -1,4 +1,15 @@
-## HOL2: Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs. 
+## HOL2: Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs
+
+In this exercise you will review the registered Hyper-V host, LabVM, using Azure Site Recovery as the migration engine. The Azure Site Recovery Provider was deployed in a previous hands-on lab. Next, configure and enable replication of on-premises virtual machines from Hyper-V to Azure Migrate Server Migration service. Modify settings for replicated virtual machines to align with on-premises IP addresses. Finally, execute the migration of the Red Hat virtual machine to Azure for a seamless transition to the cloud environment.
+
+## Lab objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Register the Hyper-V Host with Migration and modernization
+- Task 2: Enable Replication from Hyper-V to Azure Migrate
+- Task 3: Configure Networking
+- Task 4: Server migration
 
 ### Task 1: Register the Hyper-V Host with Migration and modernization
 
@@ -30,13 +41,10 @@ In this task, you will configure and enable the replication of your on-premises 
 
     -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
     -  Where do you want to migrate to? : Select **Azure VM** **(2)**
-    -  Click on **Continue (3)**
+    - Are your machines virtualized? : Select **Yes, with Hyper-V (3)**
+    -  Click on **Continue (4)**
 
-        ![](Images/specifi%20intent.png)
-
-3. In the **Basics settings** tab, under **Are your machines virtualized?**, select **Yes, with Hyper-V** from the drop-down. Then select **Next**.
-
-    ![Screenshot of the 'Source settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Hyper-V replication is selected.](Images/upd-replicate-2.png "Replicate - Source settings")
+        ![](Images/30-09-2024(3).png)
 
 4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment (1)**. Select the **SmartHotel VMs (2)** VM group and the **SmartHotelAssessment (3)** migration assessment.
 
@@ -60,7 +68,7 @@ In this task, you will configure and enable the replication of your on-premises 
 7. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
    - Select the **Linux** operating system for the **redhat** virtual machine. 
-   - Select **Next**. 
+   - Select **Next**
 
         ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
@@ -72,12 +80,11 @@ In this task, you will configure and enable the replication of your on-premises 
     
 10. Confirm that the **1** machine is replicating.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/Replication4.png "Replication summary")
+    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/30-09-2024(11).png "Replication summary")
 
-11. Select **Replications (1)** under **Manage** on the left. Select **Refresh (2)** occasionally and wait until the redhat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
+11. Select **Replications (1)** under **Migration** on the left. Select **Refresh (2)** occasionally and wait until the redhat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/infra1.10.png "Replication status")
-
 
 #### Task summary 
 
@@ -151,6 +158,6 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
 
 #### Task summary 
 
-In this task, you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
+In this exercise, you reviewed the registered Hyper-V host, LabVM, with the Migration and Modernization Service, using Azure Site Recovery for migration. The Azure Site Recovery Provider was previously deployed on the Hyper-V host. You configured and enabled replication of the on-premises virtual machine to the Azure Migrate Server Migration service, adjusting settings for each replicated VM to use static private IP addresses matching their on-premises counterparts. Finally, you migrated the Red Hat virtual machine to Azure, ensuring a seamless transition to the cloud.
 
 Click on **Next** from the lower right corner to move on to the next page.

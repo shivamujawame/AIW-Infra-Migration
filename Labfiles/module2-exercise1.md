@@ -1,6 +1,6 @@
 # HOL 2: Migrate and modernize Linux & OSS DB workloads to Azure
 
-### Estimated time: 10 minutes
+### Estimated time: 15 minutes
 
 In this HOL, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
 
