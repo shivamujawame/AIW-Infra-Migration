@@ -107,7 +107,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
    - Under **Where do you want to migrate to?**, select **Azure VM (1)**
    - Under **Are your machines virtualized**, select **Yes, with Hyper-V (2)**.
-   - Under **Do you want to install a new replication appliance or scale-out existing setup?**, select **Install a replication appliance (3)**
+   - Under **Do you want to install a new replication appliance or scale out the existing setup?**, select **Install a replication appliance (3)**
 
 10. Select **Finalize registration (4)**, which should now be enabled.
 
