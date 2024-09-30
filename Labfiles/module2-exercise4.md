@@ -95,7 +95,7 @@ In this task, you will Enable Automanage on existing machines.
 
 7. Once the Configuration profile assignment is completed successfully, it will take around 20-30 minutes to get the Status as Conformant.
 
-### Task summary
+### Summary
 
 In this exercise, you enabled Azure Active Directory (AAD) authentication and Managed Identity on virtual machines by deploying a VM extension. Additionally, you activated Automanage on existing machines to streamline configuration and monitoring. This process simplified identity management and automated the operational tasks necessary for managing VMs efficiently in Azure, ensuring enhanced security and compliance across the cloud environment.
 

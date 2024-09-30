@@ -113,7 +113,7 @@ In this task, you will Enable Automanage on existing machines.
 
 6. Click **Create**.
 
-### Task summary 
+### Summary 
 
 In this exercise, you focused on enhancing business resilience through the use of Azure Virtual Machine Scale Sets (VMSS). It involved creating and deploying a specialized virtual machine image, which was captured and stored in a gallery named "imagemigration." Additionally, a VM scale set called "migrationscaleset" was established to showcase Azure's scalability and business continuity capabilities. As part of this process, Automanage was enabled on existing machines to streamline management and optimize performance.
 

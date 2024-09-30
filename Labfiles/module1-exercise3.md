@@ -285,7 +285,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
 
-### Task summary 
+### Summary 
 
 In this exercise, you created an Azure Storage Account for VM data migration. The Hyper-V host (LabVM) was registered with the Migration and Modernization service, using Azure Site Recovery for migration. You deployed the Azure Site Recovery Provider on the Hyper-V host and configured replication for on-premises VMs to Azure Migrate Server Migration service. Static private IPs were set for the replicated VMs to match their on-premises configurations. Finally, the UbuntuWAF, smarthotelweb1, and smarthotelweb2 VMs were successfully migrated to Azure.
 
