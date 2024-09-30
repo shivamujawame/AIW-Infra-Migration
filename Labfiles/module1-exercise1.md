@@ -4,6 +4,15 @@ Duration: 60 minutes
 
 In this HOL, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
 
+## Lab objectives
+
+In this HOL, you will complete the following exercises:
+
+- Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
+- Exercise 2: Set up your environment on Azure to migrate servers
+- Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
+- Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
+
 ### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
 In this exercise, you will deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs and returns that data to your Azure Migrate project.
