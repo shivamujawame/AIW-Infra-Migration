@@ -35,11 +35,11 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
      ```
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the 'Generate Azure Migrate project key' section.](Images/azmigrate-03.png "Generate Azure Migrate project key")
 
-7.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** to your clipboard.
+7.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** and save it in a notepad for future reference. or use
 
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the Azure Migrate project key.](Images/upd-key.png "Azure Migrate project key")
 
-8.  Read through the instructions on how to download, deploy and configure the Azure Migrate appliance, then close the 'Discover machines' blade by clicking on cross button **X** (do **not** download the .VHD file or .ZIP file, the .VHD has already been downloaded for you). 
+8.  Read through the instructions on how to download, deploy, and configure the Azure Migrate appliance, then close the 'Discover machines' blade by clicking on cross button **X** (do **not** download the .VHD file or .ZIP file, the .VHD has already been downloaded for you). 
  
     ![Screenshot of the closing the blade.](Images/hol1-ex-1-s8.png "Closing the Azure migrate appliance blade")
 
@@ -107,7 +107,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
      ![Screenshot of the Azure Migrate appliance login window, showing where to copy and paste the login code for the Azure Migrate project.](Images/azmigrate-06.png "Azure Migrate Microsoft login")
 
- 23. Login using the below Azure credentials and select **Continue** on the **Are you trying to sign in to Microsoft Azure PowerShell?** window to complete the login process. Once you have logged in, return to the Azure Migrate Appliance tab and the appliance registration will start automatically and display the below message once the registration is successful.
+ 23. Login using the below Azure credentials and select **Continue** on the **Are you trying to sign in to Microsoft Azure PowerShell?** window to complete the login process. Once you have logged in, return to the Azure Migrate Appliance tab, and the appliance registration will start automatically and display the below message once the registration is successful.
     
      * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
      * Azure Password: <inject key="AzureAdUserPassword"></inject> 
