@@ -1,6 +1,6 @@
 ## HOL1: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
-### Estimated time: 20 minutes
+### Estimated time: 25 minutes
 
 In this exercise you will focuses on enhancing business resilience through the use of Azure Virtual Machine Scale Sets (VMSS). It involves creating and deploying a specialized virtual machine image, which is captured and stored in a gallery named "imagemigration." Additionally, a VM scale set called "migrationscaleset" is established to showcase Azure's scalability and business continuity capabilities. As part of this process, you will also enable Automanage on existing machines to streamline management and optimize performance.
 
@@ -89,11 +89,11 @@ In this task, you will Enable Automanage on existing machines.
 
 2. In the search bar, search for and select **Automanage**.
 
-3. From the left side panel select **Automanage machines (1)** and click on **+ Enable on existing machine (2)**.
+3. From the left side panel select **Automanage machines (1)** under Machine best practices and click on **+ Enable on existing machine (2)**.
    
    ![](Images/upd-zero-vm-list-view.png)
 
-4. Under **Configuration profile**, select your profile type: **Azure Best Practices - Production or Azure Best Practices - Dev/Test or Custom profile**.
+4. Under **Configuration profile**, select your profile type: **Azure Best Practices - Production or Azure Best Practices - Dev/Test or Custom profile** and click on **Next: Machines >**
    
    ![](Images/upd-existing-vm-quick-create.png)
    

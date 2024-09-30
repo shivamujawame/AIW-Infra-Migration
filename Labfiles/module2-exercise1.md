@@ -1,12 +1,25 @@
 # HOL 2: Migrate and modernize Linux & OSS DB workloads to Azure
 
-In this Module, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
+### Estimated time: 25 minutes
+
+In this HOL, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
+
+## Lab objectives
+
+In this HOL, you will complete the following exercises:
+
+- Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
+- Exercise 2: Set up your environment on Azure to migrate servers
+- Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs
+- Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
 ### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
 In this exercise, you will review the already discovered server on your Azure Migrate project.
 
 #### Task 1: Review the already discovered and Assessed environment in Azure migrate
+
+In this task, you will review the environment discovered in Azure Migrate. After logging into the Azure portal, we'll go to All services and search for Azure Migrate. In the overview, you will see that seven servers have been discovered and we will focus on migrating and modernizing the Red Hat and Open Source Database (OSS DB) servers.
 
 1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -25,6 +38,8 @@ In this exercise, you will review the already discovered server on your Azure Mi
     ![](Images/newhol2.png)
  
 #### Task 2: Review your on-prem Hyper-V Linux Server and OSS DB.
+
+In this task you will review your on-premises Hyper-V Linux server and Open Source Database using Hyper-V Manager. Access the HOSTVMS option, select the Red Hat virtual machine, start it, connect it, and log in using the Administrator password. This sets the stage for migrating the server and OSS Database to Azure using Azure Migrate.
  
 1. Go to **Start** button in the VM, search for **Hyper-V Manager** there and select it. 
 
@@ -52,4 +67,8 @@ In this exercise, you will review the already discovered server on your Azure Mi
 
 1. In the next exercise you will be migrating the Redhat server, and the OSS Database hosted in the Redhat VM to the Azure with the help of Azure Migrate.  
     
-**Summary:** In this exercise, you explored how Assessments work to migrate your on-premises servers to Azure virtual machines. You learnt how to assess your on-premises servers Hyper-V environment, and physical servers for migration to Azure VMs.
+### Task summary 
+
+In this exercise, you explored how Assessments work to migrate your on-premises servers to Azure virtual machines. You learnt how to assess your on-premises servers Hyper-V environment, and physical servers for migration to Azure VMs.
+
+Click on **Next** from the lower right corner to move on to the next page.
