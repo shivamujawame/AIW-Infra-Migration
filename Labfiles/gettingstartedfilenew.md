@@ -27,7 +27,7 @@ This diagram shows the process of migrating an on-premises SQL Server database t
 
 ## Architectural Diagram
 
-
+![A slide shows the on-premises SmartHotel application architecture.](Images/lineofbusines3.png "SmartHotel Migration Overview")
 
 ## Explanation of Components
 
