@@ -1,6 +1,6 @@
 ## HOL1: Exercise 2: Set up your environment on Azure to migrate servers
 
-### Estimated time: 30 minutes
+### Estimated time: 40 minutes
 
 In this exercise, you'll assess the migration readiness of the SmartHotel application using Azure Migrate. First, you'll create an assessment for selected VMs, setting up and grouping them to generate a report that shows whether they're ready for migration to Azure.
 

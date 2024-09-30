@@ -1,6 +1,6 @@
 ## HOL1: Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
-### Estimated time: 45 minutes
+### Estimated time: 60 minutes
 
 In this exercise, you will learn about Azure migration and how all pre-migration steps such as discovery, assessments, and right-sizing of on-premises resources are included for infrastructure, data, and applications. Azure Migrate provides a simplified migration, modernization, and optimization service for Azure.
 
