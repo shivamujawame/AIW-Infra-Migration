@@ -1,6 +1,6 @@
 # HOL 3: Onboard On-prem servers to Azure Arc-enabled server
 
-### Estimated time: 
+### Estimated time: 15 minutes
 
 In this HOL, you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
 
@@ -31,13 +31,13 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
    
     ![Screenshot of the search azure arc.](Images/searchazarc.png "search azure arc")
   
-1. On the **Azure Arc** page, select **Machines (1)** under **Infrastructure**, click on **+Add/create (2)** and then **Add a Machine (3)**.
+1. On the **Azure Arc** page, select **Machines (1)** under **Azure Arc Resources**, click on **+Add/create (2)** and then **Add a Machine (3)**.
     
-    ![Screenshot of the add server.](Images/HOL3E1S3.png "add server")
+    ![Screenshot of the add server.](Images/azure_arc-add_machine.png "add server")
     
 1. In the **Add servers with Azure Arc** page, click **Generate script** under **Add a single server**.
 
-    ![Screenshot of the Generate script.](Images/singleserver.png "Generate script")
+    ![Screenshot of the Generate script.](Images/azure_arc-add_machine2.png "Generate script")
     
 1. Under the **Basics** tab, fill in the following details:
      
@@ -104,17 +104,19 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     
     ![Screenshot of the powershellscript.](Images/upd-package.png)
      
- 1. Close the AzureArcVM, navigate to the Azure portal go back to the **Azure Arc** page, select **Machines (1)** under **Infrastructure** and now verify that a server is connected successfully **(2)**.
+ 1. Close the AzureArcVM, navigate to the Azure portal go back to the **Azure Arc** page, select **Machines (1)** under **Azure Arc resources** and now verify that a server is connected successfully **(2)**.
 
     >**Note:** The name of the new server added could be different. You might have to refresh to see the new server.
     
-    ![Screenshot of the server added.](Images/HOL3E1S17.png)
+    ![Screenshot of the server added.](Images/server_added.png)
      
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    - If you receive a success message, you can proceed to the next task.
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
+    <validation step="6e1ec638-e544-477f-90cc-ed27166b2f4e" />
+
     
 ### Summary
 
