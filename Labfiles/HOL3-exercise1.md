@@ -16,7 +16,7 @@ In this HOL, you will complete the following exercises:
 - Exercise 4: Failover the infrastructure to Azure Cloud
 - Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics
 - Exercise 6: Azure Governance (Read Only)
-- Exercise 7: Business case analysis capability (read-only)
+- Exercise 7: Business case analysis capability (Read-only)
 
 ### Exercise 1: Run workloads anywhere with Azure cloud services
 
