@@ -94,9 +94,9 @@ In this task, you will create and enable Microsoft Sentinel and review the Conte
     ![Screenshot of the Analytics.](Images/hol3-e5-t2-s6.png "Analytics")
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+     > - If you receive a success message, you can proceed to the next task.
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
       
    <validation step="5bffe543-dcee-4661-ae1d-93bb5af92d89"/>
 
@@ -144,9 +144,9 @@ In this task, you will enable Azure Monitor to track and manage the performance 
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
   
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     - If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+     > - If you receive a success message, you can proceed to the next task.
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
     <validation step="b6cd286a-8ceb-43cc-b903-638c9749bd64"/>
     
