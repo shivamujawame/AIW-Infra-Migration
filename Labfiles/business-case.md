@@ -1,4 +1,4 @@
-## HOL3: Exercise 7: Business case analysis capability (read-only)
+## HOL3: Exercise 7: Business case analysis capability (Read-only)
 
 In this task, you'll learn how to create a business case for Azure, using a free Azure Migrate feature during assessments that will help simplify your move to Azure.
 

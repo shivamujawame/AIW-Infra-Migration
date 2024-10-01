@@ -24,7 +24,6 @@ In these hands-on labs, you'll migrate and modernize workloads to Azure. You'll 
 
 This diagram shows the process of migrating an on-premises SQL Server database to Azure SQL Managed Instance (SQL MI). It involves setting up SQL MI, assessing the database for compatibility issues, migrating data using Azure Data Migration Service (DMS), configuring a secure virtual network, deploying the web application to Azure, and enabling advanced SQL MI features for optimized performance and security.
 
-
 ## Architectural Diagram
 
 ![A slide shows the on-premises SmartHotel application architecture.](Images/lineofbusines3.png "SmartHotel Migration Overview")
@@ -36,6 +35,19 @@ This diagram shows the process of migrating an on-premises SQL Server database t
 - **SQL Server Configuration Manager**: A vital tool for managing SQL Server services, network configurations, and server-specific settings. It is primarily used to control the behavior of SQL Server instances and related services.
 
 - **Microsoft SQL Server Management Studio**: A comprehensive tool for managing SQL Server infrastructure. It provides a user-friendly interface for connecting, querying, configuring, and managing SQL Server databases both on-premises and in the cloud.
+
+- **Azure Migrate: Server Migration:** Used for migrating the UbuntuWAF, SmartHotelWeb1, SmartHotelWeb2, and Redhat VM to Azure. This service facilitates the lift-and-shift of VMs to Azure.
+
+- **Recovery Services Vault:** Utilized for migrating the AzureArc VM, likely using Azure Site Recovery for VM replication and failover.
+
+- **Azure Arc:** It enables you to manage servers, Kubernetes clusters, and applications across data centers, edge, and multicloud environments from Azure.
+
+- **Azure Database Migration Service (DMS):** A service used to migrate on-premises databases (like SQL Server) to cloud-based Azure SQL databases.
+
+- **Storage account:** Azure Storage Account offers scalable, secure storage for backups, VM snapshots, and application data. It integrates with services like Recovery Services Vault for disaster recovery and long-term data retention in the cloud.
+
+- **Azure**: Represents the Microsoft Azure cloud platform, where the on-premises resources have been migrated and are now managed.
+
 
 ## Getting Started with Lab
  
