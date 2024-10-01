@@ -83,7 +83,6 @@ In this exercise, you will complete the following task:
   
     <validation step="5f5a1f2a-bb3b-4f38-9f12-4b57af351efc" />
 
-
 ### Summary
 
 In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
