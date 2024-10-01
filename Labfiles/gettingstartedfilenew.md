@@ -8,6 +8,8 @@ In this hands-on lab, you'll migrate and modernize workloads to Azure. You'll st
 
 ## Objective
 
+To seamlessly migrate and modernize on-premises infrastructure to Azure, enhancing performance, scalability, and security while optimizing costs and leveraging advanced cloud services for innovation and agility.
+
 - **Evaluate and Plan Migration:** Assess your current environment using Azure Migrate, create migration assessments, and configure dependency visualization to ensure a smooth transition.
 
 - **Set Up Azure Environment:** Prepare Azure for migration by creating storage accounts, registering Hyper-V hosts, enabling replication, and configuring networking.
