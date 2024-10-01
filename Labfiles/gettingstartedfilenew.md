@@ -4,7 +4,7 @@
 
 ## Overview 
 
-In these hands-on labs, you'll migrate and modernize workloads to Azure. You'll start by evaluating and migrating Windows and SQL Server workloads using Azure Migrate and Azure Site Recovery. Next, you'll replicate and migrate a Red Hat VM and OSS DB workloads, enabling Azure AD-based login and connecting to Azure Automanage. Finally, you'll manage a Windows machine with Azure Arc, using Azure Site Recovery for disaster recovery, including test failovers and failovers to Azure VMs.
+In this hands-on lab, you'll migrate and modernize workloads to Azure. You'll start by evaluating and migrating Windows and SQL Server workloads using Azure Migrate and Azure Site Recovery. Next, you'll replicate and migrate a Red Hat VM and OSS DB workloads, enabling Azure AD-based login and connecting to Azure Automanage. Finally, you'll manage a Windows machine with Azure Arc, using Azure Site Recovery for disaster recovery, including test failovers and failovers to Azure VMs.
 
 ## Objective
 
@@ -40,14 +40,13 @@ This diagram shows the process of migrating an on-premises SQL Server database t
 
 - **Recovery Services Vault:** Utilized for migrating the AzureArc VM, likely using Azure Site Recovery for VM replication and failover.
 
-- **Azure Arc:** It enables you to manage servers, Kubernetes clusters, and applications across data centers, edge, and multicloud environments from Azure.
+- **Azure Arc:** It enables you to manage servers, Kubernetes clusters, and applications across data centres, edge, and multi-cloud environments from Azure.
 
 - **Azure Database Migration Service (DMS):** A service used to migrate on-premises databases (like SQL Server) to cloud-based Azure SQL databases.
 
 - **Storage account:** Azure Storage Account offers scalable, secure storage for backups, VM snapshots, and application data. It integrates with services like Recovery Services Vault for disaster recovery and long-term data retention in the cloud.
 
 - **Azure**: Represents the Microsoft Azure cloud platform, where the on-premises resources have been migrated and are now managed.
-
 
 ## Getting Started with Lab
  
