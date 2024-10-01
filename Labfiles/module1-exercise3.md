@@ -20,7 +20,6 @@ In this task, you will create a new Azure Storage Account that will be used by M
 
 > **Note:** This lab focuses on the technical tools for workload migration, but in real-world scenarios, a comprehensive long-term plan is needed. Considerations for the landing zone should include network traffic, access control, resource organization, and governance. The CAF Migration and Foundation Blueprints can help deploy a pre-defined landing zone using Infrastructure as Code (IaC) for resource management. For more details, refer to [Azure Landing Zones](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/) and the [Cloud Adoption Framework Azure Migration landing zone Blueprint sample](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/).
 
-
 1. In the Azure portal's left navigation, select **+ Create a resource**, then search for and select **Storage account**, followed by **Create**.
 
     ![Screenshot of the Azure portal showing the create storage account navigation.](Images/30-09-2024(1).png "Storage account - Create")
