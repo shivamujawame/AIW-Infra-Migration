@@ -62,6 +62,8 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
+     <validation step="b1bc5f5b-6e26-451d-883a-842902f61bdc" />
+
 ### Task 2: Configure dependency visualization
 
 When migrating a workload to Azure, it is important to understand all workload dependencies. A broken dependency could mean that the application does not run properly in Azure, perhaps in hard-to-detect ways. Some dependencies, such as those between application tiers, are obvious. Other dependencies, such as DNS lookups, Kerberos ticket validation or certificate revocation checks, are not.
@@ -241,6 +243,8 @@ In this task, you will configure the Azure Migrate dependency visualization feat
      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+     <validation step="76903306-f337-49dc-99b9-2e46e1c17fbe" />
 
 ### Summary 
 
