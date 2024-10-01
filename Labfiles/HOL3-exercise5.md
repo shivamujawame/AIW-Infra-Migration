@@ -149,7 +149,6 @@ In this task, you will enable Azure Monitor to track and manage the performance 
      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
     <validation step="b6cd286a-8ceb-43cc-b903-638c9749bd64"/>
-
     
 ### Summary
 
