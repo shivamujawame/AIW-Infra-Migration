@@ -11,7 +11,6 @@ In this exercise, you will complete the following tasks:
 - Task 1: Getting Started with Azure Active Directory for Linux
 - Task 2: Azure auto manage
 
-
 ### Task 1: Getting Started with Azure Active Directory for Linux 
 
 In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
@@ -29,6 +28,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
      > **Note**: If prompted with the Enable system-assigned managed identity pop-up, click on Yes.
 
       ![](Images/turnonidentity.png)
+
       ![](Images/identityon.png)
       
 4. Now, Navigate to **Extensions + applications** under Settings from the left side menu.
