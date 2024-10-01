@@ -70,11 +70,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
 
-    ![](Images/upd-nwgrpopen.png)   
+    ![](Images/upd-nwgrpopen.png)
 
 2. Under the **Groups (1)** pane, select the **SmartHotel VMs (2)** group to see the group details. 
 
-    ![](Images/upd-hol1-e2-t2-s2.png)   
+    ![](Images/upd-hol1-e2-t2-s2.png)
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **smarthotelweb1** VM.
 
