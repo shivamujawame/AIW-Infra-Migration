@@ -44,7 +44,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
      ```
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the 'Generate Azure Migrate project key' section.](Images/azmigrate-03.png "Generate Azure Migrate project key")
 
-7.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** and save it in a notepad for future reference. or use
+7.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** and save it in a notepad for future reference.
 
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the Azure Migrate project key.](Images/upd-key.png "Azure Migrate project key")
 
