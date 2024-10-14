@@ -65,7 +65,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 4. If you see the pop-up Action Required, keep default and then click on Ask later. If you see the pop-up Help us protect your account, click on Skip for now(14 days until this is required), and then click on Next.
 
-    ![MFA](Images/mfa.png.png)
+    ![MFA](Images/mfa.png)
 
     > NOTE: Do not enable MFA, select Ask Later.
  
@@ -91,6 +91,6 @@ Learner Support Contacts:
 - Email Support: labs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-![nextbutton](Images/next_button.png.png)
+![nextbutton](Images/next_button.png)
 
 Now, click on Next from the lower right corner to move on to the next page.
