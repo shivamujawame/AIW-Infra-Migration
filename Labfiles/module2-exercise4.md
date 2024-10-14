@@ -1,5 +1,16 @@
 ## HOL2: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
+### Estimated time: 40 minutes
+
+In this exercise, you will enable Azure Active Directory (AAD) authentication and Managed Identity on virtual machines by deploying a VM extension. Additionally, you'll activate Automanage on existing machines to streamline configuration and monitoring. This process simplifies identity management and automates the operational tasks necessary for managing VMs efficiently in Azure, ensuring enhanced security and compliance across your cloud environment.
+
+## Lab objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Getting Started with Azure Active Directory for Linux
+- Task 2: Azure auto manage
+
 ### Task 1: Getting Started with Azure Active Directory for Linux 
 
 In this task, you will be enabling the AAD authentication using a VM extension and enabling Managed identity. 
@@ -17,6 +28,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
      > **Note**: If prompted with the Enable system-assigned managed identity pop-up, click on Yes.
 
       ![](Images/turnonidentity.png)
+
       ![](Images/identityon.png)
       
 4. Now, Navigate to **Extensions + applications** under Settings from the left side menu.
@@ -42,10 +54,11 @@ In this task, you will be enabling the AAD authentication using a VM extension a
     ![](Images/completed.png)
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+     <validation step="31b52d30-b336-49c3-a5bc-4ef69b15dd76" />
 
 ### Task 2: Azure auto manage
 
@@ -57,11 +70,11 @@ In this task, you will Enable Automanage on existing machines.
 
 2. In the search bar, search for and select **Automanage**.
 
-3. Under **Automanage machines (1)**, select the **+ Enable on existing machine (2)**.
+3. Select **Automanage machines (1)** under Azure machine best practices and click on **+ Enable on existing machine (2)**.
    
    ![](Images/upd-zero-vm-list-view.png)
 
-4. Under **Configuration profile**, select your profile type: **Azure Best Practices - Production or Azure Best Practices - Dev/Test or Custom profile**.
+4. Under **Configuration profile**, select your profile type: **Azure Best Practices - Production or Azure Best Practices - Dev/Test or Custom profile** and select **Next: Machines >**.
    
    ![](Images/upd-existing-vm-quick-create.png)
    
@@ -81,4 +94,10 @@ In this task, you will Enable Automanage on existing machines.
 
 6. Click on **Create**.
 
-7. Once the Configuration profile assignment is completed successfully, it will take around 20-30 minutes to get the Status as Conformant.
+7. Once the Configuration profile assignment is completed successfully, it will take around 5-10 minutes to get the Status as Conformant.
+
+### Summary
+
+In this exercise, you enabled Azure Active Directory (AAD) authentication and Managed Identity on virtual machines by deploying a VM extension. Additionally, you activated Automanage on existing machines to streamline configuration and monitoring. This process simplified identity management and automated the operational tasks necessary for managing VMs efficiently in Azure, ensuring enhanced security and compliance across the cloud environment.
+
+Click on **Next** from the lower right corner to move on to the next page.

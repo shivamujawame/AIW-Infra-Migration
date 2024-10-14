@@ -1,8 +1,17 @@
 # HOL 1: Migrating Windows & SQL Server workloads
 
-Duration: 60 minutes
+### Estimated time: 60 minutes
 
 In this HOL, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
+
+## Lab objectives
+
+In this HOL, you will complete the following exercises:
+
+- Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
+- Exercise 2: Set up your environment on Azure to migrate servers
+- Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
+- Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
 ### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
@@ -35,11 +44,11 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
      ```
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the 'Generate Azure Migrate project key' section.](Images/azmigrate-03.png "Generate Azure Migrate project key")
 
-7.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** to your clipboard.
+7.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** and save it in a notepad for future reference.
 
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the Azure Migrate project key.](Images/upd-key.png "Azure Migrate project key")
 
-8.  Read through the instructions on how to download, deploy and configure the Azure Migrate appliance, then close the 'Discover machines' blade by clicking on cross button **X** (do **not** download the .VHD file or .ZIP file, the .VHD has already been downloaded for you). 
+8.  Read through the instructions on how to download, deploy, and configure the Azure Migrate appliance, then close the 'Discover machines' blade by clicking on cross button **X** (do **not** download the .VHD file or .ZIP file, the .VHD has already been downloaded for you). 
  
     ![Screenshot of the closing the blade.](Images/hol1-ex-1-s8.png "Closing the Azure migrate appliance blade")
 
@@ -107,7 +116,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
      ![Screenshot of the Azure Migrate appliance login window, showing where to copy and paste the login code for the Azure Migrate project.](Images/azmigrate-06.png "Azure Migrate Microsoft login")
 
- 23. Login using the below Azure credentials and select **Continue** on the **Are you trying to sign in to Microsoft Azure PowerShell?** window to complete the login process. Once you have logged in, return to the Azure Migrate Appliance tab and the appliance registration will start automatically and display the below message once the registration is successful.
+ 23. Login using the below Azure credentials and select **Continue** on the **Are you trying to sign in to Microsoft Azure PowerShell?** window to complete the login process. Once you have logged in, return to the Azure Migrate Appliance tab, and the appliance registration will start automatically and display the below message once the registration is successful.
     
      * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
      * Azure Password: <inject key="AzureAdUserPassword"></inject> 
@@ -145,7 +154,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
             > **Note:** You can either **Add single item** at a time or **Add multiple items** in one go. There is also an option to provide Hyper-V host/cluster details through **Import CSV**.
 
-28. The appliance will validate the connection to the Hyper-V hosts/clusters added and show the **Validation status** in the table against each host/cluster
+28. The appliance will validate the connection to the Hyper-V hosts/clusters added and show the **Validation successful** in the table against each host/cluster
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the successful validation of the configured discovery source.](Images/HOL1-EX1-S25.png "Discovery source - validation successful")
 
@@ -166,12 +175,14 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 30. Wait for the Azure Migrate status to show that **Discovery has been successfully initiated**. This will take several minutes. After the discovery has been successfully initiated, you can check the discovery status against each host/cluster in the table.
 
-31. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal. Select **Servers, databases, and web apps (1)**, then select **Refresh (2)**. Under **Azure Migrate: Servers, databases and web apps** you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 7 discovered servers are shown. This may take several minutes.
+31. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal. Select **Servers, databases, and web apps (1)**, then select **Refresh (2)**. Under **Azure Migrate: Discovery and assessment** you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 7 discovered servers are shown. This may take several minutes.
 
     ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/updt-dscsvrdnews.png "Discovered servers") 
 
     > **Note:** **Wait for the discovery process to complete before proceeding to the next Task**.
 
-#### Task summary 
+### Summary 
 
 In this exercise, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
+
+Click on **Next** from the lower right corner to move on to the next page.

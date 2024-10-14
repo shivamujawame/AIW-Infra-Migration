@@ -1,75 +1,67 @@
 [
   {
-    "Name": "Azure Immersion Workshops : Infrastructure Migration",
+    "Name": "Azure Immersion Workshops: Infrastructure Migration",
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/GettingStarted.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/refs/heads/main/Labfiles/gettingstartedfilenew.md",
         "Order": 1
-      },
-       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/overview.md",
-        "Order": 2
       },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise1.md",
-        "Order": 3
+        "Order": 2
       },
        {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise2.md",
-        "Order": 4
+        "Order": 3
       },
        {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise3.md",
-        "Order": 5
+        "Order": 4
       },
        {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module1-exercise4.md",
-        "Order": 6
+        "Order": 5
       },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module2-exercise1.md",
-        "Order": 7
+        "Order": 6
       },
        {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module2-exercise2.md",
-        "Order": 8
+        "Order": 7
       },
        {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module2-exercise3.md",
-        "Order": 9
+        "Order": 8
       },
        {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/module2-exercise4.md",
-        "Order": 10
+        "Order": 9
       },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/HOL3-exercise1.md",
-        "Order": 11
+        "Order": 10
       },
        {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/HOL3-exercise2.md",
-        "Order": 12
+        "Order": 11
       },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/HOL3-exercise3.md",
-        "Order": 13
+        "Order": 12
       },
        {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/HOL3-exercise4.md",
-        "Order": 14
+        "Order": 13
       },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/HOL3-exercise5.md",
-        "Order": 15
-      },
-       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/HOL3-exercise6.md",
-        "Order": 16
+        "Order": 14
       },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/business-case.md",
-        "Order": 17
+        "Order": 15
       }
     ]
   }

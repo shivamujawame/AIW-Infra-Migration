@@ -1,6 +1,6 @@
-## HOL3: Exercise 7: Business case analysis capability (read-only)
+## HOL3: Exercise 6: Business case analysis capability (Read-only)
 
-In this task, you'll learn how to create a business case for Azure, using a free Azure Migrate feature during assessments that will help simplify your move to Azure.
+In this exercise, you'll learn how to create a business case for Azure, using a free Azure Migrate feature during assessments that will help simplify your move to Azure.
 
 Managing your on-premises data centres can present time-bound challenges such as expiring contracts, ageing hardware, and end-of-support software. You may also be under pressure to address cash flow challenges, add capacity, and prevent security attacks while ensuring business continuity.
 
@@ -97,4 +97,6 @@ To understand if Azure makes financial sense, we will start by creating a direct
 
 16. Given the importance of what-if scenarios and customizations in the planning process, use new settings to override default assumptions and build a business case for your migration strategy. We can present this business case to your stakeholders obtain buy-ins and know that you've taken the steps to make the right decisions for your business.
      
-17. Learn more about the business case here: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/cloud-migration-business-case
+17. Learn more about the business case here: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/cloud-migration-business-case.
+
+### You have successfully completed the lab.

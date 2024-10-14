@@ -1,13 +1,25 @@
-## HOL3: Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics for each source
+## HOL3: Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics
 
-In this HOL, you will learn how to enable enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will set up a Log Analytics workspace to collect logs and data of the resources and its information will be stored in a workspace.
+### Estimated time: 30 minutes
+
+In this exercise, you will learn how to enable enhanced security features by enabling the Defender for Cloud plans through the Azure portal. The Defender plans show you the monitoring coverage for each Defender plan. You will be enabling the same for Microsoft Sentinel and Azure Monitor. Also, you will set up a Log Analytics workspace to collect logs and data of the resources and its information will be stored in a workspace.
 
 > **Note:** 
 > - Microsoft Defender for Cloud, Azure Sentinel and Monitor Insights can take several hours to surface after the completion of a scan.
 > - At this point of the workshop, only a limited number of data visualizations may be populated. (So the result in the screenshots below may vary)
 > - The screenshots and information below, have been provided so that you can conceptualise the type of graphs and output that can be gleaned from a fully populated environment.
 
+## Lab objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Enable Microsoft Defender for Cloud
+- Task 2: Enable Microsoft Sentinel
+- Task 3:  Enable Azure Monitor
+
 ### Task 1: Enable Microsoft Defender for Cloud
+
+In this task, you will enable Microsoft Defender for Cloud to enhance the security of your Azure environment.
 
 1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
@@ -39,7 +51,7 @@ In this HOL, you will learn how to enable enhanced security features by enabling
    
 1. The **Microsoft Defender for Cloud Overview page** offers a consolidated perspective for security experts. This section combines various independent cloud security components, such as **Secure Score, Regulatory Compliance, and Workloads Protection**, and provides detailed insights on the security posture on a distinct dashboard.
 
-    ![Screenshot of the overview page](Images/hol3-e5-s7.png "overview page")
+    ![Screenshot of the overview page](Images/H3E5T1S7.png "overview page")
 
 1. On the **Recommendations page** under _General_, pay attention to the first part of the page. It includes the current Secure Score, progress on the Recommendations status (both completed security controls and recommendations), and Resource health (by severity).
     
@@ -48,6 +60,8 @@ In this HOL, you will learn how to enable enhanced security features by enabling
 1. On the **Security alerts page** under _General_, you can see the alerts that describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. (The Remediation steps contain the remediation logic where you can remediate the selected resource/s. To simplify remediation improve your environment's security and increase your secure score, many recommendations include a Fix option. Fix helps you quickly remediate a recommendation on multiple resources.)
 
 ### Task 2: Enable Microsoft Sentinel
+
+In this task, you will create and enable Microsoft Sentinel and review the Content Hub for enhanced security monitoring and threat detection in your Azure environment.
 
 1. In the **search resources, services and docs bar**, type **Microsoft Sentinel** and select it from suggestions, as shown below:
 
@@ -80,12 +94,15 @@ In this HOL, you will learn how to enable enhanced security features by enabling
     ![Screenshot of the Analytics.](Images/hol3-e5-t2-s6.png "Analytics")
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+      
+     <validation step="5bffe543-dcee-4661-ae1d-93bb5af92d89" />
 
-### Task 3:  Enable Azure Monitor
+### Task 3: Enable Azure Monitor
+
+In this task, you will enable Azure Monitor to track and manage the performance and health of your Azure resources, and you can check the insights for detailed analytics.
 
 1. In the **search resources, services and docs bar**, type **Monitor** and select it from suggestions, as shown below:
 
@@ -127,9 +144,14 @@ In this HOL, you will learn how to enable enhanced security features by enabling
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s6.png "Azure Monitor")  
   
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+     <validation step="b6cd286a-8ceb-43cc-b903-638c9749bd64" />
     
-**Summary:** In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
+### Summary
+
+In this exercise, you explored what is Microsoft Defender and how to enable it for Cloud and Microsoft Sentinel. You also learnt about Monitoring which helps you maximize the availability and performance of your applications and services. Then you explored how Azure Monitor Logs stores the data that it collects in the Log Analytics workspaces.
+
+Click on **Next** from the lower right corner to move on to the next page.

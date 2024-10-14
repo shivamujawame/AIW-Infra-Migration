@@ -1,6 +1,14 @@
 ## HOL2: Exercise 2: Set up your environment on Azure to migrate servers
 
-In this HOL, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in several scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
+### Estimated time: 40 minutes
+
+In this exercise, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in several scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
+
+## Lab objectives
+
+In this exercise, you will complete the following task:
+
+- Task 1: Configure dependency visualization
 
 ### Task 1: Configure dependency visualization
 
@@ -91,6 +99,8 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/upd-dependencies1.png "Dependency map")
  
-#### Task summary 
+### Summary 
 
-In this task, you configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on a Linux on-premises machine.
+In this exercise, you configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on a Linux on-premises machine.
+
+Click on **Next** from the lower right corner to move on to the next page.
