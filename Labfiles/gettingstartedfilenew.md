@@ -8,6 +8,16 @@ In this hands-on lab, you'll migrate and modernize workloads to Azure. You'll st
 
 ## Objective
 
+- **Evaluate and Plan Migration:** Assess your current environment using Azure Migrate, create migration assessments, and configure dependency visualization to ensure a smooth transition.
+
+- **Set Up Azure Environment:** Prepare Azure for migration by creating storage accounts, registering Hyper-V hosts, enabling replication, and configuring networking.
+
+- **Migrate Workloads:** Use Azure Migrate and Azure Site Recovery to migrate Windows, SQL Server, Linux, and OSS DB workloads, ensuring minimal downtime and leveraging Azure's scalability.
+
+- **Optimize Workloads:** Enhance the performance and resilience of migrated workloads using VM Scale Sets, Azure Automanage, and Azure Active Directory for Linux.
+
+- **Disaster Recovery and Security:** Implement disaster recovery plans with Azure Site Recovery, conduct test failovers, and enable failovers to Azure VMs. Enhance security with Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor.
+
 To seamlessly migrate and modernize on-premises infrastructure to Azure, enhancing performance, scalability, and security while optimizing costs and leveraging advanced cloud services for innovation and agility.
 
 - **Evaluate and Plan Migration:** Assess your current environment using Azure Migrate, create migration assessments, and configure dependency visualization to ensure a smooth transition.
@@ -82,7 +92,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 ![Manage Your Virtual Machine](Images/res.png)
  
-## **Lab Duration Extension**
+## Lab Duration Extension
 
 1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
 
@@ -112,7 +122,16 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
+   ![Enter Your Password](Images/sc900-image-2.png)
+
+4. If you see the pop-up Action Required, keep default and then click on Ask later. If you see the pop-up Help us protect your account, click on Skip for now(14 days until this is required), and then click on Next.
+
+    ![MFA](Images/mfa.png)
+
+    > NOTE: Do not enable MFA, select Ask Later.
+
      ![Enter Your Password](Images/sc900-image-2.png)
+
  
 4. If prompted to stay signed in, you can click "No."
  
