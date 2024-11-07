@@ -4,19 +4,19 @@
       "Language": "English",
       "Files": [
         {
-          "RawFilePath": "https://raw.githubusercontent.com/NIREEKSHITH45/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
           "Order": 1
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/NIREEKSHITH45/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-windows-servers-to-azure-hol1-ex1.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-windows-servers-to-azure-hol1-ex1.md",
           "Order": 2
         },
          {
-          "RawFilePath": "https://raw.githubusercontent.com/NIREEKSHITH45/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-windows-servers-to-azure-hol1-ex2.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-migrate-windows-servers-to-azure-hol1-ex2.md",
           "Order": 3
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/NIREEKSHITH45/AIW-Infra-Migration/guided-labs/Labfiles/ms-spl-migrate-windows-servers-to-azure-hol2-ex1.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/ms-spl-migrate-windows-servers-to-azure-hol2-ex1.md",
           "Order": 4
         }   
       ]
