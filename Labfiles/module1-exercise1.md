@@ -1,4 +1,4 @@
-# HOL 1: Migrating Windows & SQL Server workloads
+# HOL1: Exercise 1: Migrating Windows & SQL Server workloads
 
 ### Estimated time: 60 minutes
 

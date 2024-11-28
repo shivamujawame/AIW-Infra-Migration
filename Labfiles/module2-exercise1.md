@@ -1,4 +1,4 @@
-# HOL 2: Migrate and modernize Linux & OSS DB workloads to Azure
+# HOL2: Exercise 1: Migrate and modernize Linux & OSS DB workloads to Azure
 
 ### Estimated time: 15 minutes
 
