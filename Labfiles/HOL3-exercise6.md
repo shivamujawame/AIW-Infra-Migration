@@ -1,4 +1,4 @@
-## HOL3: Exercise 6: Azure Governance (Read Only)
+# HOL3: Exercise 6: Azure Governance (Read Only)
 
 The term governance describes the general process of establishing rules and policies and ensuring that those rules and policies are enforced. 
 Azure Governance is the framework that determines how your organization conducts business activities, based on objectives and responsibilities. When we talk about Cloud Governance, there are several relevant principles: Subscription Management, Cost Management, Security, Resource Consistency, Identity Baseline & Deployment Acceleration.

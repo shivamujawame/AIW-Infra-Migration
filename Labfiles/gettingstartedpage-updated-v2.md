@@ -70,33 +70,31 @@ Their IT systems run Windows, Linux, SQL Servers, and MySQL across on-premises d
 
 ## Architecture
 
-The architecture diagram outlines a series of labs focused on migrating on-premises workloads to Azure and configuring hybrid cloud solutions. The labs begin with setting up an on-premises Hyper-V environment hosting multiple virtual machines, including Ubuntu, SQL Server, and RedHat VMs. Users utilize Azure Migrate: Server Migration to transfer VMs to Azure and Azure Database Migration Service for database migration. Additionally, the Recovery Services Vault is configured to ensure data recovery and backup for critical workloads. The labs conclude by onboarding hybrid resources like Azure Arc-enabled VMs, providing users with practical knowledge of Azure migration, hybrid cloud management, and backup solutions.
+The architecture diagram outlines a series of labs focused on migrating workloads to Azure, configuring Azure services, and leveraging Microsoft tools for optimization and monitoring. The labs begin with migrating Windows, SQL Server, Linux, and OSS database workloads, setting up environments for migration, and utilizing tools like Azure Migrate and the Azure Hybrid Benefit to transition applications and data. Users then onboard on-premises servers to Azure Arc-enabled, configure Azure Site Recovery (ASR) for failover, and migrate infrastructure to Azure. The sequence continues with enabling Microsoft Defender for Cloud, Sentinel, and Azure Monitor while setting up log analytics for security and monitoring, culminating in a business case analysis capability, offering a comprehensive understanding of Azure migration, optimization, and security operations.
 
 ## Architecture Diagram
 
-![A slide shows the on-premises SmartHotel application architecture.](Images/lineofbusines3.png "SmartHotel Migration Overview")
+![A slide shows the on-premises SmartHotel application architecture.](Images/archdia.png "SmartHotel Migration Overview")
 
 ## Explanation of Components  
 
-- **SmartHotelHost (Hyper-V)**: Represents the on-premises infrastructure hosting virtual machines (VMs) using Hyper-V, a Microsoft virtualization platform. It acts as the starting point for the migration process in the architecture.  
+- **Azure Migrate**: A centralized hub for discovering, assessing, and migrating on-premises servers, applications, and databases to Azure. It simplifies migration planning and execution by providing tools for workload analysis, cost estimation, and seamless migration.  
 
-- **UbuntuWAF**: A virtual machine running Ubuntu, configured as a Web Application Firewall (WAF) for protecting web applications from common vulnerabilities and threats.  
+- **Azure Arc**: Enables on-premises servers and other non-Azure resources to integrate with Azure's management tools, allowing organizations to manage, secure, and govern resources across hybrid environments through a unified Azure interface.  
 
-- **SmartHotelWeb1 & SmartHotelWeb2**: Web server virtual machines hosting applications for the SmartHotel system. These are migrated to Azure as part of the server migration process.  
+- **Azure Site Recovery (ASR)**: A disaster recovery solution that replicates on-premises servers to Azure, enabling failover and failback of workloads to ensure business continuity during outages or system failures.  
 
-- **SmartHotelSQL1**: A virtual machine hosting a SQL Server database used by the SmartHotel application. Its database is migrated to Azure using the Azure Database Migration Service.  
+- **Microsoft Defender for Cloud**: A security management tool that provides visibility and protection for workloads running in Azure, on-premises, and other cloud platforms. It helps detect threats, manage security posture, and ensure compliance.  
 
-- **Azure Migrate: Server Migration**: A service provided by Microsoft Azure for assessing and migrating on-premises virtual machines to Azure. It handles the lift-and-shift migration of SmartHotel VMs to the cloud.  
+- **Microsoft Sentinel**: A cloud-native security information and event management (SIEM) and security orchestration automated response (SOAR) solution that aggregates security data, detects threats, and enables incident response through playbooks and analytics.  
 
-- **Azure Database Migration Service**: A managed service designed to migrate databases from on-premises environments (e.g., SQL Server) to Azure SQL Database or other Azure database services with minimal downtime.  
+- **Azure Monitor**: A service that collects, analyzes, and acts on telemetry data from Azure resources, on-premises environments, and other clouds, providing insights into the performance and health of applications and infrastructure.  
 
-- **RedHat VM**: A virtual machine running Red Hat Enterprise Linux, representing a critical workload in the on-premises environment, migrated to Azure using Azure Migrate: Server Migration.  
+- **Log Analytics**: A tool within Azure Monitor that enables querying and analyzing log data from Azure resources to gain insights, troubleshoot issues, and improve operational efficiency.  
 
-- **AzureArc VM**: A virtual machine onboarded to Azure Arc to enable hybrid management and governance, allowing Azure services to extend to on-premises or multi-cloud environments.  
+- **Azure Hybrid Benefit**: A licensing benefit that helps organizations reduce costs when migrating workloads to Azure by allowing them to use existing on-premises licenses for Windows Server and SQL Server in the cloud.  
 
-- **Recovery Services Vault**: A feature in Azure that provides backup and disaster recovery capabilities to protect migrated workloads in the cloud, ensuring business continuity.  
-
-- **Azure**: Represents the destination cloud platform where all the on-premises workloads are migrated. It includes infrastructure, platform, and recovery services used for hosting and managing the migrated workloads.
+- **Business Case Analysis**: A read-only capability designed to help organizations assess the financial and operational benefits of migrating workloads to Azure, providing insights into cost optimization and ROI.  
 
 ## Getting Started with the Lab
 

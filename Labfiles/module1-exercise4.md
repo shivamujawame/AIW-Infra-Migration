@@ -1,4 +1,4 @@
-## HOL1: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
+# HOL1: Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
 
 ### Estimated time: 25 minutes
 
