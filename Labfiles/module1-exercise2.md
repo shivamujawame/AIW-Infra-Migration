@@ -97,7 +97,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
      > **Note**: If you don't see the workspace here. You can attempt to close and reopen the Workspace, or you can try refreshing the browser page. This may have been caused by a temporary error in the portal.
 
-7. Select **Agents (1)** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID (2)** and **Primary Key (3)** (for example by using Notepad).
+7. Select **Agents (1)** under **Settings** from the left-hand side menu. Expand **Log analytics agent instructions** and make a note of the **Workspace ID (2)** and **Primary Key (3)** (for example by using Notepad).
 
     ![Screenshot of part of the Azure Migrate 'Dependencies' blade, showing the OMS workspace ID and key.](Images/upd-workspace-id-key1.png "OMS Workspace ID and primary key")
 
