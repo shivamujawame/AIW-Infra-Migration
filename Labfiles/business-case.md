@@ -24,6 +24,7 @@ To understand if Azure makes financial sense, we will start by creating a direct
 
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
+    
 
 2. Click on the **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
  
