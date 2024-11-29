@@ -1,5 +1,5 @@
 
-# HOL3: Exercise 1: Onboard On-premises servers to Azure Arc-enabled server
+# HOL3: Onboard On-premises servers to Azure Arc-Enabled Server
 
 
 ### Estimated time: 30 minutes
@@ -13,14 +13,13 @@ Azure Arc allows you to manage your hybrid IT estate with a single pane of glass
 In this HOL, you will complete the following exercises:
 
 - Exercise 1: Run workloads anywhere with Azure cloud services
-- Exercise 2: Configure ASR for on-premises infrastructure
-- Exercise 3: Setup test failover
-- Exercise 4: Failover the infrastructure to Azure Cloud
-- Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics
-- Exercise 6: Azure Governance (Read Only)
-- Exercise 7: Business case analysis capability (Read-only)
+- Exercise 2: Configure ASR for On-premises Infrastructure
+- Exercise 3: Setup Test Failover
+- Exercise 4: Failover the Infrastructure to Azure Cloud
+- Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, Azure Monitor, and setup Log Analytics for each resource.
+- Exercise 6: Business Case Analysis Capability (Read-only)
 
-### Exercise 1: Run workloads anywhere with Azure cloud services
+### Exercise 1: Run workloads anywhere with Azure Cloud Services
 
 In this exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
 
