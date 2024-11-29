@@ -1,4 +1,4 @@
-## HOL3: Exercise 3: Setup test failover
+## HOL3: Exercise 3: Setup Test Failover
 
 ### Estimated time: 15 minutes
 
