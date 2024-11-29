@@ -1,5 +1,5 @@
 
-## HOL1: Exercise 3: Migrating your applications and data by utilizing Microsoft services and tools, such as Azure Migrate: Server Migration
+# HOL1: Exercise 3: Migrating your applications and data by utilizing Microsoft services and tools, such as Azure Migrate: Server Migration
 
 
 ### Estimated time: 60 minutes
