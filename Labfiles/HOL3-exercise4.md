@@ -1,5 +1,5 @@
 
-## HOL3: Exercise 4: Failover the Infrastructure to Azure Cloud
+# HOL3: Exercise 4: Failover the Infrastructure to Azure Cloud
 
 
 ### Estimated time: 35 minutes
@@ -16,7 +16,7 @@ In this exercise, you will complete the following task:
 
 1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
    
-   ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
+   ![Screenshot of the search Recovery service vaults.](Images/rsv.png "Recovery service vaults")
     
 1. Under Recovery service vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_**.  
 
