@@ -1,5 +1,5 @@
 
-## HOL3: Exercise 2: Configure ASR for On-premises Infrastructure
+# HOL3: Exercise 2: Configure ASR for On-premises Infrastructure
 
 
 ### Estimated time: 30 minutes
