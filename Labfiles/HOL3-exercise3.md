@@ -30,7 +30,7 @@ In this exercise, you will complete the following task:
 
 1. Wait for 10-15 minutes, for the job status of the test failover to get completed successfully.
 
-    ![Screenshot of the Test Failover status.](Images/hol3-e3-s5.png "Test Failover status") 
+    ![Screenshot of the Test Failover status.](Images/H3E3S5.png "Test Failover status") 
   
 1. In the **search resources, services and docs bar**, type **Virtual Machines** and select it from suggestions.
 
