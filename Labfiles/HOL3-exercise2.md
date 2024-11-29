@@ -16,7 +16,8 @@ In this exercise, you will complete the following task:
    
     ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
     
-1. Under Recovery services vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.  
+1. Under Recovery services vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.
+   
     ![Screenshot of the create Recovery service vaults.](Images/hol3-e2-s2.png "create Recovery service vaults")
 
 1. Select **Site Recovery Infrastructure** under **Manage** on the left side of the panel.
@@ -49,7 +50,7 @@ In this exercise, you will complete the following task:
    
    - Leave other values as default and click on **Next (6)**
    
-     ![Screenshot of the target environment.](Images/hol3-ex2-task1-step7.png "Source environment")    
+   ![Screenshot of the target environment.](Images/hol3-ex2-task1-step7.png "Source environment")    
     
 1. Under **Virtual machine selection** tab, **check for AzureArcVM (1)** and click on **Next (2)**.
 
