@@ -1,4 +1,6 @@
-## HOL1: Exercise 2: Set up your environment on Azure to Migrate Servers
+
+# HOL1: Exercise 2: Set up your Environment on Azure to Migrate Servers
+
 
 ### Estimated time: 40 minutes
 
@@ -57,10 +59,11 @@ In this task, you will use Azure Migrate to create a migration assessment for th
     ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/upd-assessment-list-v2.png "Azure Migrate - Assessments (list)")
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+     <validation step="b1bc5f5b-6e26-451d-883a-842902f61bdc" />
 
 ### Task 2: Configure dependency visualization
 
@@ -70,11 +73,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
 
-    ![](Images/upd-nwgrpopen.png)   
+    ![](Images/upd-nwgrpopen.png)
 
 2. Under the **Groups (1)** pane, select the **SmartHotel VMs (2)** group to see the group details. 
 
-    ![](Images/upd-hol1-e2-t2-s2.png)   
+    ![](Images/upd-hol1-e2-t2-s2.png)
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **smarthotelweb1** VM.
 
@@ -237,10 +240,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+     <validation step="76903306-f337-49dc-99b9-2e46e1c17fbe" />
 
 ### Summary 
 

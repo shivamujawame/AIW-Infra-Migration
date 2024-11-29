@@ -1,4 +1,6 @@
+
 ## HOL2: Exercise 4: Optimizing newly Migrated Workloads and Emphasizing commonalities across all Stacks
+
 
 ### Estimated time: 40 minutes
 
@@ -10,7 +12,6 @@ In this exercise, you will complete the following tasks:
 
 - Task 1: Getting Started with Azure Active Directory for Linux
 - Task 2: Azure auto manage
-
 
 ### Task 1: Getting Started with Azure Active Directory for Linux 
 
@@ -29,6 +30,7 @@ In this task, you will be enabling the AAD authentication using a VM extension a
      > **Note**: If prompted with the Enable system-assigned managed identity pop-up, click on Yes.
 
       ![](Images/turnonidentity.png)
+
       ![](Images/identityon.png)
       
 4. Now, Navigate to **Extensions + applications** under Settings from the left side menu.
@@ -54,10 +56,11 @@ In this task, you will be enabling the AAD authentication using a VM extension a
     ![](Images/completed.png)
 
      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help
+     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+     <validation step="31b52d30-b336-49c3-a5bc-4ef69b15dd76" />
 
 ### Task 2: Azure auto manage
 
@@ -81,7 +84,7 @@ In this task, you will Enable Automanage on existing machines.
     
    ![](Images/upd-browse-production-profile.png)
 
-5. On the Select **machines blade**:
+5. On the Select **Machines** blade:
 
    i. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (2)**.
    

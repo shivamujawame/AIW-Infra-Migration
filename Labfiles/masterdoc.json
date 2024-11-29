@@ -4,7 +4,7 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/refs/heads/main/Labfiles/gettingstartedfilenew.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/refs/heads/main/Labfiles/gettingstartedpage-updated-v2.md",
         "Order": 1
       },
       {
@@ -59,13 +59,9 @@
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/HOL3-exercise5.md",
         "Order": 14
       },
-       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/HOL3-exercise6.md",
-        "Order": 15
-      },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/business-case.md",
-        "Order": 16
+        "Order": 15
       }
     ]
   }

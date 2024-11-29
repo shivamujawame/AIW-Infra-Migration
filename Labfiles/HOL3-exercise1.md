@@ -1,10 +1,12 @@
-# HOL 3: Onboard On-Prem Servers to Azure Arc-Enabled Server
 
-### Estimated time: 15 minutes
+# HOL3: Exercise 1: Onboard On-premises servers to Azure Arc-enabled server
+
+
+### Estimated time: 30 minutes
 
 In this HOL, you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
 
-Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers that are not ideal candidates for migration.
+Azure Arc allows you to manage your hybrid IT estate with a single pane of glass by extending the Azure management experience to your on-premises servers, which are not ideal candidates for migration.
 
 ## Lab objectives
 
@@ -16,8 +18,7 @@ In this HOL, you will complete the following exercises:
 - Exercise 4: Failover the infrastructure to Azure Cloud
 - Exercise 5: Enable Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor, and setup Log analytics
 - Exercise 6: Azure Governance (Read Only)
-- Exercise 7: Business case analysis capability (read-only)
-
+- Exercise 7: Business case analysis capability (Read-only)
 
 ### Exercise 1: Run workloads anywhere with Azure cloud services
 
@@ -106,17 +107,16 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
      
  1. Close the AzureArcVM, navigate to the Azure portal go back to the **Azure Arc** page, select **Machines (1)** under **Azure Arc resources** and now verify that a server is connected successfully **(2)**.
 
-    >**Note:** The name of the new server added could be different. You might have to refresh to see the new server.
+    >**Note:** The name of the new server added could be different. You should refresh to see the new server.
     
     ![Screenshot of the server added.](Images/server_added.png)
      
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
    
     <validation step="6e1ec638-e544-477f-90cc-ed27166b2f4e" />
-
     
 ### Summary
 

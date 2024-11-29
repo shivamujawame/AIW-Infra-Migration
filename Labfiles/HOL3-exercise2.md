@@ -1,4 +1,6 @@
+
 ## HOL3: Exercise 2: Configure ASR for On-premises Infrastructure
+
 
 ### Estimated time: 30 minutes
 
@@ -16,7 +18,8 @@ In this exercise, you will complete the following task:
    
     ![Screenshot of the search Recovery service vaults.](Images/upd-search-asr.png "Recovery service vaults")
     
-1. Under Recovery services vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.  
+1. Under Recovery services vaults, click on **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />-MigrateVault-_xxxx_** which we have configured in the previous HOL1 task.
+   
     ![Screenshot of the create Recovery service vaults.](Images/hol3-e2-s2.png "create Recovery service vaults")
 
 1. Select **Site Recovery Infrastructure** under **Manage** on the left side of the panel.
@@ -49,7 +52,7 @@ In this exercise, you will complete the following task:
    
    - Leave other values as default and click on **Next (6)**
    
-     ![Screenshot of the target environment.](Images/hol3-ex2-task1-step7.png "Source environment")    
+   ![Screenshot of the target environment.](Images/hol3-ex2-task1-step7.png "Source environment")    
     
 1. Under **Virtual machine selection** tab, **check for AzureArcVM (1)** and click on **Next (2)**.
 
@@ -72,9 +75,9 @@ In this exercise, you will complete the following task:
     ![Screenshot of the status-protected.](Images/hol3-e2-s13.png "status-protected")
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
   
     <validation step="a173ef6e-b637-4954-b652-309ef10b6968" />
    

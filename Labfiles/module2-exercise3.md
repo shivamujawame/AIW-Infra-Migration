@@ -1,4 +1,6 @@
+
 ## HOL2: Exercise 3: Migrating your applications and data using Microsoft services and tools, such as Azure Migrate, the Azure Hybrid Benefit, and additional programs
+
 
 ### Estimated time: 50 minutes
 
@@ -46,7 +48,7 @@ In this task, you will configure and enable the replication of your on-premises 
     - Are your machines virtualized? : Select **Yes, with Hyper-V (3)**
     -  Click on **Continue (4)**
 
-        ![](Images/30-09-2024(3).png)
+      ![](Images/30-09-2024(3).png)
 
 4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **Yes, apply migration settings from an Azure Migrate assessment (1)**. Select the **SmartHotel VMs (2)** VM group and the **SmartHotelAssessment (3)** migration assessment.
 
@@ -63,16 +65,16 @@ In this task, you will configure and enable the replication of your on-premises 
    - **Subnet**: Select **SmartHotel (4)**. 
    - Select **Next (5)**.
  
-        ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/hol2-ex-3-T2-s6.png)
+   ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/hol2-ex-3-T2-s6.png)
 
    > **Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
 
 7. On the **Compute** tab, select the below configuration,
-   - Select the **Standard_F2s_v2** VM size for each virtual machine. 
+   - Select the **Standard_F2s_v2** VM size for virtual machine. 
    - Select the **Linux** operating system for the **redhat** virtual machine. 
    - Select **Next**
 
-        ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
+   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
 8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 

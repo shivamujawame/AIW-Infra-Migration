@@ -1,6 +1,8 @@
+
 ## HOL3: Exercise 4: Failover the Infrastructure to Azure Cloud
 
-### Estimated time: 30 minutes
+
+### Estimated time: 35 minutes
 
 In this exercise, you will deploy the Failover from on-premises to Azure. After setting up replication to Azure for on-premises machines, when your on-premises site goes down, you fail those machines over to Azure. After failover, Azure VMs are created from replicated data.
 
@@ -48,9 +50,9 @@ In this exercise, you will complete the following task:
    
 1. Wait for 10-15 minutes, for the job status of the failover to get completed successfully.
 
-    ![Screenshot of the Failover status.](Images/hol3-e4-s9.png "Failover status")    
+    ![Screenshot of the Failover status.](Images/H3E4S9.png "Failover status")    
    
-1. After the Failover is completed successfully, move back to the Replicated items page and verify that the **active location** of the **replicated AzureArcVM** is now changed to **Microsoft Azure**.
+1. After the Failover is completed successfully, move back to the **Replicated items** page and verify that the **Active Location** of the replicated **AzureArcVM** is now changed to **Microsoft Azure**.
 
    ![Screenshot of the failover done.](Images/hol3-e4-s10.png "failover done")  
    
@@ -66,7 +68,7 @@ In this exercise, you will complete the following task:
 
    ![Screenshot of the commit page.](Images/hol3-e4-s16.png "commit page") 
    
-1. After the Failover is **committed successfully**, go to the **search resources, services and docs bar**, type **Virtual Machines** and select it from suggestions.   
+1. After the Failover is **committed successfully**, go to the **search resources, services and docs** bar, type **Virtual Machines** and select it from suggestions.   
 
 1. Under the **Virtual Machines** page, select the **AzureArcVM** which is automatically created from replicated data after a Failover.
 
@@ -77,12 +79,11 @@ In this exercise, you will complete the following task:
     ![Screenshot of the vm-created status.](Images/hol3-e4-s13.png "vm-created status")  
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
   
     <validation step="5f5a1f2a-bb3b-4f38-9f12-4b57af351efc" />
-
 
 ### Summary
 

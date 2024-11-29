@@ -1,6 +1,8 @@
+
 ## HOL2: Exercise 2: Set up your environment on Azure to Migrate Servers
 
-### Estimated time: 30 minutes
+
+### Estimated time: 40 minutes
 
 In this exercise, you will learn how to migrate machines as physical servers to Azure, using the Azure Migrate: Server Migration tool. Migrating machines by treating them as physical servers is useful in several scenarios such as, Migrate on-premises physical servers, Migrate Hyper-V VMs and much more.
 
@@ -69,7 +71,12 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ```s
     /opt/microsoft/omsagent/bin/service_control restart <Workspace ID>
     ```
-
+    > **Note:** If the above command fails with the error **"ERROR FOUND: file /etc/opt/microsoft/omsagent/conf/omsadmin.conf doesn't exist,"** run the command below, replacing `<WorkspaceID>` and `<PrimaryKey>`, and then repeat the steps starting from Step 11.
+    
+    ```
+    sudo /opt/microsoft/omsagent/bin/omsadmin.sh -w <WorkspaceID> -s <PrimaryKey>
+    ```
+    
 15. Enter the following command. This downloads a script that will install the Dependency Agent.
 
     ```s

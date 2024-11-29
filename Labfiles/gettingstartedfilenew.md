@@ -4,28 +4,39 @@
 
 ## Overview 
 
-In these hands-on labs, you'll migrate and modernize workloads to Azure. You'll start by evaluating and migrating Windows and SQL Server workloads using Azure Migrate and Azure Site Recovery. Next, you'll replicate and migrate a Red Hat VM and OSS DB workloads, enabling Azure AD-based login and connecting to Azure Automanage. Finally, you'll manage a Windows machine with Azure Arc, using Azure Site Recovery for disaster recovery, including test failovers and failovers to Azure VMs.
+In this hands-on lab, you'll migrate and modernize workloads to Azure. You'll start by evaluating and migrating Windows and SQL Server workloads using Azure Migrate and Azure Site Recovery. Next, you'll replicate and migrate a Red Hat VM and OSS DB workloads, enabling Azure AD-based login and connecting to Azure Automanage. Finally, you'll manage a Windows machine with Azure Arc, using Azure Site Recovery for disaster recovery, including test failovers and failovers to Azure VMs.
 
 ## Objective
 
-**Evaluate and Plan Migration:** Assess your current environment using Azure Migrate, create migration assessments, and configure dependency visualization to ensure a smooth transition.
+- **Evaluate and Plan Migration:** Assess your current environment using Azure Migrate, create migration assessments, and configure dependency visualization to ensure a smooth transition.
 
-**Set Up Azure Environment:** Prepare Azure for migration by creating storage accounts, registering Hyper-V hosts, enabling replication, and configuring networking.
+- **Set Up Azure Environment:** Prepare Azure for migration by creating storage accounts, registering Hyper-V hosts, enabling replication, and configuring networking.
 
-**Migrate Workloads:** Use Azure Migrate and Azure Site Recovery to migrate Windows, SQL Server, Linux, and OSS DB workloads, ensuring minimal downtime and leveraging Azure's scalability.
+- **Migrate Workloads:** Use Azure Migrate and Azure Site Recovery to migrate Windows, SQL Server, Linux, and OSS DB workloads, ensuring minimal downtime and leveraging Azure's scalability.
 
-**Optimize Workloads:** Enhance the performance and resilience of migrated workloads using VM Scale Sets, Azure Automanage, and Azure Active Directory for Linux.
+- **Optimize Workloads:** Enhance the performance and resilience of migrated workloads using VM Scale Sets, Azure Automanage, and Azure Active Directory for Linux.
 
-**Disaster Recovery and Security:** Implement disaster recovery plans with Azure Site Recovery, conduct test failovers, and enable failovers to Azure VMs. Enhance security with Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor.
+- **Disaster Recovery and Security:** Implement disaster recovery plans with Azure Site Recovery, conduct test failovers, and enable failovers to Azure VMs. Enhance security with Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor.
 
-**Governance and Business Analysis:** Apply Azure governance practices and perform business case analysis to ensure compliance and optimize resource management.
+To seamlessly migrate and modernize on-premises infrastructure to Azure, enhancing performance, scalability, and security while optimizing costs and leveraging advanced cloud services for innovation and agility.
+
+- **Evaluate and Plan Migration:** Assess your current environment using Azure Migrate, create migration assessments, and configure dependency visualization to ensure a smooth transition.
+
+- **Set Up Azure Environment:** Prepare Azure for migration by creating storage accounts, registering Hyper-V hosts, enabling replication, and configuring networking.
+
+- **Migrate Workloads:** Use Azure Migrate and Azure Site Recovery to migrate Windows, SQL Server, Linux, and OSS DB workloads, ensuring minimal downtime and leveraging Azure's scalability.
+
+- **Optimize Workloads:** Enhance the performance and resilience of migrated workloads using VM Scale Sets, Azure Automanage, and Azure Active Directory for Linux.
+
+- **Disaster Recovery and Security:** Implement disaster recovery plans with Azure Site Recovery, conduct test failovers, and enable failovers to Azure VMs. Enhance security with Microsoft Defender for Cloud, Microsoft Sentinel, and Azure Monitor.
+
+- **Governance and Business Analysis:** Apply Azure governance practices and perform business case analysis to ensure compliance and optimize resource management.
 
 ## Architecture
 
 This diagram shows the process of migrating an on-premises SQL Server database to Azure SQL Managed Instance (SQL MI). It involves setting up SQL MI, assessing the database for compatibility issues, migrating data using Azure Data Migration Service (DMS), configuring a secure virtual network, deploying the web application to Azure, and enabling advanced SQL MI features for optimized performance and security.
 
-
-## Architectural Diagram
+## Architecture Diagram
 
 ![A slide shows the on-premises SmartHotel application architecture.](Images/lineofbusines3.png "SmartHotel Migration Overview")
 
@@ -36,6 +47,18 @@ This diagram shows the process of migrating an on-premises SQL Server database t
 - **SQL Server Configuration Manager**: A vital tool for managing SQL Server services, network configurations, and server-specific settings. It is primarily used to control the behavior of SQL Server instances and related services.
 
 - **Microsoft SQL Server Management Studio**: A comprehensive tool for managing SQL Server infrastructure. It provides a user-friendly interface for connecting, querying, configuring, and managing SQL Server databases both on-premises and in the cloud.
+
+- **Azure Migrate: Server Migration:** Used for migrating the UbuntuWAF, SmartHotelWeb1, SmartHotelWeb2, and Redhat VM to Azure. This service facilitates the lift-and-shift of VMs to Azure.
+
+- **Recovery Services Vault:** Utilized for migrating the AzureArc VM, likely using Azure Site Recovery for VM replication and failover.
+
+- **Azure Arc:** It enables you to manage servers, Kubernetes clusters, and applications across data centres, edge, and multi-cloud environments from Azure.
+
+- **Azure Database Migration Service (DMS):** A service used to migrate on-premises databases (like SQL Server) to cloud-based Azure SQL databases.
+
+- **Storage account:** Azure Storage Account offers scalable, secure storage for backups, VM snapshots, and application data. It integrates with services like Recovery Services Vault for disaster recovery and long-term data retention in the cloud.
+
+- **Azure**: Represents the Microsoft Azure cloud platform, where the on-premises resources have been migrated and are now managed.
 
 ## Getting Started with Lab
  
@@ -68,20 +91,6 @@ For convenience, you can open the lab guide in a separate window by selecting th
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](Images/res.png)
- 
-## **Lab Duration Extension**
-
-1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
-
-    ![Manage Your Virtual Machine](Images/gext.png)
-
-    >**Note:** You will get the **Hourglass** icon when 10 minutes are remaining in the lab.
-
-2. Click **OK** to extend your lab duration.
- 
-   ![Manage Your Virtual Machine](Images/gext2.png)
-
-3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
 
 ## Let's Get Started with Azure Portal
  
@@ -99,7 +108,16 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
+   ![Enter Your Password](Images/sc900-image-2.png)
+
+4. If you see the pop-up Action Required, keep default and then click on Ask later. If you see the pop-up Help us protect your account, click on Skip for now(14 days until this is required), and then click on Next.
+
+    ![MFA](Images/mfa.png)
+
+    > NOTE: Do not enable MFA, select Ask Later.
+
      ![Enter Your Password](Images/sc900-image-2.png)
+
  
 4. If prompted to stay signed in, you can click "No."
  
