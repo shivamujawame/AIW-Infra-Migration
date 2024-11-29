@@ -8,10 +8,10 @@ In this HOL, you will use Azure Migrate: Server Assessment to assess the on-prem
 
 In this HOL, you will complete the following exercises:
 
-- Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
-- Exercise 2: Set up your environment on Azure to migrate servers
-- Exercise 3: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
-- Exercise 4: Optimizing newly migrated workloads, and emphasizing commonalities across all stacks
+- Exercise 1: Migrating Windows & SQL Server Workloads
+- Exercise 2: Set up your environment on Azure to Migrate Servers
+- Exercise 3: Migrating your applications and data by utilizing Microsoft services and tools, such as Azure Migrate: Server Migration
+- Exercise 4: Optimizing newly Migrated Workloads, and Emphasizing commonalities across all Stacks
 
 ### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
