@@ -10,9 +10,9 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
 
 In this exercise, you will complete the following task:
 
-- Task 1: Failover the infrastructure to Azure Cloud
+- Task 1: Failover the Infrastructure to Azure Cloud
 
-### Task 1: Failover the infrastructure to Azure Cloud
+### Task 1: Failover the Infrastructure to Azure Cloud
 
 1. In the **search resources, services and docs bar**, type **Recovery service vaults** and select it from suggestions, as shown below:
    
