@@ -68,7 +68,7 @@ In this task, you will configure and enable the replication of your on-premises 
    > **Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
 
 7. On the **Compute** tab, select the below configuration,
-   - Select the **Standard_F2s_v2** VM size for each virtual machine. 
+   - Select the **Standard_F2s_v2** VM size for virtual machine. 
    - Select the **Linux** operating system for the **redhat** virtual machine. 
    - Select **Next**
 
