@@ -48,9 +48,9 @@ In this exercise, you will complete the following task:
    
 1. Wait for 10-15 minutes, for the job status of the failover to get completed successfully.
 
-    ![Screenshot of the Failover status.](Images/hol3-e4-s9.png "Failover status")    
+    ![Screenshot of the Failover status.](Images/H3E4S9.png "Failover status")    
    
-1. After the Failover is completed successfully, move back to the Replicated items page and verify that the **active location** of the **replicated AzureArcVM** is now changed to **Microsoft Azure**.
+1. After the Failover is completed successfully, move back to the **Replicated items** page and verify that the **Active Location** of the replicated **AzureArcVM** is now changed to **Microsoft Azure**.
 
    ![Screenshot of the failover done.](Images/hol3-e4-s10.png "failover done")  
    
@@ -66,7 +66,7 @@ In this exercise, you will complete the following task:
 
    ![Screenshot of the commit page.](Images/hol3-e4-s16.png "commit page") 
    
-1. After the Failover is **committed successfully**, go to the **search resources, services and docs bar**, type **Virtual Machines** and select it from suggestions.   
+1. After the Failover is **committed successfully**, go to the **search resources, services and docs** bar, type **Virtual Machines** and select it from suggestions.   
 
 1. Under the **Virtual Machines** page, select the **AzureArcVM** which is automatically created from replicated data after a Failover.
 
