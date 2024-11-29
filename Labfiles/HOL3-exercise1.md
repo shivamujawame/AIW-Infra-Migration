@@ -1,4 +1,4 @@
-# HOL 3: Onboard On-prem servers to Azure Arc-enabled server
+# HOL 3: Onboard On-Prem Servers to Azure Arc-Enabled Server
 
 ### Estimated time: 15 minutes
 
