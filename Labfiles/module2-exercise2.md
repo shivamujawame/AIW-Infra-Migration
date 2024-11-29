@@ -69,7 +69,12 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ```s
     /opt/microsoft/omsagent/bin/service_control restart <Workspace ID>
     ```
-
+    > **Note:** If the above command fails with the error **"ERROR FOUND: file /etc/opt/microsoft/omsagent/conf/omsadmin.conf doesn't exist,"** run the command below, replacing `<WorkspaceID>` and `<PrimaryKey>`, and then repeat the steps starting from Step 11.
+    
+    ```
+    sudo /opt/microsoft/omsagent/bin/omsadmin.sh -w <WorkspaceID> -s <PrimaryKey>
+    ```
+    
 15. Enter the following command. This downloads a script that will install the Dependency Agent.
 
     ```s
