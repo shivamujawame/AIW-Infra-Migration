@@ -10,9 +10,9 @@ In this exercise, you will deploy a Test Failover to the replicated Virtual Mach
 
 In this exercise, you will complete the following task:
 
-- Task 1: Setup test failover
+- Task 1: Setup Test Failover
 
-### Task 1: Setup test failover
+### Task 1: Setup Test Failover
 
 1. On the **Recovery Service Vault page**, click on **Replicated Items (1)** under **Protected Items** and select **AzureArcVM (2)** that you replicated in the previous exercise.
    
