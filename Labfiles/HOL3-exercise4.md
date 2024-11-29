@@ -1,4 +1,4 @@
-## HOL3: Exercise 4: Failover the infrastructure to Azure Cloud
+## HOL3: Exercise 4: Failover the Infrastructure to Azure Cloud
 
 ### Estimated time: 30 minutes
 
