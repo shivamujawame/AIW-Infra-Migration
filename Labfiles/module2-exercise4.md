@@ -82,7 +82,7 @@ In this task, you will Enable Automanage on existing machines.
     
    ![](Images/upd-browse-production-profile.png)
 
-5. On the Select **machines blade**:
+5. On the Select **Machines** blade:
 
    i. Filter the list by your Subscription and Resource group and click on **Check eligibility on machines (2)**.
    
