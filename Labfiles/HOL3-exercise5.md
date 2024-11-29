@@ -31,7 +31,7 @@ In this task, you will enable Microsoft Defender for Cloud to enhance the securi
 
 1. In the **search resources, services and docs** bar, type **Microsoft Defender for Cloud** and select it from suggestions, as shown below:
 
-    ![Screenshot of the search Microsoft Defender for Cloud.](Images/ex4-s1.png "Microsoft Defender for Cloud")
+    ![Screenshot of the search Microsoft Defender for Cloud.](Images/MDC.png "Microsoft Defender for Cloud")
     
     > **Note:** If you are prompted with a new upgrade pop-up, click on Skip.
     
@@ -59,7 +59,7 @@ In this task, you will create and enable Microsoft Sentinel and review the Conte
 
 1. In the **search resources, services and docs** bar, type **Microsoft Sentinel** and select it from suggestions, as shown below:
 
-    ![Screenshot of the search Microsoft Sentinel.](Images/e5-t2-s1.png "Microsoft Sentinel")
+    ![Screenshot of the search Microsoft Sentinel.](Images/MS.png "Microsoft Sentinel")
     
 1. On the **Microsoft Sentinel** page, click on **+ Create**.    
 
