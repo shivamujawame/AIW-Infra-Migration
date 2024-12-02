@@ -104,7 +104,7 @@ In this task, you will enable Azure Monitor to track and manage the performance 
 
     ![Screenshot of the search Azure workspace Monitor.](Images/hol3-e5-t3-s2.png "Azure Monitor")
 
-3. On the **Overview tab**, you can see:
+3. Under the **Monitoring** section, click on **Insights**, and in the **Overview** tab, you will find the following:
 
 - The monthly ingestion volume of the workspace
 - How many machines sent heartbeats, meaning - machines that are connected to this workspace (in the selected time range)
@@ -113,7 +113,7 @@ In this task, you will enable Azure Monitor to track and manage the performance 
 - The daily cap set, and how much data was already ingested on the recent day
 - Ingestion anomalies - a list of identified spikes and dips in ingestion to these tables
     
-    ![Screenshot of the search Azure workspace Monitor.](Images/upd-hol3-e5-t3-s3.png "Azure Monitor")
+    ![Screenshot of the search Azure workspace Monitor.](Images/upd-hol3-e5-t3-s3t.png "Azure Monitor")
     
 4. On the **Usage tab**, you can see ingestion data by tables and defaults to the 5 most ingested tables in the selected time range.
 
