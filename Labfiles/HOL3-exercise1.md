@@ -77,7 +77,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
 
     ![Screenshot of Hyper-V Manager showing the connect button for the AzureArcVM.](Images/HOL3-EX1-S12.png "Connect to AzureArcVM")  
     
-1. Under Connect to AzureArcVM, click on **Connect** and then log into the VM with the **Administrator password**: **<inject key="SmartHotel Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
+1. Under Connect to AzureArcVM, click on **Connect** and then log into the VM with the **Administrator password**: **<inject key="SmartHotel Admin Password" />** (If the copy/paste is not working in the hyper-V machine, please try typing the password. The login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
  
     ![Screenshot of the Connect to AzureArcVM.](Images/HOL3-EX1-S13.png)
     
@@ -90,6 +90,7 @@ In this exercise, you will deploy and configure the Azure Connected Machine agen
     ```
     Set-ExecutionPolicy -ExecutionPolicy unrestricted
     ```
+   >**Note:** If you get an option, "Do you want to change the execution policy", please type A and press enter. 
 
 1. Now, run the whole script that you copied in the notepad earlier in step 7.
 
