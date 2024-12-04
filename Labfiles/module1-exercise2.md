@@ -198,25 +198,35 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/h1-e2-t2-s28.png "SSH session with UbuntuWAF")
     
-    > **Note**: If you receive any error while running the above command, run the below command to update the packages and perform **Step 28** again.
+    > **Note**: If you encounter any error related to the deprecation of the log analytic agent while executing the command above, you can ignore it and proceed.
+    
+     ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/H1E2T2S28.png)
+
+    > **Note**: However, if you encounter any other errors other than log analytics agent, run the command below to update the packages and then repeat **Step 28**.
      
      ```
      apt-get update
      ```
 
-29. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
+30. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
 
     ```s
     /opt/microsoft/omsagent/bin/service_control restart <Workspace ID>
     ```
 
-30. Enter the following command. This downloads a script that will install the Dependency Agent.
+    > **Note**: If you receive any error while running the above command, run the below command to update the rebuild the directory and perform **Step 29** again.
+     
+     ```
+      sudo sh /opt/microsoft/omsagent/bin/omsadmin.sh -w <workspaceID> -s <workspaceKey>
+     ```
+
+31. Enter the following command. This downloads a script that will install the Dependency Agent.
 
     ```s
     wget --content-disposition https://aka.ms/dependencyagentlinux -O InstallDependencyAgent-Linux64.bin
     ```
 
-31. Install the dependency agent by running the script download in the previous step.
+32. Install the dependency agent by running the script download in the previous step.
 
     ```s
     sh InstallDependencyAgent-Linux64.bin -s
@@ -225,17 +235,17 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ![Screenshot showing that the Dependency Agent install on Linux was successful.](Images/da-linux-done.png "Dependency Agent installation was successful")
     
 
-32. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
+33. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
     ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/upd-dependency-viz-installed.png "Dependency agent installed")
    
     **Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
-33. Select **View dependencies**.
+34. Select **View dependencies**.
 
     ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/upd-view-dependencies.png "View dependencies")
    
-34. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
+35. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
 
