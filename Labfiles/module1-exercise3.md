@@ -175,7 +175,7 @@ In this task, you will configure and enable the replication of your on-premises 
      
      > **Note:** If you encounter any errors while selecting the storage account, please follow these steps:
 
-        - Select the storage account you created in Task 1.
+        - Select the storage account **migrationstorage<inject key="DeploymentID" enableCopy="false" />**
         - On the **Data Management page (1)**, choose **Object Replication (2)**
         - In the **Advanced Settings (3)** section , enable **cross-tenant replication (4)** and click **OK (5)**
           
