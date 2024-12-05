@@ -1,6 +1,4 @@
-
 # HOL1: Exercise 3: Migrating your applications and data by utilizing Microsoft services and tools, such as Azure Migrate: Server Migration
-
 
 ### Estimated time: 60 minutes
 
@@ -175,14 +173,13 @@ In this task, you will configure and enable the replication of your on-premises 
 
      > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
      
-     > **Note**: If you encounter any errors while selecting the storage account, please follow these steps:
+     > **Note:** If you encounter any errors while selecting the storage account, please follow these steps:
 
         - Select the storage account you created in Task 1.
-        - On the **Data Management page (1)**, choose **Object Replication(2)**
-        - In the **Advanced Settings (3)** section , enable **cross-tenant replication(4)** and click **OK(5)**
+        - On the **Data Management page (1)**, choose **Object Replication (2)**
+        - In the **Advanced Settings (3)** section , enable **cross-tenant replication (4)** and click **OK (5)**
           
         ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/ms-1.png)
-
 
 7. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
