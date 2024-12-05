@@ -1,4 +1,4 @@
-# HOL1: Exercise 1: Migrating Windows & SQL Server workloads
+# HOL1: Migrating Windows & SQL Server workloads
 
 ### Estimated time: 60 minutes
 
@@ -31,7 +31,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 4. Under **Migration goals**, select **Servers, databases and web apps (1)** and then under **Azure Migrate: Discovery and assessment**, select **Discover (2) > Using appliance (3)** to open the **Discover** blade.
  
-    ![](Images/infra1.1.png)
+    ![](Images/H1E1S4.png)
  
 5. Under **Are your servers virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
 
