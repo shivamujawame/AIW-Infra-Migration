@@ -135,7 +135,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="a6405ea6-b97d-4e45-8cf8-c8997009392d" />
+    <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
      
 
 #### Task summary 
@@ -219,7 +219,7 @@ In this task, you will configure and enable the replication of your on-premises 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="216eebdd-a59b-4f61-a316-af714d0c342e" />
+    <validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
 
 
 #### Task summary 
@@ -301,7 +301,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="e9fd6a73-9493-4184-b9c0-7bd0a4d4fce2" />
+    <validation step="e4fc8753-2a84-4e27-8b12-cb43582a0e6c" />
 
 #### Task summary 
 
