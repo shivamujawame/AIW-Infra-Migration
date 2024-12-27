@@ -146,7 +146,7 @@ In this task, you registered your Hyper-V host with the Azure Migrate Server Mig
 In this task, you will configure and enable the replication of your on-premises virtual machines from Hyper-V to the Azure Migrate Server Migration service.
 
 1. Under the **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.1
-
+   ![Screenshot of the ASR provider registration settings.](Images/upd-asr-registration.png "Key file registration")
    ![](Images/replicatenw.png)
    
 2. Under the **Specific intent** page, provide the below details:
