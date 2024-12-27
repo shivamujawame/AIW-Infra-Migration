@@ -1,6 +1,22 @@
-# Lab 01: Migrate Windows Servers from Hyper-V to Azure
+# Lab : Migrate Windows Servers from Hyper-V to Azure
 
-### Duration: 45 minutes
+## Overview
+
+  In this lab, you will learn how to migrate on-premises virtual machines to Azure using Azure Migrate: Server Migration. The tasks include creating a storage account for migration data, registering the Hyper-V host with Azure Migrate, enabling replication from Hyper-V to Azure Migrate, configuring networking with static IPs for replicated VMs, and performing the migration of virtual machines to Azure. By completing these tasks, you will gain practical experience in setting up and executing a migration strategy, ensuring a seamless transition from on-premises environments to the Azure cloud.
+
+## Lab objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Create a Storage Account
+
+- Task 2: Register the Hyper-V Host with Migration and modernization
+
+- Task 3: Enable Replication from Hyper-V to Azure Migrate
+
+- Task 4: Configure Networking
+
+- Task 5: Server migration
 
 ## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
@@ -374,9 +390,27 @@ Azure Migrate has two migration options:
 
 In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
 
-#### Summary 
+#### Review:
 
-In this lab, you learned how to migrate Windows Servers from Hyper-V to Azure using Azure Migrate: Server Migration. You created a storage account for migration data, registered your Hyper-V host with Azure Migrate, and configured replication for virtual machines. You set up networking with static IPs for replicated VMs, performed a migration, and reviewed network and security best practices. The lab provided essential knowledge on discovery, replication, and migration to Azure.
+In this exercise, you have completed the following:
+
+- Successfully set up a storage account in Azure to support the migration process, ensuring proper storage management for the virtual machines.
+
+- Registered the Hyper-V host with Azure Migration and Modernization services, utilizing Azure Site Recovery for a seamless migration process.
+
+- Configured and enabled replication of on-premises virtual machines from Hyper-V to Azure Migrate, ensuring data consistency and availability during the migration.
+
+- Adjusted the networking settings for the replicated virtual machines, including configuring static private IP addresses, to ensure seamless integration with Azure resources.
+
+- Successfully migrated the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure, ensuring minimal downtime and a smooth transition to the cloud environment.
+
+**Conclusion**
+
+Congratulations on completing the lab! Throughout this exercise, you have gained hands-on experience with Azure Migrate: Server Migration and the process of migrating Windows Servers from Hyper-V to Azure. From creating storage accounts for migration data to registering your Hyper-V host and configuring replication, you have developed a comprehensive understanding of migration processes in Azure.
+
+By completing this lab, you successfully configured networking with static IPs for replicated VMs, performed migrations, and reviewed essential network and security best practices. These skills will empower you to efficiently manage and optimize the migration of on-premises virtual machines to Azure, ensuring a seamless transition to the cloud.
+
+We hope this lab has provided valuable insights and practical experience to help you tackle real-world challenges in cloud migrations. Thank you for participating, and we look forward to your continued success in leveraging Azure Migrate for cloud-based transformations.
 
 ### You have successfully completed the lab.
 

@@ -1,8 +1,10 @@
 # Migrate Windows Server to Azure
 
-### Overall Estimated Duration: 4 Hours
+**Overall Estimated Duration: 4 Hours**
 
 ## Overview
+
+**Azure Migrate** is a cloud migration service that simplifies the process of moving on-premises infrastructure, applications, and data to Azure. It provides tools for discovery, assessments, and right-sizing, ensuring a smooth and cost-effective migration. Azure Migrate supports various scenarios, including rehosting and modernization, and integrates with services like Azure Site Recovery and Azure Database Migration Service for a seamless migration experience.
 
 In this hands-on lab, you will explore how Azure Migrate simplifies the migration of applications and data to Azure. You will learn to perform key pre-migration tasks, including discovery, assessments, and resource right-sizing. The lab covers configuring replication from on-premises Hyper-V hosts to Azure and executing server migrations, ensuring smooth operation through proper networking configurations. Additionally, you’ll gain valuable insights into Azure Networking and Security to support successful infrastructure migration.
 
