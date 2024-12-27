@@ -44,6 +44,10 @@ In this hands-on lab, you will follow a structured workflow to migrate applicati
 
 - **Azure Site Recovery**: Provides reliable replication and failover of workloads to Azure with minimal downtime.  
 
+## Getting Started with the Lab
+
+Welcome to Migrate Windows Server to Azure workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+
 
 ## Accessing Your Lab Environment
  
@@ -80,10 +84,8 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
    ![Manage Your Virtual Machine](./Images/labzoom-1.png)
    
 ## Let's Get Started with Azure Portal
-
-Welcome to Migrate Windows Server to Azure workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
-1. On your virtual machine, click on the Azure Portal icon as shown below:
+1. On your virtual machine, click on the **Azure Portal** icon as shown below:
  
     ![](./Images/GS1.png)
  
@@ -93,31 +95,34 @@ Welcome to Migrate Windows Server to Azure workshop! We've prepared a seamless e
  
       ![](./Images/GS2.png)
  
-3. Next, provide your password:
+3. Now enter the following password and click on Sign in.
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
       ![](./Images/GS3.png)
- 
-4. If you see the pop-up **Stay Signed in?**, click **No**.
+
+4. If you see the pop-up Action Required, click **Ask Later**.
+
+   ![](./Images/asklater.png)
+
+   > **NOTE:** Do not enable MFA, select **Ask Later**.
+
+5. If you see the pop-up **Stay Signed in?**, click **No**.
 
    ![](./Images/GS9.png)
 
-5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+6. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-6. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
+7. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
 
-7. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+8. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
      ![](Images/select-rg.png "Resource groups")
    
-8. Confirm you have all resource groups present as shown below.
+9. Confirm you have all resource groups present as shown below.
 
      ![](Images/upimage10.png "Resource groups")
    
-9. Now, click on the **Next** from the lower right corner to move to the next page.
-
-   ![](./Images/GS4.png)
  
 ## Support Contact
  
@@ -127,8 +132,8 @@ Learner Support Contacts:
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Now, click on **Next** from the lower right corner to move on to the next page.
+Now, click on the **Next** from the lower right corner to move to the next page.
 
-![](../media/lab-next.png)
+   ![](./Images/GS4.png)
 
 ### Happy Learning!!
