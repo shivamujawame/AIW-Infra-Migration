@@ -165,7 +165,6 @@ In this task, you will configure and enable the replication of your on-premises 
 
    ![Screenshot of the ASR provider registration settings.](Images/replicatenw.png "Key file registration")
    
-   
 2. Under the **Specific intent** page, provide the below details:
 
      -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
