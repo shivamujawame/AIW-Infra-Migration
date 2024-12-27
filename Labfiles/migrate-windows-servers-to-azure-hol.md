@@ -166,11 +166,11 @@ In this task, you will configure and enable the replication of your on-premises 
 
 3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
 
-     ![](Images/task3s3.png)
+      ![](Images/task3s3.png)
 
 4. The **Virtual machines** Tab. Select the **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
 
-     ![](Images/task3s4.png)
+      ![](Images/task3s4.png)
 
 5. On the **Target settings** tab, select the below information:
 
@@ -184,7 +184,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
     - Leave other values as default and select **Next (5)**.
    
-      ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-S6.png)
+       ![](Images/HOL1-EX3-S6.png)
 
       > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
@@ -196,30 +196,30 @@ In this task, you will configure and enable the replication of your on-premises 
 
     - Select **Next**. 
 
-      ![](Images/t3s6.png)
+        ![](Images/t3s6.png)
     
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
 8. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
 
-      ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/newoverviewreplication.png "Overview link")
+      ![](Images/newoverviewreplication.png)
     
 9. Confirm that the 2 machines are replicating.
 
-     ![](Images/t3s9.png)
+      ![](Images/t3s9.png)
 
 10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
-       ![](Images/06-05-2024(4).png)
+      ![](Images/06-05-2024(4).png)
 
    > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - If you receive a success message, you can proceed to the next task.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
+<validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
 
 
 #### Task summary 
