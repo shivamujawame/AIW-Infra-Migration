@@ -390,7 +390,7 @@ Azure Migrate has two migration options:
 
 In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
 
-#### Review:
+### Review:
 
 In this exercise, you have completed the following:
 
@@ -404,7 +404,7 @@ In this exercise, you have completed the following:
 
 - Successfully migrated the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure, ensuring minimal downtime and a smooth transition to the cloud environment.
 
-**Conclusion**
+### Conclusion
 
 Congratulations on completing the lab! Throughout this exercise, you have gained hands-on experience with Azure Migrate: Server Migration and the process of migrating Windows Servers from Hyper-V to Azure. From creating storage accounts for migration data to registering your Hyper-V host and configuring replication, you have developed a comprehensive understanding of migration processes in Azure.
 
