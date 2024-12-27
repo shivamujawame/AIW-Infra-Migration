@@ -163,7 +163,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 1. Under the **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
 
-   ![Screenshot of the ASR provider registration settings.](Images/replicatenw.png "Key file registration")
+     ![Screenshot of the ASR provider registration settings.](Images/replicatenw.png "Key file registration")
    
 2. Under the **Specific intent** page, provide the below details:
 
@@ -181,11 +181,11 @@ In this task, you will configure and enable the replication of your on-premises 
 
 3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
 
-    ![](Images/task3s3.png)
+     ![](Images/task3s3.png)
 
 4. The **Virtual machines** Tab. Select the **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
 
-   ![Screenshot of the ASR provider registration settings.](Images/task3s4.png "Key file registration")
+     ![Screenshot of the ASR provider registration settings.](Images/task3s4.png "Key file registration")
       
 
 5. On the **Target settings** tab, select the below information:
@@ -200,7 +200,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
     - Leave other values as default and select **Next (5)**.
    
-       ![](Images/HOL1-EX3-S6.png)
+     ![](Images/HOL1-EX3-S6.png)
 
     > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
@@ -212,22 +212,22 @@ In this task, you will configure and enable the replication of your on-premises 
 
     - Select **Next**. 
 
-    ![](Images/t3s6.png)
+     ![](Images/t3s6.png)
     
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
 8. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
 
-   ![Screenshot of the ASR provider registration settings.](Images/newoverviewreplication.png "Key file registration")
+     ![Screenshot of the ASR provider registration settings.](Images/newoverviewreplication.png "Key file registration")
       
     
 9. Confirm that the 2 machines are replicating.
 
-   ![Screenshot of the ASR provider registration settings.](Images/t3s9.png "Key file registration")
+     ![Screenshot of the ASR provider registration settings.](Images/t3s9.png "Key file registration")
       
 10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all two machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes. 
 
-    ![Screenshot of the ASR provider registration settings.](Images/06-05-2024(4).png "Key file registration")
+      ![Screenshot of the ASR provider registration settings.](Images/06-05-2024(4).png "Key file registration")
     
    > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
 
