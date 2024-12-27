@@ -12,21 +12,21 @@ In this hands-on lab, you will explore how Azure Migrate simplifies the migratio
 
 This exercise focuses on enhancing your skills in migrating applications and data to Azure using Azure Migrate and related services. By completing this lab, you will learn:
 
-1. **Pre-migration steps with Azure Migrate:** Understand how to perform discovery, assessments, and right-sizing of on-premises resources for infrastructure, data, and applications.
+- **Pre-migration steps with Azure Migrate:** Understand how to perform discovery, assessments, and right-sizing of on-premises resources for infrastructure, data, and applications.
 
-2. **Replication and migration:** Configure replication from on-premises Hyper-V hosts to Azure and migrate virtual machines using Azure Migrate Server Migration.
+- **Replication and migration:** Configure replication from on-premises Hyper-V hosts to Azure and migrate virtual machines using Azure Migrate Server Migration.
 
-3. **Networking configuration:** Modify replicated VM settings to ensure proper networking, including static private IP assignments for seamless integration.
+- **Networking configuration:** Modify replicated VM settings to ensure proper networking, including static private IP assignments for seamless integration.
 
-4. **Server Migration :** Select Azure VM as the destination, choose to shut down VMs before migration for minimal data loss, and monitor progress through the Jobs section. Verify the creation of VM, network interface, and disk resources in the target resource group after migration.
+- **Server Migration :** Select Azure VM as the destination, choose to shut down VMs before migration for minimal data loss, and monitor progress through the Jobs section. Verify the creation of VM, network interface, and disk resources in the target resource group after migration.
 
 ## Prerequisites
 
-1. **Azure Migration Knowledge:** Understanding of Azure Migrate, server migration, and related tools for seamless cloud transition.
+- **Azure Migration Knowledge:** Understanding of Azure Migrate, server migration, and related tools for seamless cloud transition.
 
-2. **Hyper-V and VMware Administration:** Familiarity with Hyper-V and VMware environments for managing on-premises virtual machines.
+- **Hyper-V and VMware Administration:** Familiarity with Hyper-V and VMware environments for managing on-premises virtual machines.
 
-3. **Networking and Security Basics:** Knowledge of networking concepts, static IP addressing, and security configurations for VM migrations.
+- **Networking and Security Basics:** Knowledge of networking concepts, static IP addressing, and security configurations for VM migrations.
    
 ## Architecture
 

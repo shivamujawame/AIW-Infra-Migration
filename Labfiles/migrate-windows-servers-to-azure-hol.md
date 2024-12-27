@@ -403,7 +403,7 @@ In this exercise, you have completed the following:
 
 - Adjusted the networking settings for the replicated virtual machines, including configuring static private IP addresses, to ensure seamless integration with Azure resources.
 
-- Successfully migrated the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure, ensuring minimal downtime and a smooth transition to the cloud environment.
+- Successfully migrated the smarthotelweb1 and smarthotelweb2 machines to Azure, ensuring minimal downtime and a smooth transition to the cloud environment.
 
 ### Conclusion
 
