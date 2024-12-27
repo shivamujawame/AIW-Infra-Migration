@@ -137,7 +137,6 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
     
     <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
      
-
 #### Task summary 
 
 In this task, you registered your Hyper-V host with the Azure Migrate Server Migration service.
@@ -148,7 +147,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 1. Under the **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
 
-    ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/replicatenw.png "Replicate link")
+    ![](Images/replicatenw.png)
    
 2. Under the **Specific intent** page, provide the below details:
 
