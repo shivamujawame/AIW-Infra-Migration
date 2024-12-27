@@ -146,12 +146,12 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
-      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-      <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
+<validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
      
 #### Task summary 
 
@@ -177,12 +177,14 @@ In this task, you will configure and enable the replication of your on-premises 
 
         ![](Images/29-04-2024(1).png)
 
-        >**Note**: If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
+    >**Note**: If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
 
 3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
+
     ![](Images/task3s3.png)
 
 4. The **Virtual machines** Tab. Select the **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
+
    ![Screenshot of the ASR provider registration settings.](Images/task3s4.png "Key file registration")
       
 
@@ -200,7 +202,7 @@ In this task, you will configure and enable the replication of your on-premises 
    
        ![](Images/HOL1-EX3-S6.png)
 
-      > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
+    > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
 6. On the **Compute** tab, select the below configuration,
 
@@ -210,11 +212,12 @@ In this task, you will configure and enable the replication of your on-premises 
 
     - Select **Next**. 
 
-        ![](Images/t3s6.png)
+    ![](Images/t3s6.png)
     
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
 8. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
+
    ![Screenshot of the ASR provider registration settings.](Images/newoverviewreplication.png "Key file registration")
       
     
