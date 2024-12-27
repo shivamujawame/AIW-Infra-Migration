@@ -128,11 +128,11 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the ASR provider showing successful registration.](Images/upd-asr-registered.png "Registration complete")
 
-1. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization** and selecting **Azure Vm** for **Where do you want to migrate to?** and **Yes, with Hyper-V** for **Are your machines virtualized?**.
+1. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization** and selecting **Azure VM** for **Where do you want to migrate to?** and **Yes, with Hyper-V** for **Are your machines virtualized?**.
+
+    ![](Images/task2step13.png)
 
 1. Select **Finalize registration**, which should now be enabled.
-
-     ![](Images/task2step13.png)
 
 1. Azure Migrate will now complete the registration with the Hyper-V host. **Wait** for the registration to complete. This may take several minutes.
 
@@ -162,6 +162,7 @@ In this task, you registered your Hyper-V host with the Azure Migrate Server Mig
 In this task, you will configure and enable the replication of your on-premises virtual machines from Hyper-V to the Azure Migrate Server Migration service.
 
 1. Under the **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
+
    ![Screenshot of the ASR provider registration settings.](Images/replicatenw.png "Key file registration")
    
    
@@ -222,7 +223,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
    ![Screenshot of the ASR provider registration settings.](Images/t3s9.png "Key file registration")
       
-10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes. 
+10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all two machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes. 
 
     ![Screenshot of the ASR provider registration settings.](Images/06-05-2024(4).png "Key file registration")
     
@@ -264,7 +265,7 @@ In this task, you will modify the settings for each replicated VM to use a stati
 
 6. Select **OK** to close the network interface settings blade, then **Save** the **smarthotelweb1** settings.
 
-7. Repeat these steps to configure the private IP address for the other VMs.
+7. Repeat these steps to configure the private IP address for the other VM.
  
    - For **smarthotelweb2** use private IP address **192.168.0.5**
 
@@ -276,7 +277,7 @@ In this task, you modified the settings for each replicated VM to use a static p
 
 ### Task 5: Server migration
 
-In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
+In this task, you will perform a migration of the smarthotelweb1 and smarthotelweb2 machines to Azure.
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
@@ -319,7 +320,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
 #### Task summary 
 
-In this task, you assigned a public IP address to the UbuntuWAF VM and verified that the SmartHotel application is now working in Azure.
+In this task, you assigned a public IP address to the SmartHotel VM and verified that the application is now functioning in Azure.
 
 ### Task 6: Pointers around Azure Networking and Azure Network Security (Read only)
 
@@ -411,17 +412,3 @@ By completing this lab, you successfully configured networking with static IPs f
 We hope this lab has provided valuable insights and practical experience to help you tackle real-world challenges in cloud migrations. Thank you for participating, and we look forward to your continued success in leveraging Azure Migrate for cloud-based transformations.
 
 ### You have successfully completed the lab.
-
->**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
-
-- Here are the steps to delete the lab:
-
-1. On the environment page, click the **delete icon (1)** in the top right corner.
-   
-2. Ensure all validations are successful.
-   
-3. Click **Proceed to Delete (2)**.
-
-![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-1.jpg "Replication summary")
-
-![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-2.jpg "Replication summary")
