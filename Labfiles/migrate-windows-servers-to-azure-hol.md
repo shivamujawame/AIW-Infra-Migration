@@ -1,6 +1,22 @@
-# Lab 01: Migrate Windows Servers from Hyper-V to Azure
+# Lab: Migrate Windows Servers from Hyper-V to Azure
 
-### Duration: 45 minutes
+## Overview
+
+  In this lab, you will learn how to migrate on-premises virtual machines to Azure using Azure Migrate: Server Migration. The tasks include creating a storage account for migration data, registering the Hyper-V host with Azure Migrate, enabling replication from Hyper-V to Azure Migrate, configuring networking with static IPs for replicated VMs, and performing the migration of virtual machines to Azure. By completing these tasks, you will gain practical experience in setting up and executing a migration strategy, ensuring a seamless transition from on-premises environments to the Azure cloud.
+
+## Lab objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Create a Storage Account
+
+- Task 2: Register the Hyper-V Host with Migration and modernization
+
+- Task 3: Enable Replication from Hyper-V to Azure Migrate
+
+- Task 4: Configure Networking
+
+- Task 5: Server migration
 
 ## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
@@ -130,14 +146,13 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - If you receive a success message, you can proceed to the next task.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+      > - If you receive a success message, you can proceed to the next task.
+      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+      > - If you need any assistance, please contact us at cloudlabs--support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
+      <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
      
-
 #### Task summary 
 
 In this task, you registered your Hyper-V host with the Azure Migrate Server Migration service.
@@ -147,8 +162,8 @@ In this task, you registered your Hyper-V host with the Azure Migrate Server Mig
 In this task, you will configure and enable the replication of your on-premises virtual machines from Hyper-V to the Azure Migrate Server Migration service.
 
 1. Under the **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
-
-    ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/replicatenw.png "Replicate link")
+   ![Screenshot of the ASR provider registration settings.](Images/replicatenw.png "Key file registration")
+   
    
 2. Under the **Specific intent** page, provide the below details:
 
@@ -165,12 +180,11 @@ In this task, you will configure and enable the replication of your on-premises 
         >**Note**: If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
 
 3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
-
-     ![](Images/task3s3.png)
+    ![](Images/task3s3.png)
 
 4. The **Virtual machines** Tab. Select the **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
-
-     ![](Images/task3s4.png)
+   ![Screenshot of the ASR provider registration settings.](Images/task3s4.png "Key file registration")
+      
 
 5. On the **Target settings** tab, select the below information:
 
@@ -184,7 +198,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
     - Leave other values as default and select **Next (5)**.
    
-      ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-S6.png)
+       ![](Images/HOL1-EX3-S6.png)
 
       > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
@@ -196,30 +210,30 @@ In this task, you will configure and enable the replication of your on-premises 
 
     - Select **Next**. 
 
-      ![](Images/t3s6.png)
+        ![](Images/t3s6.png)
     
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
 8. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
-
-      ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/newoverviewreplication.png "Overview link")
+   ![Screenshot of the ASR provider registration settings.](Images/newoverviewreplication.png "Key file registration")
+      
     
 9. Confirm that the 2 machines are replicating.
 
-     ![](Images/t3s9.png)
+   ![Screenshot of the ASR provider registration settings.](Images/t3s9.png "Key file registration")
+      
+10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes. 
 
-9. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
-
-     ![](Images/06-05-2024(4).png)
-
+    ![Screenshot of the ASR provider registration settings.](Images/06-05-2024(4).png "Key file registration")
+    
    > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - If you receive a success message, you can proceed to the next task.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
+<validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
 
 
 #### Task summary 
@@ -299,7 +313,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - If you receive a success message, you can proceed to the next task.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
     <validation step="e4fc8753-2a84-4e27-8b12-cb43582a0e6c" />
 
@@ -374,9 +388,27 @@ Azure Migrate has two migration options:
 
 In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
 
-#### Summary 
+### Review:
 
-In this lab, you learned how to migrate Windows Servers from Hyper-V to Azure using Azure Migrate: Server Migration. You created a storage account for migration data, registered your Hyper-V host with Azure Migrate, and configured replication for virtual machines. You set up networking with static IPs for replicated VMs, performed a migration, and reviewed network and security best practices. The lab provided essential knowledge on discovery, replication, and migration to Azure.
+In this exercise, you have completed the following:
+
+- Successfully set up a storage account in Azure to support the migration process, ensuring proper storage management for the virtual machines.
+
+- Registered the Hyper-V host with Azure Migration and Modernization services, utilizing Azure Site Recovery for a seamless migration process.
+
+- Configured and enabled replication of on-premises virtual machines from Hyper-V to Azure Migrate, ensuring data consistency and availability during the migration.
+
+- Adjusted the networking settings for the replicated virtual machines, including configuring static private IP addresses, to ensure seamless integration with Azure resources.
+
+- Successfully migrated the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure, ensuring minimal downtime and a smooth transition to the cloud environment.
+
+### Conclusion
+
+Congratulations on completing the lab! Throughout this exercise, you have gained hands-on experience with Azure Migrate: Server Migration and the process of migrating Windows Servers from Hyper-V to Azure. From creating storage accounts for migration data to registering your Hyper-V host and configuring replication, you have developed a comprehensive understanding of migration processes in Azure.
+
+By completing this lab, you successfully configured networking with static IPs for replicated VMs, performed migrations, and reviewed essential network and security best practices. These skills will empower you to efficiently manage and optimize the migration of on-premises virtual machines to Azure, ensuring a seamless transition to the cloud.
+
+We hope this lab has provided valuable insights and practical experience to help you tackle real-world challenges in cloud migrations. Thank you for participating, and we look forward to your continued success in leveraging Azure Migrate for cloud-based transformations.
 
 ### You have successfully completed the lab.
 
