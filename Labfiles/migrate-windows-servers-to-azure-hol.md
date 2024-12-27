@@ -1,4 +1,4 @@
-# Lab : Migrate Windows Servers from Hyper-V to Azure
+# Lab: Migrate Windows Servers from Hyper-V to Azure
 
 ## Overview
 
