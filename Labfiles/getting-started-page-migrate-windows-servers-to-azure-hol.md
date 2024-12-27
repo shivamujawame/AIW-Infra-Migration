@@ -1,6 +1,4 @@
 # Migrate Windows Server to Azure
- 
-Welcome to Migrate Windows Server to Azure workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
 ### Overall Estimated Duration: 4 Hours
 
@@ -18,15 +16,15 @@ This exercise focuses on enhancing your skills in migrating applications and dat
 
 3. **Networking configuration:** Modify replicated VM settings to ensure proper networking, including static private IP assignments for seamless integration.
 
-4. **Azure Networking and Security:** Gain insights into Azure networking and security best practices for infrastructure and platform migrations.
+4. **Server Migration :** Select Azure VM as the destination, choose to shut down VMs before migration for minimal data loss, and monitor progress through the Jobs section. Verify the creation of VM, network interface, and disk resources in the target resource group after migration.
 
 ## Prerequisites
 
-1. **Basic Azure Knowledge:** Familiarity with Azure services and resource management.
+1. **Azure Migration Knowledge:** Understanding of Azure Migrate, server migration, and related tools for seamless cloud transition.
 
-2. **Virtualization Concepts:** Understanding of Hyper-V and virtual machine management.
+2. **Hyper-V and VMware Administration:** Familiarity with Hyper-V and VMware environments for managing on-premises virtual machines.
 
-3. **Networking Basics:** Knowledge of IP addressing and network security principles.
+3. **Networking and Security Basics:** Knowledge of networking concepts, static IP addressing, and security configurations for VM migrations.
    
 ## Architecture
 
@@ -47,29 +45,29 @@ In this hands-on lab, you will follow a structured workflow to migrate applicati
 - **Azure Site Recovery**: Provides reliable replication and failover of workloads to Azure with minimal downtime.  
 
 
-## **Accessing Your Lab Environment**
+## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
 
    ![](./Images/labguide2u.png)
 
-### **Virtual Machine & Lab Guide**
+### Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
-## **Exploring Your Lab Resources**
+## Exploring Your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
    ![](./Images/env2.png)
  
-## **Utilizing the Split Window Feature**
+## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
    ![](./Images/GS8.png)
- 
-## **Managing Your Virtual Machine**
+
+## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
@@ -77,11 +75,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 ## Lab Guide Zoom In/Zoom Out
 
-1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
    ![Manage Your Virtual Machine](./Images/labzoom-1.png)
    
-## **Let's Get Started with Azure Portal**
+## Let's Get Started with Azure Portal
+
+Welcome to Migrate Windows Server to Azure workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
  
@@ -119,4 +119,16 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](./Images/GS4.png)
  
-Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+## Support Contact
+ 
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+- Email Support: cloudlabs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+![](../media/lab-next.png)
+
+### Happy Learning!!
