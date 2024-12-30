@@ -159,82 +159,81 @@ In this task, you registered your Hyper-V host with the Azure Migrate Server Mig
 
 ### Task 3: Enable Replication from Hyper-V to Azure Migrate
 
-In this task, you will configure and enable the replication of your on-premises virtual machines from Hyper-V to the Azure Migrate Server Migration service.  
+In this task, you will configure and enable the replication of your on-premises virtual machines from Hyper-V to the Azure Migrate Server Migration service.
 
 1. Under the **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
-   
+
     ![](Images/replicatenw.png)
 
 2. Under the **Specific intent** page, provide the below details:
 
-     -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
-    
-     -  Where do you want to migrate to? : Select **Azure VM** **(2)**
-  
-     -  Are your machines virtualized? : Select **Yes, with Hyper-V (3)**
-    
-     -  Click on **Continue (4)**
+    - What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
 
-         ![](Images/29-04-2024(1).png)
+    - Where do you want to migrate to? : Select **Azure VM** **(2)**
 
-    >**Note**: If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
+    - Are your machines virtualized? : Select **Yes, with Hyper-V (3)**
+
+    - Click on **Continue (4)**
+
+      ![](Images/29-04-2024(1).png)
+
+      >**Note**: If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
 
 3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
 
      ![](Images/task3s3.png)
 
+
 4. The **Virtual machines** Tab. Select the **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
 
-     ![Screenshot of the ASR provider registration settings.](Images/task3s4.png "Key file registration")
-      
+    ![Screenshot of the ASR provider registration settings.](Images/task3s4.png "Key file registration")
 
 5. On the **Target settings** tab, select the below information:
 
-    - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
+    - Select your subscription and the existing **SmartHotelHostRG (1)** resource group.
 
-    - **Replication storage account**: Enter the storage account here from the drop-down which you create in task 1 **(2)**. 
+    - **Replication storage account**: Enter the storage account here from the drop-down which you create in task 1 **(2)**.
 
     - **Virtual Network**: Select **SmartHotelVNet (3)**. 
 
-    - **Subnet**: Select **SmartHotel (4)**. 
+    - **Subnet**: Select **SmartHotel (4)**.
 
     - Leave other values as default and select **Next (5)**.
-   
+
       ![](Images/HOL1-EX3-S6.png)
 
-    > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
+      > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
 6. On the **Compute** tab, select the below configuration,
 
-    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
+   - Select the **Standard_F2s_v2** VM size for each virtual machine.
 
-    - Select the **Windows** operating system for the **smarthotelweb1**, **smarthotelweb2** virtual machines.
+   - Select the **Windows** operating system for the **smarthotelweb1**, **smarthotelweb2** virtual machines.
 
-    - Select **Next**. 
+   - Select **Next**. 
 
-      ![](Images/t3s6.png)
-    
+     ![](Images/t3s6.png)
+
 7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
-
+ 
 8. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
 
-      ![Screenshot of the ASR provider registration settings.](Images/newoverviewreplication.png "Key file registration")
-      
+    ![Screenshot of the ASR provider registration settings.](Images/newoverviewreplication.png "Key file registration")
+
+9. Confirm that the 2 machines are replicating.    
     
-9. Confirm that the 2 machines are replicating.
+    ![Screenshot of the ASR provider registration settings.](Images/t3s9.png "Key file registration")
 
-      ![Screenshot of the ASR provider registration settings.](Images/t3s9.png "Key file registration")
-      
-10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all two machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes. 
+10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all two machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
-       ![Screenshot of the ASR provider registration settings.](Images/06-05-2024(4).png "Key file registration")
-    
-   > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
+    ![Screenshot of the ASR provider registration settings.](Images/06-05-2024(4).png "Key file registration")
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 <validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
 
