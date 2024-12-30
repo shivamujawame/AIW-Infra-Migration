@@ -163,7 +163,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 1. Under the **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
    
-    ![](Images/replicatenw.png.png)
+    ![](Images/replicatenw.png)
 
 3. Under the **Specific intent** page, provide the below details:
 
