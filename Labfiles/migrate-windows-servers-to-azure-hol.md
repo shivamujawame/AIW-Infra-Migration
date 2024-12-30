@@ -165,7 +165,7 @@ In this task, you will configure and enable the replication of your on-premises 
    
     ![](Images/replicatenw.png)
 
-3. Under the **Specific intent** page, provide the below details:
+2. Under the **Specific intent** page, provide the below details:
 
      -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
     
@@ -179,16 +179,16 @@ In this task, you will configure and enable the replication of your on-premises 
 
     >**Note**: If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
 
-4. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
+3. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
 
      ![](Images/task3s3.png)
 
-5. The **Virtual machines** Tab. Select the **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
+4. The **Virtual machines** Tab. Select the **smarthotelweb1**, and **smarthotelweb2** virtual machines, then select **Next**.
 
      ![Screenshot of the ASR provider registration settings.](Images/task3s4.png "Key file registration")
       
 
-6. On the **Target settings** tab, select the below information:
+5. On the **Target settings** tab, select the below information:
 
     - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
 
@@ -204,7 +204,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
     > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
-7. On the **Compute** tab, select the below configuration,
+6. On the **Compute** tab, select the below configuration,
 
     - Select the **Standard_F2s_v2** VM size for each virtual machine. 
 
@@ -214,18 +214,18 @@ In this task, you will configure and enable the replication of your on-premises 
 
       ![](Images/t3s6.png)
     
-8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
+7. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
-9. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
+8. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
 
       ![Screenshot of the ASR provider registration settings.](Images/newoverviewreplication.png "Key file registration")
       
     
-10. Confirm that the 2 machines are replicating.
+9. Confirm that the 2 machines are replicating.
 
       ![Screenshot of the ASR provider registration settings.](Images/t3s9.png "Key file registration")
       
-11. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all two machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes. 
+10. Select **Replications (1)** under **Migration** on the left.  Select **Refresh (2)** occasionally and wait until all two machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes. 
 
        ![Screenshot of the ASR provider registration settings.](Images/06-05-2024(4).png "Key file registration")
     
