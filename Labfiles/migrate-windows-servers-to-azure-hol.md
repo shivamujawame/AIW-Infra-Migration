@@ -146,13 +146,14 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-    
-     <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
-     
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
+  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+  - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
+
 #### Task summary 
 
 In this task, you registered your Hyper-V host with the Azure Migrate Server Migration service.
