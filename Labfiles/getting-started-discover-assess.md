@@ -1,7 +1,23 @@
-# Getting Started with Your AIW-INFRA-MIGRATION Workshop
+# Discover And Assess On-prem Windows & SQL Servers
+
+### Overall Estimated Duration: 4 hours
+
+## Overview
  
-Welcome to your AIW-Infra-Migration workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
- 
+## Objective
+
+## Prerequisites
+
+## Architecture
+
+## Architecture Diagram
+
+## Explanation of Components
+
+## Getting started with the lab
+
+Welcome to your Discover And Assess On-prem Windows & SQL Servers Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+
 ## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
@@ -36,7 +52,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 ![Manage Your Virtual Machine](./Images/labzoom-1.png)
    
-## Let's Get Started with Azure Portal
+## Login to Azure Portal
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
  
@@ -69,10 +85,17 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 8. Confirm you have all resource groups present as shown below.
 
    ![](Images/upimage10.png "Resource groups")
-   
-9. Now, click on the **Next** from the lower right corner to move to the next page.
-
-   ![](./Images/GS4.png)
  
-Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+## Support Contact
+ 
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
+Learner Support Contacts:
+- Email Support: cloudlabs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+![](./Images/GS4.png)
+
+### Happy Learning!!
