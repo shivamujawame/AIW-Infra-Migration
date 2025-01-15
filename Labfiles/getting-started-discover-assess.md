@@ -3,8 +3,16 @@
 ### Overall Estimated Duration: 4 hours
 
 ## Overview
+
+In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate the on-premises environment. This process includes selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using Azure Migrate dependency visualization. Additionally, you will explore advanced security features available in Azure SQL Managed Instance (SQL MI), such as Azure Defender for SQL, which provides capabilities for identifying and mitigating potential database vulnerabilities and detecting anomalous activities that may indicate threats to your database. Furthermore, you will leverage Data Discovery and Classification to identify and classify sensitive data within the database, enhancing the security and compliance of your environment.
  
 ## Objective
+
+- Discover your Windows Server: Gain hands-on experience using Azure Migrate to discover and inventory on-premises Windows Server environments. This lab focuses on identifying servers, capturing their configurations, and analyzing their current workloads to determine migration feasibility and prerequisites.
+
+- Set up your environment on Azure to migrate servers: Learn how to set up and configure your Azure environment for seamless server migration. This includes preparing Azure Migrate, configuring necessary permissions, deploying tools, and ensuring connectivity between on-premises infrastructure and Azure.
+
+- Perform database assessments: Use Azure Data Studio and Azure Migrate to assess on-premises databases for Azure readiness. Evaluate performance metrics, compatibility issues, and dependencies to create a comprehensive migration strategy that ensures a smooth transition to the Azure platform.
 
 ## Prerequisites
 
