@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "Discover And Assess On-prem Windows & SQL Servers",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/CloudLabs-Azure/migrate/azure-migrate-for-servers/instructions/getting-started.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/MS-Innovation/Labfiles/ms-spl-discover-your-windows-servers.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/MS-Innovation/Labfiles/ms-spl-create-vm-assessment.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Migrating-SQL-databases-to-Azure/ads-migration/Hands-on%20lab/ms-spl-assess-sql-database-migration.md",
+        "Order": 4
+      }
+    ]
+  }
+]
