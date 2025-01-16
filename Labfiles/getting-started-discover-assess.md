@@ -16,11 +16,32 @@ In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate 
 
 ## Prerequisites
 
+Participants should have:
+
+- Familiarity with Azure services, including Azure Migrate, Azure Data Studio, and Azure SQL solutions.
+- Experience with network configuration and enabling outbound connectivity for tools like Azure Migrate Appliance.
+- Basic knowledge of database management, SQL Server architecture, and backup processes.
+- Understanding of assessment and migration workflows for servers and databases to Azure environments.
+
 ## Architecture
+
+The lab architecture involves integrating on-premises infrastructure with Azure to enable discovery and assessment of Windows Servers and SQL Server databases. The Azure Migrate Appliance, deployed on-premises, acts as the key component for discovering and collecting metadata about servers and databases. This data is securely transmitted to an Azure Migrate project, which facilitates assessments to evaluate migration readiness. The architecture also includes Azure Data Studio for database assessments, leveraging its SQL Server Migration extension to analyze database compatibility with Azure SQL solutions. Azure resources, such as resource groups and Azure SQL databases, are set up to act as the target environment, ensuring a seamless workflow from discovery to assessment while maintaining data integrity and security.
 
 ## Architecture Diagram
 
 ## Explanation of Components
+
+- Azure Migrate Appliance: A virtual appliance deployed in the on-premises environment. It connects to on-prem servers, collects metadata (such as server configurations, performance metrics, and database details), and securely sends this data to Azure for analysis.
+
+- Azure Migrate Project: A centralized service in the Azure portal that organizes and manages the discovery, assessment, and migration workflows. It processes data from the Azure Migrate Appliance to generate readiness reports and migration plans.
+
+- Windows Servers (On-Premises): These are the source servers where applications and workloads run. They are the primary targets for discovery, assessment, and eventual migration to Azure.
+
+- SQL Server Instances (On-Premises): On-premises SQL databases that store business-critical data. They are analyzed for compatibility, performance, and potential issues before being migrated to Azure SQL solutions.
+
+- Azure Data Studio: A lightweight, cross-platform database tool used for managing SQL databases. It provides features for assessing database compatibility with Azure SQL solutions and assists in schema and data migration.
+
+- SQL Server Migration Extension (in Azure Data Studio): An extension in Azure Data Studio specifically designed for assessing SQL Server instances. It generates compatibility reports, identifies potential migration blockers, and facilitates schema and data migration to Azure SQL.
 
 ## Getting started with the lab
 
