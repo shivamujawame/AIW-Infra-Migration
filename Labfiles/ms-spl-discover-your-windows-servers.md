@@ -8,14 +8,13 @@ In this Hands-on Lab, you will use Azure Migrate: Server Assessment to assess th
 
 In this exercise, you will deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs, and returns that data to your Azure Migrate project.
 
-
 2. On the Azure portal click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
  
-    ![Screenshot of the All services overview blade.](Images/DAA-image1.png "All services Overview blade")
+    ![Screenshot of the All services overview blade.](Images/DAA-image2.png "All services Overview blade")
 
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
-    ![Screenshot of the Azure migrate overview blade.](Images/DAA-image2.png "Azmigrate Overview blade")
+    ![Screenshot of the Azure migrate overview blade.](Images/DAA-image3.png "Azmigrate Overview blade")
 
 4. On **Azure Migrate** blade, expand **Migration goals (1)** and select **Servers, databases and web apps (2)**. Click **Discover (3)** then from the drop down select **Using appliance (4)** to open the **Discover** blade.
  
