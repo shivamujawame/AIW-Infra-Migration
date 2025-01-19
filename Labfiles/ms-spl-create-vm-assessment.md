@@ -1,4 +1,13 @@
-## Hands-On Lab: Exercise 2: Set up your environment on Azure to migrate servers
+## Lab 02: Set up your environment on Azure to migrate servers
+
+### Estimated Duration: 60 minutes
+
+## Lab Objectives
+
+In this lab, you will perform the following tasks:
+
+- Task 1: Create a migration assessment
+- Task 2: Configure dependency visualization
 
 ### Task 1: Create a migration assessment
 
@@ -216,6 +225,8 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
     
 
-#### Task summary 
+## Summary 
 
-In this exercise you created and configured an Azure Migrate migration assessment and configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
+In this lab you created and configured an Azure Migrate migration assessment and configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
+
+### You have successfully completed the lab. Click on Next >> to procced with next lab.
