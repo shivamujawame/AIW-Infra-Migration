@@ -1,10 +1,10 @@
-# Hands-On Lab: Discover your Windows Server
+# Lab 01: Discover your Windows Server
 
-Duration: 60 minutes
+### Estimated Duration: 60 minutes
 
 In this Hands-on Lab, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
 
-### Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
+## Exercise: Discovery, Assess, and Plan: Evaluate your current environment
 
 In this exercise, you will deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs, and returns that data to your Azure Migrate project.
 
@@ -170,6 +170,8 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
     > Note:- **Wait for the discovery process to complete before proceeding to the next Task**.
 
 
-#### Task summary 
+## Summary 
 
 In this hans-on lab, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
+
+### You have successfully completed the lab. Click on Next >> to procced with next lab.
