@@ -15,15 +15,15 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 1. Select **Assess (1)** under **Azure Migrate: Discovery and assessment** and click on **Azure VM (2)** to start a new migration assessment.
 
-    ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/newasses.png "Start assessment")
+    ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/assess-servers.png "Start assessment")
 
 2. On the Basics blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
 
-    ![Screenshot of the Azure Migrate 'Assess servers' blade, showing the assessment name.](Images/upd-assessment1.png "Assess servers - assessment name")
+    ![Screenshot of the Azure Migrate 'Assess servers' blade, showing the assessment name.](Images/create-assessment-edit.png "Assess servers - assessment name")
 
 3. The **Assessment settings** blade allows you to tailor many of the settings used when making a migration assessment report. Take a few moments to explore the wide range of assessment properties. Hover over the information icons to see more details on each setting. Choose any settings you like, then select **Save**. (You have to make a change for the Save button to be enabled; if you don't want to make any changes, just close the blade.)
 
-    ![Screenshot of the Azure Migrate 'Assessment properties' blade, showing a wide range of migration assessment settings.](Images/upd-assessment2.png "Assessment properties")
+    ![Screenshot of the Azure Migrate 'Assessment properties' blade, showing a wide range of migration assessment settings.](Images/assessment-settings-save.png "Assessment properties")
 
 4. Select **Next** to move to the **Select servers to assess** tab and enter the following information:
      
