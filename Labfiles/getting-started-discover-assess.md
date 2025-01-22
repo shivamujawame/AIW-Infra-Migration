@@ -53,7 +53,7 @@ Welcome to your Discover And Assess On-prem Windows & SQL Servers Workshop! We'v
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
 
-![](./Images/GS6.png)
+![](./Images/lab-guide.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -61,21 +61,21 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 ## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![](./Images/GS12.png)
+![](./Images/environment-tab.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![](./Images/GS8.png)
+![](./Images/split-window.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![](./Images/GS5.png)
+![](./Images/resources-tab.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
@@ -108,14 +108,6 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 6. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
-
-7. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
-
-   ![](Images/select-rg.png "Resource groups")
-   
-8. Confirm you have all resource groups present as shown below.
-
-   ![](Images/upimage10.png "Resource groups")
  
 ## Support Contact
  
