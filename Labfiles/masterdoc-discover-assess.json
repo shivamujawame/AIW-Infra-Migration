@@ -16,7 +16,7 @@
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Migrating-SQL-databases-to-Azure/ads-migration/Hands-on%20lab/ms-spl-assess-sql-database-migration.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Migrating-SQL-databases-to-Azure/refs/heads/ads-migration/Hands-on%20lab/perform-database-assessments.md",
         "Order": 4
       }
     ]
