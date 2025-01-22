@@ -167,11 +167,11 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
      ![](Images/DAA-image31.png)
 
 
-   >**Note:** **Wait for the discovery process to complete before proceeding to the next Task**.
+     >**Note:** **Wait for the discovery process to complete before proceeding to the next Task**.
 
 
 ## Summary 
 
-In this hans-on lab, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
+In this hands-on lab, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
 
 ### You have successfully completed the lab. Click on Next >> to procced with next lab.
