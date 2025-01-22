@@ -2,6 +2,8 @@
 
 ### Estimated Duration: 60 minutes
 
+In this Hands-on Lab, you will use Azure Migrate: Server Assessment to assess the already discovered on-prem servers by creating a migration assessment in your Azure Migrate project and configuring dependencies for migration. Azure Migrate assessment is a feature within the Azure Migrate service that helps evaluate the readiness and suitability of on-premises workloads for migration to Azure. It analyzes data collected during the discovery phase to provide insights into performance, cost estimation, and compatibility
+
 ## Lab Objectives
 
 In this lab, you will perform the following tasks:
