@@ -145,7 +145,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 1. The appliance will validate the connection to the Hyper-V hosts/clusters added and show the **Validation status** in the table against each host/cluster
 
-     ![](Images/DAA-image29.png)
+   ![](Images/DAA-image29.png)
 
     > **Note:** When adding discovery sources:
     > - For successfully validated hosts/clusters, you can view more details by selecting their IP address/FQDN.
@@ -156,18 +156,18 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 1. In **Step 3: provide server credentials to perform software inventory and agentless dependency analysis**, **Disable the slider (1)** and select **Start discovery (2)** to kick off VM discovery from the successfully validated hosts/clusters.
 
-     > **Note:** The discovery process can take up to 10 minutes. 
+   > **Note:** The discovery process can take up to 10 minutes. 
    
-     ![](Images/DAA-image30.png)
+   ![](Images/DAA-image30.png)
 
 1. Wait for the Azure Migrate status to show **Discovery has been successfully initiated**. This will take several minutes. After the discovery has been successfully initiated, you can check the discovery status against each host/cluster in the table.
 
 1. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal.  Select **Servers, databases, and web apps (1)**, then select **Refresh (2)**.  Under **Azure Migrate: Servers, databases and web apps** you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 7 discovered servers are shown. This may take several minutes.
 
-     ![](Images/DAA-image31.png)
+   ![](Images/DAA-image31.png)
 
 
-     >**Note:** **Wait for the discovery process to complete before proceeding to the next Task**.
+   >**Note:** **Wait for the discovery process to complete before proceeding to the next Task**.
 
 
 ## Summary 
