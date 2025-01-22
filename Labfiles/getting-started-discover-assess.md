@@ -8,11 +8,11 @@ In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate 
  
 ## Objective
 
-- **Discover your Windows Server:** Gain hands-on experience using Azure Migrate to discover and inventory on-premises Windows Server environments. This lab focuses on identifying servers, capturing their configurations, and analyzing their current workloads to determine migration feasibility and prerequisites.
+- **Discover your Windows Server:** Leverage the Azure Migrate Appliance to comprehensively discover and assess your Windows Server environment with Hyper-V, enabling detailed analysis and readiness evaluation for a seamless migration to Azure.
 
-- **Set up your environment on Azure to migrate servers:** Learn how to set up and configure your Azure environment for seamless server migration. This includes preparing Azure Migrate, configuring necessary permissions, deploying tools, and ensuring connectivity between on-premises infrastructure and Azure.
+- **Set up your environment on Azure to migrate servers:** Develop a migration assessment and configure dependency visualization to facilitate seamless system transition and dependency analysis for seamless server migration. This includes preparing the discovered on-prem servers, configuring necessary permissions, deploying tools, and ensuring connectivity between on-premises infrastructure and Azure.
 
-- **Perform database assessments:** Use Azure Data Studio and Azure Migrate to assess on-premises databases for Azure readiness. Evaluate performance metrics, compatibility issues, and dependencies to create a comprehensive migration strategy that ensures a smooth transition to the Azure platform.
+- **Perform database assessments:** Use Azue SQL Migration extension in Azure Data Studio to assess on-premises database named WideWorldImporters for Azure readiness. Evaluate performance metrics, compatibility issues, and dependencies to create a comprehensive migration strategy that ensures a smooth transition to the Azure platform.
 
 ## Prerequisites
 
