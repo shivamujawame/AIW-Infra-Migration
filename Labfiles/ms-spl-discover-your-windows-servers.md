@@ -2,7 +2,7 @@
 
 ### Estimated Duration: 60 minutes
 
-In this Hands-on Lab, you will use Azure Migrate: Server Assessment to assess the on-premises environment. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using the Azure Migrate dependency visualization.
+In this Hands-on Lab, you will discover on-prem servers using use Azure Migrate Appliance. The Azure Migrate appliance is a tool provided by Microsoft to assist in the discovery and assessment of on-premises infrastructure for migration to Azure. It collects detailed information about servers, applications, databases, and workloads in your environment, including configuration, performance, and dependencies.
 
 ## Exercise: Discovery, Assess, and Plan: Evaluate your current environment
 
