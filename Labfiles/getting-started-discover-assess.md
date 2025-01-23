@@ -1,4 +1,4 @@
-# Discover And Assess On-prem Windows & SQL Servers
+# Discover And Assess On-premises Windows & SQL Servers
 
 ### Overall Estimated Duration: 4 hours
 
@@ -10,7 +10,7 @@ In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate 
 
 - **Discover your Windows Server:** Leverage the Azure Migrate Appliance to comprehensively discover and assess your Windows Server environment with Hyper-V, enabling detailed analysis and readiness evaluation for a seamless migration to Azure.
 
-- **Set up your environment on Azure to migrate servers:** Develop a migration assessment and configure dependency visualization to facilitate seamless system transition and dependency analysis for seamless server migration. This includes preparing the discovered on-prem servers, configuring necessary permissions, deploying tools, and ensuring connectivity between on-premises infrastructure and Azure.
+- **Set up your environment on Azure to migrate servers:** Develop a migration assessment and configure dependency visualization to facilitate seamless system transition and dependency analysis for seamless server migration. This includes preparing the discovered on-premises servers, configuring necessary permissions, deploying tools, and ensuring connectivity between on-premises infrastructure and Azure.
 
 - **Perform database assessments:** Use Azue SQL Migration extension in Azure Data Studio to assess on-premises database named WideWorldImporters for Azure readiness. Evaluate performance metrics, compatibility issues, and dependencies to create a comprehensive migration strategy that ensures a smooth transition to the Azure platform.
 
@@ -33,7 +33,7 @@ The lab architecture involves integrating on-premises infrastructure with Azure 
 
 ## Explanation of Components
 
-- **Azure Migrate Appliance:** A virtual appliance deployed in the on-premises environment. It connects to on-prem servers, collects metadata (such as server configurations, performance metrics, and database details), and securely sends this data to Azure for analysis.
+- **Azure Migrate Appliance:** A virtual appliance deployed in the on-premises environment. It connects to on-premises servers, collects metadata (such as server configurations, performance metrics, and database details), and securely sends this data to Azure for analysis.
 
 - **Azure Migrate Project:** A centralized service in the Azure portal that organizes and manages the discovery, assessment, and migration workflows. It processes data from the Azure Migrate Appliance to generate readiness reports and migration plans.
 
@@ -47,7 +47,7 @@ The lab architecture involves integrating on-premises infrastructure with Azure 
 
 ## Getting started with the lab
 
-Welcome to your Discover And Assess On-prem Windows & SQL Servers Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Discover And Assess On-premises Windows & SQL Servers Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
  
