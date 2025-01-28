@@ -1,12 +1,19 @@
 # Lab 01: Discover your Windows Server
 
-### Estimated Duration: 60 minutes
+**Estimated Duration: 60 minutes**
 
 In this Hands-on Lab, you will discover on-prem servers using use Azure Migrate Appliance. The Azure Migrate appliance is a tool provided by Microsoft to assist in the discovery and assessment of on-premises infrastructure for migration to Azure. It collects detailed information about servers, applications, databases, and workloads in your environment, including configuration, performance, and dependencies.
 
-## Exercise: Discovery, Assess, and Plan: Evaluate your current environment
+## Lab Objectives:
 
-In this exercise, you will deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs, and returns that data to your Azure Migrate project.
+In this lab, you will perform the following tasks:
+
+- Task 1: Setup Azure Migrate for discovery
+- Task 2: Discover the on-premises VMs using Azure Migrate Appliance
+
+## Task 1: Setup Azure Migrate for discovery
+
+In this task, you will setup your Azure Migrate project to discover the Hyper-V servers.
 
 1. On the Azure portal click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
  
@@ -40,6 +47,10 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
     ![](Images/DAA-image8.png)
 
 1. As we have created the Azure Migrate project key for the Discover and Assessment, you will be accessing the Hyper-V manager in the next tasks to start the discovery process with the help of Azure Migrate Appliance.
+
+## Task 2: Discover the on-premises VMs using Azure Migrate Appliance
+
+In this task, you will deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs, and returns that data to your Azure Migrate project.
 
 1. Now, to Connect to your on-premises environment, Go to **Start (1)** button in the VM, search for **Hyper-V Manager (2)** there and select it. You will be accessing your infrastructure from the hyper-V manager and will be connecting to the Azure Migrate Appliance VM to start the process of discovery.  
 
@@ -173,5 +184,12 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 ## Summary 
 
 In this hands-on lab, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
+
+## Review
+
+In this lab you have:
+
+- Used Azure Migrate Appliance to discover the on-premises Hyper-V servers
+- Verified the successfully discovered servers in Azure Migrate resource
 
 ### You have successfully completed the lab. Click on Next >> to procced with next lab.
