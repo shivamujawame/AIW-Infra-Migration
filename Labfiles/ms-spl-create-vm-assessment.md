@@ -1,6 +1,6 @@
 # Lab 02: Set up your environment on Azure to migrate servers
 
-### Estimated Duration: 60 minutes
+**Estimated Duration: 60 minutes**
 
 In this Hands-on Lab, you will use Azure Migrate: Server Assessment to assess the already discovered on-prem servers by creating a migration assessment in your Azure Migrate project and configuring dependencies for migration. Azure Migrate assessment is a feature within the Azure Migrate service that helps evaluate the readiness and suitability of on-premises workloads for migration to Azure. It analyzes data collected during the discovery phase to provide insights into performance, cost estimation, and compatibility
 
@@ -230,5 +230,12 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 ## Summary 
 
 In this hands-on lab, you created and configured an Azure Migrate migration assessment and configured the Azure Migrate dependency visualization feature, by creating a Log Analytics workspace and deploying the Azure Monitoring Agent and Dependency Agent on both Windows and Linux on-premises machines.
+
+## Review
+
+In this lab you have:
+
+- Created a migration assessment
+- Configured dependency visualization
 
 ### You have successfully completed the lab. Click on Next >> to procced with next lab.
