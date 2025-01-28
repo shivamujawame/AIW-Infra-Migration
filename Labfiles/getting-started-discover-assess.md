@@ -4,6 +4,8 @@
 
 ## Overview
 
+Azure Migrate is Microsoft's centralized platform designed to assist organizations in planning, assessing, and executing their migration journey to Azure. It provides a suite of tools and features to simplify the process of moving on-premises workloads, applications, databases, and virtual machines to the Azure cloud.
+
 In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate the on-premises environment. This process includes selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using Azure Migrate dependency visualization. Additionally, you will explore advanced security features available in Azure SQL Managed Instance (SQL MI), such as Azure Defender for SQL, which provides capabilities for identifying and mitigating potential database vulnerabilities and detecting anomalous activities that may indicate threats to your database. Furthermore, you will leverage Data Discovery and Classification to identify and classify sensitive data within the database, enhancing the security and compliance of your environment.
  
 ## Objective
