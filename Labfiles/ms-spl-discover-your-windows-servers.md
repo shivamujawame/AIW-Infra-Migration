@@ -189,7 +189,7 @@ In this hands-on lab, you explored an Azure Migrate project and the default buil
 
 In this lab you have:
 
-- Used Azure Migrate Appliance to discover the on-premises Hyper-V servers
-- Verified the successfully discovered servers in Azure Migrate resource
+- Setup Azure Migrate for discovery
+- Discovered the on-premises VMs using Azure Migrate Appliance
 
 ### You have successfully completed the lab. Click on Next >> to procced with next lab.
