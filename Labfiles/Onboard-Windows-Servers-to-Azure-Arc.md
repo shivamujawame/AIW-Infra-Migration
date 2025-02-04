@@ -1,4 +1,4 @@
-# HOL 3: Exercise 1: Run workloads anywhere with Azure cloud services.
+# Lab 01: Onboard Windows Servers to Azure Arc
 
 In this HOL you will use Azure Migrate: Discovery and assessment tool that describes how to onboard on-premises Hyper-V VMs to Azure Arc for Azure Management.
 
