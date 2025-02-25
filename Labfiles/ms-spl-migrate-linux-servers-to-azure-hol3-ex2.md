@@ -163,6 +163,8 @@ In this task, you will configure and enable the replication of your on-premises 
 
      >**Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
 
+     >**Note:** Please wait for 10-15 minutes if you donot see the cache storage account option and reperform from Step 2.
+
 7. On the **Compute** tab, select the below configuration,
 
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
