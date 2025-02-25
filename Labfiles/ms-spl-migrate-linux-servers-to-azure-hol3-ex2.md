@@ -12,7 +12,7 @@ In this task, you will access the Hyper-V Manager to start and connect to the re
 
     > You can also open the **Hyper-v manager** by clicking on the icon that is present in the taskbar. 
 
-    ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-manager.png "Hyperv Manager")
+    ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/hyper-v-managerupd.png "Hyperv Manager")
      
 1. In Hyper-V Manager, select **HOSTVMS<inject key="DeploymentID" enableCopy="false" />**. You should now see the **redhat** VM and 6 other VMs that we are going to use in other HOLs.
 
@@ -101,11 +101,11 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the ASR provider showing successful registration.](Images/upd-asr-registered.png "Registration complete")
 
-10. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization** and selecting **Yes, with Hyper-V** for **Are your machines virtualized?**.
+10. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization** and selecting **Yes, with Hyper-V** for **Are your machines virtualized?** (1), select **Install a replication appliance** for **Do you want to install a new replication appliance or scale-out existing setup?** (2).
 
-11. Select **Finalize registration**, which should now be enabled.
+11. Select **Finalize registration** (3), which should now be enabled.
 
-     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/upd-e3-t2-s10.png?raw=true "Finalize registration")
+     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/upd2-e3-t2-s10.png?raw=true "Finalize registration")
 
 12. Azure Migrate will now complete the registration with the Hyper-V host. **Wait** for the registration to complete. This may take several minutes.
 
@@ -145,6 +145,8 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The Azure Migrate assessment created earlier is selected.](Images/24-04-2024(1).png "Replicate - Virtual machines")
 
+     >**Note:** If you see *Mars agent version compatibility unknown* warning, igonore and proceed further
+
 5. On the **Target settings** tab, select the below information,
 
    - Select your subscription and the existing **SmartHotelRG (1)** resource group. 
@@ -169,7 +171,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
    - Select **Next**. 
 
-     ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-HOL2-EX3-T2-S6.png "Replicate - Compute")
+     ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd2-HOL2-EX3-T2-S6.png "Replicate - Compute")
     
 9. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
 
