@@ -47,19 +47,15 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
     
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
- 
-    ![Screenshot of the All services overview blade.](Images/Allservices1.png "All services Overview blade")
-
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
-    ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3.png "Azmigrate Overview blade")
+    ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3upd.png "Azmigrate Overview blade")
 
 1. Select **Servers, databases and web apps (1)** under **Migration goals** on the left. Under **Migration Tools**, select **Discover (2)**.
 
    > **Note:** You may need to add the migration tool yourself by following the link below the **Migration Tools** section, selecting **Migration and modernization**, then selecting **Add tool(s)**.
    
-     ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](Images/migrationtools.png "Azure Migrate: Server Migration - Discover")
+     ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](Images/migrationtoolsupd.png "Azure Migrate: Server Migration - Discover")
 
 2. In the **Discover** panel, provide the following details:
 
@@ -265,7 +261,7 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
    > - Click on validate button.
    > - If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 #### Task summary 
 
