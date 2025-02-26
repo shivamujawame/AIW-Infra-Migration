@@ -47,19 +47,15 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
     
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
- 
-    ![Screenshot of the All services overview blade.](Images/Allservices1.png "All services Overview blade")
-
 3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
-    ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3.png "Azmigrate Overview blade")
+    ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3upd.png "Azmigrate Overview blade")
 
 1. Select **Servers, databases and web apps (1)** under **Migration goals** on the left. Under **Migration Tools**, select **Discover (2)**.
 
    > **Note:** You may need to add the migration tool yourself by following the link below the **Migration Tools** section, selecting **Migration and modernization**, then selecting **Add tool(s)**.
    
-     ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](Images/migrationtools.png "Azure Migrate: Server Migration - Discover")
+     ![Screenshot of the Azure portal showing the 'Discover' button on the Azure Migrate Server Migration panel.](Images/migrationtoolsupd.png "Azure Migrate: Server Migration - Discover")
 
 2. In the **Discover** panel, provide the following details:
 
@@ -117,7 +113,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 14. The **Migration and Modernization** panel should now show 7 discovered servers.
 
-     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
+     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvrupd.png "Discovered servers")
 
 #### Task summary 
 
@@ -163,6 +159,8 @@ In this task, you will configure and enable the replication of your on-premises 
 
      >**Note:** For simplicity, in this lab you will not configure the migrated VM for high availability, since each application tier is implemented using a single VM.
 
+     >**Note:** Please wait for 10-15 minutes if you donot see the cache storage account option and reperform from Step 2.
+
 7. On the **Compute** tab, select the below configuration,
 
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
@@ -185,7 +183,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 12. Select **Replication (1)** under **Migration** on the left. Select **Refresh (2)** occasionally and wait until the RedHat machine has a **Protected (3)** status, which shows the initial replication is complete. This will take 10-15 minutes.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/19-04-2024(1).png "Replication status")
+    ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/replication.png "Replication status")
 
 #### Task summary 
 
@@ -197,7 +195,7 @@ In this task, you will modify the settings for each replicated VM to use a stati
 
 1. Still using the **Migration and modernization - Replication** blade, select the **redhat** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
-    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/19-04-2024(2).png "Replicating machines")
+    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/replication2.png "Replicating machines")
 
 2. Select **Compute and Network (1)** under **General** on the left, then select **Edit (2)**.
 
@@ -229,7 +227,7 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
 
 1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate more servers**.
 
-    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/19-04-2024(3).png "Replication summary")
+    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/migrate.png "Replication summary")
 
 1. Select **Azure VM** under **Where do you want to migrate to?** and select **Continue (2)**.
 
@@ -247,15 +245,15 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
 
 4. To monitor progress, select **Jobs (1)** under **Manage** on the left and review the status of the redhat **Planned failover (2)** job.
 
-    ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/24-04-2024(2).png "Migration jobs")
+    ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/migratejob1.png "Migration jobs")
 
 5. **Wait** until the **Planned failover** jobs show a **Status** of **Successful**. You should not need to refresh your browser. This could take up to 15 minutes.
 
-    ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/19-04-2024(5).png "Migration status")
+    ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/migratejob2.png "Migration status")
 
 6. Navigate to the **SmartHotelRG** resource group and check that the VM, network interface, and disk resource have been created for the virtual machine being migrated.
 
-    ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-redhatrg.png "Migrated resources")
+    ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/redhatrgupd.png "Migrated resources")
 
    <validation step="fca01519-165a-49c3-897e-6f25ea3468a6" />
    
@@ -263,7 +261,7 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
    > - Click on validate button.
    > - If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 #### Task summary 
 
