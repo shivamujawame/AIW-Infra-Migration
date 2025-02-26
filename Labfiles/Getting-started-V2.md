@@ -24,20 +24,25 @@ The architecture flow begins with accessing Hyper-V Manager to start and connect
 
 ## Architecture Diagram
 
-
+   ![](./Images/archmigrate.PNG)
 
 ## Explanation of Components
 
+1. **Azure Migrate** – A Microsoft service that helps assess, replicate, and migrate on-premises workloads to Azure.
+1. **Linux Server** – An open-source operating system that runs applications and services, commonly used for cloud and enterprise workloads.
+1. **Hyper-V** – A Microsoft virtualization platform that allows running multiple virtual machines (VMs) on a single physical server.
+1. **Red Hat** – A leading enterprise Linux distribution providing security, stability, and performance for cloud and on-prem workloads.
+1. **Azure Virtual Networks** – A logically isolated network in Azure that enables secure communication between Azure resources, on-premises networks, and the internet.
 
 ## Getting Started with the lab
  
-Welcome to your AIW-Infra-Migration workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Migrate Linux Servers to Azure! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
 
-   ![](./Images/GS6.png)
+   ![](./Images/GS6upd.png)
 
 ## Virtual Machine & Lab Guide
  
@@ -94,10 +99,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 8. Confirm you have all resource groups present as shown below.
 
      ![](Images/upimage10.png "Resource groups")
-   
-9. Now, click on the **Next** from the lower right corner to move to the next page.
-
-   ![](./Images/GS4.png)
  
 ## Support Contact
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
@@ -109,8 +110,8 @@ Learner Support Contacts:
 
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
-Now, click on **Next** from the lower right corner to move on to the next page.
+Now, click on the **Next** from the lower right corner to move to the next page.
 
-  ![Asklater](images/num.png)
+   ![](./Images/GS4.png)
 
 ## Happy Learning!!
