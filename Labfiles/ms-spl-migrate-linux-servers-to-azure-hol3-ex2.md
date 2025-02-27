@@ -1,8 +1,17 @@
 ## Lab 01: Migrate Linux Servers from Hyper-V to Azure
 
-#### Duration: 45 minutes
+## Estimated duration: 45 minutes
 
-### Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs
+## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs
+
+## Objectives
+In this exercise, you will complete the following tasks:
+
+- Task 1: Review your on-prem Hyper-V Linux Server and OSS DB
+- Task 2: Register the Hyper-V Host with Migration and modernization
+- Task 3: Enable Replication from Hyper-V to Azure Migrate
+- Task 4: Configure Networking
+- Task 5: Server migration
 
 ### Task 1: Review your on-prem Hyper-V Linux Server and OSS DB
 
@@ -33,9 +42,6 @@ In this task, you will access the Hyper-V Manager to start and connect to the re
     ![Screenshot of the Azure Migrate appliance terms of use.](Images/redhathome.png "Desktop shortcut")
 
 1. In the next task you will be migrating the Redhat server, and the OSS Database hosted in the Red Hat VM to the Azure with the help of Azure Migrate.
-
-#### Task summary
-You successfully logged into the Red Hat VM within Hyper-V Manager, and you are now ready to migrate the server and its OSS Database to Azure using Azure Migrate in the next task.
 
 ### Task 2: Register the Hyper-V Host with Migration and modernization
 
@@ -115,10 +121,6 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvrupd.png "Discovered servers")
 
-#### Task summary 
-
-In this task, you get an overview of your registered Hyper-V host with the Azure Migrate Server Migration service.
-
 ### Task 3: Enable Replication from Hyper-V to Azure Migrate
 
 In this task, you will configure and enable the replication of your on-premises virtual machine from Hyper-V to the Azure Migrate Server Migration service.
@@ -185,10 +187,6 @@ In this task, you will configure and enable the replication of your on-premises 
 
     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/replication.png "Replication status")
 
-#### Task summary 
-
-In this task, you enabled replication from the Hyper-V host to Azure Migrate and configured the replicated VM size in Azure.
-
 ### Task 4: Configure Networking
 
 In this task, you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
@@ -212,10 +210,6 @@ In this task, you will modify the settings for each replicated VM to use a stati
     ![Screenshot showing a private IP address being configured for a replicated VM in ASR.](Images/upd-smarupdateprivate.png "Network interface - static private IP address")
 
 6. Select **OK** to close the network interface settings blade, then **Save** the **redhat** settings to configure the private IP address for the VM.
-
-#### Task summary 
-
-In this task, you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
 
 > **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machine in Azure retains the same IPs they had on-premises, which avoids having to reconfigure the VM during migration (for example, by editing web.config files).
 
@@ -263,13 +257,15 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-#### Task summary 
+## Review
 
-In this task, you used Azure Migrate to create Azure VM using the settings you have configured, and the data replicated from the Hyper-V machine. This migrated your on-premises VM to Azure.
+In this lab, you have accomplished the following:
 
-### Summary
-
-In this lab, you began by reviewing your on-prem Hyper-V Red Hat VM and OSS Database, preparing them for migration using Azure Migrate. You then registered the Hyper-V host with Azure Migrate and deployed the Azure Site Recovery Provider. Following this, you enabled replication of the Red Hat VM to Azure, configured static private IP addresses to match on-premises settings, and completed the migration of the VM to Azure. The lab concluded with verifying the migration and ensuring that all resources were correctly created in the Azure environment.
+- Logged into the Red Hat VM in Hyper-V Manager, preparing for migration.
+- Reviewed the registered Hyper-V host in Azure Migrate Server Migration.
+- Enabled replication from Hyper-V to Azure and configured VM size.
+- Set static private IP for the replicated VM to match on-prem settings.
+- Used Azure Migrate to create an Azure VM with replicated data.
 
 ### You have successfully completed the lab.
 
