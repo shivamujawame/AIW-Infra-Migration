@@ -32,13 +32,15 @@ In this task, you will create a new Azure Storage Account that will be used by M
   
    - Storage account name: **migrationstorage<inject key="DeploymentID" enableCopy="false" /> (3)**
 
-   - Location: Select **<inject key="Region" enableCopy="false" /> (4)** from the dropdown.
-    
-   - Performance: **Standard (5)**
-  
-   - Redundancy: **Locally-redundant storage (LRS) (6)**
+   - Region: Select **<inject key="Region" enableCopy="false" /> (4)** from the dropdown.
 
-     ![Screenshot of the Azure portal showing the create storage account blade.](Images/HOL1-EX3-T1-S2.png "Storage account settings")
+   - Primary Service: **Azure Blob Storage or Azure Data Lake Storage Gen 2 (5)**
+
+   - Performance: **Standard (6)**
+  
+   - Redundancy: **Locally-redundant storage (LRS) (7)**
+
+     ![Screenshot of the Azure portal showing the create storage account blade.](Images/mod1-ex3-create-storageacc.png "Storage account settings")
 
 3. Select **Review+create**, then select **Create**.
 
