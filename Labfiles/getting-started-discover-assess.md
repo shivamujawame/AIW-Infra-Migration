@@ -1,6 +1,6 @@
 # Discover And Assess On-premises Windows & SQL Servers
 
-**Overall Estimated Duration: 4 hours**
+### Overall Estimated Duration: 4 hours
 
 ## Overview
 
