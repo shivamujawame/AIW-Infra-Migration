@@ -1,6 +1,6 @@
 # Lab 01: Discover your Windows Server
 
-**Estimated Duration: 60 minutes**
+### Estimated Duration: 90 minutes
 
 In this Hands-on Lab, you will discover on-prem servers using use Azure Migrate Appliance. The Azure Migrate appliance is a tool provided by Microsoft to assist in the discovery and assessment of on-premises infrastructure for migration to Azure. It collects detailed information about servers, applications, databases, and workloads in your environment, including configuration, performance, and dependencies.
 
