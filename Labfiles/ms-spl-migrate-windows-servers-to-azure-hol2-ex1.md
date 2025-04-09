@@ -112,11 +112,14 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the ASR provider showing successful registration.](Images/upd-asr-registered.png "Registration complete")
 
-1. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization** and selecting **Azure Vm** for **Where do you want to migrate to?** and **Yes, with Hyper-V** for **Are your machines virtualized?**.
+1. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization**. Perform the following steps:
 
-1. Select **Finalize registration**, which should now be enabled.
+   - **Where do you want to migrate to?** : Select **Azure Vm (1)**
+   - **Are your machines virtualized?** : Select **Yes, with Hyper-V (2)**.
+   - **Do you want to install a new replication appliance or scale-out existing setup?** : Select **Install a replication appliance (3)**.
+   - Finally, click on **Finalize Registration (4)** which should now be enabled. 
 
-     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/upd-e3-t2-s10-1.png?raw=true "Finalize registration")
+     ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/L1-S15.png)
 
 1. Azure Migrate will now complete the registration with the Hyper-V host. **Wait** for the registration to complete. This may take several minutes.
 
@@ -135,7 +138,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="a6405ea6-b97d-4e45-8cf8-c8997009392d" />
+    <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
      
 
 #### Task summary 
@@ -219,7 +222,7 @@ In this task, you will configure and enable the replication of your on-premises 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="216eebdd-a59b-4f61-a316-af714d0c342e" />
+    <validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
 
 
 #### Task summary 
@@ -301,7 +304,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="e9fd6a73-9493-4184-b9c0-7bd0a4d4fce2" />
+    <validation step="e4fc8753-2a84-4e27-8b12-cb43582a0e6c" />
 
 #### Task summary 
 
