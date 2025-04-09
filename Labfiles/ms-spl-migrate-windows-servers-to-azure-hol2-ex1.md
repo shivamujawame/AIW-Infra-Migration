@@ -179,7 +179,8 @@ In this task, you will configure and enable the replication of your on-premises 
 
     - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
 
-    - **Replication storage account**: Enter the storage account here from the drop-down which you create in task 1 **(2)**. 
+    - **Cache storage account** 
+: Enter the storage account here from the drop-down which you create in task 1 **(2)**. 
 
     - **Virtual Network**: Select **SmartHotelVNet (3)**. 
 
