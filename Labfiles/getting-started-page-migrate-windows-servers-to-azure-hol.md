@@ -1,6 +1,6 @@
 # Migrate Windows Server to Azure
 
-**Overall Estimated Duration: 4 Hours**
+### Overall Estimated Duration: 4 Hours
 
 ## Overview
 
@@ -22,6 +22,8 @@ This exercise focuses on enhancing your skills in migrating applications and dat
 
 ## Prerequisites
 
+Participants should have:
+
 - **Azure Migration Knowledge:** Understanding of Azure Migrate, server migration, and related tools for seamless cloud transition.
 
 - **Hyper-V and VMware Administration:** Familiarity with Hyper-V and VMware environments for managing on-premises virtual machines.
@@ -37,6 +39,8 @@ In this hands-on lab, you will follow a structured workflow to migrate applicati
   ![](./Images/arcdia.png)
 
 ## Explanation of Components
+
+The architecture for this lab involves the following key components:
 
 - **Azure Migrate**: Simplifies migration with pre-migration assessments, right-sizing, and VM replication to Azure.  
 
@@ -65,7 +69,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-   ![](./Images/env2.png)
+   ![](./Images/environment.png)
  
 ## Utilizing the Split Window Feature
  
@@ -77,7 +81,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-  ![](./Images/GS5.png)
+  ![](./Images/resources-vm-manage.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
@@ -116,6 +120,8 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 6. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 7. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
+
+   ![](./Images/Azure-cancel-tour.png)
 
 8. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
