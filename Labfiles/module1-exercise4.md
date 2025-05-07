@@ -1,9 +1,11 @@
-## HOL1: Exercise 4: Creating VM Scale sets from Azure VMs
+# Creating VM Scale sets from Azure VMs
 
-### Task 1: Using VM Scale Sets to drive business resiliency
+### Task 1: Using VM Scale Sets to Drive Business Resiliency
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+    
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
 2. In the Azure portal's navigation pane, select **Resource groups**.
@@ -12,9 +14,9 @@
 
 4. Select **smarthotelweb1** VM to create image.
 
-2. On the page for the VM, on the upper menu, select **Capture**.
+2. On the page for the VM, on the upper menu, select **Capture** and then select **Image** in the dropdown.
    
-   ![](Images/upd-capture.png)
+   ![](Images/upd-capture-1.png)
 
 4. To create the image in a gallery, select **Yes, share it to a gallery as an image version** under **Instance details**.
 
@@ -24,7 +26,7 @@
 
    ![](Images/upd-e4-t1-s7.png)
 
-6. In Operating system state select **Specialized**.
+6. In the Operating system state select **Specialized**.
 
 7. Select an image definition and click **Create new (1)** and create a VM Image definition by providing the following details and then click **Ok (6)**: 
   
@@ -60,21 +62,25 @@
 
 15. Select **Review + create** and then **Create**.
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click on Validate button.
+    > - If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+    <validation step="3435fc35-adbc-4789-885e-d2231cc767d4" />
 
 ### Task 2: Azure auto manage
 
 In this task, you will Enable Automanage on existing machines.
 
-1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials below.
+    
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
+    
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-2. In the search bar, search for and select **Automanage – Azure machine best practice**s.
+2. In the search bar, search for and select **Automanage – Azure machine best practices**.
 
 3. From the left side panel select **Automanage machines (1)** and click on **+Enable on existing VM (2)**.
    
@@ -94,8 +100,24 @@ In this task, you will Enable Automanage on existing machines.
    
    b. **Check the checkbox of the virtual machine (2)** you want to onboard. (for example: let's enable automanage for smarthotelweb2.)
    
-   c. Click the **Review+Create (3)** button.
+   c. Click the **Review + Create (3)** button.
    
    ![](Images/updt-existing-vm-select-machine.png)
 
 6. Click **Create**.
+
+  ## You Have successfully completed the Lab
+
+  >**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
+
+- Here are the steps to delete the lab:
+
+1. On the environment page, click the **delete icon (1)** in the top right corner.
+   
+2. Ensure all validations are successful.
+   
+3. Click **Proceed to Delete (2)**.
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-1.jpg "Replication summary")
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-2.jpg "Replication summary")

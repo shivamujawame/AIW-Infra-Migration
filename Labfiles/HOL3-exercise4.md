@@ -1,4 +1,4 @@
-## HOL3: Exercise 4: Failover the infrastructure to Azure Cloud
+## Exercise 03: Failover the infrastructure to Azure Cloud
 
 In this exercise, you will deploy the Failover from on-premises to Azure. After setting up replication to Azure for on-premises machines, when your on-premises site goes down, you fail those machines over to Azure. After failover, Azure VMs are created from replicated data.
 
@@ -58,18 +58,39 @@ In this exercise, you will deploy the Failover from on-premises to Azure. After 
    
 1. After the Failover is **committed successfully**, go to the **search resources, services and docs bar**, type **Virtual Machines** and select it from suggestions.   
 
-1. Under **Virtual Machines** page, select the **AzureArcVM** which is automatically created from replicated data after a Failover.
+1. Under the **Virtual Machines** page, select the **AzureArcVM** which is automatically created from replicated data after a Failover.
 
     ![Screenshot of the vm-created.](Images/hol3-e4-s11.png "vm-created") 
    
 1. On the **AzureArcVM** page, verify that the status of the VM is in **Running state**. 
 
-    ![Screenshot of the vm-created status.](Images/hol3-e4-s13.png "vm-created status")  
+    ![Screenshot of the vm-created status.](Images/hol3-e4-s13.png "vm-created status")
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+  - Click on validate button.	
+  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**Summary:** In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
+   <validation step="f44dc9dc-f959-4f70-9cbd-09949f72c0fb" />
+
+### Summary
+
+In this exercise, you explored how to fail over on-premises physical servers that are replicating to Azure with Azure Site Recovery. After you've failed over, you fail back from Azure to your on-premises site when it's available.
+
+### You have successfully completed the lab.
+
+>**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the lab.
+
+- Here are the steps to delete the lab:
+
+1. On the environment page, click the **delete icon (1)** in the top right corner.
+   
+2. Ensure all validations are successful.
+   
+3. Click **Proceed to Delete (2)**.
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-1.jpg "Replication summary")
+
+![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-2.jpg "Replication summary")
+

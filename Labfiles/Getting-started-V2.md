@@ -1,6 +1,6 @@
-# **Getting Started with Your AIW-INFRA-MIGRATION Workshop**
+# **Getting Started with Your Guided Lab - Infrastructure Migration**
  
-Welcome to your AIW-Infra-Migration workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Guided Lab-Infrastructure Migration workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## **Accessing Your Lab Environment**
  
@@ -14,9 +14,9 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 ## **Exploring Your Lab Resources**
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-   ![](./Images/GS12.png)
+   ![](./Images/GS12-upd1.png)
  
 ## **Utilizing the Split Window Feature**
  
@@ -29,6 +29,12 @@ For convenience, you can open the lab guide in a separate window by selecting th
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
   ![](./Images/GS5.png)
+
+ ## Lab Guide Zoom In/Zoom Out
+
+1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+   ![Manage Your Virtual Machine](./Images/labzoom-1.png)
  
 ## **Let's Get Started with Azure Portal**
  
@@ -47,6 +53,10 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
       ![](./Images/GS3.png)
+
+4. If **Action required** pop-up window appears, click on **Ask later**.
+
+    ![](./Images/ask-later-01.png)
  
 4. If you see the pop-up **Stay Signed in?**, click **No**.
 
@@ -56,11 +66,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
-7. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+7. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
      ![](Images/select-rg.png "Resource groups")
    
-8. Confirm you have all resource group are present as shown below.
+8. Confirm you have all resource groups present as shown below.
 
      ![](Images/upimage10.png "Resource groups")
    

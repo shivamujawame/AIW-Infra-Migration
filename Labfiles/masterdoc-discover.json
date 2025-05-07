@@ -1,20 +1,16 @@
 [
-  {
-    "Name": "Discover and Assess on-prem Windows & SQL Servers",
-    "Language": "English",
-    "Files": [
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
-        "Order": 1
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/overview.md",
-        "Order": 2
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/ms-spl-discover-your-windows-servers.md",
-        "Order": 3
-      }
-    ]
-  }
-]
+    {
+      "Name": "Guided Lab: Infrastructure Migration",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/Getting-started-V2.md",
+          "Order": 1
+        },  
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/module1-exercise1.md",
+          "Order": 2
+        }
+      ]
+    }
+  ]

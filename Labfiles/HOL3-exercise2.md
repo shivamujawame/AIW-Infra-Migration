@@ -1,8 +1,12 @@
-## HOL3: Exercise 2: Configure ASR for on-premises infrastructure
+# Lab 01: Deploy Azure Site Recover and Failover to DR
+
+## Exercise 01: Configure ASR for on-premises infrastructure
 
 In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to Azure. The Azure Site Recovery service contributes to your disaster-recovery strategy by managing and orchestrating replication, failover, and failback of on-premises machines. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
 ### Task 1: Configure ASR to on-premises infrastructure
+
+In this task, I configured Azure Site Recovery (ASR) to replicate on-premises Hyper-V VMs to Azure. I set up the source and target environments, selected the virtual machine for replication, configured replication settings, and applied the replication policy, resulting in the successful protection status of the replicated VM.
 
 1. In the **search resources, services and docs bar**, type **Recovery services vaults** and select it from suggestions, as shown below:
    
@@ -16,7 +20,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
     ![Screenshot of the Site Recovery Infrastructure.](Images/hol3-e2-s3.png)
 
-1. Under Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
+1. Under the Site Recovery Infrastructure page, select **Hyper-V hosts (1)** and then make sure that the status of the server is **Connected (2)**.
 
     ![Screenshot of the hyper-v-host.](Images/HOL3-EX2-T1-S4.png "hyper-v-host")  
 
@@ -28,7 +32,7 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
  
     ![Screenshot of the Source environment.](Images/hol3-e2-s6.png "Source environment") 
    
-1. Under **Target environment** tab, fill the following details:
+1. Under the **Target environment** tab, fill in the following details:
 
    - Post-failover resource group: **SmartHotelRG (1)**
    
@@ -64,11 +68,16 @@ In this exercise, you will deploy disaster recovery of on-premises Hyper-V VM to
 
     ![Screenshot of the status-protected.](Images/hol3-e2-s13.png "status-protected")
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-   
-**Summary:** In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learnt how to set up the source and target replication environments and create a replication policy to enable replication for a server.
+  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+	
+  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+   <validation step="6f4ede7d-d07d-4209-b748-c272002a4085" />
+   
+### Summary
+
+In this exercise, you explored how to set up Azure and on-premises prerequisites and create a Recovery Services vault for Site Recovery. Then you learn how to set up the source and target replication environments and create a replication policy to enable replication for a server.
+
+### Proceed to next

@@ -1,19 +1,15 @@
 [
     {
-      "Name": "Hands-on Lab: Setup Azure Migrate Project",
+      "Name": "Guided Lab: Infrastructure Migration",
       "Language": "English",
       "Files": [
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/Getting-started-V2.md",
           "Order": 1
         },  
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/overview.md",
-          "Order": 2
-        }, 
-        {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/guided-labs/Labfiles/HOL3-exercise5.md",
-          "Order": 3
+          "Order": 2
         }
       ]
     }
