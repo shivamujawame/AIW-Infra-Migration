@@ -1,6 +1,6 @@
 # HOL 2: Migrate Windows Servers from Hyper-V to Azure
 
-Duration: 45 minutes
+Duration: 4 Hours
 
 ## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
