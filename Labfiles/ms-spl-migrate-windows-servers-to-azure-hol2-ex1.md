@@ -240,7 +240,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
 1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate**.
 
-   ![](Images/30052025(24).png)
+    ![](Images/30052025(24).png)
 
 1. On the **Specify intent** tab, Select **Azure VM** under Where do you want to migrate to? and select **Continue**.
 
@@ -250,7 +250,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
     ![](Images/30052025(25).png)
 
-   > **Note:** You can optionally choose whether the on-premises virtual machines should be automatically shut down before migration to minimize data loss. Either setting will work for this lab.
+    > **Note:** You can optionally choose whether the on-premises virtual machines should be automatically shut down before migration to minimize data loss. Either setting will work for this lab.
 
 4. The migration process will start.
 
