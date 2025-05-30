@@ -4,7 +4,7 @@ Welcome to your Guided Lab-Infrastructure Migration workshop! We've prepared a s
  
 ## **Accessing Your Lab Environment**
  
-Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
    ![](./Images/GS6.png)
 
@@ -64,7 +64,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+6. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
 
 7. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
@@ -74,7 +74,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
      ![](Images/upimage10.png "Resource groups")
    
-9. Now, click on the **Next** from the lower right corner to move to the next page.
+9. Now, click on the **Next** button in the lower right corner to move to the next page.
 
    ![](./Images/GS4.png)
  
