@@ -2,13 +2,13 @@
 
 Duration: 4 Hours
 
-## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools including Azure Migrate: Server Migration
+## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools, including Azure Migrate: Server Migration
 
-In this Guided Lab, you will learn about Azure migration and how all pre-migration steps such as discovery, assessments, and right-sizing of on-premises resources are included for infrastructure, data, and applications. Azure Migrate provides a simplified migration, modernization, and optimization service for Azure.
+In this Guided Lab, you will learn about Azure migration and how all pre-migration steps, such as discovery, assessments, and right-sizing of on-premises resources, are included for infrastructure, data, and applications. Azure Migrate provides a simplified migration, modernization, and optimization service for Azure.
 
 ### Task 1: Create a Storage Account
 
-In this task, you will create a new Azure Storage Account that will be used by Migration and for storage of your virtual machine data during migration.
+In this task, you will create a new Azure Storage Account that will be used by Migration and for the storage of your virtual machine data during migration.
 
 > **Note:** This lab focuses on the technical tools required for workload migration. In a real-world scenario, more consideration should go into the long-term plan prior to migrating assets. The landing zone required to host VMs should also include considerations for network traffic, access control, resource organization, and governance. For example, the CAF Migration Blueprint and CAF Foundation Blueprint can be used to deploy a pre-defined landing zone and demonstrate the potential of an Infrastructure as Code (IaC) approach to infrastructure resource management. For more information, see [Azure Landing Zones](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/) and [Cloud Adoption Framework Azure Migration landing zone Blueprint sample](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/).
 
@@ -40,7 +40,7 @@ In this task, you will create a new Azure Storage Account that will be used by M
 
    ![Screenshot of the Azure portal showing the create storage account blade.](Images/1.3.png)
 
-6. Now, uncheck the box next to **Enable soft delete for blobs** and **Enable soft delete for containers** to disable the soft delete on blobs and containers as the soft delete enabled storage account is **not supported** for enabling replication on Virtual Machines. Click on **Save**.
+6. Now, uncheck the box next to **Enable soft delete for blobs** and **Enable soft delete for containers** to disable the soft delete on blobs and containers as the soft delete-enabled storage account is **not supported** for enabling replication on Virtual Machines. Click on **Save**.
 
    ![Screenshot of the Azure portal showing the create storage account blade.](Images/1.4.png)
 
@@ -52,7 +52,7 @@ In this task, you created a new Azure Storage Account that will be used for Migr
 
 In this task, you will register your Hyper-V host(LabVM) with the Migration and Modernization service. This service uses Azure Site Recovery as the underlying migration engine. As part of the registration process, you will deploy the Azure Site Recovery Provider on your Hyper-V host.
 
-1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
+1. If you are not logged in already, click on the Azure portal shortcut that is available on the desktop and log in with the below Azure credentials.
     
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     
@@ -90,17 +90,17 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link for the Hyper-V replication provider software installer.](Images/upd-e3-t2-s3.png?raw=true "Replication provider download link")
 
-1. Return to the **Discover** page in your browser select the blue **Download** button and download the registration key file.
+1. Return to the **Discover** page in your browser, select the blue **Download** button and download the registration key file.
 
      ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/upd-e3-t2-s4.png "Download registration key file")
 
 1. Open the **AzureSiteRecoveryProvider.exe** installer you downloaded a moment ago. On the **Microsoft Update** tab, select **Off** and select **Next**. Accept the default installation location and select **Install**.
 
-    > **Note:** If you are prompted with a pop-up like the latest version of the Provider is installed on this server. Would you like to proceed to registration? select **Yes**. (You can directly jump to the next step in that case.)
+    > **Note:** If you are prompted with a pop-up, like the latest version of the Provider is installed on this server. Would you like to proceed to registration? select **Yes**. (You can directly jump to the next step in that case.)
   
      ![Screenshot of the ASR provider installer.](Images/upd-asr-provider-install.png "Azure Site Recovery Provider Setup")
 
-1. When the installation has completed select **Register**. Browse to the location of the key file you downloaded. When the key is loaded select **Next**.
+1. When the installation has completed, select **Register**. Browse to the location of the key file you downloaded. When the key is loaded, select **Next**.
 
      ![Screenshot of the ASR provider registration settings.](Images/upd-asr-registration.png "Key file registration")
 
@@ -114,10 +114,13 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 1. Return to the Azure Migrate browser window. **Refresh** your browser, then re-open the **Discover machines** panel by selecting **Discover** under **Migration and modernization**. Perform the following steps:
 
-   - **Where do you want to migrate to?** : Select **Azure Vm (1)**
-   - **Are your machines virtualized?** : Select **Yes, with Hyper-V (2)**.
-   - **Do you want to install a new replication appliance or scale-out existing setup?** : Select **Install a replication appliance (3)**.
-   - Finally, click on **Finalize Registration (4)** which should now be enabled. 
+   - **Where do you want to migrate to?:** Select **Azure Vm (1)**
+
+   - **Are your machines virtualized?:** Select **Yes, with Hyper-V (2)**.
+
+   - **Do you want to install a new replication appliance or scale-out existing setup?:** Select **Install a replication appliance (3)**.
+
+   - Finally, click on **Finalize Registration (4)**, which should now be enabled. 
 
      ![Screenshot of the Discover machines' panel from Azure Migrate, highlighting the download link Hyper-V registration key file.](Images/L1-S15.png)
 
@@ -134,12 +137,13 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
      ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/upd-newdscvr.png "Discovered servers")
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - If you receive a success message, you can proceed to the next task.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - Click on the validate button.
+    > - If you receive a success message, congratulations — the lab has been completed successfully!
+    > - If you receive an error message, review it carefully and retry the step by following the lab guide instructions.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="f6909507-90ed-4ead-9cdd-5fa96933c27e" />
-     
+    <validation step="a6405ea6-b97d-4e45-8cf8-c8997009392d" />
+   
 
 #### Task summary 
 
@@ -153,7 +157,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/replicatenw.png "Replicate link")
    
-2. Under the **Specific intent** page, provide the below details:
+2. Under the **Specific intent** page, provide the following details:
 
     -  What do you want to migrate? : Select **Servers or Virtual machines (VM)** **(1)**
     
@@ -165,7 +169,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
        ![](Images/29-04-2024(1).png)
 
-       >**Note**: If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
+       >**Note:** If you get any error kindly refresh the screen periodically or Please try signing in to the Azure portal using incognito mode.
 
 1. In the **Virtual machines** tab, under **Import migration settings from an assessment**, select **No, I'll specify the migration settings manually**.
 
@@ -175,23 +179,23 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines are selected.](Images/06-05-2024(1).png "Replicate - Virtual machines")
 
-1. On the **Target settings** tab, select the below information:
+1. On the **Target settings** tab, select the following information:
 
     - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
 
-    - **Cache storage account** : Enter the storage account here from the drop-down which you create in task 1 **(2)**. 
+    - **Cache storage account:** Enter the storage account here from the drop-down which you create in task 1 **(2)**. 
 
-    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
+    - **Virtual Network:** Select **SmartHotelVNet (3)**. 
 
-    - **Subnet**: Select **SmartHotel (4)**. 
+    - **Subnet:** Select **SmartHotel (4)**. 
 
     - Leave other values as default and select **Next (5)**.
    
       ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/L1-T3-S5.png)
 
-      > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
+      > **Note:** For simplicity, in this lab, you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
-1. On the **Compute** tab, select the below configuration,
+1. On the **Compute** tab, select the configuration below,
 
     - Select the **Standard_F2s_v2** VM size for each virtual machine. 
 
@@ -215,14 +219,15 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/06-05-2024(4).png "Replication status")
 
-   > **Note**: Please make sure you run the **validation steps** for this task before moving to the next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
+   > **Note:** Please make sure you run the **validation steps** for this task before moving to the next tasks as there are a few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task 5.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - If you receive a success message, you can proceed to the next task.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - Click on the validate button.
+    > - If you receive a success message, congratulations — the lab has been completed successfully!
+    > - If you receive an error message, review it carefully and retry the step by following the lab guide instructions.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="73379d43-ce72-4e43-9e4b-0ebd5bb8ec9f" />
+    <validation step="216eebdd-a59b-4f61-a316-af714d0c342e" />
 
 
 #### Task summary 
@@ -261,13 +266,13 @@ In this task, you will modify the settings for each replicated VM to use a stati
 
 In this task, you modified the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine
 
-> **Note**: Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machines in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VMs during migration (for example, by editing web.config files).
+> **Note:** Azure Migrate makes a "best guess" at the VM settings, but you have full control over the settings of migrated items. In this case, setting a static private IP address ensures the virtual machines in Azure retain the same IPs they had on-premises, which avoids having to reconfigure the VMs during migration (for example, by editing web.config files).
 
 ### Task 5: Server migration
 
 In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
 
-> **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
+> **Note:** In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
 1. Return to the **Migration and modernization** overview blade. Under **Step 3: Migrate**, select **Migrate**.
 
@@ -281,7 +286,7 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
 
     ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/06-05-2024(8).png "Migrate - VM selection")
 
-   > **Note**: You can optionally choose whether the on-premises virtual machines should be automatically shut down before migration to minimize data loss. Either setting will work for this lab.
+   > **Note:** You can optionally choose whether the on-premises virtual machines should be automatically shut down before migration to minimize data loss. Either setting will work for this lab.
 
 4. The migration process will start.
 
@@ -300,11 +305,12 @@ In this task, you will perform a migration of the UbuntuWAF, smarthotelweb1, and
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/06-05-2024(12).png "Migrated resources")
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - If you receive a success message, you can proceed to the next task.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - Click on the validate button.
+    > - If you receive a success message, congratulations — the lab has been completed successfully!
+    > - If you receive an error message, review it carefully and retry the step by following the lab guide instructions.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
-    <validation step="e4fc8753-2a84-4e27-8b12-cb43582a0e6c" />
+    <validation step="e9fd6a73-9493-4184-b9c0-7bd0a4d4fce2" />
 
 #### Task summary 
 
@@ -314,7 +320,7 @@ In this task, you assigned a public IP address to the UbuntuWAF VM and verified 
 
 Design and implementation of Azure networking is one of the most critical steps in migrating your infrastructure as a service (IaaS) and platform as a service (PaaS) implementations in Azure.
 
-#### Azure Networking Best Practises:
+#### Azure Networking Best Practices:
 
 - Assign an address space that is not larger than a CIDR range of /16 for each virtual network. Virtual networks allow for the use of 65,536 IP addresses. Assigning a smaller prefix than /16, such as a /15, which has 131,072 addresses, will result in the excess IP addresses becoming unusable elsewhere. It is important not to waste IP addresses, even if they're in the private ranges defined by RFC 1918.
 
@@ -334,7 +340,7 @@ Design and implementation of Azure networking is one of the most critical steps 
 
 - A VPN gateway can also send encrypted traffic between virtual networks in Azure over the Microsoft network. Each virtual network can have only one VPN gateway.
 
-#### Azure Network Security Best Practises:
+#### Azure Network Security Best Practices:
 
 - Azure Site Recovery enables disaster recovery and migration to Azure for on-premises Hyper-V virtual machines, VMware virtual machines, and physical servers. For all on-premises to Azure scenarios, replication data is sent to and stored in an Azure Storage account.
 
@@ -351,10 +357,11 @@ Azure Migrate is a free tool from Microsoft that allows VMware administrators to
 
 Azure Migrate has two migration options:
 
-- Migration with an agent for replication, requires an agent to be installed on each VM that is to be migrated.
-- Migration using agentless replication, requires an agentless format which requires no agent.
+- Migration with an agent for replication requires an agent to be installed on each VM that is to be migrated.
 
-**Discovery/Assessment**:
+- Migration using agentless replication requires an agentless format, which requires no agent.
+
+**Discovery/Assessment:**
 
  Discover up to 10,000 VMware VMs with a single Azure Migrate appliance for VMware. The appliance supports adding multiple vCenter Servers. You can add up to 10 vCenter Servers per appliance.
  
@@ -363,37 +370,22 @@ Azure Migrate has two migration options:
 
 - Agentless migration uses the Azure Migrate appliance. You can deploy the appliance as a VMware VM using an OVA template, imported into the vCenter Server, or using a PowerShell script.
 
-- you can simultaneously replicate a maximum of 500 VMs across multiple vCenter Servers (discovered from one appliance) using a scale-out appliance.
+- You can simultaneously replicate a maximum of 500 VMs across multiple vCenter Servers (discovered from one appliance) using a scale-out appliance.
 
 - If you are interested in learning more about Agentless migration, you can [read more here](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware).
 
 #### Agent-based migration: 
 
-- Agent-based migration does not use the Azure Migrate appliance. If you've set up an appliance for assessment, you can leave it in place, or remove it if you're done with assessment.
+- Agent-based migration does not use the Azure Migrate appliance. If you've set up an appliance for assessment, you can leave it in place or remove it if you're done with assessment.
 
-- you can scale out the replication appliance to replicate large numbers of VMs.
+- You can scale out the replication appliance to replicate large numbers of VMs.
 
 - If you are interested in learning more about Agent-based migration, you can [read more here](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware-agent).
 
 In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
 
-#### Summary 
+### Summary 
 
 In this lab, you learned how to migrate Windows Servers from Hyper-V to Azure using Azure Migrate: Server Migration. You created a storage account for migration data, registered your Hyper-V host with Azure Migrate, and configured replication for virtual machines. You set up networking with static IPs for replicated VMs, performed a migration, and reviewed network and security best practices. The lab provided essential knowledge on discovery, replication, and migration to Azure.
 
 ### You have successfully completed the lab.
-
->**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the respective lab.
-
-- Here are the steps to delete the lab:
-
-1. On the environment page, click the **delete icon (1)** in the top right corner.
-   
-2. Ensure all validations are successful.
-   
-3. Click **Proceed to Delete (2)**.
-
-![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-1.jpg "Replication summary")
-
-![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-2.jpg "Replication summary")
-
