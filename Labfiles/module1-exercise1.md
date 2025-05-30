@@ -16,7 +16,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
  
     ![](Images/18-04-2024(1).png)
  
-1. Under **Are your servers virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
+1. Under **Are your servers virtualized? (1)**, select **Yes, with Hyper-V (2)** from the **drop-down** menu.
 
     ![](Images/mod-1-ex1-s5.png)
 
@@ -87,7 +87,7 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 1. Wait for the **Appliance auto-update status (1)** to complete and select **Login (2)**. Please note that it can take up to 5 minutes for the Appliance status to complete.
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/azmigrate-05.1.png "Azure Migrate login code")
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/30052025(7).png "Azure Migrate login code")
    
     > Now, follow the instructions below to complete the login process.
     
@@ -164,9 +164,11 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 1. Wait for the Azure Migrate status to show that **Discovery has been successfully initiated**. This will take several minutes. After the discovery has been successfully initiated, you can check the discovery status against each host/cluster in the table.
 
-1. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal. Select **Servers, databases, and web apps (1)**, then select **Refresh (2)**. Under **Azure Migrate: Servers, databases and web apps**, you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 7 discovered servers are shown. This may take several minutes.
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/30052025(6).png "Azure Migrate login code")
 
-    ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'discovered servers' is '5'.](Images/updt-dscsvrdnews.png "Discovered servers")
+1. Return to the **JumpVM** and navigate to the **Azure Migrate** blade in the Azure portal. Select **Servers, databases, and web apps (1)**, then click **Refresh (2)**. Under **Azure Migrate: Servers, databases, and web apps**, you should see a count of the servers discovered so far. If discovery is still in progress, continue refreshing periodically until **7 servers (3)** are shown. This process may take several minutes.
+
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/30052025(8).png "Azure Migrate login code")
      
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click on the validate button.
@@ -182,4 +184,4 @@ In this exercise, you will deploy the Azure Migrate appliance in the on-premises
 
 In this exercise, you explored an Azure Migrate project and the default built-in tools for server assessment and server migration. You have also configured the Azure Migrate appliance in the on-premises Hyper-V environment and started the migration assessment discovery process using Azure Migrate.
 
-#### You have successfully completed the lab.
+### You have successfully completed the lab.
