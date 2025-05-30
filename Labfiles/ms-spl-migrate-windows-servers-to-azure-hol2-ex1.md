@@ -42,7 +42,7 @@ In this task, you will create a new Azure Storage Account that will be used by M
 
    ![](Images/30052025(12).png)
 
-1. Navigate to the **Data management** section and select **Object replication (1)**. Click on **Advanced settings (2)**, then check the box labeled **Allow cross-tenant replication (3)**. Finally, click **OK (4)** to confirm your changes.
+1. Navigate to the **Data management** section and select **Object replication (1)**. Click on **Advanced settings (2)**, then check the box labelled **Allow cross-tenant replication (3)**. Finally, click **OK (4)** to confirm your changes.
 
     ![](Images/30052025(20).png)
 
@@ -311,7 +311,6 @@ Design and implementation of Azure networking is one of the most critical steps 
 
 - Once the NSGs are created and configured, we can run a test failover to verify scripted NSG associations and post-failover VM connectivity.
 
-
 ### Task 6:  Migrating VMware VMs to Azure (Read only)
 
 Azure Migrate is a free tool from Microsoft that allows VMware administrators to replicate their VMs from on-prem to Azure. It is an extremely powerful tool that even allows for pre-migration tests to run.
@@ -326,7 +325,6 @@ Azure Migrate has two migration options:
 
  Discover up to 10,000 VMware VMs with a single Azure Migrate appliance for VMware. The appliance supports adding multiple vCenter Servers. You can add up to 10 vCenter Servers per appliance.
  
-
 #### Agentless migration: 
 
 - Agentless migration uses the Azure Migrate appliance. You can deploy the appliance as a VMware VM using an OVA template, imported into the vCenter Server, or using a PowerShell script.
