@@ -1,0 +1,16 @@
+[
+    {
+      "Name": "Migrate Linux Servers from Hyper-V to Azure",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/Getting-started-V2.md",
+          "Order": 1
+        }, 
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/refs/heads/guided-labs/Labfiles/Migrate-Linux.md",
+          "Order": 2
+        }
+      ]
+    }
+]
