@@ -1,6 +1,6 @@
 ## Lab 01: Migrate Linux Servers from Hyper-V to Azure
 
-## Estimated duration: 45 minutes
+
 
 ## Exercise 1: Migrating your apps and your data, leveraging Microsoft services and tools like Azure Migrate, the Azure Hybrid Benefit, and other tools and programs
 
@@ -249,13 +249,15 @@ In this task, you will perform a migration of the Redhat virtual machine to Azur
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/redhatrgupd.png "Migrated resources")
 
-   <validation step="fca01519-165a-49c3-897e-6f25ea3468a6" />
+  
    
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click on validate button.
-   > - If you receive a success message, you can proceed to the next task.
+   > - If you receive a success message, you have successfully completed the lab.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+    <validation step="fca01519-165a-49c3-897e-6f25ea3468a6" />
 
 ## Review
 
@@ -267,18 +269,3 @@ In this lab, you have accomplished the following:
 - Set static private IP for the replicated VM to match on-prem settings.
 - Used Azure Migrate to create an Azure VM with replicated data.
 
-### You have successfully completed the lab.
-
->**Note**: If you complete the lab ahead of the allotted time, please review and validate . Once validation is successful, you may proceed to delete the lab.
-
-- Here are the steps to delete the lab:
-
-1. On the environment page, click the **delete icon (1)** in the top right corner.
-   
-2. Ensure all validations are successful.
-   
-3. Click **Proceed to Delete (2)**.
-
-![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-1.jpg "Replication summary")
-
-![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/dlt-2.jpg "Replication summary")
