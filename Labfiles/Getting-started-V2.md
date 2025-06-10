@@ -42,7 +42,7 @@ Welcome to your Migrate Linux Servers to Azure! We've prepared a seamless enviro
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
 
-   ![](./Images/GS6upd.png)
+   ![](./Images/G1.png)
 
 ## Virtual Machine & Lab Guide
  
@@ -52,19 +52,25 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-   ![](./Images/GS12-upd1.png)
+   ![](./Images/G2.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-   ![](./Images/GS8.png)
+   ![](./Images/G3.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-  ![](./Images/GS5.png)
+  ![](./Images/G4.png)
+
+  ## Lab Guide Zoom In/Zoom Out
+ 
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+   ![](./Images/G5.png)
  
 ## Let's Get Started with Azure Portal
  
