@@ -42,7 +42,7 @@ Welcome to your Migrate Linux Servers to Azure! We've prepared a seamless enviro
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
 
-   ![](./Images/G1.png)
+   ![](./Images/GS111.png)
 
 ## Virtual Machine & Lab Guide
  
