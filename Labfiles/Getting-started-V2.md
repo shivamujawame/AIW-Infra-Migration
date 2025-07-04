@@ -68,7 +68,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
   ## Lab Guide Zoom In/Zoom Out
  
-To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
    ![](./Images/G5.png)
  
@@ -92,7 +92,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
  
 4. If you see the pop-up **Stay Signed in?**, click **No**.
 
-   ![](./Images/GS9.png)
+   ![](./Images/sign-in.png)
 
 5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
